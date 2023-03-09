@@ -11,11 +11,12 @@ param TempiLavorazione {Reparti,Modelli};		# Tempi di lavorazione [h/veicolo]
 var x {Modelli} >= 0;							# Modelli da produrre [veicoli/settimana]
 
 # VINCOLI
-# Limite alle capacità massime [h/settimana]
+# Limite alle capacitï¿½ massime [h/settimana]
 subject to ProduzioneMassimaOraria {r in Reparti}:
 	sum {m in Modelli} x[m] * TempiLavorazione[r,m] <= Capacita[r];
 
 # OBIETTIVO
+# Massimizzare i profitti [euro/settimana]
 maximize profitto : sum {m in Modelli} x[m] * Profitti[m];
 
 ##################################################

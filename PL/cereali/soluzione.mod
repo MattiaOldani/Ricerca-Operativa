@@ -21,7 +21,7 @@ subject to TerrenoColtivabile {l in Lotti}:
    sum {c in Cereali} x[l,c] * AreaNecessaria[l,c] <= TerrenoDisponibile[l];
 
 # OBIETTIVO
-# Massimizzare i profitti
+# Massimizzare i profitti [euro]
 maximize z : sum {c in Cereali, l in Lotti} x[l,c] * Profitti[c]; 
 
 ##################################################

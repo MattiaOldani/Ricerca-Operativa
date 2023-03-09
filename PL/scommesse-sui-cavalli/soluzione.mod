@@ -15,7 +15,7 @@ subject to PuntataMassima:
    sum {c in Cavalli} x[c] <= Budget;
 
 # OBIETTIVO
-# MinMax [euro]
+# Massimizzare la vincita nel caso peggiore [euro]
 maximize z: aux;
 # Vincolo del MinMax [euro]
 subject to MinMax {c in Cavalli}:
