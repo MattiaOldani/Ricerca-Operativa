@@ -1,0 +1,38 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 600 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 QuantitaMassime[A]
+                    NU    6000.00000        .               -Inf         .            -.10000        .      x[2]
+                                            .10000    6000.00000     8000.00000          +Inf     800.00000 QuantitaMassime[C]
+
+     2 QuantitaMassime[B]
+                    BS    2000.00000    2000.00000          -Inf         .            -.30000        .      QuantitaMassime[A]
+                                            .         4000.00000     4666.66667        .          600.00000 x[1]
+
+     3 QuantitaMassime[C]
+                    BS    6000.00000    2000.00000          -Inf         .            -.10000        .      QuantitaMassime[A]
+                                            .         8000.00000     7500.00000        .          600.00000 x[1]
+
+     4 z            BS     600.00000    -600.00000          -Inf         .           -1.00000        .      QuantitaMassime[A]
+                                            .               +Inf      600.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 600 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         NL        .             .02000        .                -Inf          -Inf     600.00000
+                                            .               +Inf    15000.00000        .02000     600.00000 QuantitaMassime[B]
+
+     2 x[2]         BS   20000.00000        .03000        .         10000.00000        .03000     600.00000 x[1]
+                                            .               +Inf    20000.00000          +Inf          +Inf
+
+End of report
