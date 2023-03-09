@@ -1,0 +1,55 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 60 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 PuntataMassima
+                    NU      57.00000        .               -Inf         .           -1.05263        .      x[Fulmine]
+                                           1.05263      57.00000           +Inf          +Inf          +Inf
+
+     2 z            BS      60.00000     -60.00000          -Inf         .           -1.00000        .      MinMax[Fulmine]
+                                            .               +Inf       60.00000          +Inf          +Inf
+
+     3 MinMax[Fulmine]
+                    NU        .             .               -Inf     -171.00000       -.35088        .      x[Freccia]
+                                            .35088        .            92.43243          +Inf      92.43243 x[Fulmine]
+
+     4 MinMax[Freccia]
+                    NU        .             .               -Inf     -228.00000       -.26316        .      x[Fulmine]
+                                            .26316        .            81.42857          +Inf      81.42857 x[Freccia]
+
+     5 MinMax[Dardo]
+                    NU        .             .               -Inf     -285.00000       -.21053        .      x[Fulmine]
+                                            .21053        .            76.00000          +Inf      76.00000 x[Dardo]
+
+     6 MinMax[Lampo]
+                    NU        .             .               -Inf     -342.00000       -.17544        .      x[Fulmine]
+                                            .17544        .            72.76596          +Inf      72.76596 x[Lampo]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 60 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Fulmine]   BS      20.00000        .             .              .           -3.00000        .      PuntataMassima
+                                            .               +Inf       57.00000       1.62162      92.43243 MinMax[Fulmine]
+
+     2 x[Freccia]   BS      15.00000        .             .              .           -4.00000        .      MinMax[Fulmine]
+                                            .               +Inf       57.00000       1.42857      81.42857 MinMax[Freccia]
+
+     3 x[Dardo]     BS      12.00000        .             .              .           -5.00000        .      PuntataMassima
+                                            .               +Inf       57.00000       1.33333      76.00000 MinMax[Dardo]
+
+     4 x[Lampo]     BS      10.00000        .             .              .           -6.00000        .      PuntataMassima
+                                            .               +Inf       57.00000       1.27660      72.76596 MinMax[Lampo]
+
+     5 aux          BS      60.00000       1.00000          -Inf         .             .             .      MinMax[Fulmine]
+                                            .               +Inf       60.00000          +Inf          +Inf
+
+End of report

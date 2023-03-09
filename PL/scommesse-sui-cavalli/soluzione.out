@@ -1,0 +1,48 @@
+Problem:    soluzione
+Rows:       6
+Columns:    5
+Non-zeros:  13
+Status:     OPTIMAL
+Objective:  z = 60 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 PuntataMassima
+                    NU            57                          57       1.05263 
+     2 z            B             60                             
+     3 MinMax[Fulmine]
+                    NU             0                          -0      0.350877 
+     4 MinMax[Freccia]
+                    NU             0                          -0      0.263158 
+     5 MinMax[Dardo]
+                    NU             0                          -0      0.210526 
+     6 MinMax[Lampo]
+                    NU             0                          -0      0.175439 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Fulmine]   B             20             0               
+     2 x[Freccia]   B             15             0               
+     3 x[Dardo]     B             12             0               
+     4 x[Lampo]     B             10             0               
+     5 aux          B             60                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.11e-016 on column 5
+        max.rel.err = 3.70e-017 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
