@@ -1,0 +1,46 @@
+Problem:    soluzione
+Rows:       6
+Columns:    3
+Non-zeros:  12
+Status:     OPTIMAL
+Objective:  profitto = 50400 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 ProduzioneMassimaOraria[Motori]
+                    NU           120                         120           140 
+     2 ProduzioneMassimaOraria[Carrozzeria]
+                    NU            80                          80           420 
+     3 ProduzioneMassimaOraria[A]
+                    B             40                          96 
+     4 ProduzioneMassimaOraria[B]
+                    B             90                         102 
+     5 ProduzioneMassimaOraria[C]
+                    B              0                          40 
+     6 profitto     B          50400                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[A]         B             20             0               
+     2 x[B]         B             30             0               
+     3 x[C]         NL             0             0                        -200 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.14e-013 on column 1
+        max.rel.err = 6.76e-017 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

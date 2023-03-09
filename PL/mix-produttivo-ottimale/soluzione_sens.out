@@ -1,0 +1,49 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  profitto = 50400 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 ProduzioneMassimaOraria[Motori]
+                    NU     120.00000        .               -Inf      104.00000    -140.00000   48160.00000 ProduzioneMassimaOraria[B]
+                                         140.00000     120.00000      176.00000          +Inf   58240.00000 ProduzioneMassimaOraria[A]
+
+     2 ProduzioneMassimaOraria[Carrozzeria]
+                    NU      80.00000        .               -Inf       40.00000    -420.00000   33600.00000 x[B]
+                                         420.00000      80.00000       85.33333          +Inf   52640.00000 ProduzioneMassimaOraria[B]
+
+     3 ProduzioneMassimaOraria[A]
+                    BS      40.00000      56.00000          -Inf       24.00000    -140.00000   44800.00000 ProduzioneMassimaOraria[Motori]
+                                            .           96.00000       70.00000     100.00000   54400.00000 x[C]
+
+     4 ProduzioneMassimaOraria[B]
+                    BS      90.00000      12.00000          -Inf         .          -33.33333   47400.00000 x[C]
+                                            .          102.00000      120.00000     186.66667   67200.00000 ProduzioneMassimaOraria[Motori]
+
+     5 ProduzioneMassimaOraria[C]
+                    BS        .           40.00000          -Inf         .               -Inf   50400.00000
+                                            .           40.00000       30.00000     100.00000   50400.00000 x[C]
+
+     6 profitto     BS   50400.00000  -50400.00000          -Inf    48160.00000      -1.00000        .      ProduzioneMassimaOraria[Motori]
+                                            .               +Inf    50400.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  profitto = 50400 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[A]         BS      20.00000     840.00000        .            12.00000     560.00000   44800.00000 ProduzioneMassimaOraria[Motori]
+                                            .               +Inf       35.00000    1040.00000   54400.00000 x[C]
+
+     2 x[B]         BS      30.00000    1120.00000        .           -10.00000    1020.00000   47400.00000 x[C]
+                                            .               +Inf       34.00000    1680.00000   67200.00000 ProduzioneMassimaOraria[Motori]
+
+     3 x[C]         NL        .         1200.00000        .            -2.00000          -Inf   50800.00000 ProduzioneMassimaOraria[B]
+                                        -200.00000          +Inf       15.00000    1400.00000   47400.00000 x[B]
+
+End of report
