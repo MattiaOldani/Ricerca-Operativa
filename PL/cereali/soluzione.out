@@ -1,0 +1,50 @@
+Problem:    soluzione
+Rows:       4
+Columns:    12
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  z = 226976.7442 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 AcquaMassima NU        400000                      400000      0.567442 
+     2 TerrenoColtivabile[A]
+                    B              0                         200 
+     3 TerrenoColtivabile[B]
+                    B        111.628                         400 
+     4 z            B         226977                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[A,1]       NL             0             0                     -20.093 
+     2 x[B,1]       NL             0             0                     -20.093 
+     3 x[A,2]       NL             0             0                    -28.7907 
+     4 x[B,2]       NL             0             0                    -28.7907 
+     5 x[A,3]       NL             0             0                    -28.7442 
+     6 x[B,3]       NL             0             0                    -28.7442 
+     7 x[A,4]       NL             0             0                    -43.4419 
+     8 x[B,4]       NL             0             0                    -43.4419 
+     9 x[A,5]       NL             0             0                       < eps
+    10 x[B,5]       B        1860.47             0               
+    11 x[A,6]       NL             0             0                    -8.13953 
+    12 x[B,6]       NL             0             0                    -8.13953 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.42e-014 on column 10
+        max.rel.err = 5.80e-017 on column 10
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

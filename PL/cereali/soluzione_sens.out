@@ -1,0 +1,75 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 226976.7442 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 AcquaMassima NU  400000.00000        .               -Inf         .            -.56744        .      x[B,5]
+                                            .56744  400000.00000   1.43333e+006          +Inf  813333.33333 TerrenoColtivabile[B]
+
+     2 TerrenoColtivabile[A]
+                    BS        .          200.00000          -Inf         .               -Inf  226976.74419
+                                            .          200.00000       93.02326        .       226976.74419 x[A,5]
+
+     3 TerrenoColtivabile[B]
+                    BS     111.62791     288.37209          -Inf         .             .       226976.74419 x[A,5]
+                                            .          400.00000      111.62791          +Inf          +Inf
+
+     4 z            BS  226976.74419 -226976.74419          -Inf   102857.14286      -1.00000        .      x[A,4]
+                                            .               +Inf   226976.74419          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 226976.7442 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[A,1]       NL        .           48.00000        .         -8611.11111          -Inf  400000.00000 TerrenoColtivabile[B]
+                                         -20.09302          +Inf     3333.33333      68.09302  160000.00000 x[B,5]
+
+     2 x[B,1]       NL        .           48.00000        .        -21379.31034          -Inf  656551.72414 TerrenoColtivabile[B]
+                                         -20.09302          +Inf     3333.33333      68.09302  160000.00000 x[B,5]
+
+     3 x[A,2]       NL        .           62.00000        .         -6458.33333          -Inf  412916.66667 TerrenoColtivabile[B]
+                                         -28.79070          +Inf     2500.00000      90.79070  155000.00000 x[B,5]
+
+     4 x[B,2]       NL        .           62.00000        .        -27074.23581          -Inf  1.00646e+006 TerrenoColtivabile[B]
+                                         -28.79070          +Inf     2500.00000      90.79070  155000.00000 x[B,5]
+
+     5 x[A,3]       NL        .           28.00000        .        -10333.33333          -Inf  524000.00000 TerrenoColtivabile[B]
+                                         -28.74419          +Inf     4000.00000      56.74419  112000.00000 x[B,5]
+
+     6 x[B,3]       NL        .           28.00000        .        -73809.52381          -Inf  2.34857e+006 TerrenoColtivabile[B]
+                                         -28.74419          +Inf     4000.00000      56.74419  112000.00000 x[B,5]
+
+     7 x[A,4]       NL        .           36.00000        .         -7380.95238          -Inf  547619.04762 TerrenoColtivabile[B]
+                                         -43.44186          +Inf     2857.14286      79.44186  102857.14286 x[B,5]
+
+     8 x[B,4]       NL        .           36.00000        .        -15121.95122          -Inf  883902.43902 TerrenoColtivabile[B]
+                                         -43.44186          +Inf     2857.14286      79.44186  102857.14286 x[B,5]
+
+     9 x[A,5]       NL        .          122.00000        .         -4806.20155          -Inf  226976.74419 TerrenoColtivabile[B]
+                                            .               +Inf     1860.46512     122.00000  226976.74419 x[B,5]
+
+    10 x[B,5]       BS    1860.46512     122.00000        .         -2139.53488     122.00000  226976.74419 x[A,5]
+                                            .               +Inf     1860.46512          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 226976.7442 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 x[A,6]       NL        .           94.00000        .         -5740.74074          -Inf  273703.70370 TerrenoColtivabile[B]
+                                          -8.13953          +Inf     2222.22222     102.13953  208888.88889 x[B,5]
+
+    12 x[B,6]       NL        .           94.00000        .        -17765.04298          -Inf  371575.93123 TerrenoColtivabile[B]
+                                          -8.13953          +Inf     2222.22222     102.13953  208888.88889 x[B,5]
+
+End of report
