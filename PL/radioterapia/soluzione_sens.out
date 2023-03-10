@@ -1,0 +1,95 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 24.55 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 RadiazioniMassime
+                    BS      50.00000      10.00000          -Inf       45.50000       -.20000      14.55000 x[2]
+                                            .           60.00000       50.25000        .40000      44.55000 RadiazioniPerPosizione[4]
+
+     2 RadiazioniPerOrgano[1]
+                    NU       5.50000        .               -Inf        2.70000      -2.50000      17.55000 x[5]
+                                           2.50000       5.50000        5.60000          +Inf      24.80000 RadiazioniPerOrgano[6]
+
+     3 RadiazioniPerOrgano[2]
+                    BS       3.95000       5.05000          -Inf        2.60000       -.66667      21.91667 x[2]
+                                            .            9.00000        4.05000       1.00000      28.50000 RadiazioniPerPosizione[4]
+
+     4 RadiazioniPerOrgano[3]
+                    BS        .            6.00000          -Inf         .               -Inf      24.55000
+                                            .            6.00000         .45000       2.00000      24.55000 x[2]
+
+     5 RadiazioniPerOrgano[4]
+                    NU       2.40000        .               -Inf        1.50000      -2.50000      22.30000 x[3]
+                                           2.50000       2.40000        2.43333          +Inf      24.63333 RadiazioniPerOrgano[6]
+
+     6 RadiazioniPerOrgano[5]
+                    BS       4.40000       2.60000          -Inf        2.60000       -.50000      22.35000 x[2]
+                                            .            7.00000        4.52500        .80000      28.07000 RadiazioniPerPosizione[4]
+
+     7 RadiazioniPerOrgano[6]
+                    BS       5.45000        .05000          -Inf        4.10000      -1.66667      15.46667 RadiazioniPerOrgano[4]
+                                            .            5.50000        5.55000       2.00000      35.45000 RadiazioniPerPosizione[4]
+
+     8 RadiazioniPerOrgano[7]
+                    BS       3.75000       5.75000          -Inf        3.35000       -.75000      21.73750 RadiazioniPerPosizione[1]
+                                            .            9.50000        3.82500       1.33333      29.55000 RadiazioniPerPosizione[4]
+
+     9 RadiazioniPerPosizione[1]
+                    NU      12.00000        .               -Inf       10.00000       -.15000      24.25000 RadiazioniPerPosizione[5]
+                                            .15000      12.00000       13.00000          +Inf      24.70000 RadiazioniPerOrgano[6]
+
+    10 RadiazioniPerPosizione[2]
+                    BS        .           13.00000          -Inf         .               -Inf      24.55000
+                                            .           13.00000        4.50000        .20000      24.55000 x[2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 24.55 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 RadiazioniPerPosizione[3]
+                    BS       9.00000       1.00000          -Inf         .            -.10000      23.65000 x[2]
+                                            .           10.00000        9.50000        .20000      26.35000 RadiazioniPerPosizione[4]
+
+    12 RadiazioniPerPosizione[4]
+                    NU      15.00000        .               -Inf       14.50000       -.20000      24.45000 RadiazioniPerOrgano[6]
+                                            .20000      15.00000       24.00000          +Inf      26.35000 x[3]
+
+    13 RadiazioniPerPosizione[5]
+                    BS      14.00000       1.00000          -Inf         .            -.50000      17.55000 RadiazioniPerOrgano[1]
+                                            .           15.00000       20.00000        .30000      28.75000 RadiazioniPerPosizione[1]
+
+    14 z            BS      24.55000     -24.55000          -Inf       17.55000      -1.00000        .      RadiazioniPerOrgano[1]
+                                            .               +Inf       24.55000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 24.55 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         BS      12.00000        .40000        .            10.00000        .25000      22.75000 RadiazioniPerPosizione[1]
+                                            .               +Inf       12.00000          +Inf          +Inf
+
+     2 x[2]         NL        .             .30000        .             -.50000          -Inf      24.65000 RadiazioniPerPosizione[3]
+                                           -.20000          +Inf        4.50000        .50000      23.65000 x[3]
+
+     3 x[3]         BS       9.00000        .25000        .           -17.00000        .15000      23.65000 x[2]
+                                            .               +Inf        9.50000        .45000      26.35000 RadiazioniPerPosizione[4]
+
+     4 x[4]         BS      15.00000        .70000        .            14.50000        .50000      21.55000 RadiazioniPerPosizione[4]
+                                            .               +Inf       15.00000          +Inf          +Inf
+
+     5 x[5]         BS      14.00000        .50000        .                -Inf        .           17.55000 RadiazioniPerOrgano[1]
+                                            .               +Inf       15.00000        .80000      28.75000 RadiazioniPerPosizione[1]
+
+End of report

@@ -1,0 +1,64 @@
+Problem:    soluzione
+Rows:       14
+Columns:    5
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  z = 24.55 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 RadiazioniMassime
+                    B             50                          60 
+     2 RadiazioniPerOrgano[1]
+                    NU           5.5                         5.5           2.5 
+     3 RadiazioniPerOrgano[2]
+                    B           3.95                           9 
+     4 RadiazioniPerOrgano[3]
+                    B              0                           6 
+     5 RadiazioniPerOrgano[4]
+                    NU           2.4                         2.4           2.5 
+     6 RadiazioniPerOrgano[5]
+                    B            4.4                           7 
+     7 RadiazioniPerOrgano[6]
+                    B           5.45                         5.5 
+     8 RadiazioniPerOrgano[7]
+                    B           3.75                         9.5 
+     9 RadiazioniPerPosizione[1]
+                    NU            12                          12          0.15 
+    10 RadiazioniPerPosizione[2]
+                    B              0                          13 
+    11 RadiazioniPerPosizione[3]
+                    B              9                          10 
+    12 RadiazioniPerPosizione[4]
+                    NU            15                          15           0.2 
+    13 RadiazioniPerPosizione[5]
+                    B             14                          15 
+    14 z            B          24.55                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B             12             0               
+     2 x[2]         NL             0             0                        -0.2 
+     3 x[3]         B              9             0               
+     4 x[4]         B             15             0               
+     5 x[5]         B             14             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 5.55e-017 on column 5
+        max.rel.err = 2.78e-017 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
