@@ -1,0 +1,192 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 7166.666667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Minimo[A,super]
+                    BS    1100.00000   -1100.00000        .           366.66667        .         7166.66667 Massimo[A,super]
+                                            .               +Inf     1235.29412       1.66667    9000.00000 Disponibilita[C]
+
+     2 Minimo[A,normale]
+                    BS    1900.00000   -1900.00000        .          1900.00000       -.60606    6015.15152 x[A,verde]
+                                            .               +Inf     2633.33333        .         7166.66667 Massimo[A,super]
+
+     3 Minimo[A,verde]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf         .             .66667    7166.66667 x[A,verde]
+
+     4 Minimo[B,super]
+                    NL        .             .             .         -1150.00000          -Inf   11000.00000 Massimo[A,normale]
+                                          -3.33333          +Inf      550.00000       3.33333    5333.33333 Minimo[C,super]
+
+     5 Minimo[B,normale]
+                    NL        .             .             .          -400.00000          -Inf    8500.00000 x[B,normale]
+                                          -3.33333          +Inf     1100.00000       3.33333    3500.00000 Massimo[D,super]
+
+     6 Minimo[B,verde]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf     1222.22222       4.00000    7166.66667 x[B,verde]
+
+     7 Minimo[C,super]
+                    BS    1100.00000   -1100.00000        .              .            -.75758    6333.33333 x[D,super]
+                                            .               +Inf     1833.33333        .         7166.66667 Massimo[A,super]
+
+     8 Minimo[C,normale]
+                    BS    2900.00000   -2900.00000        .          2166.66667        .         7166.66667 Massimo[A,super]
+                                            .               +Inf     4000.00000        .75758    9363.63636 x[D,super]
+
+     9 Minimo[C,verde]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf     1352.94118        .66667    7166.66667 x[C,verde]
+
+    10 Minimo[D,super]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf     1000.00000        .83333    7166.66667 x[D,super]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 7166.666667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Minimo[D,normale]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf     1000.00000        .83333    7166.66667 x[D,normale]
+
+    12 Minimo[D,verde]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf     1000.00000       1.50000    7166.66667 x[D,verde]
+
+    13 Massimo[A,super]
+                    NU        .             .               -Inf     -733.33333        .         7166.66667 Massimo[C,super]
+                                            .             .          1100.00000          +Inf    7166.66667 Minimo[C,super]
+
+    14 Massimo[A,normale]
+                    BS    -766.66667     766.66667          -Inf    -1333.33333      -1.47059    8294.11765 x[D,normale]
+                                            .             .           -33.33333        .         7166.66667 Massimo[A,super]
+
+    15 Massimo[A,verde]
+                    BS        .             .               -Inf     -947.05882       -.95238    7166.66667 x[C,verde]
+                                            .             .           518.18182       2.22222    7166.66667 x[A,verde]
+
+    16 Massimo[B,super]
+                    BS   -2200.00000    2200.00000          -Inf    -2470.58824       -.83333    9000.00000 Disponibilita[C]
+                                            .             .              .             .83333    5333.33333 Disponibilita[B]
+
+    17 Massimo[B,normale]
+                    BS   -4800.00000    4800.00000          -Inf    -6000.00000       -.69444   10500.00000 x[D,normale]
+                                            .             .         -3176.47059        .13889    6500.00000 Disponibilita[C]
+
+    18 Massimo[B,verde]
+                    BS        .             .               -Inf         .            -.66667    7166.66667 x[A,verde]
+                                            .             .              .               +Inf    7166.66667
+
+    19 Massimo[C,super]
+                    BS    -733.33333     733.33333          -Inf    -1666.66667       -.89286    7821.42857 x[D,super]
+                                            .             .            33.33333        .         7166.66667 Massimo[A,super]
+
+    20 Massimo[C,normale]
+                    BS   -2433.33333    2433.33333          -Inf    -3166.66667        .         7166.66667 Massimo[A,super]
+                                            .             .         -2433.33333        .54054    5851.35135 x[A,verde]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 7166.666667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Massimo[C,verde]
+                    BS        .             .               -Inf         .            -.66667    7166.66667 x[A,verde]
+                                            .             .              .               +Inf    7166.66667
+
+    22 Massimo[D,super]
+                    BS   -3666.66667    3666.66667          -Inf    -4117.64706       -.50000    9000.00000 Disponibilita[C]
+                                            .             .              .             .50000    5333.33333 Disponibilita[B]
+
+    23 Massimo[D,normale]
+                    BS   -5333.33333    5333.33333          -Inf    -6666.66667       -.62500   10500.00000 x[D,super]
+                                            .             .         -3529.41176        .12500    6500.00000 Disponibilita[C]
+
+    24 Massimo[D,verde]
+                    BS        .             .               -Inf         .            -.66667    7166.66667 x[A,verde]
+                                            .             .              .               +Inf    7166.66667
+
+    25 Disponibilita[A]
+                    NU    3000.00000        .               -Inf     1272.72727      -1.16667    5151.51515 Minimo[A,normale]
+                                           1.16667    3000.00000     4769.23077          +Inf    9230.76923 Massimo[A,normale]
+
+    26 Disponibilita[B]
+                    NU    2000.00000        .               -Inf      777.77778      -1.50000    5333.33333 Massimo[B,super]
+                                           1.50000    2000.00000     4111.11111          +Inf   10333.33333 Minimo[A,normale]
+
+    27 Disponibilita[C]
+                    NU    4000.00000        .               -Inf     2647.05882       -.16667    6941.17647 Massimo[A,normale]
+                                            .16667    4000.00000    15000.00000          +Inf    9000.00000 x[B,super]
+
+    28 Disponibilita[D]
+                    BS        .         1000.00000          -Inf         .               -Inf    7166.66667
+                                            .         1000.00000    11000.00000        .83333    7166.66667 x[D,normale]
+
+    29 z            BS    7166.66667   -7166.66667          -Inf     6941.17647      -1.00000        .      Disponibilita[C]
+                                            .               +Inf     7166.66667          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    soluzione
+Objective:  z = 7166.666667 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[A,super]   BS    1100.00000       2.50000        .           366.66667       2.50000    7166.66667 Massimo[A,super]
+                                            .               +Inf     1235.29412       4.16667    9000.00000 Disponibilita[C]
+
+     2 x[B,super]   BS    1466.66667       -.50000        .              .           -1.75000    5333.33333 Disponibilita[B]
+                                            .               +Inf     1647.05882        .75000    9000.00000 Disponibilita[C]
+
+     3 x[C,super]   BS    1100.00000       1.50000        .              .             .74242    6333.33333 x[D,super]
+                                            .               +Inf     1833.33333       1.50000    7166.66667 Massimo[A,super]
+
+     4 x[D,super]   NL        .             .50000        .              .               -Inf    7166.66667 Minimo[D,super]
+                                           -.83333          +Inf     1000.00000       1.33333    6333.33333 Minimo[C,super]
+
+     5 x[A,normale] BS    1900.00000       1.50000        .          1900.00000        .89394    6015.15152 x[A,verde]
+                                            .               +Inf     2633.33333       1.50000    7166.66667 Massimo[A,super]
+
+     6 x[B,normale] BS     533.33333      -1.50000        .           352.94118      -2.75000    6500.00000 Disponibilita[C]
+                                            .               +Inf     2000.00000       1.00000    8500.00000 Minimo[B,normale]
+
+     7 x[C,normale] BS    2900.00000        .50000        .          2166.66667        .50000    7166.66667 Massimo[A,super]
+                                            .               +Inf     4000.00000       1.25758    9363.63636 x[D,super]
+
+     8 x[D,normale] NL        .            -.50000        .              .               -Inf    7166.66667 Minimo[D,normale]
+                                           -.83333          +Inf     1000.00000        .33333    6333.33333 Disponibilita[D]
+
+     9 x[A,verde]   NL        .             .50000        .              .               -Inf    7166.66667 Minimo[A,verde]
+                                           -.66667          +Inf         .            1.16667    7166.66667 Massimo[A,verde]
+
+    10 x[B,verde]   NL        .           -2.50000        .              .               -Inf    7166.66667 Minimo[B,verde]
+                                          -4.00000          +Inf     1222.22222       1.50000    2277.77778 Massimo[B,super]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    soluzione
+Objective:  z = 7166.666667 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 x[C,verde]   NL        .            -.50000        .              .               -Inf    7166.66667 Minimo[C,verde]
+                                           -.66667          +Inf     1352.94118        .16667    6264.70588 Massimo[A,normale]
+
+    12 x[D,verde]   NL        .           -1.50000        .              .               -Inf    7166.66667 Minimo[D,verde]
+                                          -1.50000          +Inf     1000.00000        .         5666.66667 Disponibilita[D]
+
+End of report

@@ -1,0 +1,101 @@
+Problem:    soluzione
+Rows:       29
+Columns:    12
+Non-zeros:  82
+Status:     OPTIMAL
+Objective:  z = 7166.666667 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Minimo[A,super]
+                    B           1100            -0               
+     2 Minimo[A,normale]
+                    B           1900            -0               
+     3 Minimo[A,verde]
+                    B              0            -0               
+     4 Minimo[B,super]
+                    NL             0            -0                    -3.33333 
+     5 Minimo[B,normale]
+                    NL             0            -0                    -3.33333 
+     6 Minimo[B,verde]
+                    B              0            -0               
+     7 Minimo[C,super]
+                    B           1100            -0               
+     8 Minimo[C,normale]
+                    B           2900            -0               
+     9 Minimo[C,verde]
+                    B              0            -0               
+    10 Minimo[D,super]
+                    B              0            -0               
+    11 Minimo[D,normale]
+                    B              0            -0               
+    12 Minimo[D,verde]
+                    B              0            -0               
+    13 Massimo[A,super]
+                    NU             0                          -0         < eps
+    14 Massimo[A,normale]
+                    B       -766.667                          -0 
+    15 Massimo[A,verde]
+                    B              0                          -0 
+    16 Massimo[B,super]
+                    B          -2200                          -0 
+    17 Massimo[B,normale]
+                    B          -4800                          -0 
+    18 Massimo[B,verde]
+                    B              0                          -0 
+    19 Massimo[C,super]
+                    B       -733.333                          -0 
+    20 Massimo[C,normale]
+                    B       -2433.33                          -0 
+    21 Massimo[C,verde]
+                    B              0                          -0 
+    22 Massimo[D,super]
+                    B       -3666.67                          -0 
+    23 Massimo[D,normale]
+                    B       -5333.33                          -0 
+    24 Massimo[D,verde]
+                    B              0                          -0 
+    25 Disponibilita[A]
+                    NU          3000                        3000       1.16667 
+    26 Disponibilita[B]
+                    NU          2000                        2000           1.5 
+    27 Disponibilita[C]
+                    NU          4000                        4000      0.166667 
+    28 Disponibilita[D]
+                    B              0                        1000 
+    29 z            B        7166.67                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[A,super]   B           1100             0               
+     2 x[B,super]   B        1466.67             0               
+     3 x[C,super]   B           1100             0               
+     4 x[D,super]   NL             0             0                   -0.833333 
+     5 x[A,normale] B           1900             0               
+     6 x[B,normale] B        533.333             0               
+     7 x[C,normale] B           2900             0               
+     8 x[D,normale] NL             0             0                   -0.833333 
+     9 x[A,verde]   NL             0             0                   -0.666667 
+    10 x[B,verde]   NL             0             0                          -4 
+    11 x[C,verde]   NL             0             0                   -0.666667 
+    12 x[D,verde]   NL             0             0                        -1.5 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.14e-013 on row 13
+        max.rel.err = 7.38e-017 on row 13
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.44e-016 on column 1
+        max.rel.err = 1.11e-016 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 7.11e-017 on row 13
+        max.rel.err = 7.11e-017 on row 13
+        High quality
+
+End of output
