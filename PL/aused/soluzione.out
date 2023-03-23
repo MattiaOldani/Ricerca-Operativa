@@ -1,0 +1,45 @@
+Problem:    soluzione
+Rows:       4
+Columns:    9
+Non-zeros:  20
+Status:     OPTIMAL
+Objective:  ob = 115600 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Flusso1[2]   NS           130           130             =           330 
+     2 Flusso1[3]   NS           150           150             =           330 
+     3 Flusso2      NS           100           100             =           320 
+     4 ob           B         115600                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[2]         NU           110             0           110           -30 
+     2 x[3]         NU           110             0           110           -30 
+     3 x[1]         NU           110             0           110           -20 
+     4 y[2]         B             10             0            60 
+     5 y[3]         B             40             0            60 
+     6 y[1]         NL             0             0            60            10 
+     7 z[1]         B             10             0               
+     8 z[2]         NL             0             0                          10 
+     9 z[3]         NL             0             0                         340 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
