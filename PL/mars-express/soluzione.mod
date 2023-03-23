@@ -10,26 +10,33 @@ param Capacita {Memorie};						# Capcità delle memorie [Mbit]
 param SpazioIniziale {Memorie};					# Spazio iniziale delle memorie [Mbit]
 
 # VARIABILI
-var x {Orbite, Memorie} >= 0;					# Memoria liberata [Mbit]
-var y {Orbite, Memorie} >= 0;					# Memoria mantenuta [Mbit]
+var x {Orbite, Memorie} >= 0;					# Memoria trasmessa prima della lettura dei nuovi dati [Mbit]
+var y {Orbite, Memorie} >= 0;					# Memoria mantenuta alla fine della lettura dei nuovi dati [Mbit]
+var z {Orbite, Memorie} >= 0;					# Memoria mantenuta dopo la trasmissione e prima della lettura [Mbit]
+var aux;										# Variabile ausiliaria per la MinMax [adimensionale]
 
 # VINCOLI
+# Massima trasmissione per orbita [Mbit]
+subject to MassimaTrasmissione {o in Orbite}:
+	sum {m in Memorie} x[o,m] <= DurataOrbite[o] * VelocitaTrasmissione;
+# Massima capacità [Mbit]
+subject to MassimaCapacita {o in Orbite, m in Memorie}:
+	y[o,m] <= Capacita[m];
 # Conservazione del flusso1 [Mbit]
 subject to Flusso1 {o in Orbite, m in Memorie : o > 1}:
-	y[o-1,m] + DatiIngresso[o,m] = x[o,m] + y[o,m];
+	y[o-1,m] = x[o,m] + z[o,m];
 # Conservazione del flusso2 [Mbit]
-subject to Flusso2 {m in Memorie}:
-	SpazioIniziale[m] + DatiIngresso[1,m] = x[1,m] + y[1,m];
-# Massima banda utilizzata [Mbit]
-subject to Banda {o in Orbite}:
-	sum {m in Memorie} x[o,m] <= VelocitaTrasmissione * DurataOrbite[o];
-# Massima archiviazione [Mbit]
-subject to Archiviazione {o in Orbite, m in Memorie}:
-	x[o,m] <= Capacita[m];
+subject to Flusso2 {o in Orbite, m in Memorie}:
+	z[o,m] + DatiIngresso[o,m] = y[o,m];
+# Conservazione del flusso3 [Mbit]
+subject to Flusso3 {m in Memorie}:
+	SpazioIniziale[m] = x[1,m] + z[1,m];
 
 # OBIETTIVO
-# Minimizzare la memoria mantenuta in orbita [Mbit]
-minimize z : sum {o in Orbite, m in Memorie} y[o,m];
+# Minimizzare il massimo livello di riempimento [adimensionale]
+minimize ob : aux;
+subject to MinMax {o in Orbite, m in Memorie}:
+	aux >= y[o,m] / Capacita[m];
 
 ##################################################
 

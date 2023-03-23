@@ -9,4 +9,4 @@
 * Scommesse sui Cavalli ✅
 * Miscelazione di Idrocarburi ⚠️
 * Pianificazione multi-periodo ✅
-* Mars Express ⚠️
+* Mars Express ✅
