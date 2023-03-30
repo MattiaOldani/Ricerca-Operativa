@@ -11,3 +11,4 @@
 * Pianificazione multi-periodo ✅
 * Mars Express ✅
 * Aused ✅
+* Legge di Ohm ✅

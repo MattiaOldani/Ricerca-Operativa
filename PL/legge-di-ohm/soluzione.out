@@ -1,0 +1,69 @@
+Problem:    soluzione
+Rows:       12
+Columns:    13
+Non-zeros:  24
+Status:     OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 DefinizioneErrore[1]
+                    NS          18.3          18.3             =         < eps
+     2 DefinizioneErrore[2]
+                    NS          20.5          20.5             =         < eps
+     3 DefinizioneErrore[3]
+                    NS          32.2          32.2             =         < eps
+     4 DefinizioneErrore[4]
+                    NS          12.2          12.2             =         < eps
+     5 DefinizioneErrore[5]
+                    NS          10.1          10.1             =         < eps
+     6 DefinizioneErrore[6]
+                    NS          22.6          22.6             =         < eps
+     7 DefinizioneErrore[7]
+                    NS          30.1          30.1             =         < eps
+     8 DefinizioneErrore[8]
+                    NS            28            28             =         < eps
+     9 DefinizioneErrore[9]
+                    NS          23.4          23.4             =         < eps
+    10 DefinizioneErrore[10]
+                    NS          15.5          15.5             =         < eps
+    11 DefinizioneErrore[11]
+                    NS          14.7          14.7             =         < eps
+    12 DefinizioneErrore[12]
+                    NS          15.4          15.4             =         < eps
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 errore[1]    B           18.3                             
+     2 errore[2]    B           20.5                             
+     3 errore[3]    B           32.2                             
+     4 errore[4]    B           12.2                             
+     5 errore[5]    B           10.1                             
+     6 errore[6]    B           22.6                             
+     7 errore[7]    B           30.1                             
+     8 errore[8]    B             28                             
+     9 errore[9]    B           23.4                             
+    10 errore[10]   B           15.5                             
+    11 errore[11]   B           14.7                             
+    12 errore[12]   B           15.4                             
+    13 resistenza   NF             0                                     < eps
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
