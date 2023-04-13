@@ -1,0 +1,167 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 461.0163205 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Composizione[Farina]
+                    BS      -7.61128       7.61128          -Inf      -12.00000       -.11765     461.91176 BudgetSettimanale
+                                            .             .             4.19786        .47814     457.37705 ProduzioneSettimanale[FrollinoDelMattino]
+
+     2 Composizione[Uova]
+                    NU        .             .               -Inf      -10.87500      -2.04748     438.75000 Acquisti[Burro]
+                                           2.04748        .             5.97500          +Inf     473.25000 Produzione[ProntiVia]
+
+     3 Composizione[Zucchero]
+                    NU        .             .               -Inf      -43.50000       -.51187     438.75000 Acquisti[Burro]
+                                            .51187        .            15.21246          +Inf     468.80312 Acquisti[Zucchero]
+
+     4 Composizione[Burro]
+                    NU        .             .               -Inf      -37.59901      -1.02374     422.52475 Acquisti[Uova]
+                                           1.02374        .             9.17722          +Inf     470.41139 Acquisti[Burro]
+
+     5 Composizione[Latte]
+                    BS     -18.07864      18.07864          -Inf      -23.50000       -.09524     462.73810 BudgetSettimanale
+                                            .             .            -9.33607        .41627     453.49072 ProduzioneSettimanale[FrollinoDelMattino]
+
+     6 Composizione[Additivi]
+                    NU        .             .               -Inf      -21.75000      -1.02374     438.75000 Acquisti[Burro]
+                                           1.02374        .             9.47552          +Inf     470.71678 Acquisti[Additivi]
+
+     7 Composizione[Nocciole]
+                    BS     -37.75964      37.75964          -Inf      -42.42623       -.77986     490.46346 ProduzioneSettimanale[FrollinoDelMattino]
+                                            .             .           -33.50000        .12121     456.43939 BudgetSettimanale
+
+     8 Tempo        NU       5.00000        .               -Inf        4.86832    -195.84570     435.22727 Produzione[ProntiVia]
+                                         195.84570       5.00000        5.23967          +Inf     507.95455 Acquisti[Burro]
+
+     9 BudgetSettimanale
+                    NU    1800.00000        .               -Inf     1778.25000       -.02374     460.50000 Acquisti[Burro]
+                                            .02374    1800.00000     1811.95000          +Inf     461.30000 Produzione[ProntiVia]
+
+    10 Produzione[Svegliallegra]
+                    BS     122.40356     177.59644          -Inf       75.73770       -.07799     451.47059 ProduzioneSettimanale[FrollinoDelMattino]
+                                            .          300.00000      165.00000        .01212     462.50000 BudgetSettimanale
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 461.0163205 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Produzione[FrollinoDelMattino]
+                    BS     100.00000     400.00000          -Inf      100.00000          -Inf          -Inf
+                                            .          500.00000      156.06557        .06491     467.50742 ProduzioneSettimanale[FrollinoDelMattino]
+
+    12 Produzione[AlbaRadiosa]
+                    NU    1000.00000        .               -Inf      950.92402       -.42322     440.24641 Produzione[ProntiVia]
+                                            .42322    1000.00000     1041.17175          +Inf     478.44101 Composizione[Farina]
+
+    13 Produzione[ProntiVia]
+                    BS     464.54006      35.45994          -Inf      400.00000       -.00800     457.30000 BudgetSettimanale
+                                            .          500.00000      479.18033        .24858     576.49148 ProduzioneSettimanale[FrollinoDelMattino]
+
+    14 Acquisti[Farina]
+                    NL     450.00000        .          450.00000      443.08625          -Inf     464.55526 Composizione[Farina]
+                                           -.51187          +Inf      493.50000        .51187     438.75000 Acquisti[Burro]
+
+    15 Acquisti[Uova]
+                    BS     211.26855     -11.26855     200.00000      204.75000       -.07921     444.28218 BudgetSettimanale
+                                            .               +Inf      215.62500       5.11111    1540.83333 Composizione[Uova]
+
+    16 Acquisti[Zucchero]
+                    BS     335.93472     -15.93472     320.00000      325.77002      -2.04334    -225.41189 Produzione[AlbaRadiosa]
+                                            .               +Inf      338.00000        .25000     545.00000 BudgetSettimanale
+
+    17 Acquisti[Burro]
+                    BS     146.45401      -6.45401     140.00000      135.29703       -.08000     449.30000 BudgetSettimanale
+                                            .               +Inf      172.89604       1.45570     674.20886 Composizione[Burro]
+
+    18 Acquisti[Latte]
+                    NL     320.00000        .          320.00000      312.03333          -Inf     473.25000 Produzione[ProntiVia]
+                                          -1.53561          +Inf      334.50000       1.53561     438.75000 Acquisti[Burro]
+
+    19 Acquisti[Additivi]
+                    BS     108.04154      -8.04154     100.00000      104.75000       -.15686     444.06863 BudgetSettimanale
+                                            .               +Inf      114.45082        .56781     522.36372 ProduzioneSettimanale[FrollinoDelMattino]
+
+    20 Acquisti[Nocciole]
+                    NL      50.00000        .           50.00000       47.61000          -Inf     473.25000 Produzione[ProntiVia]
+                                          -5.11869          +Inf       54.35000       5.11869     438.75000 Acquisti[Burro]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 461.0163205 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 z            BS     461.01632    -461.01632          -Inf      440.24641      -1.00000        .      Produzione[AlbaRadiosa]
+                                            .               +Inf      461.01632          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    soluzione
+Objective:  z = 461.0163205 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 ProduzioneSettimanale[Svegliallegra]
+                    BS     122.40356       1.75000      50.00000       75.73770       1.67201     451.47059 ProduzioneSettimanale[FrollinoDelMattino]
+                                            .               +Inf      165.00000       1.76212     462.50000 BudgetSettimanale
+
+     2 ProduzioneSettimanale[FrollinoDelMattino]
+                    NL     100.00000       1.00000     100.00000       29.65607          -Inf     465.58241 Acquisti[Additivi]
+                                           -.06491          +Inf      156.06557       1.06491     457.37705 Composizione[Farina]
+
+     3 ProduzioneSettimanale[AlbaRadiosa]
+                    BS    1000.00000       1.25000     500.00000      950.92402        .82678      37.79674 Produzione[AlbaRadiosa]
+                                            .               +Inf     1000.00000          +Inf          +Inf
+
+     4 ProduzioneSettimanale[ProntiVia]
+                    BS     464.54006       1.50000     300.00000      400.00000       1.49200     457.30000 BudgetSettimanale
+                                            .               +Inf      479.18033       1.74858     576.49148 ProduzioneSettimanale[FrollinoDelMattino]
+
+     5 IngredientiAcquistati[Farina]
+                    BS     450.00000       -.50000          -Inf      450.00000          -Inf          -Inf
+                                            .               +Inf      493.50000        .01187     691.35757 Acquisti[Farina]
+
+     6 IngredientiAcquistati[Uova]
+                    BS     211.26855      -2.00000          -Inf      204.75000      -2.07921     444.28218 BudgetSettimanale
+                                            .               +Inf      215.62500       3.11111    1540.83333 Composizione[Uova]
+
+     7 IngredientiAcquistati[Zucchero]
+                    BS     335.93472       -.50000          -Inf      325.77002      -2.54334    -225.41189 Produzione[AlbaRadiosa]
+                                            .               +Inf      338.00000       -.25000     545.00000 BudgetSettimanale
+
+     8 IngredientiAcquistati[Burro]
+                    BS     146.45401      -1.00000          -Inf      140.00000      -1.08000     449.30000 BudgetSettimanale
+                                            .               +Inf      172.89604        .45570     674.20886 Composizione[Burro]
+
+     9 IngredientiAcquistati[Latte]
+                    BS     320.00000      -1.50000          -Inf      320.00000          -Inf          -Inf
+                                            .               +Inf      334.50000        .03561     952.41098 Acquisti[Latte]
+
+    10 IngredientiAcquistati[Additivi]
+                    BS     108.04154      -1.00000          -Inf      104.75000      -1.15686     444.06863 BudgetSettimanale
+                                            .               +Inf      114.45082       -.43219     522.36372 ProduzioneSettimanale[FrollinoDelMattino]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    soluzione
+Objective:  z = 461.0163205 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 IngredientiAcquistati[Nocciole]
+                    BS      50.00000      -5.00000          -Inf       50.00000          -Inf          -Inf
+                                            .               +Inf       54.35000        .11869     716.95104 Acquisti[Nocciole]
+
+End of report

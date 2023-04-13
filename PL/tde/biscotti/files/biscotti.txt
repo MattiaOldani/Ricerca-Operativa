@@ -1,0 +1,63 @@
+L'azienda produce quattro tipi di biscotti, 
+con le percentuali di ingredienti riportate in tabella.
+
+          Svegliallegra   Frollino       Alba      ProntiVia!
+                         del Mattino    Radiosa
+Farina          20           25           30           20
+Uova            15            0           10           20
+Zucchero        20           15           25           10
+Burro            0            0           10           10
+Latte           10           20           20           15
+Additivi        15           20            0           15
+Nocciole        10            0            0            0
+Acqua           10           20            5           10
+
+  Tempi di lavorazione. Per ogni tipo di biscotto la tabella indica 
+la quantità di produzione massima giornaliera (Kg / giorno), 
+ossia la massima quantità di biscotti che sarebbe ottenibile 
+usando tutto l'impianto per un solo tipo di biscotto.
+
+Svegliallegra    165
+Frollino del M.  250
+Alba Radiosa     500
+ProntiVia!       250
+
+  I prezzi di vendita sono i seguenti (Euro / Kg)
+
+Svegliallegra    1.75
+Frollino del M.  1.00
+Alba Radiosa     1.25
+ProntiVia!       1.50
+
+  I costi degli ingredienti sono i seguenti (Euro / Kg)
+
+Farina    0.5
+Uova      2
+Zucchero  0.5
+Burro     1
+Latte     1.5
+Additivi  1
+Nocciole  5
+
+  Quantità minime di ingredienti da acquistare (Kg / settimana)
+
+Farina    450
+Uova      200
+Zucchero  320
+Burro     140
+Latte     320
+Additivi  100
+Nocciole   50
+
+  Quantità minime e massime da produrre (Kg / settimana)
+
+Svegliallegra       50     300
+Frollino del M.    100     500
+Alba Radiosa       500    1000
+ProntiVia!         300     500
+
+  Budget disponibile per il trimestre: 21600 Euro  
+
+  Costo della campagna pubblicitaria: 5000 Euro/trimestre
+
+

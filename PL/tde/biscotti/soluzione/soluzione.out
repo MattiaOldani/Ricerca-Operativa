@@ -1,0 +1,94 @@
+Problem:    soluzione
+Rows:       21
+Columns:    11
+Non-zeros:  61
+Status:     OPTIMAL
+Objective:  z = 461.0163205 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Composizione[Farina]
+                    B       -7.61128                          -0 
+     2 Composizione[Uova]
+                    NU             0                          -0       2.04748 
+     3 Composizione[Zucchero]
+                    NU             0                          -0      0.511869 
+     4 Composizione[Burro]
+                    NU             0                          -0       1.02374 
+     5 Composizione[Latte]
+                    B       -18.0786                          -0 
+     6 Composizione[Additivi]
+                    NU             0                          -0       1.02374 
+     7 Composizione[Nocciole]
+                    B       -37.7596                          -0 
+     8 Tempo        NU             5                           5       195.846 
+     9 BudgetSettimanale
+                    NU          1800                        1800     0.0237389 
+    10 Produzione[Svegliallegra]
+                    B        122.404                         300 
+    11 Produzione[FrollinoDelMattino]
+                    B            100                         500 
+    12 Produzione[AlbaRadiosa]
+                    NU          1000                        1000       0.42322 
+    13 Produzione[ProntiVia]
+                    B         464.54                         500 
+    14 Acquisti[Farina]
+                    NL           450           450                   -0.511869 
+    15 Acquisti[Uova]
+                    B        211.269           200               
+    16 Acquisti[Zucchero]
+                    B        335.935           320               
+    17 Acquisti[Burro]
+                    B        146.454           140               
+    18 Acquisti[Latte]
+                    NL           320           320                    -1.53561 
+    19 Acquisti[Additivi]
+                    B        108.042           100               
+    20 Acquisti[Nocciole]
+                    NL            50            50                    -5.11869 
+    21 z            B        461.016                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 ProduzioneSettimanale[Svegliallegra]
+                    B        122.404            50               
+     2 ProduzioneSettimanale[FrollinoDelMattino]
+                    NL           100           100                   -0.064911 
+     3 ProduzioneSettimanale[AlbaRadiosa]
+                    B           1000           500               
+     4 ProduzioneSettimanale[ProntiVia]
+                    B         464.54           300               
+     5 IngredientiAcquistati[Farina]
+                    B            450                             
+     6 IngredientiAcquistati[Uova]
+                    B        211.269                             
+     7 IngredientiAcquistati[Zucchero]
+                    B        335.935                             
+     8 IngredientiAcquistati[Burro]
+                    B        146.454                             
+     9 IngredientiAcquistati[Latte]
+                    B            320                             
+    10 IngredientiAcquistati[Additivi]
+                    B        108.042                             
+    11 IngredientiAcquistati[Nocciole]
+                    B             50                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.84e-014 on row 2
+        max.rel.err = 9.67e-017 on row 4
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.44e-016 on column 6
+        max.rel.err = 8.72e-017 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
