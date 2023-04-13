@@ -1,0 +1,49 @@
+Problem:    soluzione
+Rows:       5
+Columns:    4
+Non-zeros:  19
+Status:     OPTIMAL
+Objective:  z2 = 43.9516129 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 MassimoConsumo[A]
+                    B        92.7419                         100 
+     2 MassimoConsumo[B]
+                    NU           120                         120      0.154839 
+     3 MassimoConsumo[C]
+                    B        75.6452                          90 
+     4 MassimoConsumo[D]
+                    NU           110                         110      0.230645 
+     5 z2           B        43.9516                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Produzione[X]
+                    B        13.7097             0               
+     2 Produzione[Y]
+                    NL             0             0                    -1.14839 
+     3 Produzione[Z]
+                    B        10.3226             0               
+     4 Produzione[W]
+                    NL             0             0                    -1.99194 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.44e-016 on column 3
+        max.rel.err = 8.88e-017 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

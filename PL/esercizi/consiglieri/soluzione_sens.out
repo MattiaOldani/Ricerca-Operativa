@@ -1,0 +1,52 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z2 = 43.9516129 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 MassimoConsumo[A]
+                    BS      92.74194       7.25806          -Inf       45.00000       -.38649       8.10811 MassimoConsumo[D]
+                                            .          100.00000       92.74194          +Inf          +Inf
+
+     2 MassimoConsumo[B]
+                    NU     120.00000        .               -Inf       13.75000       -.15484      27.50000 Produzione[X]
+                                            .15484     120.00000      152.14286          +Inf      48.92857 MassimoConsumo[A]
+
+     3 MassimoConsumo[C]
+                    BS      75.64516      14.35484          -Inf       15.00000       -.30426      20.93617 MassimoConsumo[D]
+                                            .           90.00000      114.37500        .31504      67.78319 Produzione[Y]
+
+     4 MassimoConsumo[D]
+                    NU     110.00000        .               -Inf       30.00000       -.23065      25.50000 Produzione[Z]
+                                            .23065     110.00000      122.16216          +Inf      46.75676 MassimoConsumo[A]
+
+     5 z2           BS      43.95161     -43.95161          -Inf       25.50000      -1.00000        .      MassimoConsumo[D]
+                                            .               +Inf       43.95161          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z2 = 43.9516129 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Produzione[X]
+                    BS      13.70968       1.70000        .             8.62832        .81000      31.75000 Produzione[Y]
+                                            .               +Inf       15.00000      16.00000     240.00000 MassimoConsumo[D]
+
+     2 Produzione[Y]
+                    NL        .             .40000        .           -28.12500          -Inf      76.25000 MassimoConsumo[A]
+                                          -1.14839          +Inf        3.93805       1.54839      39.42920 MassimoConsumo[C]
+
+     3 Produzione[Z]
+                    BS      10.32258       2.00000        .           -17.11111        .56395      29.12791 Produzione[W]
+                                            .               +Inf       11.59292       5.56000      80.70000 Produzione[Y]
+
+     4 Produzione[W]
+                    NL        .             .70000        .            -2.60116          -Inf      49.13295 MassimoConsumo[A]
+                                          -1.99194          +Inf        7.44186       2.69194      29.12791 Produzione[Z]
+
+End of report
