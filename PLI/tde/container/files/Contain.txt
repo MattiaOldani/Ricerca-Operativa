@@ -1,0 +1,17 @@
+Esistono 10 tipi di oggetti con diversi volumi
+e un numero variabile di oggetti per ogni tipo:
+
+Tipo  Numero di oggetti     Volume
+  1          68               30
+  2          90               25
+  3          10              200 
+  4          48               40
+  5          28              105
+  6          70              150
+  7          56               18
+  8          10              250
+  9          45               54
+ 10          12               67
+
+I containers disponibili hanno capacità 5000.
+I containers alternativi ahnno capacità 3000 o 4000.

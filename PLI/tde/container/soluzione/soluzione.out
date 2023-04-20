@@ -1,0 +1,123 @@
+Problem:    soluzione
+Rows:       17
+Columns:    66 (66 integer, 6 binary)
+Non-zeros:  132
+Status:     INTEGER OPTIMAL
+Objective:  z = 6 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 CapacitaMassima[1]
+                                 -50                          -0 
+     2 CapacitaMassima[2]
+                               -1070                          -0 
+     3 CapacitaMassima[3]
+                                -192                          -0 
+     4 CapacitaMassima[4]
+                                -260                          -0 
+     5 CapacitaMassima[5]
+                                 -23                          -0 
+     6 CapacitaMassima[6]
+                                 -13                          -0 
+     7 TotaleOggetti[1]
+                                  68            68             = 
+     8 TotaleOggetti[2]
+                                  90            90             = 
+     9 TotaleOggetti[3]
+                                  10            10             = 
+    10 TotaleOggetti[4]
+                                  48            48             = 
+    11 TotaleOggetti[5]
+                                  28            28             = 
+    12 TotaleOggetti[6]
+                                  70            70             = 
+    13 TotaleOggetti[7]
+                                  56            56             = 
+    14 TotaleOggetti[8]
+                                  10            10             = 
+    15 TotaleOggetti[9]
+                                  45            45             = 
+    16 TotaleOggetti[10]
+                                  12            12             = 
+    17 z                           6                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              1             0             1 
+     2 x[2]         *              1             0             1 
+     3 x[3]         *              1             0             1 
+     4 x[4]         *              1             0             1 
+     5 x[5]         *              1             0             1 
+     6 x[6]         *              1             0             1 
+     7 y[1,1]       *              0             0               
+     8 y[2,1]       *              0             0               
+     9 y[3,1]       *              0             0               
+    10 y[4,1]       *              0             0               
+    11 y[5,1]       *              0             0               
+    12 y[6,1]       *             33             0               
+    13 y[7,1]       *              0             0               
+    14 y[8,1]       *              0             0               
+    15 y[9,1]       *              0             0               
+    16 y[10,1]      *              0             0               
+    17 y[1,2]       *              2             0               
+    18 y[2,2]       *              0             0               
+    19 y[3,2]       *              0             0               
+    20 y[4,2]       *             18             0               
+    21 y[5,2]       *              0             0               
+    22 y[6,2]       *             21             0               
+    23 y[7,2]       *              0             0               
+    24 y[8,2]       *              0             0               
+    25 y[9,2]       *              0             0               
+    26 y[10,2]      *              0             0               
+    27 y[1,3]       *             66             0               
+    28 y[2,3]       *             90             0               
+    29 y[3,3]       *              1             0               
+    30 y[4,3]       *              0             0               
+    31 y[5,3]       *              0             0               
+    32 y[6,3]       *              0             0               
+    33 y[7,3]       *              0             0               
+    34 y[8,3]       *              0             0               
+    35 y[9,3]       *              7             0               
+    36 y[10,3]      *              0             0               
+    37 y[1,4]       *              0             0               
+    38 y[2,4]       *              0             0               
+    39 y[3,4]       *              9             0               
+    40 y[4,4]       *              0             0               
+    41 y[5,4]       *             28             0               
+    42 y[6,4]       *              0             0               
+    43 y[7,4]       *              0             0               
+    44 y[8,4]       *              0             0               
+    45 y[9,4]       *              0             0               
+    46 y[10,4]      *              0             0               
+    47 y[1,5]       *              0             0               
+    48 y[2,5]       *              0             0               
+    49 y[3,5]       *              0             0               
+    50 y[4,5]       *              0             0               
+    51 y[5,5]       *              0             0               
+    52 y[6,5]       *              5             0               
+    53 y[7,5]       *             55             0               
+    54 y[8,5]       *             10             0               
+    55 y[9,5]       *              0             0               
+    56 y[10,5]      *             11             0               
+    57 y[1,6]       *              0             0               
+    58 y[2,6]       *              0             0               
+    59 y[3,6]       *              0             0               
+    60 y[4,6]       *             30             0               
+    61 y[5,6]       *              0             0               
+    62 y[6,6]       *             11             0               
+    63 y[7,6]       *              1             0               
+    64 y[8,6]       *              0             0               
+    65 y[9,6]       *             38             0               
+    66 y[10,6]      *              1             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
