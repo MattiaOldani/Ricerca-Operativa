@@ -1,0 +1,10 @@
+Il grafo ha 7 nodi ed è descritto dalla seguente matrice dei pesi.
+
+  0  68  81  23  45  20  37
+ 12   0  25  51  57  89  78
+ 34  27   0  12   9  71  20
+ 95  55  42   0   8  23  44
+ 60  60  51  34   0   2  40
+ 93  22  48  45  24   0  77
+ 75  64  36  25  16  21   0
+

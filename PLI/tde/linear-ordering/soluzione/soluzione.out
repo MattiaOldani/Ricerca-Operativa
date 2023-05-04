@@ -1,0 +1,361 @@
+Problem:    soluzione
+Rows:       78
+Columns:    91 (91 integer, 91 binary)
+Non-zeros:  812
+Status:     INTEGER OPTIMAL
+Objective:  z = 662 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 OrientamentoArchi[1,2]
+                                   1             1             = 
+     2 OrientamentoArchi[1,3]
+                                   1             1             = 
+     3 OrientamentoArchi[1,4]
+                                   1             1             = 
+     4 OrientamentoArchi[1,5]
+                                   1             1             = 
+     5 OrientamentoArchi[1,6]
+                                   1             1             = 
+     6 OrientamentoArchi[1,7]
+                                   1             1             = 
+     7 OrientamentoArchi[2,3]
+                                   1             1             = 
+     8 OrientamentoArchi[2,4]
+                                   1             1             = 
+     9 OrientamentoArchi[2,5]
+                                   1             1             = 
+    10 OrientamentoArchi[2,6]
+                                   1             1             = 
+    11 OrientamentoArchi[2,7]
+                                   1             1             = 
+    12 OrientamentoArchi[3,4]
+                                   1             1             = 
+    13 OrientamentoArchi[3,5]
+                                   1             1             = 
+    14 OrientamentoArchi[3,6]
+                                   1             1             = 
+    15 OrientamentoArchi[3,7]
+                                   1             1             = 
+    16 OrientamentoArchi[4,5]
+                                   1             1             = 
+    17 OrientamentoArchi[4,6]
+                                   1             1             = 
+    18 OrientamentoArchi[4,7]
+                                   1             1             = 
+    19 OrientamentoArchi[5,6]
+                                   1             1             = 
+    20 OrientamentoArchi[5,7]
+                                   1             1             = 
+    21 OrientamentoArchi[6,7]
+                                   1             1             = 
+    22 AssegnamentoVerticeRiga[1]
+                                   1             1             = 
+    23 AssegnamentoVerticeRiga[2]
+                                   1             1             = 
+    24 AssegnamentoVerticeRiga[3]
+                                   1             1             = 
+    25 AssegnamentoVerticeRiga[4]
+                                   1             1             = 
+    26 AssegnamentoVerticeRiga[5]
+                                   1             1             = 
+    27 AssegnamentoVerticeRiga[6]
+                                   1             1             = 
+    28 AssegnamentoVerticeRiga[7]
+                                   1             1             = 
+    29 AssegnamentoVerticeColonna[1]
+                                   1             1             = 
+    30 AssegnamentoVerticeColonna[2]
+                                   1             1             = 
+    31 AssegnamentoVerticeColonna[3]
+                                   1             1             = 
+    32 AssegnamentoVerticeColonna[4]
+                                   1             1             = 
+    33 AssegnamentoVerticeColonna[5]
+                                   1             1             = 
+    34 AssegnamentoVerticeColonna[6]
+                                   1             1             = 
+    35 AssegnamentoVerticeColonna[7]
+                                   1             1             = 
+    36 Collegamento[1,2]
+                                  -5                          -0 
+    37 Collegamento[1,3]
+                                  -6                          -0 
+    38 Collegamento[1,4]
+                                  -2                          -0 
+    39 Collegamento[1,5]
+                                  -3                          -0 
+    40 Collegamento[1,6]
+                                  -4                          -0 
+    41 Collegamento[1,7]
+                                  -1                          -0 
+    42 Collegamento[2,1]
+                                  -2                          -0 
+    43 Collegamento[2,3]
+                                  -1                          -0 
+    44 Collegamento[2,4]
+                                  -4                          -0 
+    45 Collegamento[2,5]
+                                  -5                          -0 
+    46 Collegamento[2,6]
+                                  -6                          -0 
+    47 Collegamento[2,7]
+                                  -3                          -0 
+    48 Collegamento[3,1]
+                                  -1                          -0 
+    49 Collegamento[3,2]
+                                  -6                          -0 
+    50 Collegamento[3,4]
+                                  -3                          -0 
+    51 Collegamento[3,5]
+                                  -4                          -0 
+    52 Collegamento[3,6]
+                                  -5                          -0 
+    53 Collegamento[3,7]
+                                  -2                          -0 
+    54 Collegamento[4,1]
+                                  -5                          -0 
+    55 Collegamento[4,2]
+                                  -3                          -0 
+    56 Collegamento[4,3]
+                                  -4                          -0 
+    57 Collegamento[4,5]
+                                  -1                          -0 
+    58 Collegamento[4,6]
+                                  -2                          -0 
+    59 Collegamento[4,7]
+                                  -6                          -0 
+    60 Collegamento[5,1]
+                                  -4                          -0 
+    61 Collegamento[5,2]
+                                  -2                          -0 
+    62 Collegamento[5,3]
+                                  -3                          -0 
+    63 Collegamento[5,4]
+                                  -6                          -0 
+    64 Collegamento[5,6]
+                                  -1                          -0 
+    65 Collegamento[5,7]
+                                  -5                          -0 
+    66 Collegamento[6,1]
+                                  -3                          -0 
+    67 Collegamento[6,2]
+                                  -1                          -0 
+    68 Collegamento[6,3]
+                                  -2                          -0 
+    69 Collegamento[6,4]
+                                  -5                          -0 
+    70 Collegamento[6,5]
+                                  -6                          -0 
+    71 Collegamento[6,7]
+                                  -4                          -0 
+    72 Collegamento[7,1]
+                                  -6                          -0 
+    73 Collegamento[7,2]
+                                  -4                          -0 
+    74 Collegamento[7,3]
+                                  -5                          -0 
+    75 Collegamento[7,4]
+                                  -1                          -0 
+    76 Collegamento[7,5]
+                                  -2                          -0 
+    77 Collegamento[7,6]
+                                  -3                          -0 
+    78 z                         662                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 SceltaOrientamento[2,1]
+                    *              0             0             1 
+     2 SceltaOrientamento[1,2]
+                    *              1             0             1 
+     3 SceltaOrientamento[3,1]
+                    *              1             0             1 
+     4 SceltaOrientamento[1,3]
+                    *              0             0             1 
+     5 SceltaOrientamento[4,1]
+                    *              0             0             1 
+     6 SceltaOrientamento[1,4]
+                    *              1             0             1 
+     7 SceltaOrientamento[5,1]
+                    *              0             0             1 
+     8 SceltaOrientamento[1,5]
+                    *              1             0             1 
+     9 SceltaOrientamento[6,1]
+                    *              0             0             1 
+    10 SceltaOrientamento[1,6]
+                    *              1             0             1 
+    11 SceltaOrientamento[7,1]
+                    *              0             0             1 
+    12 SceltaOrientamento[1,7]
+                    *              1             0             1 
+    13 SceltaOrientamento[3,2]
+                    *              1             0             1 
+    14 SceltaOrientamento[2,3]
+                    *              0             0             1 
+    15 SceltaOrientamento[4,2]
+                    *              1             0             1 
+    16 SceltaOrientamento[2,4]
+                    *              0             0             1 
+    17 SceltaOrientamento[5,2]
+                    *              1             0             1 
+    18 SceltaOrientamento[2,5]
+                    *              0             0             1 
+    19 SceltaOrientamento[6,2]
+                    *              1             0             1 
+    20 SceltaOrientamento[2,6]
+                    *              0             0             1 
+    21 SceltaOrientamento[7,2]
+                    *              1             0             1 
+    22 SceltaOrientamento[2,7]
+                    *              0             0             1 
+    23 SceltaOrientamento[4,3]
+                    *              0             0             1 
+    24 SceltaOrientamento[3,4]
+                    *              1             0             1 
+    25 SceltaOrientamento[5,3]
+                    *              0             0             1 
+    26 SceltaOrientamento[3,5]
+                    *              1             0             1 
+    27 SceltaOrientamento[6,3]
+                    *              0             0             1 
+    28 SceltaOrientamento[3,6]
+                    *              1             0             1 
+    29 SceltaOrientamento[7,3]
+                    *              0             0             1 
+    30 SceltaOrientamento[3,7]
+                    *              1             0             1 
+    31 SceltaOrientamento[5,4]
+                    *              0             0             1 
+    32 SceltaOrientamento[4,5]
+                    *              1             0             1 
+    33 SceltaOrientamento[6,4]
+                    *              0             0             1 
+    34 SceltaOrientamento[4,6]
+                    *              1             0             1 
+    35 SceltaOrientamento[7,4]
+                    *              1             0             1 
+    36 SceltaOrientamento[4,7]
+                    *              0             0             1 
+    37 SceltaOrientamento[6,5]
+                    *              0             0             1 
+    38 SceltaOrientamento[5,6]
+                    *              1             0             1 
+    39 SceltaOrientamento[7,5]
+                    *              1             0             1 
+    40 SceltaOrientamento[5,7]
+                    *              0             0             1 
+    41 SceltaOrientamento[7,6]
+                    *              1             0             1 
+    42 SceltaOrientamento[6,7]
+                    *              0             0             1 
+    43 Posizione[1,1]
+                    *              0             0             1 
+    44 Posizione[1,2]
+                    *              1             0             1 
+    45 Posizione[1,3]
+                    *              0             0             1 
+    46 Posizione[1,4]
+                    *              0             0             1 
+    47 Posizione[1,5]
+                    *              0             0             1 
+    48 Posizione[1,6]
+                    *              0             0             1 
+    49 Posizione[1,7]
+                    *              0             0             1 
+    50 Posizione[2,1]
+                    *              0             0             1 
+    51 Posizione[2,2]
+                    *              0             0             1 
+    52 Posizione[2,3]
+                    *              0             0             1 
+    53 Posizione[2,4]
+                    *              0             0             1 
+    54 Posizione[2,5]
+                    *              0             0             1 
+    55 Posizione[2,6]
+                    *              0             0             1 
+    56 Posizione[2,7]
+                    *              1             0             1 
+    57 Posizione[3,1]
+                    *              1             0             1 
+    58 Posizione[3,2]
+                    *              0             0             1 
+    59 Posizione[3,3]
+                    *              0             0             1 
+    60 Posizione[3,4]
+                    *              0             0             1 
+    61 Posizione[3,5]
+                    *              0             0             1 
+    62 Posizione[3,6]
+                    *              0             0             1 
+    63 Posizione[3,7]
+                    *              0             0             1 
+    64 Posizione[4,1]
+                    *              0             0             1 
+    65 Posizione[4,2]
+                    *              0             0             1 
+    66 Posizione[4,3]
+                    *              0             0             1 
+    67 Posizione[4,4]
+                    *              1             0             1 
+    68 Posizione[4,5]
+                    *              0             0             1 
+    69 Posizione[4,6]
+                    *              0             0             1 
+    70 Posizione[4,7]
+                    *              0             0             1 
+    71 Posizione[5,1]
+                    *              0             0             1 
+    72 Posizione[5,2]
+                    *              0             0             1 
+    73 Posizione[5,3]
+                    *              0             0             1 
+    74 Posizione[5,4]
+                    *              0             0             1 
+    75 Posizione[5,5]
+                    *              1             0             1 
+    76 Posizione[5,6]
+                    *              0             0             1 
+    77 Posizione[5,7]
+                    *              0             0             1 
+    78 Posizione[6,1]
+                    *              0             0             1 
+    79 Posizione[6,2]
+                    *              0             0             1 
+    80 Posizione[6,3]
+                    *              0             0             1 
+    81 Posizione[6,4]
+                    *              0             0             1 
+    82 Posizione[6,5]
+                    *              0             0             1 
+    83 Posizione[6,6]
+                    *              1             0             1 
+    84 Posizione[6,7]
+                    *              0             0             1 
+    85 Posizione[7,1]
+                    *              0             0             1 
+    86 Posizione[7,2]
+                    *              0             0             1 
+    87 Posizione[7,3]
+                    *              1             0             1 
+    88 Posizione[7,4]
+                    *              0             0             1 
+    89 Posizione[7,5]
+                    *              0             0             1 
+    90 Posizione[7,6]
+                    *              0             0             1 
+    91 Posizione[7,7]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
