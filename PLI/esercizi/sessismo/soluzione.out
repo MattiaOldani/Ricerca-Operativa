@@ -1,0 +1,67 @@
+Problem:    soluzione
+Rows:       14
+Columns:    8 (8 integer, 8 binary)
+Non-zeros:  34
+Status:     INTEGER OPTIMAL
+Objective:  z = 235 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Amicizia[1,2]
+                                   1                           1 
+     2 Amicizia[1,3]
+                                   1                           1 
+     3 Amicizia[2,3]
+                                   0                           1 
+     4 Amicizia[2,4]
+                                   1                           1 
+     5 Amicizia[2,5]
+                                   1                           1 
+     6 Amicizia[3,4]
+                                   1                           1 
+     7 Amicizia[3,6]
+                                   0                           1 
+     8 Amicizia[4,7]
+                                   1                           1 
+     9 Amicizia[5,6]
+                                   1                           1 
+    10 Amicizia[5,7]
+                                   1                           1 
+    11 Amicizia[5,8]
+                                   1                           1 
+    12 Amicizia[6,7]
+                                   0                           1 
+    13 Amicizia[6,8]
+                                   0                           1 
+    14 z                         235                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 SelezionaVertice[2]
+                    *              0             0             1 
+     2 SelezionaVertice[1]
+                    *              1             0             1 
+     3 SelezionaVertice[3]
+                    *              0             0             1 
+     4 SelezionaVertice[4]
+                    *              1             0             1 
+     5 SelezionaVertice[5]
+                    *              1             0             1 
+     6 SelezionaVertice[6]
+                    *              0             0             1 
+     7 SelezionaVertice[7]
+                    *              0             0             1 
+     8 SelezionaVertice[8]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
