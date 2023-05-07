@@ -1,0 +1,145 @@
+Problem:    soluzione
+Rows:       31
+Columns:    30 (30 integer, 30 binary)
+Non-zeros:  146
+Status:     INTEGER OPTIMAL
+Objective:  z = 9 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 ControlloIncrocio[1]
+                                   1             1               
+     2 ControlloIncrocio[2]
+                                   1             1               
+     3 ControlloIncrocio[3]
+                                   1             1               
+     4 ControlloIncrocio[4]
+                                   2             1               
+     5 ControlloIncrocio[5]
+                                   1             1               
+     6 ControlloIncrocio[6]
+                                   1             1               
+     7 ControlloIncrocio[7]
+                                   1             1               
+     8 ControlloIncrocio[8]
+                                   2             1               
+     9 ControlloIncrocio[9]
+                                   1             1               
+    10 ControlloIncrocio[10]
+                                   1             1               
+    11 ControlloIncrocio[11]
+                                   1             1               
+    12 ControlloIncrocio[12]
+                                   1             1               
+    13 ControlloIncrocio[13]
+                                   2             1               
+    14 ControlloIncrocio[14]
+                                   1             1               
+    15 ControlloIncrocio[15]
+                                   1             1               
+    16 ControlloIncrocio[16]
+                                   1             1               
+    17 ControlloIncrocio[17]
+                                   1             1               
+    18 ControlloIncrocio[18]
+                                   1             1               
+    19 ControlloIncrocio[19]
+                                   2             1               
+    20 ControlloIncrocio[20]
+                                   1             1               
+    21 ControlloIncrocio[21]
+                                   1             1               
+    22 ControlloIncrocio[22]
+                                   1             1               
+    23 ControlloIncrocio[23]
+                                   1             1               
+    24 ControlloIncrocio[24]
+                                   1             1               
+    25 ControlloIncrocio[25]
+                                   1             1               
+    26 ControlloIncrocio[26]
+                                   1             1               
+    27 ControlloIncrocio[27]
+                                   1             1               
+    28 ControlloIncrocio[28]
+                                   1             1               
+    29 ControlloIncrocio[29]
+                                   1             1               
+    30 ControlloIncrocio[30]
+                                   1             1               
+    31 z                           9                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 PresenzaSentinella[2]
+                    *              0             0             1 
+     2 PresenzaSentinella[3]
+                    *              1             0             1 
+     3 PresenzaSentinella[4]
+                    *              0             0             1 
+     4 PresenzaSentinella[1]
+                    *              0             0             1 
+     5 PresenzaSentinella[30]
+                    *              1             0             1 
+     6 PresenzaSentinella[13]
+                    *              0             0             1 
+     7 PresenzaSentinella[16]
+                    *              0             0             1 
+     8 PresenzaSentinella[5]
+                    *              1             0             1 
+     9 PresenzaSentinella[6]
+                    *              0             0             1 
+    10 PresenzaSentinella[24]
+                    *              1             0             1 
+    11 PresenzaSentinella[8]
+                    *              0             0             1 
+    12 PresenzaSentinella[7]
+                    *              0             0             1 
+    13 PresenzaSentinella[9]
+                    *              1             0             1 
+    14 PresenzaSentinella[10]
+                    *              0             0             1 
+    15 PresenzaSentinella[12]
+                    *              0             0             1 
+    16 PresenzaSentinella[27]
+                    *              0             0             1 
+    17 PresenzaSentinella[11]
+                    *              0             0             1 
+    18 PresenzaSentinella[23]
+                    *              1             0             1 
+    19 PresenzaSentinella[29]
+                    *              0             0             1 
+    20 PresenzaSentinella[18]
+                    *              1             0             1 
+    21 PresenzaSentinella[19]
+                    *              0             0             1 
+    22 PresenzaSentinella[14]
+                    *              0             0             1 
+    23 PresenzaSentinella[15]
+                    *              0             0             1 
+    24 PresenzaSentinella[17]
+                    *              1             0             1 
+    25 PresenzaSentinella[28]
+                    *              0             0             1 
+    26 PresenzaSentinella[20]
+                    *              1             0             1 
+    27 PresenzaSentinella[21]
+                    *              0             0             1 
+    28 PresenzaSentinella[22]
+                    *              0             0             1 
+    29 PresenzaSentinella[25]
+                    *              0             0             1 
+    30 PresenzaSentinella[26]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,27 @@
+
+ LP OPTIMUM FOUND AT STEP     22
+ OBJECTIVE VALUE =   9.00000000
+
+ FIX ALL VARS.(    4)  WITH RC >   1.00000
+
+ NEW INTEGER SOLUTION OF    9.00000000     AT BRANCH      0 PIVOT      22
+ BOUND ON OPTIMUM:  9.000000
+ ENUMERATION COMPLETE. BRANCHES=     0 PIVOTS=      22
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      9.000000
+
+  VARIABLE        VALUE          REDUCED COST
+        X4         1.000000          1.000000
+        X9         1.000000          1.000000
+       X11         1.000000          1.000000
+       X13         1.000000          1.000000
+       X15         1.000000          1.000000
+       X19         1.000000          1.000000
+       X20         1.000000          1.000000
+       X24         1.000000          1.000000
+       X30         1.000000          1.000000
