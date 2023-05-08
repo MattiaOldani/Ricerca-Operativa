@@ -1,0 +1,5 @@
+Costi fissi di acquisto delle macchine: 1000.00 Euro
+Costi variabili di produzione: 10.00 Euro/Kg
+Coefficiente di proporzionalità k: 80
+Quantità massima che il mercato può assorbire: 70 Kg/mese
+Prezzo massimo di vendita: 20.00 Euro/Kg

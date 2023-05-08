@@ -1,0 +1,17 @@
+ Rows=      3 Vars=      2 No. integer vars=      0
+ Nonlinear rows=      1 Nonlinear vars=      2 Nonlinear constraints=      1
+ Nonzeros=      5 Constraint nonz=     3 Density=0.556
+ No. < :   1 No. =:   1 No. > :   0, Obj=MIN Single cols=    0
+ Optimal solution found at step:         4
+ Objective value:                 19.56183
+
+
+                       Variable           Value        Reduced Cost
+                              P        19.56183           0.0000000
+                              X        70.00000           0.0000000
+
+                            Row    Slack or Surplus      Dual Price
+                              1        19.56183            1.000000
+                              2       0.0000000          -0.1428571E-01
+                              3       0.0000000           0.6829878E-01
+
