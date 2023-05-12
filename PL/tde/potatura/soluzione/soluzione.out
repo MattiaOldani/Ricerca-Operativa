@@ -1,0 +1,61 @@
+Problem:    soluzione
+Rows:       7
+Columns:    8
+Non-zeros:  24
+Status:     OPTIMAL
+Objective:  z1 = 1651.273625 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 MassimaManodopera[Manuale]
+                    NU           100                         100            15 
+     2 MassimaManodopera[Meccanico]
+                    NU            75                          75       22.4996 
+     3 AlberiMinimiDaPotare[Pioppi]
+                    NL            35            35                    -13.7489 
+     4 AlberiMinimiDaPotare[Platani]
+                    NL            20            20                    -37.9991 
+     5 AlberiMinimiDaPotare[Betulle]
+                    NL            10            10                       -29.5 
+     6 AlberiMinimiDaPotare[Olmi]
+                    B        83.7516             5               
+     7 z1           B        1651.27                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Taglio[Pioppi,Manuale]
+                    NL             0             0                    -56.2511 
+     2 Taglio[Platani,Manuale]
+                    NL             0             0                    -105.001 
+     3 Taglio[Betulle,Manuale]
+                    B        6.49937             0               
+     4 Taglio[Olmi,Manuale]
+                    B        83.7516             0               
+     5 Taglio[Pioppi,Meccanico]
+                    B             35             0               
+     6 Taglio[Platani,Meccanico]
+                    B             20             0               
+     7 Taglio[Betulle,Meccanico]
+                    B        3.50063             0               
+     8 Taglio[Olmi,Meccanico]
+                    NL             0             0                -0.000449991 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 7.11e-015 on column 7
+        max.rel.err = 9.35e-017 on column 7
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

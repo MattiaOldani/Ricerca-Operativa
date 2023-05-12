@@ -1,0 +1,38 @@
+! Esercizio: Potatura - TeRO26
+! 
+! Variabili: x(i,j) = ore-uomo di tipo i=1..2 dedicate alla potatura di alberi di tipo j=1..4
+!            z(i) = totale ore-uomo di tipo i=1..2
+!            y(j) = totale numero di alberi potati di tipo j=1..4
+! Tutte le variabili sono continue e non-negative
+
+! Prima funzione obiettivo: minimizzazione dei costi [Euro]
+  min 20 z1 + 60 z2
+
+! Seconda funzione obiettivo: massimizzazione effetto potatura [u.d.m. non specificata]
+! max 5 y1 + 7 y2 + 8 y3 + 15 y4
+
+s.t.
+
+! Definizione della quantità totale di ore di lavoro [ore-uomo]
+manuale ) x11 + x12 + x13 + x14 - z1 = 0
+macchina) x21 + x22 + x23 + x24 - z2 = 0
+
+! Definizione del numero totale di alberi potati [numero di alberi]
+pioppi ) 0.2 x11 + 1.2 x21 - y1 = 0
+platani) 0.1 x12 + 0.5 x22 - y2 = 0
+betulle) 0.4 x13 + 0.6 x23 - y3 = 0
+olmi   ) 1.0 x14 + 1.5 x24 - y4 = 0
+
+! Limiti sulla manodopera disponibile [ore-uomo]
+max_man)  z1 <= 100
+max_macc) z2 <=  75
+
+! Limiti minimi sul numero di alberi potati [numero alberi]
+min_piop) y1 >= 35
+min_plat) y2 >= 20
+min_betu) y3 >= 10
+min_olmi) y4 >=  5
+
+obj2) 5 y1 + 7 y2 + 8 y3 + 15 y4 >= 0
+
+end

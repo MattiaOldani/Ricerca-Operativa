@@ -1,0 +1,91 @@
+
+ LP OPTIMUM FOUND AT STEP      6
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      4750.000
+
+  VARIABLE        VALUE          REDUCED COST
+        Z1        30.000000          0.000000
+        Z2        69.166664          0.000000
+       X11         0.000000         10.000000
+       X12         0.000000          8.000000
+       X13        25.000000          0.000000
+       X14         5.000000          0.000000
+       X21        29.166666          0.000000
+       X22        40.000000          0.000000
+       X23         0.000000         29.999998
+       X24         0.000000         30.000000
+        Y1        35.000000          0.000000
+        Y2        20.000000          0.000000
+        Y3        10.000000          0.000000
+        Y4         5.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+  MANUALE)         0.000000         20.000000
+ MACCHINA)         0.000000         60.000000
+   PIOPPI)         0.000000        -50.000000
+  PLATANI)         0.000000       -120.000000
+  BETULLE)         0.000000        -50.000000
+     OLMI)         0.000000        -20.000000
+  MAX_MAN)        70.000000          0.000000
+ MAX_MACC)         5.833333          0.000000
+ MIN_PIOP)         0.000000        -50.000000
+ MIN_PLAT)         0.000000       -120.000000
+ MIN_BETU)         0.000000        -50.000000
+ MIN_OLMI)         0.000000        -20.000000
+     OBJ2)       470.000000          0.000000
+
+ NO. ITERATIONS=       6
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       Z1       20.000000        19.999998         8.000000
+       Z2       60.000000        40.000000        29.999998
+      X11        0.000000         INFINITY        10.000000
+      X12        0.000000         INFINITY         8.000000
+      X13        0.000000        19.999998        20.000000
+      X14        0.000000        20.000000        20.000000
+      X21        0.000000        60.000000        60.000000
+      X22        0.000000        40.000000        60.000000
+      X23        0.000000         INFINITY        29.999998
+      X24        0.000000         INFINITY        30.000000
+       Y1        0.000000         INFINITY        50.000000
+       Y2        0.000000         INFINITY       120.000000
+       Y3        0.000000         INFINITY        50.000000
+       Y4        0.000000         INFINITY        20.000000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+  MANUALE        0.000000        30.000000        70.000000
+ MACCHINA        0.000000        69.166664         5.833333
+   PIOPPI        0.000000         7.000000        35.000000
+  PLATANI        0.000000         2.916667        20.000000
+  BETULLE        0.000000        28.000000        10.000000
+     OLMI        0.000000        70.000000         5.000000
+  MAX_MAN      100.000000         INFINITY        70.000000
+ MAX_MACC       75.000000         INFINITY         5.833333
+ MIN_PIOP       35.000000         7.000000        35.000000
+ MIN_PLAT       20.000000         2.916667        20.000000
+ MIN_BETU       10.000000        28.000000        10.000000
+ MIN_OLMI        5.000000        70.000000         5.000000
+     OBJ2        0.000000       470.000000         INFINITY
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: OBJ2
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                           0.000000E+00  0.000000E+00   4750.00
+ SLK   14  SLK   13    14   470.000      0.000000E+00   4750.00
+ SLK    8       X23     8   1520.00      -1.33333       6150.00
+ SLK    9  ART          9   1651.25      -2.66667       6500.00
+                            1700.00       -INFINITY   INFEASIBLE
+

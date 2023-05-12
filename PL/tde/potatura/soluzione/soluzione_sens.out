@@ -1,0 +1,76 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z1 = 1651.273625 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 MassimaManodopera[Manuale]
+                    NU     100.00000        .               -Inf       21.24843     -15.00000     470.00000 AlberiMinimiDaPotare[Olmi]
+                                          15.00000     100.00000           +Inf          +Inf          +Inf
+
+     2 MassimaManodopera[Meccanico]
+                    NU      75.00000        .               -Inf       69.16550     -22.49955    1520.00000 Taglio[Betulle,Meccanico]
+                                          22.49955      75.00000       85.83250          +Inf    1895.00000 Taglio[Betulle,Manuale]
+
+     3 AlberiMinimiDaPotare[Pioppi]
+                    NL      35.00000        .           35.00000       22.00048          -Inf    1830.00240 Taglio[Betulle,Manuale]
+                                         -13.74888          +Inf       42.00168      13.74888    1555.00840 Taglio[Betulle,Meccanico]
+
+     4 AlberiMinimiDaPotare[Platani]
+                    NL      20.00000        .           20.00000       14.58375          -Inf    1857.08625 Taglio[Betulle,Manuale]
+                                         -37.99910          +Inf       22.91725      37.99910    1540.42075 Taglio[Betulle,Meccanico]
+
+     5 AlberiMinimiDaPotare[Betulle]
+                    NL      10.00000        .           10.00000        3.50063          -Inf    1843.00504 Taglio[Betulle,Manuale]
+                                         -29.50000          +Inf       41.50063      29.50000     722.00504 AlberiMinimiDaPotare[Olmi]
+
+     6 AlberiMinimiDaPotare[Olmi]
+                    BS      83.75157     -78.75157       5.00000       75.00000     -10.99976     730.02640 AlberiMinimiDaPotare[Pioppi]
+                                            .               +Inf       83.75157          +Inf          +Inf
+
+     7 z1           BS    1651.27362   -1651.27362          -Inf      920.03600      -1.00000        .      Taglio[Pioppi,Manuale]
+                                            .               +Inf     1651.27362          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z1 = 1651.273625 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Taglio[Pioppi,Manuale]
+                    NL        .            5.00000        .            -7.00168          -Inf    2045.12601 Taglio[Betulle,Meccanico]
+                                         -56.25112          +Inf       12.99952      61.25112     920.03600 Taglio[Betulle,Manuale]
+
+     2 Taglio[Platani,Manuale]
+                    NL        .            7.00000        .            -2.91725          -Inf    1957.58750 Taglio[Betulle,Meccanico]
+                                        -105.00090          +Inf        5.41625     112.00090    1082.56250 Taglio[Betulle,Manuale]
+
+     3 Taglio[Betulle,Manuale]
+                    BS       6.49937       8.00000        .            -7.00051     -79.50250    1082.56250 Taglio[Platani,Manuale]
+                                            .               +Inf       10.00000       8.00112    1651.28094 Taglio[Olmi,Meccanico]
+
+     4 Taglio[Olmi,Manuale]
+                    BS      83.75157      15.00000        .            75.00000      14.99955    1651.23594 Taglio[Olmi,Meccanico]
+                                            .               +Inf       83.75157          +Inf          +Inf
+
+     5 Taglio[Pioppi,Meccanico]
+                    BS      35.00000       5.00000        .            22.00048     -51.25112    -317.51575 Taglio[Pioppi,Manuale]
+                                            .               +Inf       42.00168      18.74888    2132.48425 AlberiMinimiDaPotare[Pioppi]
+
+     6 Taglio[Platani,Meccanico]
+                    BS      20.00000       7.00000        .            14.58375     -98.00090    -448.74438 Taglio[Platani,Manuale]
+                                            .               +Inf       22.91725      44.99910    2411.25562 AlberiMinimiDaPotare[Platani]
+
+     7 Taglio[Betulle,Meccanico]
+                    BS       3.50063       8.00000        .           -30.00000       7.99888    1651.26969 Taglio[Olmi,Meccanico]
+                                            .               +Inf       10.00000      95.50250    1957.58750 Taglio[Platani,Manuale]
+
+     8 Taglio[Olmi,Meccanico]
+                    NL        .           15.00000        .           -16.24794          -Inf    1651.28094 Taglio[Betulle,Manuale]
+                                           -.00045          +Inf        8.75131      15.00045    1651.26969 Taglio[Betulle,Meccanico]
+
+End of report

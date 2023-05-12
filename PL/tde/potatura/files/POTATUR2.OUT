@@ -1,0 +1,77 @@
+
+ LP OPTIMUM FOUND AT STEP     11
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      1651.250
+
+  VARIABLE        VALUE          REDUCED COST
+        Y1        35.000000          0.000000
+        Y2        20.000000          0.000000
+        Y3        10.000000          0.000000
+        Y4        83.750000          0.000000
+       X11         0.000000         11.250000
+       X12         0.000000         10.500000
+       X13        25.000000          0.000000
+       X14        75.000000          0.000000
+        Z1       100.000000          0.000000
+       X21        29.166666          0.000000
+       X22        40.000000          0.000000
+       X23         0.000000         -0.000001
+       X24         5.833333          0.000000
+        Z2        75.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+  MANUALE)         0.000000         15.000000
+ MACCHINA)         0.000000         22.500000
+   PIOPPI)         0.000000        -18.750000
+  PLATANI)         0.000000        -45.000000
+  BETULLE)         0.000000        -37.500000
+     OLMI)         0.000000        -15.000000
+  MAX_MAN)         0.000000         15.000000
+ MAX_MACC)         0.000000         22.500000
+ MIN_PIOP)         0.000000        -13.750000
+ MIN_PLAT)         0.000000        -38.000000
+ MIN_BETU)         0.000000        -29.500000
+ MIN_OLMI)        78.750000          0.000000
+
+ NO. ITERATIONS=      11
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       Y1        5.000000        13.750000         INFINITY
+       Y2        7.000000        38.000000         INFINITY
+       Y3        8.000000        29.500000         INFINITY
+       Y4       15.000000         INFINITY        11.000000
+      X11        0.000000        11.250000         INFINITY
+      X12        0.000000        10.500000         INFINITY
+      X13        0.000000        11.800000         0.000000
+      X14        0.000000         0.000000        10.500000
+       Z1        0.000000         INFINITY        15.000000
+      X21        0.000000        16.500000        67.500000
+      X22        0.000000        19.000000        52.500000
+      X23        0.000000         0.000000         INFINITY
+      X24        0.000000        52.500000         0.000000
+       Z2        0.000000         INFINITY        22.500000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+  MANUALE        0.000000         INFINITY        75.000000
+ MACCHINA        0.000000         INFINITY         5.833333
+   PIOPPI        0.000000         7.000000        35.000000
+  PLATANI        0.000000         2.916667        20.000000
+  BETULLE        0.000000        30.000000        10.000000
+     OLMI        0.000000        78.750000         INFINITY
+  MAX_MAN      100.000000         INFINITY        75.000000
+ MAX_MACC       75.000000         INFINITY         5.833333
+ MIN_PIOP       35.000000         7.000000        35.000000
+ MIN_PLAT       20.000000         2.916667        20.000000
+ MIN_BETU       10.000000        30.000000        10.000000
+ MIN_OLMI        5.000000        78.750000         INFINITY
+
