@@ -15,7 +15,7 @@ var x {Container} binary;                                                       
 var y {TipiOggetti, Container} >= 0 integer;                                                            # Numeri di oggetti di ogni tipo in ogni container [adimensionale]
 
 # VINCOLI
-# Vincolo di capacitò massima [metricubi]
+# Vincolo di capacitï¿½ massima [metricubi]
 subject to CapacitaMassima {c in Container}:
      sum {t in TipiOggetti} VolumeOggetti[t] * y[t,c] <= CapacitaContainer * x[c];
 # Uso di ogni oggetto [adimensionale]
@@ -47,5 +47,3 @@ param:  NumeroOggetti       VolumeOggetti   :=
 param CapacitaContainer := 5000;
 
 end;
-
-I containers alternativi ahnno capacità 3000 o 4000.
