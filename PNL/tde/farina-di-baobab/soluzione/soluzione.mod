@@ -28,10 +28,3 @@ param VenditaMassima := 70;
 param PrezzoMassimoVendita := 20;
 
 end;
-
-Costi fissi di acquisto delle macchine: 1000.00 Euro
-
-reset;
-model soluzione.mod;
-solve;
-display Variabile;
