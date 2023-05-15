@@ -1,0 +1,275 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 25508.5 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 ProduzioneMassimaGiornaliera[1]
+                    NU     340.00000        .               -Inf      340.00000          -Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+                                          -3.00000     340.00000      340.50000       3.00000   25507.00000 Trasporto[2,2]
+
+     2 ProduzioneMassimaGiornaliera[2]
+                    BS     290.00000        .               -Inf      300.00000      -1.00000   25218.50000 ProduzioneMassimaGiornaliera[4]
+                                            .          290.00000      290.00000          +Inf          +Inf
+
+     3 ProduzioneMassimaGiornaliera[3]
+                    NU     310.00000        .               -Inf      310.00000          -Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+                                          -4.00000     310.00000      310.50000       4.00000   25506.50000 Trasporto[2,2]
+
+     4 ProduzioneMassimaGiornaliera[4]
+                    NU     325.00000        .               -Inf      325.00000          -Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+                                          -1.00000     325.00000      325.50000       1.00000   25508.00000 Trasporto[2,2]
+
+     5 ProduzioneMassimaGiornaliera[5]
+                    NU     360.00000        .               -Inf      360.00000          -Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+                                          -2.00000     360.00000      360.50000       2.00000   25507.50000 Trasporto[2,2]
+
+     6 RichiestaMinimaGiornaliera[1]
+                    NL     410.00000        .          410.00000      409.50000     -18.00000   25499.50000 Trasporto[2,2]
+                                          18.00000          +Inf      410.00000          +Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+
+     7 RichiestaMinimaGiornaliera[2]
+                    NL     200.00000        .          200.00000      199.50000     -19.00000   25499.00000 Trasporto[2,2]
+                                          19.00000          +Inf      200.00000          +Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+
+     8 RichiestaMinimaGiornaliera[3]
+                    NL     400.00000        .          400.00000      399.50000     -16.00000   25500.50000 Trasporto[2,2]
+                                          16.00000          +Inf      400.00000          +Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+
+     9 RichiestaMinimaGiornaliera[4]
+                    NL     315.00000        .          315.00000      314.50000     -24.00000   25496.50000 Trasporto[2,2]
+                                          24.00000          +Inf      315.00000          +Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+
+    10 RichiestaMinimaGiornaliera[5]
+                    NL     300.00000        .          300.00000      299.50000     -19.00000   25499.00000 Trasporto[2,2]
+                                          19.00000          +Inf      300.00000          +Inf   25508.50000 ProduzioneMassimaGiornaliera[2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 25508.5 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 z            BS   25508.50000  -25508.50000          -Inf    25508.50000      -1.00000        .      ProduzioneMassimaGiornaliera[3]
+                                            .               +Inf    25508.50000          +Inf          +Inf
+
+    12 PMO[1,1]     BS    -120.50000    -169.00000    -289.50000      -50.50000      -6.00000   26231.50000 Trasporto[3,1]
+                                            .               +Inf     -239.50000        .        25508.50000 PMO[4,1]
+
+    13 PMO[1,2]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf     -119.00000       2.00000   25508.50000 Trasporto[1,2]
+
+    14 PMO[1,3]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf     -110.50000      10.00000   25508.50000 Trasporto[1,3]
+
+    15 PMO[1,4]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf      -25.50000      10.00000   25508.50000 Trasporto[1,4]
+
+    16 PMO[1,5]     BS    -219.50000     -70.00000    -289.50000     -100.50000        .        25508.50000 PMO[4,1]
+                                            .               +Inf     -300.00000       6.00000   24191.50000 Trasporto[3,1]
+
+    17 PMO[2,1]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf        -.50000       9.00000   25508.50000 Trasporto[2,1]
+
+    18 PMO[2,2]     BS       -.50000    -289.00000    -289.50000         .           -4.00000   25510.50000 Trasporto[2,4]
+                                            .               +Inf        -.50000       1.00000   25508.00000 ProduzioneMassimaGiornaliera[4]
+
+    19 PMO[2,3]     NL    -289.50000        .         -289.50000     -290.00000      -2.00000   25507.50000 Trasporto[2,2]
+                                           2.00000          +Inf     -170.50000          +Inf   25746.50000 Trasporto[3,2]
+
+    20 PMO[2,4]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf        -.50000       4.00000   25508.50000 Trasporto[2,4]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 25508.5 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 PMO[2,5]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf        -.50000      12.00000   25508.50000 Trasporto[2,5]
+
+    22 PMO[3,1]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf      -70.00000       6.00000   25508.50000 Trasporto[3,1]
+
+    23 PMO[3,2]     BS    -119.00000    -170.50000    -289.50000         .             .        25508.50000 PMO[4,1]
+                                            .               +Inf     -189.50000       3.00000   25151.50000 Trasporto[5,3]
+
+    24 PMO[3,3]     BS    -110.50000    -179.00000    -289.50000      -40.00000      -3.00000   25840.00000 Trasporto[5,3]
+                                            .               +Inf     -229.50000       2.00000   25287.50000 PMO[2,3]
+
+    25 PMO[3,4]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf      -25.50000       5.00000   25508.50000 Trasporto[3,4]
+
+    26 PMO[3,5]     BS     -80.50000    -209.00000    -289.50000      -10.50000      -6.00000   25991.50000 Trasporto[3,1]
+                                            .               +Inf     -199.50000        .        25508.50000 PMO[4,1]
+
+    27 PMO[4,1]     NL    -289.50000        .         -289.50000     -299.50000        .        25508.50000 Trasporto[4,2]
+                                            .               +Inf     -170.50000          +Inf   25508.50000 Trasporto[3,2]
+
+    28 PMO[4,2]     BS     -10.00000    -279.50000    -289.50000      -10.00000      -1.00000   25518.50000 ProduzioneMassimaGiornaliera[4]
+                                            .               +Inf     -129.00000        .        25508.50000 PMO[4,1]
+
+    29 PMO[4,3]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf      -10.00000       9.00000   25508.50000 Trasporto[4,3]
+
+    30 PMO[4,4]     BS     -25.50000    -264.00000    -289.50000      -25.00000      -4.00000   25610.50000 Trasporto[2,4]
+                                            .               +Inf      -35.50000       5.00000   25381.00000 PMO[5,4]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    soluzione
+Objective:  z = 25508.5 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 PMO[4,5]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf      -10.00000       7.00000   25508.50000 Trasporto[4,5]
+
+    32 PMO[5,1]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf      -70.00000      10.00000   25508.50000 Trasporto[5,1]
+
+    33 PMO[5,2]     BS     -70.50000    -219.00000    -289.50000      -70.50000      -2.00000   25649.50000 ProduzioneMassimaGiornaliera[5]
+                                            .               +Inf      -80.50000       5.00000   25156.00000 PMO[5,4]
+
+    34 PMO[5,3]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf      -70.50000       3.00000   25508.50000 Trasporto[5,3]
+
+    35 PMO[5,4]     NL    -289.50000        .         -289.50000     -315.00000      -5.00000   25381.00000 Trasporto[4,4]
+                                           5.00000          +Inf     -279.50000          +Inf   25558.50000 Trasporto[4,2]
+
+    36 PMO[5,5]     BS        .         -289.50000    -289.50000         .               -Inf   25508.50000
+                                            .               +Inf      -70.50000      11.00000   25508.50000 Trasporto[5,5]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    soluzione
+Objective:  z = 25508.5 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Trasporto[1,1]
+                    BS     120.50000      15.00000        .           239.50000      15.00000   25508.50000 PMO[4,1]
+                                            .               +Inf       50.50000      21.00000   26231.50000 Trasporto[3,1]
+
+     2 Trasporto[1,2]
+                    NL        .           18.00000        .           -70.00000      16.00000   25368.50000 PMO[1,5]
+                                           2.00000          +Inf      119.00000          +Inf   25746.50000 Trasporto[3,2]
+
+     3 Trasporto[1,3]
+                    NL        .           23.00000        .           -70.00000      13.00000   24808.50000 PMO[1,5]
+                                          10.00000          +Inf      110.50000          +Inf   26613.50000 Trasporto[3,3]
+
+     4 Trasporto[1,4]
+                    NL        .           31.00000        .           -10.00000      21.00000   25408.50000 Trasporto[4,2]
+                                          10.00000          +Inf       25.50000          +Inf   25763.50000 Trasporto[4,4]
+
+     5 Trasporto[1,5]
+                    BS     219.50000      16.00000        .           289.50000      10.00000   24191.50000 Trasporto[3,1]
+                                            .               +Inf      100.50000      16.00000   25508.50000 PMO[4,1]
+
+     6 Trasporto[2,1]
+                    NL        .           27.00000        .          -119.00000      18.00000   24437.50000 Trasporto[3,2]
+                                           9.00000          +Inf         .50000          +Inf   25513.00000 Trasporto[2,2]
+
+     7 Trasporto[2,2]
+                    BS        .50000      19.00000        .              .50000      18.00000   25508.00000 ProduzioneMassimaGiornaliera[4]
+                                            .               +Inf      -25.00000      23.00000   25510.50000 Trasporto[2,4]
+
+     8 Trasporto[2,3]
+                    BS     289.50000      14.00000        .           289.50000          -Inf          -Inf
+                                            .               +Inf      170.50000      16.00000   26087.50000 PMO[2,3]
+
+     9 Trasporto[2,4]
+                    NL        .           28.00000        .           -10.00000      24.00000   25468.50000 Trasporto[4,2]
+                                           4.00000          +Inf         .50000          +Inf   25510.50000 Trasporto[2,2]
+
+    10 Trasporto[2,5]
+                    NL        .           31.00000        .          -119.00000      19.00000   24080.50000 Trasporto[3,2]
+                                          12.00000          +Inf         .50000          +Inf   25514.50000 Trasporto[2,2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    soluzione
+Objective:  z = 25508.5 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Trasporto[3,1]
+                    NL        .           20.00000        .          -169.00000      14.00000   24494.50000 PMO[1,1]
+                                           6.00000          +Inf       70.00000          +Inf   25928.50000 PMO[1,5]
+
+    12 Trasporto[3,2]
+                    BS     119.00000      15.00000        .           189.50000      12.00000   25151.50000 Trasporto[5,3]
+                                            .               +Inf      -50.00000      15.00000   25508.50000 PMO[4,1]
+
+    13 Trasporto[3,3]
+                    BS     110.50000      12.00000        .           229.50000      10.00000   25287.50000 PMO[2,3]
+                                            .               +Inf       40.00000      15.00000   25840.00000 Trasporto[5,3]
+
+    14 Trasporto[3,4]
+                    NL        .           25.00000        .           -10.00000      20.00000   25458.50000 Trasporto[4,2]
+                                           5.00000          +Inf       25.50000          +Inf   25636.00000 Trasporto[4,4]
+
+    15 Trasporto[3,5]
+                    BS      80.50000      15.00000        .           199.50000      15.00000   25508.50000 PMO[4,1]
+                                            .               +Inf       10.50000      21.00000   25991.50000 Trasporto[3,1]
+
+    16 Trasporto[4,1]
+                    BS     289.50000      17.00000        .           289.50000          -Inf          -Inf
+                                            .               +Inf      170.50000      17.00000   25508.50000 PMO[4,1]
+
+    17 Trasporto[4,2]
+                    BS      10.00000      18.00000        .           129.00000      18.00000   25508.50000 PMO[4,1]
+                                            .               +Inf       10.00000      19.00000   25518.50000 ProduzioneMassimaGiornaliera[4]
+
+    18 Trasporto[4,3]
+                    NL        .           24.00000        .          -119.00000      15.00000   24437.50000 Trasporto[3,2]
+                                           9.00000          +Inf       10.00000          +Inf   25598.50000 Trasporto[4,2]
+
+    19 Trasporto[4,4]
+                    BS      25.50000      23.00000        .            35.50000      18.00000   25381.00000 PMO[5,4]
+                                            .               +Inf       25.00000      27.00000   25610.50000 Trasporto[2,4]
+
+    20 Trasporto[4,5]
+                    NL        .           25.00000        .          -119.00000      18.00000   24675.50000 Trasporto[3,2]
+                                           7.00000          +Inf       10.00000          +Inf   25578.50000 Trasporto[4,2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    soluzione
+Objective:  z = 25508.5 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Trasporto[5,1]
+                    NL        .           26.00000        .          -119.00000      16.00000   24318.50000 Trasporto[3,2]
+                                          10.00000          +Inf       70.00000          +Inf   26208.50000 PMO[1,5]
+
+    22 Trasporto[5,2]
+                    BS      70.50000      17.00000        .            80.50000      12.00000   25156.00000 PMO[5,4]
+                                            .               +Inf       70.50000      19.00000   25649.50000 ProduzioneMassimaGiornaliera[5]
+
+    23 Trasporto[5,3]
+                    NL        .           17.00000        .          -119.00000      14.00000   25151.50000 Trasporto[3,2]
+                                           3.00000          +Inf       70.50000          +Inf   25720.00000 Trasporto[5,2]
+
+    24 Trasporto[5,4]
+                    BS     289.50000      17.00000        .           289.50000          -Inf          -Inf
+                                            .               +Inf      279.50000      22.00000   26956.00000 PMO[5,4]
+
+    25 Trasporto[5,5]
+                    NL        .           28.00000        .          -119.00000      17.00000   24199.50000 Trasporto[3,2]
+                                          11.00000          +Inf       70.50000          +Inf   26284.00000 Trasporto[5,2]
+
+End of report
