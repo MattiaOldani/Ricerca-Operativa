@@ -1,0 +1,10 @@
+I robot sono 6.
+I loro raggi d'azione, espressi in centimetri sono i seguenti:
+
+Robot   Raggio
+  1      120
+  2       80
+  3      100
+  4       70
+  5       45
+  6      120
