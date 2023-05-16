@@ -1,0 +1,44 @@
+I prodotti sono 5, le sostanze da miscelare sono 3.
+
+===================================================================
+
+Tabella 1: Prezzi di vendita dei prodotti [Euro/Kg]
+
+Prodotto  Prezzo
+    1      300 
+    2      250
+    3      600
+    4      280
+    5      510
+
+===================================================================
+
+Tabella 2: quantità di sostanze da usare per ogni Kg di prodotto [Kg]
+
+Prodotto  Sostanza A  Sostanza B  Sostanza C
+   1         50          20          35 
+   2         45          28          42 
+   3         46          42          37 
+   4         24          31          29 
+   5         55          25          42 
+
+===================================================================
+
+Tabella 3: Quantità disponibile per ogni sostanza [tonn/g]
+
+Sostanza  Quantità
+   A        4000
+   B        3500
+   C        3200
+
+===================================================================
+
+Tabella 4: Quantità massime e minime di produzione [tonn/g]
+
+Prodotto  Minimo  Massimo
+   1        10       36
+   2        15       40
+   3        16       45
+   4        15       32
+   5        14       40
+

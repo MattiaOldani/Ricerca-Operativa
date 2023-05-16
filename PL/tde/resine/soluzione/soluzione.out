@@ -1,0 +1,49 @@
+Problem:    soluzione
+Rows:       4
+Columns:    5
+Non-zeros:  20
+Status:     OPTIMAL
+Objective:  z = 37500810.81 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 UsoSostanze[1]
+                    B   3.79316e+006                      4e+006 
+     2 UsoSostanze[2]
+                    B   2.79376e+006                    3.5e+006 
+     3 UsoSostanze[3]
+                    NU      3.2e+006                    3.2e+006       16.2162 
+     4 z            B   3.75008e+007                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 ProduzioneGiornaliera[1]
+                    NL         10000         10000         36000      -267.568 
+     2 ProduzioneGiornaliera[2]
+                    NL         15000         15000         40000      -431.081 
+     3 ProduzioneGiornaliera[3]
+                    B        32351.4         16000         45000 
+     4 ProduzioneGiornaliera[4]
+                    NL         15000         15000         32000       -190.27 
+     5 ProduzioneGiornaliera[5]
+                    NL         14000         14000         40000      -171.081 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

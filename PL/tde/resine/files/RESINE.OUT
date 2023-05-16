@@ -1,0 +1,61 @@
+
+ LP OPTIMUM FOUND AT STEP      9
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      37500.81
+
+  VARIABLE        VALUE          REDUCED COST
+        X1        10.000000          0.000000
+        X2        15.000000          0.000000
+        X3        32.351353          0.000000
+        X4        15.000000          0.000000
+        X5        14.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+ CONSUMOA)       206.837845          0.000000
+ CONSUMOB)       706.243225          0.000000
+ CONSUMOC)         0.000000         16.216217
+     MIN1)         0.000000       -267.567566
+     MIN2)         0.000000       -431.081085
+     MIN3)        16.351351          0.000000
+     MIN4)         0.000000       -190.270264
+     MIN5)         0.000000       -171.081085
+     MAX1)        26.000000          0.000000
+     MAX2)        25.000000          0.000000
+     MAX3)        12.648648          0.000000
+     MAX4)        17.000000          0.000000
+     MAX5)        26.000000          0.000000
+
+ NO. ITERATIONS=       9
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       X1      300.000000       267.567566         INFINITY
+       X2      250.000000       431.081085         INFINITY
+       X3      600.000000         INFINITY       150.714279
+       X4      280.000000       190.270264         INFINITY
+       X5      510.000000       171.081085         INFINITY
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+ CONSUMOA     4000.000000         INFINITY       206.837845
+ CONSUMOB     3500.000000         INFINITY       706.243225
+ CONSUMOC     3200.000000       166.369568       604.999939
+     MIN1       10.000000        17.285715        10.000000
+     MIN2       15.000000        14.404761        11.142857
+     MIN3       16.000000        16.351351         INFINITY
+     MIN4       15.000000        17.000000        15.000000
+     MIN5       14.000000        14.404761        11.142857
+     MAX1       36.000000         INFINITY        26.000000
+     MAX2       40.000000         INFINITY        25.000000
+     MAX3       45.000000         INFINITY        12.648648
+     MAX4       32.000000         INFINITY        17.000000
+     MAX5       40.000000         INFINITY        26.000000
+

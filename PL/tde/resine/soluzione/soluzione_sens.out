@@ -1,0 +1,52 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 37500810.81 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 UsoSostanze[1]
+                    BS  3.79316e+006  206837.83784          -Inf     3.041e+006     -13.04348 -1.19752e+007 UsoSostanze[3]
+                                            .             4e+006   3.90529e+006      41.25000  1.93969e+008 ProduzioneGiornaliera[1]
+
+     2 UsoSostanze[2]
+                    BS  2.79376e+006  706243.24324          -Inf   2.46712e+006      -7.54470  1.64228e+007 ProduzioneGiornaliera[5]
+                                            .           3.5e+006   2.79376e+006          +Inf          +Inf
+
+     3 UsoSostanze[3]
+                    NU      3.2e+006        .               -Inf     2.595e+006     -16.21622    2.769e+007 ProduzioneGiornaliera[3]
+                                          16.21622      3.2e+006   3.36637e+006          +Inf  4.01987e+007 UsoSostanze[1]
+
+     4 z            BS  3.75008e+007 -3.75008e+007          -Inf   3.12912e+007      -1.00000        .      ProduzioneGiornaliera[2]
+                                            .               +Inf   3.75008e+007          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 37500810.81 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 ProduzioneGiornaliera[1]
+                    NL   10000.00000     300.00000   10000.00000    -3371.42857          -Inf  4.10786e+007 ProduzioneGiornaliera[3]
+                                        -267.56757   36000.00000    27285.71429     567.56757  3.28757e+007 ProduzioneGiornaliera[3]
+
+     2 ProduzioneGiornaliera[2]
+                    NL   15000.00000     250.00000   15000.00000     3857.14286          -Inf  4.23043e+007 ProduzioneGiornaliera[3]
+                                        -431.08108   40000.00000    29404.76190     681.08108  3.12912e+007 ProduzioneGiornaliera[3]
+
+     3 ProduzioneGiornaliera[3]
+                    BS   32351.35135     600.00000   16000.00000   -51990.29126     449.28571   3.2625e+007 ProduzioneGiornaliera[5]
+                                            .        45000.00000    32351.35135          +Inf          +Inf
+
+     4 ProduzioneGiornaliera[4]
+                    NL   15000.00000     280.00000   15000.00000    -1137.93103          -Inf  4.05714e+007 ProduzioneGiornaliera[3]
+                                        -190.27027   32000.00000    35862.06897     470.27027  3.35314e+007 ProduzioneGiornaliera[3]
+
+     5 ProduzioneGiornaliera[5]
+                    NL   14000.00000     510.00000   14000.00000     2857.14286          -Inf  3.94071e+007 ProduzioneGiornaliera[3]
+                                        -171.08108   40000.00000    28404.76190     681.08108  3.50364e+007 ProduzioneGiornaliera[3]
+
+End of report

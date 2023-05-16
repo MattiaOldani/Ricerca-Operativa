@@ -1,0 +1,29 @@
+! Esercizio Resine, TeRO 32, 14.9.2004
+
+! Variabili: x(i) (i=1..5): quantità di prodotto [tonn/g]
+!            Continue non-negative
+
+! Funzione obiettivo: massimizzare i ricavi [KEuro/g]
+max 300 x1 + 250 x2 + 600 x3 + 280 x4 + 510 x5
+
+st
+
+! Vincoli sulle quantità di sostanza in ogni prodotto [tonn/g]
+consumoA) 50 x1 + 45 x2 + 46 x3 + 24 x4 + 55 x5 <= 4000
+consumoB) 20 x1 + 28 x2 + 42 x3 + 31 x4 + 25 x5 <= 3500
+consumoC) 35 x1 + 42 x2 + 37 x3 + 29 x4 + 42 x5 <= 3200
+
+! Vincoli sulle quantità massime e minime di produzione [tonn/g]
+min1) x1 >= 10
+min2) x2 >= 15
+min3) x3 >= 16
+min4) x4 >= 15
+min5) x5 >= 14
+
+max1) x1 <= 36
+max2) x2 <= 40
+max3) x3 <= 45
+max4) x4 <= 32
+max5) x5 <= 40
+
+end
