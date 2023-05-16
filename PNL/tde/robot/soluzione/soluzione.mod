@@ -19,7 +19,7 @@ subject to NonSovrapposizione {r1 in Robot, r2 in Robot : r1 < r2}:
 	DistanzeCentri[r1,r2] >= Raggi[r1] + Raggi[r2];
 
 # OBIETTIVO
-# Minimizzare la distanza
+# Minimizzare la distanza [cm]
 minimize z : sum {r1 in Robot, r2 in Robot : r1 < r2} DistanzeCentri[r1,r2];
 
 ##################################################
