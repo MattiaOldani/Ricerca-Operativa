@@ -16,15 +16,15 @@ var P = sum {a in Appigli} Lati[a] / 2;			# Semiperimetro [cm]
 var Connessioni {Appigli} >= 0;					# Distanza tra appiglio e vertice [cm]
 
 # VINCOLI
-# Area minima
+# Area minima [cm^2]
 subject to AreaTriangoloPortante:
 	P * Lati[0] * Lati[1] * Lati[2] >= AreaMinima^2;
-# Definizione lati [cm]
+# Definizione lati [cm^2]
 subject to DefinizioneLati {a in Appigli}:
 	Lati[a]^2 = (X[(a+2) mod 3] - X[(a+1) mod 3])^2
 			  + (Y[(a+2) mod 3] - Y[(a+1) mod 3])^2
 			  + (Z[(a+2) mod 3] - Z[(a+1) mod 3])^2;
-# Definizione connessioni [cm]
+# Definizione connessioni [cm^2]
 subject to DefinizioneConnessioni {a in Appigli}:
 	Connessioni[a]^2 = (CoordinateX[a] - X[a])^2
 					 + (CoordinateY[a] - Y[a])^2
