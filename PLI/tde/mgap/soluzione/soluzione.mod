@@ -3,30 +3,30 @@
 # DATI
 param NJ;													# Numero di jobs
 set Jobs := 1 .. NJ;										# Jobs
-param NM;													# 
-set Macchine := 1 .. NM;
-param NL;
-set Livelli := 1 .. NL;
-param ConsumiRisorsa {Jobs, Macchine, Livelli};
-param Costi {Jobs, Macchine, Livelli};
-param Capacita;
+param NM;													# Numero di macchine
+set Macchine := 1 .. NM;									# Macchine
+param NL;													# Numero di livelli
+set Livelli := 1 .. NL;										# Livelli
+param ConsumiRisorsa {Jobs, Macchine, Livelli};				# Consumi di risorse [tempo]
+param Costi {Jobs, Macchine, Livelli};						# Costi [euro]
+param Capacita;												# Capacità delle macchine [tempo]
 
 # VARIABILI
-var Allocazione {Jobs, Macchine, Livelli} binary;
+var Allocazione {Jobs, Macchine, Livelli} binary;			# Scelta allocazione J-M-L [binaria]
 
 # VINCOLI
-# Assegno un job ad una sola macchina
+# Assegno un job ad una sola macchina [binaria]
 subject to JobSingolaMacchina {j in Jobs}:
 	sum {m in Macchine, l in Livelli} Allocazione[j,m,l] = 1;
-# Assegno un solo livello alla coppia job-macchina
+# Assegno un solo livello alla coppia job-macchina [binaria]
 # subject to LivelloSingoloSullaCoppia {j in Jobs, m in Macchine}:
 # sum {l in Livelli} Allocazione[j,m,l] <= 1;
-# Massima capacità di una macchina
+# Massima capacità di una macchina [tempo]
 subject to MassimaCapacitaMacchina {m in Macchine}:
 	sum {j in Jobs, l in Livelli} Allocazione[j,m,l] * ConsumiRisorsa[j,m,l] <= Capacita;
 
 # OBIETTIVO
-# Minimizzare i costi
+# Minimizzare i costi [euro]
 minimize z : sum {j in Jobs, m in Macchine, l in Livelli} Allocazione[j,m,l] * Costi[j,m,l];
 
 ##################################################
