@@ -1,0 +1,24 @@
+Gli obiettivi sono 40.
+
+Istante iniziale dell'acquisizione (sec):
+  0  4  8 12 16 20 20 22 24 28 32 36 40 40 40 42 44 45 46 47 48 50 54 58 60 61 62 63 64 65 66 66 66 68 70 72 74 75 75 78
+
+Istante finale dell'acquisizione (sec):
+  6   8 10 14 18 21 22 24 28 30 35 40 42 44 48 50 48 48 52 50 56 54 56 70 62 66 64 64 68 70 68 70 72 72 72 78 76 80 84 82
+
+Tempo richiesto per la trasmissione a terra (sec):
+ 10 12 18 17 15 21 10 28 24 15 16 18 24 17 25 12 11 16 16 17 15 12 15 11 15 19 18 20 12 28 13 16 17 13 14 14 19 10 10 11
+
+Valore dell'immagine (Euro):
+400 280 186 325 315 290 281 256 289 333 401 286 245 197 245 233 168 312 176 348 194 396 296 267 339 229 201 300 360 411 284 293 330 209 248 190 184 294 299 310
+
+Tempo disponibile per la trasmissione (sec):
+  300
+
+Immagini forzate: 2, 3, 6, 13, 16, 24, 37.
+
+
+
+
+((i1 < i2 AND i2 < f1) OR (i1 < f2 AND f2 < f1)) OR ((i2 < i1 AND i1 < f2) OR (i2 < f1 AND f1 < f2))  <==>  i1 < f2 AND i2 < f1
+((A AND B) OR (C AND D)) OR ((NOT-A AND C) OR (B AND NOT-D))  <==>  B AND C

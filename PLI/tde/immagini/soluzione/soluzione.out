@@ -1,0 +1,371 @@
+Problem:    soluzione
+Rows:       134
+Columns:    40 (40 integer, 40 binary)
+Non-zeros:  344
+Status:     INTEGER OPTIMAL
+Objective:  z = 5870 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 MassimoTempoDisponibile
+                                 300                         300 
+     2 NonSovrapposizione[1,2]
+                                   1                           1 
+     3 NonSovrapposizione[2,1]
+                                   1                           1 
+     4 NonSovrapposizione[6,7]
+                                   1                           1 
+     5 NonSovrapposizione[7,6]
+                                   1                           1 
+     6 NonSovrapposizione[13,14]
+                                   1                           1 
+     7 NonSovrapposizione[13,15]
+                                   0                           1 
+     8 NonSovrapposizione[14,13]
+                                   1                           1 
+     9 NonSovrapposizione[14,15]
+                                   1                           1 
+    10 NonSovrapposizione[14,16]
+                                   1                           1 
+    11 NonSovrapposizione[15,13]
+                                   0                           1 
+    12 NonSovrapposizione[15,14]
+                                   1                           1 
+    13 NonSovrapposizione[15,16]
+                                   0                           1 
+    14 NonSovrapposizione[15,17]
+                                   0                           1 
+    15 NonSovrapposizione[15,18]
+                                   0                           1 
+    16 NonSovrapposizione[15,19]
+                                   0                           1 
+    17 NonSovrapposizione[15,20]
+                                   1                           1 
+    18 NonSovrapposizione[16,14]
+                                   1                           1 
+    19 NonSovrapposizione[16,15]
+                                   0                           1 
+    20 NonSovrapposizione[16,17]
+                                   0                           1 
+    21 NonSovrapposizione[16,18]
+                                   0                           1 
+    22 NonSovrapposizione[16,19]
+                                   0                           1 
+    23 NonSovrapposizione[16,20]
+                                   1                           1 
+    24 NonSovrapposizione[16,21]
+                                   0                           1 
+    25 NonSovrapposizione[17,15]
+                                   0                           1 
+    26 NonSovrapposizione[17,16]
+                                   0                           1 
+    27 NonSovrapposizione[17,18]
+                                   0                           1 
+    28 NonSovrapposizione[17,19]
+                                   0                           1 
+    29 NonSovrapposizione[17,20]
+                                   1                           1 
+    30 NonSovrapposizione[18,15]
+                                   0                           1 
+    31 NonSovrapposizione[18,16]
+                                   0                           1 
+    32 NonSovrapposizione[18,17]
+                                   0                           1 
+    33 NonSovrapposizione[18,19]
+                                   0                           1 
+    34 NonSovrapposizione[18,20]
+                                   1                           1 
+    35 NonSovrapposizione[19,15]
+                                   0                           1 
+    36 NonSovrapposizione[19,16]
+                                   0                           1 
+    37 NonSovrapposizione[19,17]
+                                   0                           1 
+    38 NonSovrapposizione[19,18]
+                                   0                           1 
+    39 NonSovrapposizione[19,20]
+                                   1                           1 
+    40 NonSovrapposizione[19,21]
+                                   0                           1 
+    41 NonSovrapposizione[19,22]
+                                   1                           1 
+    42 NonSovrapposizione[20,15]
+                                   1                           1 
+    43 NonSovrapposizione[20,16]
+                                   1                           1 
+    44 NonSovrapposizione[20,17]
+                                   1                           1 
+    45 NonSovrapposizione[20,18]
+                                   1                           1 
+    46 NonSovrapposizione[20,19]
+                                   1                           1 
+    47 NonSovrapposizione[20,21]
+                                   1                           1 
+    48 NonSovrapposizione[21,16]
+                                   0                           1 
+    49 NonSovrapposizione[21,19]
+                                   0                           1 
+    50 NonSovrapposizione[21,20]
+                                   1                           1 
+    51 NonSovrapposizione[21,22]
+                                   1                           1 
+    52 NonSovrapposizione[21,23]
+                                   1                           1 
+    53 NonSovrapposizione[22,19]
+                                   1                           1 
+    54 NonSovrapposizione[22,21]
+                                   1                           1 
+    55 NonSovrapposizione[23,21]
+                                   1                           1 
+    56 NonSovrapposizione[24,25]
+                                   1                           1 
+    57 NonSovrapposizione[24,26]
+                                   0                           1 
+    58 NonSovrapposizione[24,27]
+                                   0                           1 
+    59 NonSovrapposizione[24,28]
+                                   1                           1 
+    60 NonSovrapposizione[24,29]
+                                   1                           1 
+    61 NonSovrapposizione[24,30]
+                                   0                           1 
+    62 NonSovrapposizione[24,31]
+                                   0                           1 
+    63 NonSovrapposizione[24,32]
+                                   0                           1 
+    64 NonSovrapposizione[24,33]
+                                   0                           1 
+    65 NonSovrapposizione[24,34]
+                                   0                           1 
+    66 NonSovrapposizione[25,24]
+                                   1                           1 
+    67 NonSovrapposizione[25,26]
+                                   1                           1 
+    68 NonSovrapposizione[26,24]
+                                   0                           1 
+    69 NonSovrapposizione[26,25]
+                                   1                           1 
+    70 NonSovrapposizione[26,27]
+                                   0                           1 
+    71 NonSovrapposizione[26,28]
+                                   1                           1 
+    72 NonSovrapposizione[26,29]
+                                   1                           1 
+    73 NonSovrapposizione[26,30]
+                                   0                           1 
+    74 NonSovrapposizione[27,24]
+                                   0                           1 
+    75 NonSovrapposizione[27,26]
+                                   0                           1 
+    76 NonSovrapposizione[27,28]
+                                   1                           1 
+    77 NonSovrapposizione[28,24]
+                                   1                           1 
+    78 NonSovrapposizione[28,26]
+                                   1                           1 
+    79 NonSovrapposizione[28,27]
+                                   1                           1 
+    80 NonSovrapposizione[29,24]
+                                   1                           1 
+    81 NonSovrapposizione[29,26]
+                                   1                           1 
+    82 NonSovrapposizione[29,30]
+                                   1                           1 
+    83 NonSovrapposizione[29,31]
+                                   1                           1 
+    84 NonSovrapposizione[29,32]
+                                   1                           1 
+    85 NonSovrapposizione[29,33]
+                                   1                           1 
+    86 NonSovrapposizione[30,24]
+                                   0                           1 
+    87 NonSovrapposizione[30,26]
+                                   0                           1 
+    88 NonSovrapposizione[30,29]
+                                   1                           1 
+    89 NonSovrapposizione[30,31]
+                                   0                           1 
+    90 NonSovrapposizione[30,32]
+                                   0                           1 
+    91 NonSovrapposizione[30,33]
+                                   0                           1 
+    92 NonSovrapposizione[30,34]
+                                   0                           1 
+    93 NonSovrapposizione[31,24]
+                                   0                           1 
+    94 NonSovrapposizione[31,29]
+                                   1                           1 
+    95 NonSovrapposizione[31,30]
+                                   0                           1 
+    96 NonSovrapposizione[31,32]
+                                   0                           1 
+    97 NonSovrapposizione[31,33]
+                                   0                           1 
+    98 NonSovrapposizione[32,24]
+                                   0                           1 
+    99 NonSovrapposizione[32,29]
+                                   1                           1 
+   100 NonSovrapposizione[32,30]
+                                   0                           1 
+   101 NonSovrapposizione[32,31]
+                                   0                           1 
+   102 NonSovrapposizione[32,33]
+                                   0                           1 
+   103 NonSovrapposizione[32,34]
+                                   0                           1 
+   104 NonSovrapposizione[33,24]
+                                   0                           1 
+   105 NonSovrapposizione[33,29]
+                                   1                           1 
+   106 NonSovrapposizione[33,30]
+                                   0                           1 
+   107 NonSovrapposizione[33,31]
+                                   0                           1 
+   108 NonSovrapposizione[33,32]
+                                   0                           1 
+   109 NonSovrapposizione[33,34]
+                                   0                           1 
+   110 NonSovrapposizione[33,35]
+                                   1                           1 
+   111 NonSovrapposizione[34,24]
+                                   0                           1 
+   112 NonSovrapposizione[34,30]
+                                   0                           1 
+   113 NonSovrapposizione[34,32]
+                                   0                           1 
+   114 NonSovrapposizione[34,33]
+                                   0                           1 
+   115 NonSovrapposizione[34,35]
+                                   1                           1 
+   116 NonSovrapposizione[35,33]
+                                   1                           1 
+   117 NonSovrapposizione[35,34]
+                                   1                           1 
+   118 NonSovrapposizione[36,37]
+                                   1                           1 
+   119 NonSovrapposizione[36,38]
+                                   1                           1 
+   120 NonSovrapposizione[36,39]
+                                   1                           1 
+   121 NonSovrapposizione[37,36]
+                                   1                           1 
+   122 NonSovrapposizione[37,38]
+                                   0                           1 
+   123 NonSovrapposizione[37,39]
+                                   0                           1 
+   124 NonSovrapposizione[38,36]
+                                   1                           1 
+   125 NonSovrapposizione[38,37]
+                                   0                           1 
+   126 NonSovrapposizione[38,39]
+                                   0                           1 
+   127 NonSovrapposizione[38,40]
+                                   1                           1 
+   128 NonSovrapposizione[39,36]
+                                   1                           1 
+   129 NonSovrapposizione[39,37]
+                                   0                           1 
+   130 NonSovrapposizione[39,38]
+                                   0                           1 
+   131 NonSovrapposizione[39,40]
+                                   1                           1 
+   132 NonSovrapposizione[40,38]
+                                   1                           1 
+   133 NonSovrapposizione[40,39]
+                                   1                           1 
+   134 z                        5870                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 SelezioneObiettivo[1]
+                    *              1             0             1 
+     2 SelezioneObiettivo[2]
+                    *              0             0             1 
+     3 SelezioneObiettivo[3]
+                    *              0             0             1 
+     4 SelezioneObiettivo[4]
+                    *              1             0             1 
+     5 SelezioneObiettivo[5]
+                    *              1             0             1 
+     6 SelezioneObiettivo[6]
+                    *              0             0             1 
+     7 SelezioneObiettivo[7]
+                    *              1             0             1 
+     8 SelezioneObiettivo[8]
+                    *              1             0             1 
+     9 SelezioneObiettivo[9]
+                    *              1             0             1 
+    10 SelezioneObiettivo[10]
+                    *              1             0             1 
+    11 SelezioneObiettivo[11]
+                    *              1             0             1 
+    12 SelezioneObiettivo[12]
+                    *              1             0             1 
+    13 SelezioneObiettivo[13]
+                    *              0             0             1 
+    14 SelezioneObiettivo[14]
+                    *              1             0             1 
+    15 SelezioneObiettivo[15]
+                    *              0             0             1 
+    16 SelezioneObiettivo[16]
+                    *              0             0             1 
+    17 SelezioneObiettivo[17]
+                    *              0             0             1 
+    18 SelezioneObiettivo[18]
+                    *              0             0             1 
+    19 SelezioneObiettivo[19]
+                    *              0             0             1 
+    20 SelezioneObiettivo[20]
+                    *              1             0             1 
+    21 SelezioneObiettivo[21]
+                    *              0             0             1 
+    22 SelezioneObiettivo[22]
+                    *              1             0             1 
+    23 SelezioneObiettivo[23]
+                    *              1             0             1 
+    24 SelezioneObiettivo[24]
+                    *              0             0             1 
+    25 SelezioneObiettivo[25]
+                    *              1             0             1 
+    26 SelezioneObiettivo[26]
+                    *              0             0             1 
+    27 SelezioneObiettivo[27]
+                    *              0             0             1 
+    28 SelezioneObiettivo[28]
+                    *              1             0             1 
+    29 SelezioneObiettivo[29]
+                    *              1             0             1 
+    30 SelezioneObiettivo[30]
+                    *              0             0             1 
+    31 SelezioneObiettivo[31]
+                    *              0             0             1 
+    32 SelezioneObiettivo[32]
+                    *              0             0             1 
+    33 SelezioneObiettivo[33]
+                    *              0             0             1 
+    34 SelezioneObiettivo[34]
+                    *              0             0             1 
+    35 SelezioneObiettivo[35]
+                    *              1             0             1 
+    36 SelezioneObiettivo[36]
+                    *              1             0             1 
+    37 SelezioneObiettivo[37]
+                    *              0             0             1 
+    38 SelezioneObiettivo[38]
+                    *              0             0             1 
+    39 SelezioneObiettivo[39]
+                    *              0             0             1 
+    40 SelezioneObiettivo[40]
+                    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
