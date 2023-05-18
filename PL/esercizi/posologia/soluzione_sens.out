@@ -1,0 +1,476 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 CalcoloProteine[0]
+                    NS        .             .             .            -4.37500          -Inf      15.41154 ProteineInCircolo[1]
+                                            .37510        .            15.45455          +Inf      22.84968 ProteineInCircolo[2]
+
+     2 CalcoloProteine[1]
+                    NS        .             .             .           -37.00000          -Inf      17.05262 ProteineInCircolo[1]
+                                            .             .             7.00000          +Inf      17.05262 ProteineInCircolo[1]
+
+     3 CalcoloProteine[2]
+                    NS        .             .             .           -34.00000          -Inf      17.05262 ProteineInCircolo[2]
+                                            .             .            11.00000          +Inf      17.05262 ProteineInCircolo[2]
+
+     4 CalcoloProteine[3]
+                    NS        .             .             .           -37.00000          -Inf      17.05262 ProteineInCircolo[3]
+                                            .             .             8.00000          +Inf      17.05262 ProteineInCircolo[3]
+
+     5 CalcoloProteine[4]
+                    NS        .             .             .           -39.00000          -Inf      17.05262 ProteineInCircolo[4]
+                                            .             .             6.00000          +Inf      17.05262 ProteineInCircolo[4]
+
+     6 CalcoloProteine[5]
+                    NS        .             .             .           -36.43860          -Inf      17.05262 ProteineInCircolo[5]
+                                            .             .             8.56140          +Inf      17.05262 ProteineInCircolo[5]
+
+     7 CalcoloProteine[6]
+                    NS        .             .             .           -33.47368          -Inf      17.05262 ProteineInCircolo[6]
+                                            .             .             7.52632          +Inf      17.05262 ProteineInCircolo[6]
+
+     8 CalcoloProteine[7]
+                    NS        .             .             .            -5.76364          -Inf      16.38015 AssunzioneFarmaci[5,2]
+                                            .11668        .             1.75000          +Inf      17.25681 AssunzioneFarmaci[6,2]
+
+     9 CalcoloProteine[8]
+                    NS        .             .             .            -1.27273          -Inf      16.95354 AssunzioneFarmaci[6,2]
+                                            .07785        .             7.92500          +Inf      17.66959 AssunzioneFarmaci[5,2]
+
+    10 CalcoloProteine[9]
+                    NS        .             .             .           -36.36140          -Inf      17.05262 ProteineInCircolo[9]
+                                            .             .             3.63860          +Inf      17.05262 ProteineInCircolo[9]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 CalcoloProteine[10]
+                    NS        .             .             .           -37.33454          -Inf      17.05262 ProteineInCircolo[10]
+                                            .             .             3.66546          +Inf      17.05262 ProteineInCircolo[10]
+
+    12 CalcoloProteine[11]
+                    NS        .             .             .           -29.28798          -Inf      17.05262 ProteineInCircolo[11]
+                                            .             .            12.71202          +Inf      17.05262 ProteineInCircolo[11]
+
+    13 CalcoloProteine[12]
+                    NS        .             .             .            -2.97514          -Inf      16.73136 AssunzioneFarmaci[10,2]
+                                            .10798        .             9.27188          +Inf      18.05382 ProteineInCircolo[15]
+
+    14 CalcoloProteine[13]
+                    NS        .             .             .            -5.77687          -Inf      16.94599 AssunzioneFarmaci[11,2]
+                                            .01846        .             3.53298          +Inf      17.11784 AssunzioneFarmaci[10,2]
+
+    15 CalcoloProteine[14]
+                    NS        .             .             .            -2.48838          -Inf      16.77702 ProteineInCircolo[17]
+                                            .11075        .            10.95199          +Inf      18.26561 AssunzioneFarmaci[11,2]
+
+    16 CalcoloProteine[15]
+                    NS        .             .             .           -27.34643          -Inf      17.05262 ProteineInCircolo[15]
+                                            .             .             2.65357          +Inf      17.05262 ProteineInCircolo[15]
+
+    17 CalcoloProteine[16]
+                    NS        .             .             .           -34.90019          -Inf      17.05262 ProteineInCircolo[16]
+                                            .             .             5.09981          +Inf      17.05262 ProteineInCircolo[16]
+
+    18 CalcoloProteine[17]
+                    NS        .             .             .           -40.07000          -Inf      17.05262 ProteineInCircolo[17]
+                                            .             .              .93000          +Inf      17.05262 ProteineInCircolo[17]
+
+    19 CalcoloProteine[18]
+                    NS        .             .             .           -29.17751          -Inf      17.05262 ProteineInCircolo[18]
+                                            .             .            12.82249          +Inf      17.05262 ProteineInCircolo[18]
+
+    20 CalcoloProteine[19]
+                    NS        .             .             .            -2.98606          -Inf      16.70132 ProteineInCircolo[20]
+                                            .11765        .             2.90672          +Inf      17.39459 ProteineInCircolo[23]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 CalcoloProteine[20]
+                    NS        .             .             .           -11.48698          -Inf      17.05262 ProteineInCircolo[20]
+                                            .             .             3.51302          +Inf      17.05262 ProteineInCircolo[20]
+
+    22 CalcoloProteine[21]
+                    NS        .             .             .           -18.16235          -Inf      17.05262 ProteineInCircolo[21]
+                                            .             .             1.83765          +Inf      17.05262 ProteineInCircolo[21]
+
+    23 CalcoloProteine[22]
+                    NS        .             .             .            -1.05699          -Inf      16.86610 ProteineInCircolo[23]
+                                            .17647        .            12.86500          +Inf      19.32292 ProteineInCircolo[21]
+
+    24 CalcoloProteine[23]
+                    NS        .             .             .           -33.97410          -Inf      17.05262 ProteineInCircolo[23]
+                                            .             .             1.02590          +Inf      17.05262 ProteineInCircolo[23]
+
+    25 z            BS      17.05262     -17.05262          -Inf       17.06428      -1.00000        .      AssunzioneFarmaci[20,2]
+                                            .               +Inf       17.05262          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 AssunzioneFarmaci[0,1]
+                    NL        .            1.00000        .           -11.66667        .68325      13.35725 ProteineInCircolo[1]
+                                            .31675          +Inf        3.33333          +Inf      18.10844 AssunzioneFarmaci[0,2]
+
+     2 AssunzioneFarmaci[0,2]
+                    BS       2.00000       1.00000        .             8.18182        .06224      15.17710 ProteineInCircolo[0]
+                                            .               +Inf      -14.80000       1.52791      18.10844 AssunzioneFarmaci[0,1]
+
+     3 AssunzioneFarmaci[1,1]
+                    NL        .            1.00000        .            -2.00000        .18197      15.41656 ProteineInCircolo[3]
+                                            .81803          +Inf        9.25000          +Inf      24.61941 ProteineInCircolo[3]
+
+     4 AssunzioneFarmaci[1,2]
+                    NL        .            1.00000        .            -1.45455        .11281      15.76217 ProteineInCircolo[3]
+                                            .88719          +Inf        6.72727          +Inf      23.02097 ProteineInCircolo[3]
+
+     5 AssunzioneFarmaci[2,1]
+                    NL        .            1.00000        .            -1.50000        .26464      15.94958 ProteineInCircolo[4]
+                                            .73536          +Inf        8.56757          +Inf      23.35289 AssunzioneFarmaci[5,2]
+
+     6 AssunzioneFarmaci[2,2]
+                    NL        .            1.00000        .            -1.09091        .22951      16.21209 ProteineInCircolo[4]
+                                            .77049          +Inf        5.81651          +Inf      21.53420 AssunzioneFarmaci[5,2]
+
+     7 AssunzioneFarmaci[3,1]
+                    NL        .            1.00000        .            -2.00000        .37784      15.80829 ProteineInCircolo[4]
+                                            .62216          +Inf        6.53608          +Inf      21.11914 AssunzioneFarmaci[5,2]
+
+     8 AssunzioneFarmaci[3,2]
+                    NL        .            1.00000        .            -1.50000        .46680      16.25283 ProteineInCircolo[4]
+                                            .53320          +Inf        3.01905          +Inf      18.66238 AssunzioneFarmaci[5,2]
+
+     9 AssunzioneFarmaci[4,1]
+                    NL        .            1.00000        .            -3.42926        .52128      15.41098 ProteineInCircolo[6]
+                                            .47872          +Inf        5.15447          +Inf      19.52015 AssunzioneFarmaci[5,2]
+
+    10 AssunzioneFarmaci[4,2]
+                    NL        .            1.00000        .            -2.40000        .72185      16.38506 ProteineInCircolo[4]
+                                            .27815          +Inf        3.17000          +Inf      17.93436 AssunzioneFarmaci[5,2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 AssunzioneFarmaci[5,1]
+                    NL        .            1.00000        .            -3.11111        .77937      16.36622 AssunzioneFarmaci[6,2]
+                                            .22063          +Inf        2.64167          +Inf      17.63545 AssunzioneFarmaci[5,2]
+
+    12 AssunzioneFarmaci[5,2]
+                    BS       2.22456       1.00000        .             2.90000        .69771      16.38015 ProteineInCircolo[7]
+                                            .               +Inf       -9.68696       1.26200      17.63545 AssunzioneFarmaci[5,1]
+
+    13 AssunzioneFarmaci[6,1]
+                    NL        .            1.00000        .           -25.87858        .83771      12.85273 ProteineInCircolo[17]
+                                            .16229          +Inf         .70000          +Inf      17.16623 AssunzioneFarmaci[6,2]
+
+    14 AssunzioneFarmaci[6,2]
+                    BS        .49123       1.00000        .             3.55000        .79830      16.95354 ProteineInCircolo[8]
+                                            .               +Inf       -3.20490       1.21104      17.15629 AssunzioneFarmaci[7,2]
+
+    15 AssunzioneFarmaci[7,1]
+                    NL        .            1.00000        .            -1.97524        .65573      16.37260 ProteineInCircolo[9]
+                                            .34427          +Inf         .66667          +Inf      17.28214 AssunzioneFarmaci[6,2]
+
+    16 AssunzioneFarmaci[7,2]
+                    NL        .            1.00000        .            -1.39663        .82229      16.80442 ProteineInCircolo[9]
+                                            .17771          +Inf         .58333          +Inf      17.15629 AssunzioneFarmaci[6,2]
+
+    17 AssunzioneFarmaci[8,1]
+                    NL        .            1.00000        .            -1.68370        .47030      16.16078 ProteineInCircolo[10]
+                                            .52970          +Inf         .84848          +Inf      17.50206 AssunzioneFarmaci[6,2]
+
+    18 AssunzioneFarmaci[8,2]
+                    NL        .            1.00000        .            -1.62031        .62379      16.44304 ProteineInCircolo[9]
+                                            .37621          +Inf         .50909          +Inf      17.24415 AssunzioneFarmaci[6,2]
+
+    19 AssunzioneFarmaci[9,1]
+                    NL        .            1.00000        .            -1.90489        .48361      16.06897 ProteineInCircolo[10]
+                                            .51639          +Inf        2.65388          +Inf      18.42306 AssunzioneFarmaci[10,2]
+
+    20 AssunzioneFarmaci[9,2]
+                    NL        .            1.00000        .            -1.45544        .65344      16.54822 ProteineInCircolo[9]
+                                            .34656          +Inf        1.73931          +Inf      17.65541 AssunzioneFarmaci[10,2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 AssunzioneFarmaci[10,1]
+                    NL        .            1.00000        .            -1.97153        .72380      16.50809 ProteineInCircolo[17]
+                                            .27620          +Inf        1.35558          +Inf      17.42703 AssunzioneFarmaci[10,2]
+
+    22 AssunzioneFarmaci[10,2]
+                    BS       1.14197       1.00000        .             4.70088        .71868      16.73136 ProteineInCircolo[12]
+                                            .               +Inf        -.32421       1.05711      17.11784 ProteineInCircolo[13]
+
+    23 AssunzioneFarmaci[11,1]
+                    NL        .            1.00000        .            -1.43337        .75114      16.69591 ProteineInCircolo[17]
+                                            .24886          +Inf        4.23948          +Inf      18.10767 AssunzioneFarmaci[11,2]
+
+    24 AssunzioneFarmaci[11,2]
+                    BS       3.54004       1.00000        .             5.70503        .96988      16.94599 ProteineInCircolo[13]
+                                            .               +Inf      -13.36389       1.29803      18.10767 AssunzioneFarmaci[11,1]
+
+    25 AssunzioneFarmaci[12,1]
+                    NL        .            1.00000        .            -3.08960        .77802      16.36678 ProteineInCircolo[17]
+                                            .22198          +Inf        1.88118          +Inf      17.47022 AssunzioneFarmaci[12,2]
+
+    26 AssunzioneFarmaci[12,2]
+                    BS       1.33012       1.00000        .             5.53392        .71146      16.66882 ProteineInCircolo[14]
+                                            .               +Inf         .37848       1.06853      17.14378 ProteineInCircolo[13]
+
+    27 AssunzioneFarmaci[13,1]
+                    NL        .            1.00000        .             -.99428        .53054      16.58585 ProteineInCircolo[17]
+                                            .46946          +Inf        1.77949          +Inf      17.88802 AssunzioneFarmaci[12,2]
+
+    28 AssunzioneFarmaci[13,2]
+                    NL        .            1.00000        .             -.52662        .57152      16.82698 ProteineInCircolo[17]
+                                            .42848          +Inf        1.54315          +Inf      17.71384 AssunzioneFarmaci[12,2]
+
+    29 AssunzioneFarmaci[14,1]
+                    NL        .            1.00000        .             -.47953        .41907      16.77405 ProteineInCircolo[17]
+                                            .58093          +Inf        2.31022          +Inf      18.39469 AssunzioneFarmaci[12,2]
+
+    30 AssunzioneFarmaci[14,2]
+                    NL        .            1.00000        .             -.30336        .48865      16.89750 ProteineInCircolo[17]
+                                            .51135          +Inf        1.38613          +Inf      17.76142 AssunzioneFarmaci[12,2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 AssunzioneFarmaci[15,1]
+                    NL        .            1.00000        .             -.23250        .34706      16.90081 ProteineInCircolo[17]
+                                            .65294          +Inf        3.44215          +Inf      19.30014 ProteineInCircolo[20]
+
+    32 AssunzioneFarmaci[15,2]
+                    NL        .            1.00000        .             -.16909        .42353      16.95515 ProteineInCircolo[17]
+                                            .57647          +Inf        1.64521          +Inf      18.00104 ProteineInCircolo[20]
+
+    33 AssunzioneFarmaci[16,1]
+                    NL        .            1.00000        .             -.31000        .47059      16.88851 ProteineInCircolo[17]
+                                            .52941          +Inf        2.69015          +Inf      18.47682 ProteineInCircolo[20]
+
+    34 AssunzioneFarmaci[16,2]
+                    NL        .            1.00000        .             -.23250        .59412      16.95826 ProteineInCircolo[17]
+                                            .40588          +Inf        1.85758          +Inf      17.80658 ProteineInCircolo[20]
+
+    35 AssunzioneFarmaci[17,1]
+                    NL        .            1.00000        .             -.62000        .71765      16.87756 ProteineInCircolo[17]
+                                            .28235          +Inf        1.36350          +Inf      17.43761 ProteineInCircolo[20]
+
+    36 AssunzioneFarmaci[17,2]
+                    NL        .            1.00000        .             -.37200        .91176      17.01980 ProteineInCircolo[17]
+                                            .08824          +Inf        1.22505          +Inf      17.16072 ProteineInCircolo[20]
+
+    37 AssunzioneFarmaci[18,1]
+                    NL        .            1.00000        .            -1.66893        .68824      16.53231 ProteineInCircolo[23]
+                                            .31176          +Inf        6.21238          +Inf      18.98943 AssunzioneFarmaci[18,2]
+
+    38 AssunzioneFarmaci[18,2]
+                    BS       5.29880       1.00000        .             5.93999        .98182      16.95628 AssunzioneFarmaci[20,2]
+                                            .               +Inf        2.66854       1.04110      17.27038 AssunzioneFarmaci[17,2]
+
+    39 AssunzioneFarmaci[19,1]
+                    NL        .            1.00000        .            -3.28843        .61765      15.79528 ProteineInCircolo[21]
+                                            .38235          +Inf        1.58549          +Inf      17.65884 AssunzioneFarmaci[19,2]
+
+    40 AssunzioneFarmaci[19,2]
+                    BS       1.02590       1.00000        .             2.53920        .92857      16.97935 AssunzioneFarmaci[17,2]
+                                            .               +Inf        -.23748       1.01136      17.06428 AssunzioneFarmaci[20,2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 AssunzioneFarmaci[20,1]
+                    NL        .            1.00000        .            -4.35965        .70588      15.77038 ProteineInCircolo[18]
+                                            .29412          +Inf         .54501          +Inf      17.21292 AssunzioneFarmaci[19,2]
+
+    42 AssunzioneFarmaci[20,2]
+                    NL        .            1.00000        .            -3.17065        .97059      16.95937 ProteineInCircolo[18]
+                                            .02941          +Inf         .39637          +Inf      17.06428 AssunzioneFarmaci[19,2]
+
+    43 AssunzioneFarmaci[21,1]
+                    NL        .            1.00000        .             -.94272        .52941      16.60899 ProteineInCircolo[23]
+                                            .47059          +Inf         .67183          +Inf      17.36878 ProteineInCircolo[21]
+
+    44 AssunzioneFarmaci[21,2]
+                    NL        .            1.00000        .             -.63419        .70588      16.86610 ProteineInCircolo[23]
+                                            .29412          +Inf         .54501          +Inf      17.21292 AssunzioneFarmaci[19,2]
+
+    45 AssunzioneFarmaci[22,1]
+                    NL        .            1.00000        .             -.66439        .26471      16.56410 ProteineInCircolo[23]
+                                            .73529          +Inf         .86778          +Inf      17.69070 ProteineInCircolo[21]
+
+    46 AssunzioneFarmaci[22,2]
+                    NL        .            1.00000        .             -.65198        .44118      16.68828 ProteineInCircolo[23]
+                                            .55882          +Inf         .52067          +Inf      17.34359 ProteineInCircolo[21]
+
+    47 AssunzioneFarmaci[23,1]
+                    NL        .            1.00000        .             -.68394        .           16.36869 ProteineInCircolo[23]
+                                           1.00000          +Inf       22.64940          +Inf      39.70202 ProteineInCircolo[23]
+
+    48 AssunzioneFarmaci[23,2]
+                    NL        .            1.00000        .             -.41036        .           16.64226 ProteineInCircolo[23]
+                                           1.00000          +Inf       13.58964          +Inf      30.64226 ProteineInCircolo[23]
+
+    49 ProteineInCircolo[0]
+                    NL       5.00000        .            5.00000         .62500       -.37510      15.41154 ProteineInCircolo[1]
+                                            .37510      45.00000       20.45455          +Inf      22.84968 ProteineInCircolo[2]
+
+    50 ProteineInCircolo[1]
+                    BS       8.00000        .            1.00000       32.72727       -.23444      15.17710 ProteineInCircolo[0]
+                                            .           45.00000        8.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 ProteineInCircolo[2]
+                    BS      11.00000        .             .            61.87500       -.17050      15.17710 ProteineInCircolo[0]
+                                            .           45.00000       11.00000          +Inf          +Inf
+
+    52 ProteineInCircolo[3]
+                    BS       8.00000        .             .            54.75000       -.16131      15.76217 AssunzioneFarmaci[1,2]
+                                            .           45.00000        8.00000          +Inf          +Inf
+
+    53 ProteineInCircolo[4]
+                    BS       6.00000        .             .            13.92500       -.11126      16.38506 AssunzioneFarmaci[4,2]
+                                            .           45.00000        6.00000          +Inf          +Inf
+
+    54 ProteineInCircolo[5]
+                    BS       8.56140        .             .            10.25000       -.12092      16.01740 ProteineInCircolo[7]
+                                            .           45.00000        3.00000        .11094      18.00240 ProteineInCircolo[8]
+
+    55 ProteineInCircolo[6]
+                    BS      11.52632        .            4.00000       19.78500       -.10677      15.82201 AssunzioneFarmaci[4,2]
+                                            .           45.00000       10.66667        .12059      18.44260 AssunzioneFarmaci[7,2]
+
+    56 ProteineInCircolo[7]
+                    NL      15.00000        .           15.00000        9.23636       -.11668      16.38015 AssunzioneFarmaci[5,2]
+                                            .11668      45.00000       16.75000          +Inf      17.25681 AssunzioneFarmaci[6,2]
+
+    57 ProteineInCircolo[8]
+                    NL      12.00000        .           12.00000       10.72727       -.07785      16.95354 AssunzioneFarmaci[6,2]
+                                            .07785      45.00000       19.92500          +Inf      17.66959 AssunzioneFarmaci[5,2]
+
+    58 ProteineInCircolo[9]
+                    BS       8.63860        .            5.00000       10.15833       -.06821      16.46335 AssunzioneFarmaci[7,2]
+                                            .           45.00000        6.27500        .37305      20.27525 AssunzioneFarmaci[4,2]
+
+    59 ProteineInCircolo[10]
+                    BS       7.66546        .            4.00000       16.56272       -.11253      16.19004 ProteineInCircolo[12]
+                                            .           45.00000        4.81053        .02284      17.22773 ProteineInCircolo[13]
+
+    60 ProteineInCircolo[11]
+                    BS      15.71202        .            3.00000       16.55661       -.07722      15.83940 ProteineInCircolo[13]
+                                            .           45.00000        9.51696        .19580      20.12901 ProteineInCircolo[14]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  10
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 ProteineInCircolo[12]
+                    NL      25.00000        .           25.00000       22.02486       -.10798      16.73136 AssunzioneFarmaci[10,2]
+                                            .10798      45.00000       34.27188          +Inf      18.05382 ProteineInCircolo[15]
+
+    62 ProteineInCircolo[13]
+                    NL      30.00000        .           30.00000       24.22313       -.01846      16.94599 AssunzioneFarmaci[11,2]
+                                            .01846      45.00000       33.53298          +Inf      17.11784 AssunzioneFarmaci[10,2]
+
+    63 ProteineInCircolo[14]
+                    NL      25.00000        .           25.00000       22.51162       -.11075      16.77702 ProteineInCircolo[17]
+                                            .11075      45.00000       35.95199          +Inf      18.26561 AssunzioneFarmaci[11,2]
+
+    64 ProteineInCircolo[15]
+                    BS      17.65357        .           15.00000       18.62901       -.06686      15.87234 ProteineInCircolo[13]
+                                            .           45.00000       13.89228        .37730      23.71333 ProteineInCircolo[12]
+
+    65 ProteineInCircolo[16]
+                    BS      10.09981        .            5.00000       15.26629       -.13719      15.66702 AssunzioneFarmaci[14,2]
+                                            .           45.00000        9.69298        .16030      18.67165 ProteineInCircolo[13]
+
+    66 ProteineInCircolo[17]
+                    BS       4.93000        .            4.00000        7.99263       -.03529      16.87862 AssunzioneFarmaci[17,2]
+                                            .           45.00000        4.56124        .17685      17.92450 ProteineInCircolo[13]
+
+    67 ProteineInCircolo[18]
+                    BS      15.82249        .            3.00000       17.42546       -.00727      16.93755 AssunzioneFarmaci[20,2]
+                                            .           45.00000       14.14705        .06452      18.07343 AssunzioneFarmaci[17,2]
+
+    68 ProteineInCircolo[19]
+                    NL      25.00000        .           25.00000       22.01394       -.11765      16.70132 ProteineInCircolo[20]
+                                            .11765      45.00000       27.90672          +Inf      17.39459 ProteineInCircolo[23]
+
+    69 ProteineInCircolo[20]
+                    BS      33.51302        .           30.00000       33.92687       -.02817      16.10860 AssunzioneFarmaci[20,2]
+                                            .           45.00000       26.43586        .03077      18.08379 AssunzioneFarmaci[17,2]
+
+    70 ProteineInCircolo[21]
+                    BS      26.83765        .           25.00000       28.31492       -.07317      15.08889 AssunzioneFarmaci[17,2]
+                                            .           45.00000       25.34543        .00781      17.26229 AssunzioneFarmaci[20,2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  11
+
+Problem:    soluzione
+Objective:  z = 17.05262402 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 ProteineInCircolo[22]
+                    NL      20.00000        .           20.00000       18.94301       -.17647      16.86610 ProteineInCircolo[23]
+                                            .17647      45.00000       32.86500          +Inf      19.32292 ProteineInCircolo[21]
+
+    72 ProteineInCircolo[23]
+                    BS      11.02590        .           10.00000       12.47795       -.07444      16.23184 AssunzioneFarmaci[17,2]
+                                            .           45.00000       10.49546        .02198      17.29495 AssunzioneFarmaci[20,2]
+
+End of report

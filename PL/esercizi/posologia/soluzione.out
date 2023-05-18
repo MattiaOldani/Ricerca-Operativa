@@ -1,0 +1,225 @@
+Problem:    soluzione
+Rows:       25
+Columns:    72
+Non-zeros:  474
+Status:     OPTIMAL
+Objective:  z = 17.05262402 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 CalcoloProteine[0]
+                    NS             0            -0             =      0.375104 
+     2 CalcoloProteine[1]
+                    NS             0            -0             =         < eps
+     3 CalcoloProteine[2]
+                    NS             0            -0             =         < eps
+     4 CalcoloProteine[3]
+                    NS             0            -0             =         < eps
+     5 CalcoloProteine[4]
+                    NS             0            -0             =         < eps
+     6 CalcoloProteine[5]
+                    NS             0            -0             =         < eps
+     7 CalcoloProteine[6]
+                    NS             0            -0             =         < eps
+     8 CalcoloProteine[7]
+                    NS             0            -0             =      0.116675 
+     9 CalcoloProteine[8]
+                    NS             0            -0             =     0.0778504 
+    10 CalcoloProteine[9]
+                    NS             0            -0             =         < eps
+    11 CalcoloProteine[10]
+                    NS             0            -0             =         < eps
+    12 CalcoloProteine[11]
+                    NS             0            -0             =         < eps
+    13 CalcoloProteine[12]
+                    NS             0            -0             =      0.107982 
+    14 CalcoloProteine[13]
+                    NS             0            -0             =     0.0184591 
+    15 CalcoloProteine[14]
+                    NS             0            -0             =      0.110755 
+    16 CalcoloProteine[15]
+                    NS             0            -0             =         < eps
+    17 CalcoloProteine[16]
+                    NS             0            -0             =         < eps
+    18 CalcoloProteine[17]
+                    NS             0            -0             =         < eps
+    19 CalcoloProteine[18]
+                    NS             0            -0             =         < eps
+    20 CalcoloProteine[19]
+                    NS             0            -0             =      0.117647 
+    21 CalcoloProteine[20]
+                    NS             0            -0             =         < eps
+    22 CalcoloProteine[21]
+                    NS             0            -0             =         < eps
+    23 CalcoloProteine[22]
+                    NS             0            -0             =      0.176471 
+    24 CalcoloProteine[23]
+                    NS             0            -0             =         < eps
+    25 z            B        17.0526                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 AssunzioneFarmaci[0,1]
+                    NL             0             0                    0.316746 
+     2 AssunzioneFarmaci[0,2]
+                    B              2             0               
+     3 AssunzioneFarmaci[1,1]
+                    NL             0             0                    0.818031 
+     4 AssunzioneFarmaci[1,2]
+                    NL             0             0                    0.887187 
+     5 AssunzioneFarmaci[2,1]
+                    NL             0             0                    0.735362 
+     6 AssunzioneFarmaci[2,2]
+                    NL             0             0                    0.770492 
+     7 AssunzioneFarmaci[3,1]
+                    NL             0             0                    0.622165 
+     8 AssunzioneFarmaci[3,2]
+                    NL             0             0                    0.533199 
+     9 AssunzioneFarmaci[4,1]
+                    NL             0             0                    0.478717 
+    10 AssunzioneFarmaci[4,2]
+                    NL             0             0                    0.278151 
+    11 AssunzioneFarmaci[5,1]
+                    NL             0             0                     0.22063 
+    12 AssunzioneFarmaci[5,2]
+                    B        2.22456             0               
+    13 AssunzioneFarmaci[6,1]
+                    NL             0             0                    0.162292 
+    14 AssunzioneFarmaci[6,2]
+                    B       0.491228             0               
+    15 AssunzioneFarmaci[7,1]
+                    NL             0             0                    0.344274 
+    16 AssunzioneFarmaci[7,2]
+                    NL             0             0                    0.177714 
+    17 AssunzioneFarmaci[8,1]
+                    NL             0             0                    0.529697 
+    18 AssunzioneFarmaci[8,2]
+                    NL             0             0                    0.376212 
+    19 AssunzioneFarmaci[9,1]
+                    NL             0             0                    0.516387 
+    20 AssunzioneFarmaci[9,2]
+                    NL             0             0                    0.346564 
+    21 AssunzioneFarmaci[10,1]
+                    NL             0             0                    0.276197 
+    22 AssunzioneFarmaci[10,2]
+                    B        1.14197             0               
+    23 AssunzioneFarmaci[11,1]
+                    NL             0             0                    0.248861 
+    24 AssunzioneFarmaci[11,2]
+                    B        3.54004             0               
+    25 AssunzioneFarmaci[12,1]
+                    NL             0             0                    0.221985 
+    26 AssunzioneFarmaci[12,2]
+                    B        1.33012             0               
+    27 AssunzioneFarmaci[13,1]
+                    NL             0             0                    0.469459 
+    28 AssunzioneFarmaci[13,2]
+                    NL             0             0                    0.428481 
+    29 AssunzioneFarmaci[14,1]
+                    NL             0             0                    0.580927 
+    30 AssunzioneFarmaci[14,2]
+                    NL             0             0                    0.511349 
+    31 AssunzioneFarmaci[15,1]
+                    NL             0             0                    0.652941 
+    32 AssunzioneFarmaci[15,2]
+                    NL             0             0                    0.576471 
+    33 AssunzioneFarmaci[16,1]
+                    NL             0             0                    0.529412 
+    34 AssunzioneFarmaci[16,2]
+                    NL             0             0                    0.405882 
+    35 AssunzioneFarmaci[17,1]
+                    NL             0             0                    0.282353 
+    36 AssunzioneFarmaci[17,2]
+                    NL             0             0                   0.0882353 
+    37 AssunzioneFarmaci[18,1]
+                    NL             0             0                    0.311765 
+    38 AssunzioneFarmaci[18,2]
+                    B         5.2988             0               
+    39 AssunzioneFarmaci[19,1]
+                    NL             0             0                    0.382353 
+    40 AssunzioneFarmaci[19,2]
+                    B         1.0259             0               
+    41 AssunzioneFarmaci[20,1]
+                    NL             0             0                    0.294118 
+    42 AssunzioneFarmaci[20,2]
+                    NL             0             0                   0.0294118 
+    43 AssunzioneFarmaci[21,1]
+                    NL             0             0                    0.470588 
+    44 AssunzioneFarmaci[21,2]
+                    NL             0             0                    0.294118 
+    45 AssunzioneFarmaci[22,1]
+                    NL             0             0                    0.735294 
+    46 AssunzioneFarmaci[22,2]
+                    NL             0             0                    0.558824 
+    47 AssunzioneFarmaci[23,1]
+                    NL             0             0                           1 
+    48 AssunzioneFarmaci[23,2]
+                    NL             0             0                           1 
+    49 ProteineInCircolo[0]
+                    NL             5             5            45      0.375104 
+    50 ProteineInCircolo[1]
+                    B              8             1            45 
+    51 ProteineInCircolo[2]
+                    B             11             0            45 
+    52 ProteineInCircolo[3]
+                    B              8             0            45 
+    53 ProteineInCircolo[4]
+                    B              6             0            45 
+    54 ProteineInCircolo[5]
+                    B         8.5614             0            45 
+    55 ProteineInCircolo[6]
+                    B        11.5263             4            45 
+    56 ProteineInCircolo[7]
+                    NL            15            15            45      0.116675 
+    57 ProteineInCircolo[8]
+                    NL            12            12            45     0.0778504 
+    58 ProteineInCircolo[9]
+                    B         8.6386             5            45 
+    59 ProteineInCircolo[10]
+                    B        7.66546             4            45 
+    60 ProteineInCircolo[11]
+                    B         15.712             3            45 
+    61 ProteineInCircolo[12]
+                    NL            25            25            45      0.107982 
+    62 ProteineInCircolo[13]
+                    NL            30            30            45     0.0184591 
+    63 ProteineInCircolo[14]
+                    NL            25            25            45      0.110755 
+    64 ProteineInCircolo[15]
+                    B        17.6536            15            45 
+    65 ProteineInCircolo[16]
+                    B        10.0998             5            45 
+    66 ProteineInCircolo[17]
+                    B           4.93             4            45 
+    67 ProteineInCircolo[18]
+                    B        15.8225             3            45 
+    68 ProteineInCircolo[19]
+                    NL            25            25            45      0.117647 
+    69 ProteineInCircolo[20]
+                    B         33.513            30            45 
+    70 ProteineInCircolo[21]
+                    B        26.8377            25            45 
+    71 ProteineInCircolo[22]
+                    NL            20            20            45      0.176471 
+    72 ProteineInCircolo[23]
+                    B        11.0259            10            45 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 3.55e-015 on row 13
+        max.rel.err = 7.71e-017 on row 24
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-016 on column 26
+        max.rel.err = 7.40e-017 on column 26
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
