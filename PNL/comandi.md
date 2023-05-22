@@ -16,5 +16,8 @@ Per osservare i risultati:
 Per modificare un solutore usare `option solver XXX`
 
 Principali solver dentro AMPL:
-* baron
+* minos
 * snopt
+* conopt
+* baron [B]
+* knitro [B]
