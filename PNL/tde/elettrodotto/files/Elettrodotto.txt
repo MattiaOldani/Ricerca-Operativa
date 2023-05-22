@@ -1,0 +1,22 @@
+Tabella 1: Coordinate cartesiane delle centraline nei paesi
+(espresse in chilometri in un dato sistema di riferimento cartesiano).
+
+Paese	X	Y
+A	0	0
+B	4	8
+C	10	12
+D	15	12
+E	22	28
+F	31	30
+G	40	34
+H	42	46
+I	50	50
+L	25	15
+M	32	15
+N	37	10
+O	46	13
+P	31	38
+Q	28	45
+R	35	54
+
+La distanza limite consentita tra la cabina di trasformazione e la centralina nel paese è di 2 km.
