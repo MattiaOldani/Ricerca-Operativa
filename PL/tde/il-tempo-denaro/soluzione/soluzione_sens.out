@@ -1,0 +1,51 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 7848 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 MassimoUsoComponenti[1]
+                    NU      91.00000        .               -Inf       59.00000     -24.00000    7080.00000 ProduzioneMotocicli[3]
+                                          24.00000      91.00000       91.77778          +Inf    7866.66667 ProduzioneMotocicli[1]
+
+     2 MassimoUsoComponenti[2]
+                    BS      39.10000        .90000          -Inf       29.50000     -80.00000    4720.00000 MassimoUsoComponenti[1]
+                                            .           40.00000       39.12745    1070.00000   49685.00000 ProduzioneMotocicli[2]
+
+     3 MassimoUsoComponenti[3]
+                    NU      59.00000        .               -Inf       58.50000     -96.00000    7800.00000 ProduzioneMotocicli[1]
+                                          96.00000      59.00000       63.50000          +Inf    8280.00000 MassimoUsoComponenti[2]
+
+     4 VisualizzazioneTempo
+                    NS        .             .             .                -Inf          -Inf    7848.00000
+                                            .             .             6.54000          +Inf    7848.00000 Tempo
+
+     5 z            BS    7848.00000   -7848.00000          -Inf     7080.00000      -1.00000        .      MassimoUsoComponenti[1]
+                                            .               +Inf     7848.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 7848 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 ProduzioneMotocicli[1]
+                    BS        .14000    1200.00000        .            -4.45000     990.19608    7818.62745 ProduzioneMotocicli[2]
+                                            .               +Inf        5.90000    1333.33333    7866.66667 MassimoUsoComponenti[1]
+
+     2 ProduzioneMotocicli[2]
+                    NL        .         1300.00000        .           -10.66667          -Inf   12413.33333 ProduzioneMotocicli[3]
+                                        -428.00000          +Inf         .06863    1728.00000    7818.62745 ProduzioneMotocicli[1]
+
+     3 ProduzioneMotocicli[3]
+                    BS       6.40000    1200.00000        .           -59.00000    1080.00000    7080.00000 MassimoUsoComponenti[1]
+                                            .               +Inf        6.50000    1680.00000   10920.00000 MassimoUsoComponenti[3]
+
+     4 Tempo        BS       6.54000        .             .             6.50980    -972.72727    1486.36364 ProduzioneMotocicli[2]
+                                            .               +Inf        6.54000          +Inf          +Inf
+
+End of report

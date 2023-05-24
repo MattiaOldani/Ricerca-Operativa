@@ -1,0 +1,48 @@
+Problem:    soluzione
+Rows:       5
+Columns:    4
+Non-zeros:  16
+Status:     OPTIMAL
+Objective:  z = 7848 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 MassimoUsoComponenti[1]
+                    NU            91                          91            24 
+     2 MassimoUsoComponenti[2]
+                    B           39.1                          40 
+     3 MassimoUsoComponenti[3]
+                    NU            59                          59            96 
+     4 VisualizzazioneTempo
+                    NS             0            -0             =         < eps
+     5 z            B           7848                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 ProduzioneMotocicli[1]
+                    B           0.14             0               
+     2 ProduzioneMotocicli[2]
+                    NL             0             0                        -428 
+     3 ProduzioneMotocicli[3]
+                    B            6.4             0               
+     4 Tempo        B           6.54             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.27e-013 on column 1
+        max.rel.err = 9.47e-017 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
