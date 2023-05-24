@@ -1,0 +1,804 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Soddisfazione[1,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+     2 Soddisfazione[1,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+     3 Soddisfazione[1,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+     4 Soddisfazione[1,4]
+                    BS    3133.33333   -2933.33333     200.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+     5 Soddisfazione[1,5]
+                    BS     200.00000    -180.00000      20.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+     6 Soddisfazione[1,6]
+                    BS     200.00000    -150.00000      50.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+     7 Soddisfazione[1,7]
+                    BS     400.00000    -300.00000     100.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+     8 Soddisfazione[1,8]
+                    BS    2820.00000   -2520.00000     300.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+     9 Soddisfazione[2,1]
+                    BS    3833.33333   -3633.33333     200.00000           +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    10 Soddisfazione[2,2]
+                    BS     300.00000    -100.00000     200.00000           +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Soddisfazione[2,3]
+                    BS    2046.66667   -1446.66667     600.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    12 Soddisfazione[2,4]
+                    BS    3133.33333   -3073.33333      60.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    13 Soddisfazione[2,5]
+                    BS     200.00000    -160.00000      40.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    14 Soddisfazione[2,6]
+                    BS     200.00000    -160.00000      40.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    15 Soddisfazione[2,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    16 Soddisfazione[2,8]
+                    BS    2820.00000   -2420.00000     400.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    17 Soddisfazione[3,1]
+                    BS    3833.33333   -3823.33333      10.00000           +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    18 Soddisfazione[3,2]
+                    BS     300.00000    -250.00000      50.00000           +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    19 Soddisfazione[3,3]
+                    BS    2046.66667   -2036.66667      10.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    20 Soddisfazione[3,4]
+                    BS    3133.33333   -3033.33333     100.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Soddisfazione[3,5]
+                    BS     200.00000    -190.00000      10.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    22 Soddisfazione[3,6]
+                    BS     200.00000    -170.00000      30.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    23 Soddisfazione[3,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    24 Soddisfazione[3,8]
+                    BS    2820.00000   -2420.00000     400.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    25 Soddisfazione[4,1]
+                    BS    3833.33333   -3783.33333      50.00000           +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    26 Soddisfazione[4,2]
+                    BS     300.00000    -250.00000      50.00000           +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    27 Soddisfazione[4,3]
+                    BS    2046.66667   -1946.66667     100.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    28 Soddisfazione[4,4]
+                    BS    3133.33333   -3083.33333      50.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    29 Soddisfazione[4,5]
+                    BS     200.00000    -190.00000      10.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    30 Soddisfazione[4,6]
+                    BS     200.00000    -150.00000      50.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 Soddisfazione[4,7]
+                    BS     400.00000    -350.00000      50.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    32 Soddisfazione[4,8]
+                    BS    2820.00000   -2320.00000     500.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    33 Soddisfazione[5,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    34 Soddisfazione[5,2]
+                    BS     300.00000    -250.00000      50.00000           +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    35 Soddisfazione[5,3]
+                    BS    2046.66667   -1546.66667     500.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    36 Soddisfazione[5,4]
+                    BS    3133.33333   -2233.33333     900.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    37 Soddisfazione[5,5]
+                    BS     200.00000    -150.00000      50.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    38 Soddisfazione[5,6]
+                    BS     200.00000    -100.00000     100.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    39 Soddisfazione[5,7]
+                    BS     400.00000    -300.00000     100.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    40 Soddisfazione[5,8]
+                    BS    2820.00000   -1920.00000     900.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 Soddisfazione[6,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    42 Soddisfazione[6,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    43 Soddisfazione[6,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    44 Soddisfazione[6,4]
+                    BS    3133.33333   -3133.33333        .                +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    45 Soddisfazione[6,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    46 Soddisfazione[6,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    47 Soddisfazione[6,7]
+                    BS     400.00000    -320.00000      80.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    48 Soddisfazione[6,8]
+                    BS    2820.00000   -2740.00000      80.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    49 Soddisfazione[7,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    50 Soddisfazione[7,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 Soddisfazione[7,3]
+                    BS    2046.66667   -2026.66667      20.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    52 Soddisfazione[7,4]
+                    BS    3133.33333   -2833.33333     300.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    53 Soddisfazione[7,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    54 Soddisfazione[7,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    55 Soddisfazione[7,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    56 Soddisfazione[7,8]
+                    BS    2820.00000   -2420.00000     400.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    57 Soddisfazione[8,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    58 Soddisfazione[8,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    59 Soddisfazione[8,3]
+                    BS    2046.66667   -1246.66667     800.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    60 Soddisfazione[8,4]
+                    BS    3133.33333   -2533.33333     600.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 Soddisfazione[8,5]
+                    BS     200.00000    -150.00000      50.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    62 Soddisfazione[8,6]
+                    BS     200.00000    -100.00000     100.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    63 Soddisfazione[8,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    64 Soddisfazione[8,8]
+                    BS    2820.00000    -820.00000    2000.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    65 Soddisfazione[9,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    66 Soddisfazione[9,2]
+                    NL     300.00000        .          300.00000      200.00000       -.40000     381.33333 Soddisfazione[2,2]
+                                            .40000          +Inf           +Inf          +Inf          +Inf
+
+    67 Soddisfazione[9,3]
+                    BS    2046.66667   -1746.66667     300.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    68 Soddisfazione[9,4]
+                    BS    3133.33333   -2833.33333     300.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    69 Soddisfazione[9,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    70 Soddisfazione[9,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 Soddisfazione[9,7]
+                    BS     400.00000    -340.00000      60.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    72 Soddisfazione[9,8]
+                    BS    2820.00000   -2670.00000     150.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    73 Soddisfazione[10,1]
+                    BS    3833.33333   -2833.33333    1000.00000           +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    74 Soddisfazione[10,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    75 Soddisfazione[10,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    76 Soddisfazione[10,4]
+                    BS    3133.33333   -3133.33333        .                +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    77 Soddisfazione[10,5]
+                    NL     200.00000        .          200.00000      100.00000      -1.00000     321.33333 Soddisfazione[20,5]
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+    78 Soddisfazione[10,6]
+                    BS     200.00000    -100.00000     100.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    79 Soddisfazione[10,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    80 Soddisfazione[10,8]
+                    BS    2820.00000   -1820.00000    1000.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    81 Soddisfazione[11,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    82 Soddisfazione[11,2]
+                    BS     300.00000    -100.00000     200.00000           +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    83 Soddisfazione[11,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    84 Soddisfazione[11,4]
+                    BS    3133.33333   -2133.33333    1000.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    85 Soddisfazione[11,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    86 Soddisfazione[11,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    87 Soddisfazione[11,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    88 Soddisfazione[11,8]
+                    BS    2820.00000   -2220.00000     600.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    89 Soddisfazione[12,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    90 Soddisfazione[12,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  10
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    91 Soddisfazione[12,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+    92 Soddisfazione[12,4]
+                    BS    3133.33333   -3133.33333        .                +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+    93 Soddisfazione[12,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    94 Soddisfazione[12,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+    95 Soddisfazione[12,7]
+                    BS     400.00000    -100.00000     300.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+    96 Soddisfazione[12,8]
+                    BS    2820.00000   -2820.00000        .                +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+    97 Soddisfazione[13,1]
+                    BS    3833.33333   -3333.33333     500.00000           +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+    98 Soddisfazione[13,2]
+                    BS     300.00000    -250.00000      50.00000           +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    99 Soddisfazione[13,3]
+                    BS    2046.66667   -1746.66667     300.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+   100 Soddisfazione[13,4]
+                    BS    3133.33333   -3033.33333     100.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  11
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   101 Soddisfazione[13,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   102 Soddisfazione[13,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   103 Soddisfazione[13,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+   104 Soddisfazione[13,8]
+                    BS    2820.00000   -1820.00000    1000.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+   105 Soddisfazione[14,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+   106 Soddisfazione[14,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+   107 Soddisfazione[14,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+   108 Soddisfazione[14,4]
+                    BS    3133.33333   -3133.33333        .                +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+   109 Soddisfazione[14,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   110 Soddisfazione[14,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  12
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   111 Soddisfazione[14,7]
+                    BS     400.00000    -240.00000     160.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+   112 Soddisfazione[14,8]
+                    BS    2820.00000   -2420.00000     400.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+   113 Soddisfazione[15,1]
+                    BS    3833.33333   -3733.33333     100.00000           +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+   114 Soddisfazione[15,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+   115 Soddisfazione[15,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+   116 Soddisfazione[15,4]
+                    BS    3133.33333   -1933.33333    1200.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+   117 Soddisfazione[15,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   118 Soddisfazione[15,6]
+                    NL     200.00000        .          200.00000      100.00000       -.26667     394.66667 Soddisfazione[5,6]
+                                            .26667          +Inf           +Inf          +Inf          +Inf
+
+   119 Soddisfazione[15,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+   120 Soddisfazione[15,8]
+                    BS    2820.00000   -1320.00000    1500.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  13
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   121 Soddisfazione[16,1]
+                    BS    3833.33333   -3533.33333     300.00000           +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+   122 Soddisfazione[16,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+   123 Soddisfazione[16,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+   124 Soddisfazione[16,4]
+                    BS    3133.33333   -3073.33333      60.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+   125 Soddisfazione[16,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   126 Soddisfazione[16,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   127 Soddisfazione[16,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+   128 Soddisfazione[16,8]
+                    BS    2820.00000   -2760.00000      60.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+   129 Soddisfazione[17,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+   130 Soddisfazione[17,2]
+                    BS     300.00000    -280.00000      20.00000           +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  14
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   131 Soddisfazione[17,3]
+                    BS    2046.66667   -1946.66667     100.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+   132 Soddisfazione[17,4]
+                    BS    3133.33333   -2233.33333     900.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+   133 Soddisfazione[17,5]
+                    BS     200.00000    -180.00000      20.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   134 Soddisfazione[17,6]
+                    BS     200.00000    -150.00000      50.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   135 Soddisfazione[17,7]
+                    BS     400.00000    -400.00000        .                +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+   136 Soddisfazione[17,8]
+                    BS    2820.00000   -2220.00000     600.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+   137 Soddisfazione[18,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+   138 Soddisfazione[18,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+   139 Soddisfazione[18,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+   140 Soddisfazione[18,4]
+                    BS    3133.33333   -2933.33333     200.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  15
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   141 Soddisfazione[18,5]
+                    BS     200.00000    -160.00000      40.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   142 Soddisfazione[18,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   143 Soddisfazione[18,7]
+                    BS     400.00000    -200.00000     200.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+   144 Soddisfazione[18,8]
+                    BS    2820.00000   -2420.00000     400.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+   145 Soddisfazione[19,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+   146 Soddisfazione[19,2]
+                    BS     300.00000    -220.00000      80.00000           +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+   147 Soddisfazione[19,3]
+                    BS    2046.66667   -1846.66667     200.00000           +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+   148 Soddisfazione[19,4]
+                    BS    3133.33333   -1933.33333    1200.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+   149 Soddisfazione[19,5]
+                    BS     200.00000    -200.00000        .                +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   150 Soddisfazione[19,6]
+                    BS     200.00000    -200.00000        .                +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  16
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   151 Soddisfazione[19,7]
+                    NL     400.00000        .          400.00000      300.00000       -.12000     409.33333 Soddisfazione[12,7]
+                                            .12000          +Inf           +Inf          +Inf          +Inf
+
+   152 Soddisfazione[19,8]
+                    BS    2820.00000   -2420.00000     400.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+   153 Soddisfazione[20,1]
+                    BS    3833.33333   -3833.33333        .                +Inf       -.06250     181.75000 Soddisfazione[10,5]
+                                            .               +Inf     3833.33333          +Inf          +Inf
+
+   154 Soddisfazione[20,2]
+                    BS     300.00000    -300.00000        .                +Inf       -.40000     301.33333 Soddisfazione[9,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+   155 Soddisfazione[20,3]
+                    BS    2046.66667   -2046.66667        .                +Inf       -.08000     257.60000 Soddisfazione[9,2]
+                                            .               +Inf     2046.66667          +Inf          +Inf
+
+   156 Soddisfazione[20,4]
+                    BS    3133.33333   -2133.33333    1000.00000           +Inf       -.05000     264.66667 Soddisfazione[9,2]
+                                            .               +Inf     3133.33333          +Inf          +Inf
+
+   157 Soddisfazione[20,5]
+                    BS     200.00000    -100.00000     100.00000           +Inf      -1.00000     221.33333 Soddisfazione[10,5]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   158 Soddisfazione[20,6]
+                    BS     200.00000    -160.00000      40.00000           +Inf       -.26667     368.00000 Soddisfazione[15,6]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+   159 Soddisfazione[20,7]
+                    BS     400.00000    -300.00000     100.00000           +Inf       -.12000     373.33333 Soddisfazione[19,7]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+   160 Soddisfazione[20,8]
+                    BS    2820.00000   -1820.00000    1000.00000           +Inf       -.08000     195.73333 Soddisfazione[9,2]
+                                            .               +Inf     2820.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  17
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   161 z            BS     421.33333    -421.33333          -Inf           +Inf      -1.00000        .      Soddisfazione[10,5]
+                                            .               +Inf      421.33333          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  18
+
+Problem:    soluzione
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 ProdottiAcquistati[1]
+                    BS      40.00000       5.00000        .                +Inf        .          221.33333 Soddisfazione[10,5]
+                                            .               +Inf       40.00000          +Inf          +Inf
+
+     2 ProdottiAcquistati[2]
+                    BS      60.00000       2.00000        .                +Inf        .          301.33333 Soddisfazione[9,2]
+                                            .               +Inf       60.00000          +Inf          +Inf
+
+     3 ProdottiAcquistati[3]
+                    BS      16.00000       3.00000        .                +Inf        .          373.33333 Soddisfazione[19,7]
+                                            .               +Inf       16.00000          +Inf          +Inf
+
+     4 ProdottiAcquistati[4]
+                    BS      13.33333       4.00000        .                +Inf        .          368.00000 Soddisfazione[15,6]
+                                            .               +Inf       13.33333          +Inf          +Inf
+
+End of report

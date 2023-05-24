@@ -1,0 +1,73 @@
+Quantità e Animali
+
+1 Antilope
+2 Babbuino
+1 Canguro
+1 Dromedario
+1 Elefante
+8 Fringuello
+1 Giraffa
+1 Ippopotamo
+3 Koala
+2 Leone
+2 Muflone
+1 Narvalo
+1 Orso
+8 Pappagallo
+1 Rinoceronte
+6 Serpente a sonagli
+1 Tapiro
+4 Upupa
+4 Visone
+2 Zebra
+
+Composizione percentuale dei prodotti acquistabili:
+[righe = sostanze nutritive; colonne = prodotti]
+
+          P1      P2      P3      P4
+Carne     80       5       0      25
+Latte      0       5       0       0
+Frutta     0      25      30       5
+Verdure    5      40      25      10
+Zuccheri   5       0       0       0
+Grassi     0       0       0      15
+Farine     0       0      25       0
+Acqua     10      25      20      45
+
+Fabbisogno giornaliero (in kg per ogni esemplare):
+[righe = animali;   colonne = sostanze nutritive]
+
+   0.0  0.0  0.0  2.0  0.2  0.5  1.0  3.0
+   1.0  1.0  3.0  0.3  0.2  0.2  0.0  2.0
+   0.1  0.5  0.1  1.0  0.1  0.3  0.0  4.0
+   0.5  0.5  1.0  0.5  0.1  0.5  0.5  5.0
+   0.0  0.5  5.0  9.0  0.5  1.0  1.0  9.0
+   0.0  0.0  0.0  0.0  0.0  0.0  0.1  0.1
+   0.0  0.0  0.2  3.0  0.0  0.0  0.0  4.0
+   0.0  0.0  8.0  6.0  0.5  1.0  0.0 20.0
+   0.0  1.0  1.0  1.0  0.0  0.0  0.2  0.5
+   5.0  0.0  0.0  0.0  1.0  0.5  0.0  5.0
+   0.0  1.0  0.0  5.0  0.0  0.0  0.0  3.0
+   0.0  0.0  0.0  0.0  0.0  0.0  3.0  0.0
+   5.0  0.5  3.0  1.0  0.0  0.0  0.0 10.0
+   0.0  0.0  0.0  0.0  0.0  0.0  0.2  0.5
+   1.0  0.0  0.0 12.0  0.0  2.0  0.0 15.0
+   0.5  0.0  0.0  0.1  0.0  0.0  0.0  0.1
+   0.0  0.2  1.0  9.0  0.2  0.5  0.0  6.0
+   0.0  0.0  0.0  0.5  0.1  0.0  0.5  1.0
+   0.0  0.2  0.5  3.0  0.0  0.0  1.0  1.0
+   0.0  0.0  0.0  5.0  0.5  0.2  0.5  5.0
+
+Costi dei prodotti (in Euro / Kg)
+
+P1   5
+P2   2
+P3   3
+P4   4 
+ 
+Prodotto P5:
+Composizione: carne 50%, latte 5%, frutta 10%, verdura 35%.
+Prezzo: 0.5 Euro / kg.
+
+L'acquisto di un ulteriore orso porterebbe un incasso aggiuntivo
+di 90 Euro al giorno. 

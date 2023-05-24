@@ -1,0 +1,49 @@
+
+ LP OPTIMUM FOUND AT STEP      4
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      1527.867
+
+  VARIABLE        VALUE          REDUCED COST
+        X1       108.000000          0.000000
+        X2       299.600006          0.000000
+        X3        62.000000          0.000000
+        X4        50.666668          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+    CARNE)        92.446663          0.000000
+    LATTE)         4.980000          0.000000
+   FRUTTA)        66.733330          0.000000
+  VERDURE)        64.106667          0.000000
+ ZUCCHERI)         0.000000        -84.000000
+   GRASSI)         0.000000         -2.666667
+   FARINE)         0.000000         -5.600000
+    ACQUA)         0.000000         -8.000000
+
+ NO. ITERATIONS=       4
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       X1        5.000000         INFINITY         4.200000
+       X2        2.000000         0.222222         2.000000
+       X3        3.000000         INFINITY         1.400000
+       X4        4.000000         INFINITY         0.400000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+    CARNE       21.600000        92.446663         INFINITY
+    LATTE       10.000000         4.980000         INFINITY
+   FRUTTA       29.299999        66.733330         INFINITY
+  VERDURE       81.699997        64.106667         INFINITY
+ ZUCCHERI        5.400000        12.450000         5.400000
+   GRASSI        7.600000         8.299999         7.600000
+   FARINE       15.500000        31.125000        15.500000
+    ACQUA      120.900002         INFINITY        24.900000
+

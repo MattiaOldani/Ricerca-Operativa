@@ -1,0 +1,19 @@
+!Variabili: x(i)=quantità di prodotto acquistato i=1..4 [Kg/giorno]
+!           variabili continue non-negative
+
+!Funzione obiettivo: minimizzazione dei costi [Euro/giorno]
+min 5 x1 + 2 x2 + 3 x3 + 4 x4
+
+s.t.
+
+!Vincoli sul fabbisogno giornaliero di sostanze nutritive [Kg/giorno]
+carne   ) 0.80 x1 + 0.05 x2 + 0.00 x3 + 0.25 x4 >=  21.60
+latte   ) 0.00 x1 + 0.05 x2 + 0.00 x3 + 0.00 x4 >=  10.00
+frutta  ) 0.00 x1 + 0.25 x2 + 0.30 x3 + 0.05 x4 >=  29.30
+verdure ) 0.05 x1 + 0.40 x2 + 0.25 x3 + 0.10 x4 >=  81.70
+zuccheri) 0.05 x1 + 0.00 x2 + 0.00 x3 + 0.00 x4 >=   5.40
+grassi  ) 0.00 x1 + 0.00 x2 + 0.00 x3 + 0.15 x4 >=   7.60
+farine  ) 0.00 x1 + 0.00 x2 + 0.25 x3 + 0.00 x4 >=  15.50
+acqua   ) 0.10 x1 + 0.25 x2 + 0.20 x3 + 0.45 x4 >= 120.90
+
+end
