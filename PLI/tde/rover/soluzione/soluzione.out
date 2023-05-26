@@ -1,0 +1,223 @@
+Problem:    soluzione
+Rows:       45
+Columns:    55 (55 integer, 55 binary)
+Non-zeros:  248
+Status:     INTEGER OPTIMAL
+Objective:  z = 430 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 HoVisitatoIlSito[1]
+                                   0            -0             = 
+     2 HoVisitatoIlSito[2]
+                                   0            -0             = 
+     3 HoVisitatoIlSito[3]
+                                   0            -0             = 
+     4 HoVisitatoIlSito[4]
+                                   0            -0             = 
+     5 HoVisitatoIlSito[5]
+                                   0            -0             = 
+     6 HoVisitatoIlSito[6]
+                                   0            -0             = 
+     7 SingoloSpostamento[1]
+                                   1                           1 
+     8 SingoloSpostamento[2]
+                                   1                           1 
+     9 SingoloSpostamento[3]
+                                   1                           1 
+    10 SingoloSpostamento[4]
+                                   1                           1 
+    11 SingoloSpostamento[5]
+                                   0                           1 
+    12 SingoloSpostamento[6]
+                                   1                           1 
+    13 SingoloSpostamento[7]
+                                   1                           1 
+    14 EvitarePartenza
+                                   0            -0             = 
+    15 EvitareMeStesso[1]
+                                   0            -0             = 
+    16 EvitareMeStesso[2]
+                                   0            -0             = 
+    17 EvitareMeStesso[3]
+                                   0            -0             = 
+    18 EvitareMeStesso[4]
+                                   0            -0             = 
+    19 EvitareMeStesso[5]
+                                   0            -0             = 
+    20 EvitareMeStesso[6]
+                                   0            -0             = 
+    21 EvitareMeStesso[7]
+                                   0            -0             = 
+    22 NonRitorno[1,2]
+                                   0                           1 
+    23 NonRitorno[1,3]
+                                   0                           1 
+    24 NonRitorno[1,4]
+                                   0                           1 
+    25 NonRitorno[1,5]
+                                   1                           1 
+    26 NonRitorno[1,6]
+                                   1                           1 
+    27 NonRitorno[1,7]
+                                   0                           1 
+    28 NonRitorno[2,3]
+                                   0                           1 
+    29 NonRitorno[2,4]
+                                   1                           1 
+    30 NonRitorno[2,5]
+                                   0                           1 
+    31 NonRitorno[2,6]
+                                   0                           1 
+    32 NonRitorno[2,7]
+                                   1                           1 
+    33 NonRitorno[3,4]
+                                   1                           1 
+    34 NonRitorno[3,5]
+                                   0                           1 
+    35 NonRitorno[3,6]
+                                   1                           1 
+    36 NonRitorno[3,7]
+                                   0                           1 
+    37 NonRitorno[4,5]
+                                   0                           1 
+    38 NonRitorno[4,6]
+                                   0                           1 
+    39 NonRitorno[4,7]
+                                   0                           1 
+    40 NonRitorno[5,6]
+                                   0                           1 
+    41 NonRitorno[5,7]
+                                   0                           1 
+    42 NonRitorno[6,7]
+                                   0                           1 
+    43 MassimoTempoDisponibile
+                                 269                         400 
+    44 MassimaEnergiaDisponibile
+                                 992                        1000 
+    45 z                         430                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 SitiVisitati[1]
+                    *              1             0             1 
+     2 SitiVisitati[2]
+                    *              1             0             1 
+     3 SitiVisitati[3]
+                    *              1             0             1 
+     4 SitiVisitati[4]
+                    *              1             0             1 
+     5 SitiVisitati[5]
+                    *              1             0             1 
+     6 SitiVisitati[6]
+                    *              1             0             1 
+     7 SpostamentiEffettuati[1,1]
+                    *              0             0             1 
+     8 SpostamentiEffettuati[2,1]
+                    *              0             0             1 
+     9 SpostamentiEffettuati[3,1]
+                    *              0             0             1 
+    10 SpostamentiEffettuati[4,1]
+                    *              0             0             1 
+    11 SpostamentiEffettuati[5,1]
+                    *              0             0             1 
+    12 SpostamentiEffettuati[6,1]
+                    *              1             0             1 
+    13 SpostamentiEffettuati[7,1]
+                    *              0             0             1 
+    14 SpostamentiEffettuati[1,2]
+                    *              0             0             1 
+    15 SpostamentiEffettuati[2,2]
+                    *              0             0             1 
+    16 SpostamentiEffettuati[3,2]
+                    *              0             0             1 
+    17 SpostamentiEffettuati[4,2]
+                    *              0             0             1 
+    18 SpostamentiEffettuati[5,2]
+                    *              0             0             1 
+    19 SpostamentiEffettuati[6,2]
+                    *              0             0             1 
+    20 SpostamentiEffettuati[7,2]
+                    *              1             0             1 
+    21 SpostamentiEffettuati[1,3]
+                    *              0             0             1 
+    22 SpostamentiEffettuati[2,3]
+                    *              0             0             1 
+    23 SpostamentiEffettuati[3,3]
+                    *              0             0             1 
+    24 SpostamentiEffettuati[4,3]
+                    *              1             0             1 
+    25 SpostamentiEffettuati[5,3]
+                    *              0             0             1 
+    26 SpostamentiEffettuati[6,3]
+                    *              0             0             1 
+    27 SpostamentiEffettuati[7,3]
+                    *              0             0             1 
+    28 SpostamentiEffettuati[1,4]
+                    *              0             0             1 
+    29 SpostamentiEffettuati[2,4]
+                    *              1             0             1 
+    30 SpostamentiEffettuati[3,4]
+                    *              0             0             1 
+    31 SpostamentiEffettuati[4,4]
+                    *              0             0             1 
+    32 SpostamentiEffettuati[5,4]
+                    *              0             0             1 
+    33 SpostamentiEffettuati[6,4]
+                    *              0             0             1 
+    34 SpostamentiEffettuati[7,4]
+                    *              0             0             1 
+    35 SpostamentiEffettuati[1,5]
+                    *              1             0             1 
+    36 SpostamentiEffettuati[2,5]
+                    *              0             0             1 
+    37 SpostamentiEffettuati[3,5]
+                    *              0             0             1 
+    38 SpostamentiEffettuati[4,5]
+                    *              0             0             1 
+    39 SpostamentiEffettuati[5,5]
+                    *              0             0             1 
+    40 SpostamentiEffettuati[6,5]
+                    *              0             0             1 
+    41 SpostamentiEffettuati[7,5]
+                    *              0             0             1 
+    42 SpostamentiEffettuati[1,6]
+                    *              0             0             1 
+    43 SpostamentiEffettuati[2,6]
+                    *              0             0             1 
+    44 SpostamentiEffettuati[3,6]
+                    *              1             0             1 
+    45 SpostamentiEffettuati[4,6]
+                    *              0             0             1 
+    46 SpostamentiEffettuati[5,6]
+                    *              0             0             1 
+    47 SpostamentiEffettuati[6,6]
+                    *              0             0             1 
+    48 SpostamentiEffettuati[7,6]
+                    *              0             0             1 
+    49 SpostamentiEffettuati[1,7]
+                    *              0             0             1 
+    50 SpostamentiEffettuati[2,7]
+                    *              0             0             1 
+    51 SpostamentiEffettuati[3,7]
+                    *              0             0             1 
+    52 SpostamentiEffettuati[4,7]
+                    *              0             0             1 
+    53 SpostamentiEffettuati[5,7]
+                    *              0             0             1 
+    54 SpostamentiEffettuati[6,7]
+                    *              0             0             1 
+    55 SpostamentiEffettuati[7,7]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
