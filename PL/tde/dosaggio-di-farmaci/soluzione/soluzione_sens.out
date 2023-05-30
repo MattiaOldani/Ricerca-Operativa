@@ -1,0 +1,179 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 DichiarazioneValoriOttenuti[1]
+                    NS       3.45000        .            3.45000        3.44698          -Inf       1.00000 ValoreOttenuto[7]
+                                           -.64293       3.45000        3.50636          +Inf        .96182 Somministrazione[D]
+
+     2 DichiarazioneValoriOttenuti[2]
+                    NS    1800.00000        .         1800.00000     1798.12268          -Inf       1.00000 ValoreOttenuto[7]
+                                           -.00104    1800.00000     1810.74257          +Inf        .98693 Somministrazione[C]
+
+     3 DichiarazioneValoriOttenuti[3]
+                    NS        .05000        .             .05000         .02145          -Inf        .98184 Somministrazione[D]
+                                            .56785        .05000         .05342          +Inf       1.00000 ValoreOttenuto[7]
+
+     4 DichiarazioneValoriOttenuti[4]
+                    NS    3200.00000        .         3200.00000     2566.86959          -Inf        .99806 ValoreOttenuto[4]
+                                            .         3200.00000     3915.41145          +Inf        .99806 VincoloMINMAX1[4]
+
+     5 DichiarazioneValoriOttenuti[5]
+                    NS      26.40000        .           26.40000       26.36565          -Inf       1.00000 ValoreOttenuto[7]
+                                           -.05659      26.40000       26.98649          +Inf        .96486 Somministrazione[D]
+
+     6 DichiarazioneValoriOttenuti[6]
+                    NS      35.00000        .           35.00000       32.46064          -Inf        .99806 ValoreOttenuto[6]
+                                            .           35.00000       45.44897          +Inf        .99806 VincoloMINMAX1[6]
+
+     7 DichiarazioneValoriOttenuti[7]
+                    NS     136.00000        .          136.00000      135.55000          -Inf        .99000 Somministrazione[B]
+                                            .01790     136.00000      136.10860          +Inf       1.00000 ValoreOttenuto[7]
+
+     8 z            BS        .99806       -.99806          -Inf        1.00000      -1.00000        .      VincoloMINMAX1[3]
+                                            .               +Inf         .99806          +Inf          +Inf
+
+     9 VincoloMINMAX1[1]
+                    BS      -1.33528      -2.66472      -4.00000       -1.33333      -1.00000       2.33333 VincoloMINMAX1[3]
+                                            .               +Inf       -1.33528          +Inf          -Inf
+
+    10 VincoloMINMAX1[2]
+                    BS       -.70194      -1.79806      -2.50000        -.70000      -1.00000       1.70000 VincoloMINMAX1[3]
+                                            .               +Inf        -.70194          +Inf          -Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 VincoloMINMAX1[3]
+                    NL      -1.60000        .           -1.60000       -1.60000       -.28393        .99806 VincoloMINMAX2[3]
+                                            .28393          +Inf       -1.59315          +Inf       1.00000 ValoreOttenuto[7]
+
+    12 VincoloMINMAX1[4]
+                    BS      -1.71278       -.95388      -2.66667       -1.70776       -.38727       1.66137 ValoreOttenuto[2]
+                                            .               +Inf       -1.71278          +Inf          -Inf
+
+    13 VincoloMINMAX1[5]
+                    BS      -3.00194      -1.99806      -5.00000       -3.00000      -1.00000       4.00000 VincoloMINMAX1[3]
+                                            .               +Inf       -3.01718        .12763        .61491 ValoreOttenuto[5]
+
+    14 VincoloMINMAX1[6]
+                    BS      -4.09184      -1.74150      -5.83333       -4.07844       -.14509       1.59175 ValoreOttenuto[2]
+                                            .               +Inf       -4.09605        .46214       -.89295 VincoloMINMAX1[3]
+
+    15 VincoloMINMAX1[7]
+                    BS      -3.00000        .           -3.00000       -2.99728       -.71607       3.14628 VincoloMINMAX2[7]
+                                            .               +Inf       -3.00000          +Inf          -Inf
+
+    16 VincoloMINMAX2[1]
+                    BS      -1.33528      -2.66472      -4.00000       -1.33333      -1.00000       2.33333 VincoloMINMAX1[3]
+                                            .               +Inf       -1.33528          +Inf          -Inf
+
+    17 VincoloMINMAX2[2]
+                    BS       -.70194      -1.79806      -2.50000        -.70000      -1.00000       1.70000 VincoloMINMAX1[3]
+                                            .               +Inf        -.70194          +Inf          -Inf
+
+    18 VincoloMINMAX2[3]
+                    BS      -1.60000        .           -1.60000       -1.59315       -.28393       1.45234 VincoloMINMAX1[3]
+                                            .               +Inf       -1.60000          +Inf          -Inf
+
+    19 VincoloMINMAX2[4]
+                    BS      -1.71278       -.95388      -2.66667       -1.70776       -.38727       1.66137 ValoreOttenuto[2]
+                                            .               +Inf       -1.71278          +Inf          -Inf
+
+    20 VincoloMINMAX2[5]
+                    BS      -3.00194      -1.99806      -5.00000       -3.00000      -1.00000       4.00000 VincoloMINMAX1[3]
+                                            .               +Inf       -3.01718        .12763        .61491 ValoreOttenuto[5]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 VincoloMINMAX2[6]
+                    BS      -4.09184      -1.74150      -5.83333       -4.07844       -.14509       1.59175 ValoreOttenuto[2]
+                                            .               +Inf       -4.09605        .46214       -.89295 VincoloMINMAX1[3]
+
+    22 VincoloMINMAX2[7]
+                    NL      -3.00000        .           -3.00000       -3.00000       -.71607        .99806 VincoloMINMAX1[7]
+                                            .71607          +Inf       -2.99728          +Inf       1.00000 ValoreOttenuto[3]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    soluzione
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Somministrazione[A]
+                    NL        .             .             .             -.01355      -1.15149        .98245 Somministrazione[C]
+                                           1.15149       2.00000         .00169          +Inf       1.00000 ValoreOttenuto[7]
+
+     2 Somministrazione[B]
+                    BS       3.48094        .             .             3.49254       -.16761        .41460 VincoloMINMAX1[3]
+                                            .            3.50000        3.47634        .42273       2.46955 VincoloMINMAX2[7]
+
+     3 Somministrazione[C]
+                    BS        .45823        .             .              .46022       -.97895        .54947 VincoloMINMAX2[7]
+                                            .             .50000         .45093        .26634       1.12010 ValoreOttenuto[2]
+
+     4 Somministrazione[D]
+                    BS        .29115        .             .              .30108       -.19579        .94105 VincoloMINMAX2[7]
+                                            .             .50000         .26610        .07763       1.02066 VincoloMINMAX1[3]
+
+     5 Somministrazione[E]
+                    BS       7.29827        .             .             7.31561       -.11208        .18004 ValoreOttenuto[2]
+                                            .            7.50000        7.29785       4.65000      34.93500 VincoloMINMAX2[7]
+
+     6 ValoreOttenuto[1]
+                    NL       7.00000        .            7.00000        6.94364       -.64293        .96182 Somministrazione[D]
+                                            .64293      15.00000        7.00302          +Inf       1.00000 ValoreOttenuto[7]
+
+     7 ValoreOttenuto[2]
+                    NL    1700.00000        .         1700.00000     1689.25743       -.00104        .98693 Somministrazione[C]
+                                            .00104    3500.00000     1701.87732          +Inf       1.00000 ValoreOttenuto[7]
+
+     8 ValoreOttenuto[3]
+                    BS       1.29903        .             .50000        1.30000      -2.00000      -1.60000 ValoreOttenuto[1]
+                                            .            1.30000        1.29658        .79301       2.02820 VincoloMINMAX1[3]
+
+     9 ValoreOttenuto[4]
+                    BS    2033.13041        .         1400.00000     2033.81186       -.00285      -4.80246 VincoloMINMAX1[3]
+                                            .         2750.00000     2030.82342        .00084       2.71144 ValoreOttenuto[2]
+
+    10 ValoreOttenuto[5]
+                    NL       8.00000        .            8.00000        7.41351       -.05659        .96486 Somministrazione[D]
+                                            .05659      12.00000        8.03435          +Inf       1.00000 ValoreOttenuto[7]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    soluzione
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 ValoreOttenuto[6]
+                    BS      30.53936        .           28.00000       30.57627       -.05268       -.61071 VincoloMINMAX1[3]
+                                            .           41.00000       30.47063        .02829       1.86189 ValoreOttenuto[2]
+
+    12 ValoreOttenuto[7]
+                    BS     159.92223        .           80.00000      160.05000       -.02500      -3.00000 VincoloMINMAX1[3]
+                                            .          160.00000      159.89140        .06305      11.08129 VincoloMINMAX2[7]
+
+    13 MINMAX       BS        .99806       1.00000          -Inf        1.00000        .             .      VincoloMINMAX1[3]
+                                            .               +Inf         .99806          +Inf          +Inf
+
+End of report

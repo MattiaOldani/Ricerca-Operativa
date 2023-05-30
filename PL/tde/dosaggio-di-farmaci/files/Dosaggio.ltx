@@ -1,0 +1,64 @@
+! Esercizio Dosaggio, TeRO 48, 9 Gennaio 2007;
+
+! Variabili: x(j) = quantità di farmaco j=1..N, continue non-negative [mg];
+!            y(i) = valore ottenuto per il parametro i=1..M in seguito alla cura [u.d.m. non specif.];
+
+
+! Funzione obiettivo: minimizzare il max scostamento;
+min z
+
+st
+
+! Vincoli tra farmaci somministrati e valori ottenuti;
+param1) -0.2 xA  +0.5 xB  +0.7 xC  +0.1 xD  +0.2 xE - y1 = -3.45
+param2) -500 xA  +0.0 xB  -250 xC   +50 xD  +0.0 xE - y2 = -1800
+param3) +0.2 xA  -0.1 xB  +0.3 xC  +0.0 xD  +0.2 xE - y3 = -0.05
+param4)  -80 xA  -120 xB   +15 xC   -90 xD  -100 xE - y4 = -3200
+param5) -8.5 xA  -7.0 xB  -1.0 xC  -3.0 xD  +1.0 xE - y5 = -26.4
+param6)   +5 xA    -2 xB    +8 xC    -4 xD    +0 xE - y6 = -35
+param7)   -5 xA    -1 xB    -2 xC    -3 xD    +4 xE - y7 = -136
+
+! Vincoli sui valori massimi e minimi consentiti;
+min1) y1 >= 7.00
+min2) y2 >= 1700
+min3) y3 >= 0.50
+min4) y4 >= 1400
+min5) y5 >=  8.0
+min6) y6 >=   28
+min7) y7 >=   80
+
+max1) y1 <= 15.00
+max2) y2 <=  3500
+max3) y3 <=  1.30
+max4) y4 <=  2750
+max5) y5 <=  12.0     
+max6) y6 <=    41
+max7) y7 <=   160
+
+! Vincoli per esprimere la f.o. min-max;
+scost1+) y1 - 3.00 z <= 12.0
+scost2+) y2 - 1000 z <= 2500
+scost3+) y3 - 0.50 z <= 0.80
+scost4+) y4 -  750 z <= 2000
+scost5+) y5 -  2.0 z <= 10.0
+scost6+) y6 -    6 z <=   35
+scost7+) y7 -   40 z <=  120
+
+scost1-) y1 + 5.00 z >= 12.0
+scost2-) y2 +  800 z >= 2500
+scost3-) y3 + 0.30 z >= 0.80
+scost4-) y4 +  600 z >= 2000
+scost5-) y5 +  2.0 z >= 10.0
+scost6-) y6 +    7 z >=   35
+scost7-) y7 +   40 z >=  120
+
+! Vincoli sulle quantità max di ogni farmaco [mg];
+farmA) xA <= 2.0
+farmB) xB <= 3.5
+farmC) xC <= 0.5
+farmD) xD <= 0.5
+farmE) xE <= 7.5
+
+end
+
+

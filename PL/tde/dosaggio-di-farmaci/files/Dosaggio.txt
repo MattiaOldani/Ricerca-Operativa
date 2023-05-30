@@ -1,0 +1,41 @@
+I parametri da valutare sono 7 (numerati 1...7), i farmaci disponibili sono 5 (indicati da A...E).
+
+===============================================================
+
+Tabella 1: Valori dei parametri e soglie [unità di misura non specificate]
+
+Parametro   Valore    Soglia   Valore di    Soglia
+            attuale   minima   riferimento  massima
+
+    1        3.45       7.0      12.0        15.0
+    2        1800      1700      2500        3500
+    3        0.05      0.50      0.80        1.30
+    4        3200      1400      2000        2750
+    5        26.4       8.0      10.0        12.0     
+    6          35        28        35          41
+    7         136        80       120         160
+
+===============================================================
+
+Tabella 2: Effetto dei farmaci (variazione parametri per ogni mg di farmaco)
+
+      Farmaco    A      B      C      D      E
+Parametro
+    1          -0.2   +0.5   +0.7   +0.1   +0.2
+    2          -500    0.0   -250    +50    0.0
+    3          +0.2   -0.1   +0.3    0.0   +0.2
+    4           -80   -120    +15    -90   -100
+    5          -8.5   -7.0   -1.0   -3.0   +1.0
+    6            +5     -2     +8     -4      0
+    7            -5     -1     -2     -3     +4
+
+===============================================================
+
+Tabella 3: Quantità max di farmaci somministrabili [mg]
+
+Farmaco    Quantità
+   A          2.0
+   B          3.5
+   C          0.5
+   D          0.5
+   E          7.5

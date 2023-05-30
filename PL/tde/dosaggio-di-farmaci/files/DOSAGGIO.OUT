@@ -1,0 +1,123 @@
+
+ LP OPTIMUM FOUND AT STEP      0
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)     0.9996229
+
+  VARIABLE        VALUE          REDUCED COST
+         Z         0.999623          0.000000
+        XA         0.000000          0.223317
+        XB         3.485709          0.000000
+        XC         0.455605          0.000000
+        XD         0.284059          0.000000
+        XE         7.308504          0.000000
+        Y1         7.001885          0.000000
+        Y2      1700.301636          0.000000
+        Y3         1.299811          0.000000
+        Y4      2032.133179          0.000000
+        Y5         8.000754          0.000000
+        Y6        30.537186          0.000000
+        Y7       159.984924          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+   PARAM1)         0.000000         -0.124687
+   PARAM2)         0.000000         -0.000201
+   PARAM3)         0.000000          0.110128
+   PARAM4)         0.000000          0.000000
+   PARAM5)         0.000000         -0.010975
+   PARAM6)         0.000000          0.000000
+   PARAM7)         0.000000          0.003472
+     MIN1)         0.001885          0.000000
+     MIN2)         0.301639          0.000000
+     MIN3)         0.799811          0.000000
+     MIN4)       632.133179          0.000000
+     MIN5)         0.000754          0.000000
+     MIN6)         2.537186          0.000000
+     MIN7)        79.984917          0.000000
+     MAX1)         7.998115          0.000000
+     MAX2)      1799.698364          0.000000
+     MAX3)         0.000189          0.000000
+     MAX4)       717.866821          0.000000
+     MAX5)         3.999246          0.000000
+     MAX6)        10.462814          0.000000
+     MAX7)         0.015082          0.000000
+  SCOST1+)         7.996984          0.000000
+  SCOST2+)      1799.321289          0.000000
+  SCOST3+)         0.000000          0.110128
+  SCOST4+)       717.584045          0.000000
+  SCOST5+)         3.998492          0.000000
+  SCOST6+)        10.460552          0.000000
+  SCOST7+)         0.000000          0.003472
+  SCOST1-)         0.000000         -0.124687
+  SCOST2-)         0.000000         -0.000201
+  SCOST3-)         0.799698          0.000000
+  SCOST4-)       631.906921          0.000000
+  SCOST5-)         0.000000         -0.010975
+  SCOST6-)         2.534547          0.000000
+  SCOST7-)        79.969833          0.000000
+    FARMA)         2.000000          0.000000
+    FARMB)         0.014291          0.000000
+    FARMC)         0.044395          0.000000
+    FARMD)         0.215941          0.000000
+    FARME)         0.191496          0.000000
+
+ NO. ITERATIONS=       0
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: FARMB
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            3.50000      0.000000E+00  0.999623
+ SLK   38  SLK   29    29   3.48571      0.000000E+00  0.999623
+ SLK   10  SLK   31    34   3.47634      0.402597E-01   1.00000
+ SLK    9  SLK   30     9   3.47634      0.463609E-01   1.00000
+ SLK   13  SLK   34    25   3.47634      0.363281       1.00000
+ SLK   18  ART         11   3.47634      0.422727       1.00000
+                           0.000000E+00   +INFINITY   INFEASIBLE
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: FARMC
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                           0.500000      0.000000E+00  0.999623
+ SLK   39  SLK   31    40  0.455605      0.000000E+00  0.999623
+ SLK   22  SLK   29    31  0.450929      0.806355E-01   1.00000
+ SLK    9  SLK   30     9  0.450929      0.111341       1.00000
+ SLK   13  SLK   34    25  0.450929       1.62048       1.00000
+ SLK   18  ART         11  0.450929       2.98889       1.00000
+                           0.000000E+00   +INFINITY   INFEASIBLE
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: FARMD
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                           0.500000      0.000000E+00  0.999623
+ SLK   40  SLK   25    37  0.284059      0.000000E+00  0.999623
+ SLK   10  SLK   31    34  0.266102      0.209964E-01   1.00000
+ SLK   22  SLK   29    31  0.266102      0.273909E-01   1.00000
+ SLK    9  SLK   30     9  0.266102      0.423242E-01   1.00000
+ SLK   13  ART         25  0.266102       1.34091       1.00000
+                           0.000000E+00   +INFINITY   INFEASIBLE
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: FARME
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            7.50000      0.000000E+00  0.999623
+ SLK   41  SLK   29    41   7.30850      0.000000E+00  0.999623
+ SLK   10  SLK   31    34   7.29785      0.353881E-01   1.00000
+ SLK    9  SLK   30     9   7.29785      0.483368E-01   1.00000
+ SLK   13  SLK   34    25   7.29785       1.25676       1.00000
+ SLK   18  ART         11   7.29785       4.65000       1.00000
+                           0.000000E+00   +INFINITY   INFEASIBLE
+
