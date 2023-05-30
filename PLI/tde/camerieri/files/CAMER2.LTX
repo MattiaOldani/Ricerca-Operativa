@@ -1,0 +1,22 @@
+! Esercizio "Camerieri", 16 Giugno 2009
+
+! Variabili: x(g) = numero camerieri che iniziano nel giorno g (intere >=0)
+
+! Obiettivo: min n. camerieri
+
+min xLUN + xMAR + xMER + xGIO + xVEN + xSAB + xDOM
+
+st
+
+! Vincoli sulla domanda
+LUN) xLUN + xDOM + xSAB + xVEN + xGIO >=  4
+MAR) xMAR + xLUN + xDOM + xSAB + xVEN >=  5
+MER) xMER + xMAR + xLUN + xDOM + xSAB >=  5
+GIO) xGIO + xMER + xMAR + xLUN + xDOM >= 10
+VEN) xVEN + xGIO + xMER + xMAR + xLUN >= 12
+SAB) xSAB + xVEN + xGIO + xMER + xMAR >= 12
+DOM) xDOM + xSAB + xVEN + xGIO + xMER >=  2
+
+end
+
+gin 7

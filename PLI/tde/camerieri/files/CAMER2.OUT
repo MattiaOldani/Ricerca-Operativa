@@ -1,0 +1,38 @@
+
+ LP OPTIMUM FOUND AT STEP      6
+ OBJECTIVE VALUE =   12.0000000
+
+ FIX ALL VARS.(    4)  WITH RC >  0.000000E+00
+
+ NEW INTEGER SOLUTION OF    12.0000000     AT BRANCH      0 PIVOT       6
+ BOUND ON OPTIMUM:  12.00000
+ ENUMERATION COMPLETE. BRANCHES=     0 PIVOTS=       6
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      12.00000
+
+  VARIABLE        VALUE          REDUCED COST
+      XLUN         0.000000          1.000000
+      XMAR         8.000000          1.000000
+      XMER         0.000000          1.000000
+      XGIO         4.000000          1.000000
+      XVEN         0.000000          1.000000
+      XSAB         0.000000          1.000000
+      XDOM         0.000000          1.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+      LUN)         0.000000          0.000000
+      MAR)         3.000000          0.000000
+      MER)         3.000000          0.000000
+      GIO)         2.000000          0.000000
+      VEN)         0.000000          0.000000
+      SAB)         0.000000          0.000000
+      DOM)         2.000000          0.000000
+
+ NO. ITERATIONS=       6
+ BRANCHES=    0 DETERM.=  1.000E    0

@@ -1,0 +1,10 @@
+Giorno	N. camerieri
+         richiesti
+
+ LUN        4
+ MAR        5
+ MER        5
+ GIO       10
+ VEN       12
+ SAB       12
+ DOM        2

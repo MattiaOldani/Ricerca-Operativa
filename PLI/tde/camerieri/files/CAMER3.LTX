@@ -1,0 +1,24 @@
+! Esercizio "Camerieri", 16 Giugno 2009
+
+! Variabili: x(g) = numero camerieri con turno da 4 giorni che iniziano nel giorno g (intere >=0)
+!            y(g) = numero camerieri con turno da 5 giorni che iniziano nel giorno g (intere >=0)
+
+! Obiettivo: min costo totale camerieri (Euro/settimana)
+
+min 320 xLUN + 320 xMAR + 320 xMER + 320 xGIO + 320 xVEN + 320 xSAB + 320 xDOM
+  + 375 yLUN + 375 yMAR + 375 yMER + 375 yGIO + 375 yVEN + 375 ySAB + 375 yDOM
+
+st
+
+! Vincoli sulla domanda
+LUN) xLUN + xDOM + xSAB + xVEN + yLUN + yDOM + ySAB + yVEN + yGIO >=  4
+MAR) xMAR + xLUN + xDOM + xSAB + yMAR + yLUN + yDOM + ySAB + yVEN >=  5
+MER) xMER + xMAR + xLUN + xDOM + yMER + yMAR + yLUN + yDOM + ySAB >=  5
+GIO) xGIO + xMER + xMAR + xLUN + yGIO + yMER + yMAR + yLUN + yDOM >= 10
+VEN) xVEN + xGIO + xMER + xMAR + yVEN + yGIO + yMER + yMAR + yLUN >= 12
+SAB) xSAB + xVEN + xGIO + xMER + ySAB + yVEN + yGIO + yMER + yMAR >= 12
+DOM) xDOM + xSAB + xVEN + xGIO + yDOM + ySAB + yVEN + yGIO + yMER >=  2
+
+end
+
+gin 14

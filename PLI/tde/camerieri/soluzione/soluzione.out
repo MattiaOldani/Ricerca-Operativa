@@ -1,0 +1,60 @@
+Problem:    soluzione
+Rows:       8
+Columns:    14 (14 integer, 0 binary)
+Non-zeros:  77
+Status:     INTEGER OPTIMAL
+Objective:  z = 4225 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Copertura[0]                4             4               
+     2 Copertura[1]                5             5               
+     3 Copertura[2]                8             5               
+     4 Copertura[3]               10            10               
+     5 Copertura[4]               12            12               
+     6 Copertura[5]               12            12               
+     7 Copertura[6]                4             2               
+     8 z                        4225                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 ConvocazioniQuattro[6]
+                    *              0             0               
+     2 ConvocazioniQuattro[5]
+                    *              0             0               
+     3 ConvocazioniQuattro[4]
+                    *              2             0               
+     4 ConvocazioniQuattro[0]
+                    *              0             0               
+     5 ConvocazioniQuattro[1]
+                    *              0             0               
+     6 ConvocazioniQuattro[2]
+                    *              3             0               
+     7 ConvocazioniQuattro[3]
+                    *              0             0               
+     8 ConvocazioniCinque[6]
+                    *              0             0               
+     9 ConvocazioniCinque[5]
+                    *              0             0               
+    10 ConvocazioniCinque[4]
+                    *              0             0               
+    11 ConvocazioniCinque[3]
+                    *              2             0               
+    12 ConvocazioniCinque[0]
+                    *              0             0               
+    13 ConvocazioniCinque[1]
+                    *              5             0               
+    14 ConvocazioniCinque[2]
+                    *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
