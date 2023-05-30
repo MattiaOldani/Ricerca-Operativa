@@ -1,0 +1,143 @@
+Problem:    soluzione
+Rows:       46
+Columns:    10
+Non-zeros:  95
+Status:     OPTIMAL
+Objective:  z = 21120000 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 DefinizioneProduzione[Silvaner]
+                    NS             0            -0             =         < eps
+     2 DefinizioneProduzione[Riesling]
+                    NS             0            -0             =         < eps
+     3 DefinizioneProduzione[Pinot]
+                    NS             0            -0             =            -4 
+     4 DefinizioneProduzione[Mueller_Thurgau]
+                    NS             0            -0             =         < eps
+     5 DefinizioneProduzione[Merlot]
+                    NS             0            -0             =         < eps
+     6 Rapporto_3_1[Silvaner,Riesling]
+                    B      -2.8e+006                          -0 
+     7 Rapporto_3_1[Silvaner,Pinot]
+                    B      -1.9e+006                          -0 
+     8 Rapporto_3_1[Silvaner,Mueller_Thurgau]
+                    B     -2.05e+006                          -0 
+     9 Rapporto_3_1[Silvaner,Merlot]
+                    B      -1.6e+006                          -0 
+    10 Rapporto_3_1[Riesling,Silvaner]
+                    B      -1.6e+006                          -0 
+    11 Rapporto_3_1[Riesling,Pinot]
+                    B      -1.6e+006                          -0 
+    12 Rapporto_3_1[Riesling,Mueller_Thurgau]
+                    B     -1.75e+006                          -0 
+    13 Rapporto_3_1[Riesling,Merlot]
+                    B      -1.3e+006                          -0 
+    14 Rapporto_3_1[Pinot,Silvaner]
+                    B      -1.9e+006                          -0 
+    15 Rapporto_3_1[Pinot,Riesling]
+                    B      -2.8e+006                          -0 
+    16 Rapporto_3_1[Pinot,Mueller_Thurgau]
+                    B     -2.05e+006                          -0 
+    17 Rapporto_3_1[Pinot,Merlot]
+                    B      -1.6e+006                          -0 
+    18 Rapporto_3_1[Mueller_Thurgau,Silvaner]
+                    B     -1.85e+006                          -0 
+    19 Rapporto_3_1[Mueller_Thurgau,Riesling]
+                    B     -2.75e+006                          -0 
+    20 Rapporto_3_1[Mueller_Thurgau,Pinot]
+                    B     -1.85e+006                          -0 
+    21 Rapporto_3_1[Mueller_Thurgau,Merlot]
+                    B     -1.55e+006                          -0 
+    22 Rapporto_3_1[Merlot,Silvaner]
+                    B        -2e+006                          -0 
+    23 Rapporto_3_1[Merlot,Riesling]
+                    B      -2.9e+006                          -0 
+    24 Rapporto_3_1[Merlot,Pinot]
+                    B        -2e+006                          -0 
+    25 Rapporto_3_1[Merlot,Mueller_Thurgau]
+                    B     -2.15e+006                          -0 
+    26 Rapporto_4_1[Silvaner,Riesling]
+                    B     -3.36e+006                          -0 
+    27 Rapporto_4_1[Silvaner,Pinot]
+                    B     -2.66e+006                          -0 
+    28 Rapporto_4_1[Silvaner,Mueller_Thurgau]
+                    B     -2.06e+006                          -0 
+    29 Rapporto_4_1[Silvaner,Merlot]
+                    B     -3.62e+006                          -0 
+    30 Rapporto_4_1[Riesling,Silvaner]
+                    B    -3.435e+006                          -0 
+    31 Rapporto_4_1[Riesling,Pinot]
+                    B    -2.675e+006                          -0 
+    32 Rapporto_4_1[Riesling,Mueller_Thurgau]
+                    B    -2.075e+006                          -0 
+    33 Rapporto_4_1[Riesling,Merlot]
+                    B    -3.635e+006                          -0 
+    34 Rapporto_4_1[Pinot,Silvaner]
+                    B     -3.61e+006                          -0 
+    35 Rapporto_4_1[Pinot,Riesling]
+                    B     -3.55e+006                          -0 
+    36 Rapporto_4_1[Pinot,Mueller_Thurgau]
+                    B     -2.25e+006                          -0 
+    37 Rapporto_4_1[Pinot,Merlot]
+                    B     -3.81e+006                          -0 
+    38 Rapporto_4_1[Mueller_Thurgau,Silvaner]
+                    B     -3.76e+006                          -0 
+    39 Rapporto_4_1[Mueller_Thurgau,Riesling]
+                    B      -3.7e+006                          -0 
+    40 Rapporto_4_1[Mueller_Thurgau,Pinot]
+                    B        -3e+006                          -0 
+    41 Rapporto_4_1[Mueller_Thurgau,Merlot]
+                    B     -3.96e+006                          -0 
+    42 Rapporto_4_1[Merlot,Silvaner]
+                    B     -3.37e+006                          -0 
+    43 Rapporto_4_1[Merlot,Riesling]
+                    B     -3.31e+006                          -0 
+    44 Rapporto_4_1[Merlot,Pinot]
+                    B     -2.61e+006                          -0 
+    45 Rapporto_4_1[Merlot,Mueller_Thurgau]
+                    B     -2.01e+006                          -0 
+    46 z            B     2.112e+007                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 TerrenoColtivato[Silvaner]
+                    NU        950000             0        950000           5.4 
+     2 TerrenoColtivato[Riesling]
+                    NU     1.25e+006             0     1.25e+006           4.5 
+     3 TerrenoColtivato[Pinot]
+                    B         950000             0        950000 
+     4 TerrenoColtivato[Mueller_Thurgau]
+                    NU        1e+006             0        1e+006           2.4 
+     5 TerrenoColtivato[Merlot]
+                    NU        850000             0        850000           4.9 
+     6 Produzione[Silvaner]
+                    B      1.14e+006        150000      1.5e+006 
+     7 Produzione[Riesling]
+                    B     1.125e+006        200000      1.2e+006 
+     8 Produzione[Pinot]
+                    NU        950000        100000        950000             4 
+     9 Produzione[Mueller_Thurgau]
+                    B         800000        150000        800000 
+    10 Produzione[Merlot]
+                    B      1.19e+006        100000      1.5e+006 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,272 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 21120000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 DefinizioneProduzione[Silvaner]
+                    NS        .             .             .       -842500.00000          -Inf    2.112e+007 Rapporto_4_1[Merlot,Silvaner]
+                                            .             .        360000.00000          +Inf    2.112e+007 Produzione[Silvaner]
+
+     2 DefinizioneProduzione[Riesling]
+                    NS        .             .             .       -827500.00000          -Inf    2.112e+007 Rapporto_4_1[Merlot,Riesling]
+                                            .             .         75000.00000          +Inf    2.112e+007 Produzione[Riesling]
+
+     3 DefinizioneProduzione[Pinot]
+                    NS        .             .             .              .               -Inf    2.112e+007 TerrenoColtivato[Pinot]
+                                          -4.00000        .        533333.33333          +Inf  1.89867e+007 Rapporto_3_1[Riesling,Pinot]
+
+     4 DefinizioneProduzione[Mueller_Thurgau]
+                    NS        .             .             .       -502500.00000          -Inf    2.112e+007 Rapporto_4_1[Merlot,Mueller_Thurgau]
+                                            .             .              .               +Inf    2.112e+007 Produzione[Mueller_Thurgau]
+
+     5 DefinizioneProduzione[Merlot]
+                    NS        .             .             .       -905000.00000          -Inf    2.112e+007 Rapporto_4_1[Silvaner,Merlot]
+                                            .             .        310000.00000          +Inf    2.112e+007 Produzione[Merlot]
+
+     6 Rapporto_3_1[Silvaner,Riesling]
+                    BS     -2.8e+006      2.8e+006          -Inf  -3.33333e+006      -5.40000    3.624e+007 TerrenoColtivato[Silvaner]
+                                            .             .        -50000.00000       1.50000    1.692e+007 TerrenoColtivato[Riesling]
+
+     7 Rapporto_3_1[Silvaner,Pinot]
+                    BS     -1.9e+006      1.9e+006          -Inf  -2.43333e+006      -5.40000    3.138e+007 TerrenoColtivato[Silvaner]
+                                            .             .       -300000.00000       1.33333  1.85867e+007 Produzione[Pinot]
+
+     8 Rapporto_3_1[Silvaner,Mueller_Thurgau]
+                    BS    -2.05e+006     2.05e+006          -Inf  -2.58333e+006      -5.40000    3.219e+007 TerrenoColtivato[Silvaner]
+                                            .             .       -300000.00000        .80000    1.948e+007 TerrenoColtivato[Mueller_Thurgau]
+
+     9 Rapporto_3_1[Silvaner,Merlot]
+                    BS     -1.6e+006      1.6e+006          -Inf  -2.13333e+006      -5.40000    2.976e+007 TerrenoColtivato[Silvaner]
+                                            .             .       -300000.00000       1.63333  1.85067e+007 TerrenoColtivato[Merlot]
+
+    10 Rapporto_3_1[Riesling,Silvaner]
+                    BS     -1.6e+006      1.6e+006          -Inf  -2.51667e+006      -4.50000    2.832e+007 TerrenoColtivato[Riesling]
+                                            .             .        250000.00000       1.80000    1.824e+007 TerrenoColtivato[Silvaner]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 21120000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Rapporto_3_1[Riesling,Pinot]
+                    BS     -1.6e+006      1.6e+006          -Inf  -2.51667e+006      -4.50000    2.832e+007 TerrenoColtivato[Riesling]
+                                            .             .        250000.00000       1.33333  1.89867e+007 Produzione[Pinot]
+
+    12 Rapporto_3_1[Riesling,Mueller_Thurgau]
+                    BS    -1.75e+006     1.75e+006          -Inf  -2.66667e+006      -4.50000   2.8995e+007 TerrenoColtivato[Riesling]
+                                            .             .        134375.00000        .80000    1.972e+007 TerrenoColtivato[Mueller_Thurgau]
+
+    13 Rapporto_3_1[Riesling,Merlot]
+                    BS     -1.3e+006      1.3e+006          -Inf  -2.21667e+006      -4.50000    2.697e+007 TerrenoColtivato[Riesling]
+                                            .             .        250000.00000       1.63333  1.89967e+007 TerrenoColtivato[Merlot]
+
+    14 Rapporto_3_1[Pinot,Silvaner]
+                    BS     -1.9e+006      1.9e+006          -Inf  -2.43333e+006      -4.00000    2.872e+007 Produzione[Pinot]
+                                            .             .       -300000.00000       1.80000     1.77e+007 TerrenoColtivato[Silvaner]
+
+    15 Rapporto_3_1[Pinot,Riesling]
+                    BS     -2.8e+006      2.8e+006          -Inf  -3.33333e+006      -4.00000    3.232e+007 Produzione[Pinot]
+                                            .             .        -50000.00000       1.50000    1.692e+007 TerrenoColtivato[Riesling]
+
+    16 Rapporto_3_1[Pinot,Mueller_Thurgau]
+                    BS    -2.05e+006     2.05e+006          -Inf  -2.58333e+006      -4.00000    2.932e+007 Produzione[Pinot]
+                                            .             .       -300000.00000        .80000    1.948e+007 TerrenoColtivato[Mueller_Thurgau]
+
+    17 Rapporto_3_1[Pinot,Merlot]
+                    BS     -1.6e+006      1.6e+006          -Inf  -2.13333e+006      -4.00000    2.752e+007 Produzione[Pinot]
+                                            .             .       -300000.00000       1.63333  1.85067e+007 TerrenoColtivato[Merlot]
+
+    18 Rapporto_3_1[Mueller_Thurgau,Silvaner]
+                    BS    -1.85e+006     1.85e+006          -Inf  -2.43333e+006      -2.40000    2.556e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .             .       -250000.00000       1.80000    1.779e+007 TerrenoColtivato[Silvaner]
+
+    19 Rapporto_3_1[Mueller_Thurgau,Riesling]
+                    BS    -2.75e+006     2.75e+006          -Inf  -3.33333e+006      -2.40000    2.772e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .             .          8333.33333       1.50000   1.6995e+007 TerrenoColtivato[Riesling]
+
+    20 Rapporto_3_1[Mueller_Thurgau,Pinot]
+                    BS    -1.85e+006     1.85e+006          -Inf  -2.43333e+006      -2.40000    2.556e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .             .       -250000.00000       1.33333  1.86533e+007 Produzione[Pinot]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 21120000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Rapporto_3_1[Mueller_Thurgau,Merlot]
+                    BS    -1.55e+006     1.55e+006          -Inf  -2.13333e+006      -2.40000    2.484e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .             .       -250000.00000       1.63333  1.85883e+007 TerrenoColtivato[Merlot]
+
+    22 Rapporto_3_1[Merlot,Silvaner]
+                    BS       -2e+006        2e+006          -Inf  -2.43333e+006      -4.90000    3.092e+007 TerrenoColtivato[Merlot]
+                                            .             .       -400000.00000       1.80000    1.752e+007 TerrenoColtivato[Silvaner]
+
+    23 Rapporto_3_1[Merlot,Riesling]
+                    BS     -2.9e+006      2.9e+006          -Inf  -3.33333e+006      -4.90000    3.533e+007 TerrenoColtivato[Merlot]
+                                            .             .       -150000.00000       1.50000    1.677e+007 TerrenoColtivato[Riesling]
+
+    24 Rapporto_3_1[Merlot,Pinot]
+                    BS       -2e+006        2e+006          -Inf  -2.43333e+006      -4.90000    3.092e+007 TerrenoColtivato[Merlot]
+                                            .             .       -400000.00000       1.33333  1.84533e+007 Produzione[Pinot]
+
+    25 Rapporto_3_1[Merlot,Mueller_Thurgau]
+                    BS    -2.15e+006     2.15e+006          -Inf  -2.58333e+006      -4.90000   3.1655e+007 TerrenoColtivato[Merlot]
+                                            .             .       -400000.00000        .80000     1.94e+007 TerrenoColtivato[Mueller_Thurgau]
+
+    26 Rapporto_4_1[Silvaner,Riesling]
+                    BS    -3.36e+006     3.36e+006          -Inf        -4e+006      -4.50000    3.624e+007 TerrenoColtivato[Silvaner]
+                                            .             .        -60000.00000       1.25000    1.692e+007 TerrenoColtivato[Riesling]
+
+    27 Rapporto_4_1[Silvaner,Pinot]
+                    BS    -2.66e+006     2.66e+006          -Inf      -3.3e+006      -4.50000    3.309e+007 TerrenoColtivato[Silvaner]
+                                            .             .       -526666.66667       1.00000    1.846e+007 Produzione[Pinot]
+
+    28 Rapporto_4_1[Silvaner,Mueller_Thurgau]
+                    BS    -2.06e+006     2.06e+006          -Inf      -2.7e+006      -4.50000    3.039e+007 TerrenoColtivato[Silvaner]
+                                            .             .       -193333.33333        .75000   1.9575e+007 TerrenoColtivato[Mueller_Thurgau]
+
+    29 Rapporto_4_1[Silvaner,Merlot]
+                    BS    -3.62e+006     3.62e+006          -Inf     -4.26e+006      -4.50000    3.741e+007 TerrenoColtivato[Silvaner]
+                                            .             .       -1.19333e+006        .87500  1.79525e+007 TerrenoColtivato[Merlot]
+
+    30 Rapporto_4_1[Riesling,Silvaner]
+                    BS   -3.435e+006    3.435e+006          -Inf     -4.26e+006      -5.00000   3.8295e+007 TerrenoColtivato[Riesling]
+                                            .             .       -875000.00000       1.12500  1.72556e+007 TerrenoColtivato[Silvaner]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    soluzione
+Objective:  z = 21120000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 Rapporto_4_1[Riesling,Pinot]
+                    BS   -2.675e+006    2.675e+006          -Inf      -3.5e+006      -5.00000   3.4495e+007 TerrenoColtivato[Riesling]
+                                            .             .       -541666.66667       1.00000   1.8445e+007 Produzione[Pinot]
+
+    32 Rapporto_4_1[Riesling,Mueller_Thurgau]
+                    BS   -2.075e+006    2.075e+006          -Inf      -2.9e+006      -5.00000   3.1495e+007 TerrenoColtivato[Riesling]
+                                            .             .       -208333.33333        .75000  1.95638e+007 TerrenoColtivato[Mueller_Thurgau]
+
+    33 Rapporto_4_1[Riesling,Merlot]
+                    BS   -3.635e+006    3.635e+006          -Inf     -4.46e+006      -5.00000   3.9295e+007 TerrenoColtivato[Riesling]
+                                            .             .       -1.20833e+006        .87500  1.79394e+007 TerrenoColtivato[Merlot]
+
+    34 Rapporto_4_1[Pinot,Silvaner]
+                    BS    -3.61e+006     3.61e+006          -Inf  -4.14333e+006      -4.00000    3.556e+007 Produzione[Pinot]
+                                            .             .          -1.05e+006       1.12500  1.70588e+007 TerrenoColtivato[Silvaner]
+
+    35 Rapporto_4_1[Pinot,Riesling]
+                    BS    -3.55e+006     3.55e+006          -Inf  -4.08333e+006      -4.00000    3.532e+007 Produzione[Pinot]
+                                            .             .       -250000.00000       1.25000  1.66825e+007 TerrenoColtivato[Riesling]
+
+    36 Rapporto_4_1[Pinot,Mueller_Thurgau]
+                    BS    -2.25e+006     2.25e+006          -Inf  -2.78333e+006      -4.00000    3.012e+007 Produzione[Pinot]
+                                            .             .       -383333.33333        .75000  1.94325e+007 TerrenoColtivato[Mueller_Thurgau]
+
+    37 Rapporto_4_1[Pinot,Merlot]
+                    BS    -3.81e+006     3.81e+006          -Inf  -4.34333e+006      -4.00000    3.636e+007 Produzione[Pinot]
+                                            .             .       -1.38333e+006        .87500  1.77863e+007 TerrenoColtivato[Merlot]
+
+    38 Rapporto_4_1[Mueller_Thurgau,Silvaner]
+                    BS    -3.76e+006     3.76e+006          -Inf  -4.22667e+006      -3.00000     3.24e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .             .           -1.2e+006       1.12500    1.689e+007 TerrenoColtivato[Silvaner]
+
+    39 Rapporto_4_1[Mueller_Thurgau,Riesling]
+                    BS     -3.7e+006      3.7e+006          -Inf  -4.16667e+006      -3.00000    3.222e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .             .       -400000.00000       1.25000   1.6495e+007 TerrenoColtivato[Riesling]
+
+    40 Rapporto_4_1[Mueller_Thurgau,Pinot]
+                    BS       -3e+006        3e+006          -Inf  -3.46667e+006      -3.00000    3.012e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .             .       -866666.66667       1.00000    1.812e+007 Produzione[Pinot]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    soluzione
+Objective:  z = 21120000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 Rapporto_4_1[Mueller_Thurgau,Merlot]
+                    BS    -3.96e+006     3.96e+006          -Inf  -4.42667e+006      -3.00000      3.3e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .             .       -1.53333e+006        .87500   1.7655e+007 TerrenoColtivato[Merlot]
+
+    42 Rapporto_4_1[Merlot,Silvaner]
+                    BS    -3.37e+006     3.37e+006          -Inf  -3.97667e+006      -3.50000   3.2915e+007 TerrenoColtivato[Merlot]
+                                            .             .       -810000.00000       1.12500  1.73288e+007 TerrenoColtivato[Silvaner]
+
+    43 Rapporto_4_1[Merlot,Riesling]
+                    BS    -3.31e+006     3.31e+006          -Inf  -3.91667e+006      -3.50000   3.2705e+007 TerrenoColtivato[Merlot]
+                                            .             .        -10000.00000       1.25000  1.69825e+007 TerrenoColtivato[Riesling]
+
+    44 Rapporto_4_1[Merlot,Pinot]
+                    BS    -2.61e+006     2.61e+006          -Inf  -3.21667e+006      -3.50000   3.0255e+007 TerrenoColtivato[Merlot]
+                                            .             .       -476666.66667       1.00000    1.851e+007 Produzione[Pinot]
+
+    45 Rapporto_4_1[Merlot,Mueller_Thurgau]
+                    BS    -2.01e+006     2.01e+006          -Inf  -2.61667e+006      -3.50000   2.8155e+007 TerrenoColtivato[Merlot]
+                                            .             .       -143333.33333        .75000  1.96125e+007 TerrenoColtivato[Mueller_Thurgau]
+
+    46 z            BS    2.112e+007   -2.112e+007          -Inf     1.824e+007      -1.00000        .      TerrenoColtivato[Silvaner]
+                                            .               +Inf     2.112e+007          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    soluzione
+Objective:  z = 21120000 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 TerrenoColtivato[Silvaner]
+                    NU  950000.00000       5.40000        .        416666.66667        .         1.824e+007 Rapporto_3_1[Riesling,Silvaner]
+                                           5.40000  950000.00000      1.25e+006          +Inf    2.274e+007 Produzione[Silvaner]
+
+     2 TerrenoColtivato[Riesling]
+                    NU     1.25e+006       4.50000        .        333333.33333        .        1.6995e+007 Rapporto_3_1[Mueller_Thurgau,Riesling]
+                                           4.50000     1.25e+006   1.33333e+006          +Inf   2.1495e+007 Produzione[Riesling]
+
+     3 TerrenoColtivato[Pinot]
+                    BS  950000.00000       4.00000        .        416666.66667        .         1.732e+007 Produzione[Pinot]
+                                            .       950000.00000   950000.00000          +Inf          +Inf
+
+     4 TerrenoColtivato[Mueller_Thurgau]
+                    NU        1e+006       2.40000        .        416666.66667        .         1.972e+007 Rapporto_3_1[Riesling,Mueller_Thurgau]
+                                           2.40000        1e+006         1e+006          +Inf    2.112e+007 Produzione[Mueller_Thurgau]
+
+     5 TerrenoColtivato[Merlot]
+                    NU  850000.00000       4.90000        .        416666.66667        .       1.89967e+007 Rapporto_3_1[Riesling,Merlot]
+                                           4.90000  850000.00000   1.07143e+006          +Inf   2.2205e+007 Produzione[Merlot]
+
+     6 Produzione[Silvaner]
+                    BS     1.14e+006        .       150000.00000   500000.00000      -4.50000    1.599e+007 TerrenoColtivato[Silvaner]
+                                            .           1.5e+006      1.14e+006          +Inf          +Inf
+
+     7 Produzione[Riesling]
+                    BS    1.125e+006        .       200000.00000   300000.00000      -5.00000   1.5495e+007 TerrenoColtivato[Riesling]
+                                            .           1.2e+006     1.125e+006          +Inf          +Inf
+
+     8 Produzione[Pinot]
+                    NU  950000.00000        .       100000.00000   416666.66667      -4.00000  1.89867e+007 Rapporto_3_1[Riesling,Pinot]
+                                           4.00000  950000.00000   950000.00000          +Inf    2.112e+007 TerrenoColtivato[Pinot]
+
+     9 Produzione[Mueller_Thurgau]
+                    BS  800000.00000        .       150000.00000   333333.33333      -3.00000    1.872e+007 TerrenoColtivato[Mueller_Thurgau]
+                                            .       800000.00000   800000.00000          +Inf          +Inf
+
+    10 Produzione[Merlot]
+                    BS     1.19e+006        .       100000.00000   583333.33333      -3.50000   1.6955e+007 TerrenoColtivato[Merlot]
+                                            .           1.5e+006      1.19e+006          +Inf          +Inf
+
+End of report

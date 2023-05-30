@@ -1,0 +1,90 @@
+! Esercizio Vitigni, Giugno 2006
+
+! Variabili: x(i) = area coltivata con vitigni di tipo i=1..5 [ettari]
+! Variabili: y(i) = quantità di vino prodotta di tipo i=1..5 [litri]
+! Variabili continue, non negative
+
+! Obiettivo: massimizzare i ricavi [Euro]
+
+max 4.50 y1 + 5.00 y2 + 4.00 y3 + 3.00 y4 + 3.50 y5
+
+st
+
+! Relazione tra area coltivata e litri prodotti [litri]
+
+resa1) y1 - 12000 x1 = 0
+resa2) y2 -  9000 x2 = 0
+resa3) y3 - 10000 x3 = 0
+resa4) y4 -  8000 x4 = 0
+resa5) y5 - 14000 x5 = 0
+
+! Limiti sulla quantità di vino prodotto [litri]
+
+minq1) y1 >= 150000
+minq2) y2 >= 200000
+minq3) y3 >= 100000
+minq4) y4 >= 150000
+minq5) y5 >= 100000
+!
+maxq1) y1 <= 1500000
+maxq2) y2 <= 1200000
+maxq3) y3 <=  950000
+maxq4) y4 <=  800000
+maxq5) y5 <= 1500000
+
+! Vincolo sulla superficie totale [ettari]
+
+totale) x1 + x2 + x3 + x4 + x5 = 500
+
+! Vincoli sui rapporti tra le superfici [ettari]
+rapps12) x1 - 3 x2 <= 0
+rapps13) x1 - 3 x3 <= 0
+rapps14) x1 - 3 x4 <= 0
+rapps15) x1 - 3 x5 <= 0
+rapps21) x2 - 3 x1 <= 0
+rapps23) x2 - 3 x3 <= 0
+rapps24) x2 - 3 x4 <= 0
+rapps25) x2 - 3 x5 <= 0
+rapps31) x3 - 3 x1 <= 0
+rapps32) x3 - 3 x2 <= 0
+rapps34) x3 - 3 x4 <= 0
+rapps35) x3 - 3 x5 <= 0
+rapps41) x4 - 3 x1 <= 0
+rapps42) x4 - 3 x2 <= 0
+rapps43) x4 - 3 x3 <= 0
+rapps45) x4 - 3 x5 <= 0
+rapps51) x5 - 3 x1 <= 0
+rapps52) x5 - 3 x2 <= 0
+rapps53) x5 - 3 x3 <= 0
+rapps54) x5 - 3 x4 <= 0
+
+! Vincoli sui rapporti tra le produzioni [litri]
+rappq12) y1 - 4 y2 <= 0
+rappq13) y1 - 4 y3 <= 0
+rappq14) y1 - 4 y4 <= 0
+rappq15) y1 - 4 y5 <= 0
+rappq21) y2 - 4 y1 <= 0
+rappq23) y2 - 4 y3 <= 0
+rappq24) y2 - 4 y4 <= 0
+rappq25) y2 - 4 y5 <= 0
+rappq31) y3 - 4 y1 <= 0
+rappq32) y3 - 4 y2 <= 0
+rappq34) y3 - 4 y4 <= 0
+rappq35) y3 - 4 y5 <= 0
+rappq41) y4 - 4 y1 <= 0
+rappq42) y4 - 4 y2 <= 0
+rappq43) y4 - 4 y3 <= 0
+rappq45) y4 - 4 y5 <= 0
+rappq51) y5 - 4 y1 <= 0
+rappq52) y5 - 4 y2 <= 0
+rappq53) y5 - 4 y3 <= 0
+rappq54) y5 - 4 y4 <= 0
+
+! Soluzione attuale
+X1 =   95
+X2 =  125
+X3 =   95
+X4 =  100
+X5 =   85
+
+end

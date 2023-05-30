@@ -1,0 +1,39 @@
+! Esercizio Vitigni, Giugno 2006
+
+! Variabili: x(i) = area coltivata con vitigni di tipo i=1..5 [ettari]
+! Variabili: y(i) = quantità di vino prodotta di tipo i=1..5 [litri]
+! Variabili continue, non negative
+
+! Obiettivo: massimizzare i ricavi [Euro]
+
+max 4.50 y1 + 5.00 y2 + 4.00 y3 + 3.00 y4 + 3.50 y5
+
+st
+
+! Relazione tra area coltivata e litri prodotti [litri]
+
+resa1) y1 - 12000 x1 = 0
+resa2) y2 -  9000 x2 = 0
+resa3) y3 - 10000 x3 = 0
+resa4) y4 -  8000 x4 = 0
+resa5) y5 - 14000 x5 = 0
+
+! Limiti sulla quantità di vino prodotto [litri]
+
+minq1) y1 >= 150000
+minq2) y2 >= 200000
+minq3) y3 >= 100000
+minq4) y4 >= 150000
+minq5) y5 >= 100000
+!
+maxq1) y1 <= 1500000
+maxq2) y2 <= 1200000
+maxq3) y3 <=  950000
+maxq4) y4 <=  800000
+maxq5) y5 <= 1500000
+
+! Vincolo sulla superficie totale [ettari]
+
+totale) x1 + x2 + x3 + x4 + x5 = 500
+
+end
