@@ -1,0 +1,54 @@
+I prodotti sono 3.
+Le materie prime sono di 4 tipi.
+
+**************************************************
+
+Tabella 1: Disponibilità delle materie prime
+
+Mat. prima  Quantità [Kg/g]
+    M1        2900
+    M2        2200
+    M3        4000
+    M4        1550
+
+**************************************************
+
+Tabella 2: Assemblaggio: percentuale di materia prima per ogni prodotto
+
+   Prodotto  P1   P2   P3
+Mat.pr.
+  M1         58   22   30  
+  M2         12   15   60  
+  M3         20   53   14  
+  M4         10   15   23  
+
+**************************************************
+
+Tabella 3: Prezzi - primo scenario
+
+Prodotto Prezzo [Euro/Kg]
+   P1       6
+   P2      10
+   P3      12
+
+**************************************************
+
+Tabella 4: Prezzi - secondo scenario
+
+Prodotto Prezzo [Euro/Kg]
+   P1      12
+   P2      10
+   P3       6
+
+**************************************************
+
+Tabella 5: Prezzi di rifornimento ulteriore
+
+Materia prima   Prezzo [Euro/Kg]
+     M1           16
+     M2           10.5
+     M3            4.5
+     M4            2
+
+**************************************************
+

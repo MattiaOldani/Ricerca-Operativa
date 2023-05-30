@@ -1,0 +1,57 @@
+
+ LP OPTIMUM FOUND AT STEP      0
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      94908.07
+
+  VARIABLE        VALUE          REDUCED COST
+         Z     94908.070312          0.000000
+        X1      1677.732422          0.000000
+        X2      6470.888672          0.000000
+        X3      1677.732422          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+       M1)         0.000000         15.679265
+       M2)        21.399387          0.000000
+       M3)         0.000000         12.359550
+       M4)        25.715015          0.000000
+        6)         0.000000         -0.072353
+        7)         0.000000         -0.927647
+
+ NO. ITERATIONS=       0
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+        Z        1.000000         INFINITY         1.000000
+       X1        0.000000        17.001560         1.326053
+       X2        0.000000        18.058825         5.500000
+       X3        0.000000         0.645406         8.274867
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+       M1     2900.000000        25.347853      1239.622681
+       M2     2200.000000         INFINITY        21.399387
+       M3     4000.000000       169.528625       317.424255
+       M4     1550.000000         INFINITY        25.715015
+        6        0.000000       360.492126     14965.832031
+        7        0.000000     14965.832031       360.492126
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: M1
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            2900.00       15.6793       94908.1
+ SLK    3  SLK    7     4   2925.35       15.6793       95305.5
+ SLK    5  SLK    3     5   3305.51       2.48645       96250.8
+       X3  SLK    2     3   6446.52      0.210847       96913.0
+                            7000.00      0.222045E-15   96913.0
+

@@ -1,0 +1,54 @@
+Problem:    soluzione
+Rows:       7
+Columns:    5
+Non-zeros:  23
+Status:     OPTIMAL
+Objective:  z = 95242.47899 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 DisponibilitaMaterie[1]
+                    NU          2900                        2900       2.48645 
+     2 DisponibilitaMaterie[2]
+                    NU          2200                        2200       15.6271 
+     3 DisponibilitaMaterie[3]
+                    NU          4000                        4000       13.4131 
+     4 DisponibilitaMaterie[4]
+                    B        1531.13                        1550 
+     5 VederePrimoRicavo
+                    NS             0            -0             =         < eps
+     6 VedereSecondoRicavo
+                    NS             0            -0             =         < eps
+     7 z            B        95242.5                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Produzione[1]
+                    B        1658.06             0               
+     2 Produzione[2]
+                    B        6467.64             0               
+     3 Produzione[3]
+                    B        1718.15             0               
+     4 PrimoRicavo  B        95242.5                             
+     5 SecondoRicavo
+                    B          94882                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 3.55e-015 on column 3
+        max.rel.err = 1.42e-016 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
