@@ -1,0 +1,128 @@
+Problem:    soluzione
+Rows:       23
+Columns:    40 (40 integer, 40 binary)
+Non-zeros:  310
+Status:     INTEGER OPTIMAL
+Objective:  z = 710 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Singolo                     1             1             = 
+     2 NoUltimo[1]                 0                           1 
+     3 NoUltimo[2]                 0                           1 
+     4 NoUltimo[3]                 0                           1 
+     5 NoUltimo[4]                 1                           1 
+     6 NoUltimo[5]                 1                           1 
+     7 NoUltimo[6]                 1                           1 
+     8 NoUltimo[7]                 0                           1 
+     9 NoUltimo[8]                 1                           1 
+    10 NoUltimo[9]                 0                           1 
+    11 NoUltimo[10]                0                           1 
+    12 NoUltimo[11]                0                           1 
+    13 NoUltimo[12]                1                           1 
+    14 NoUltimo[13]                1                           1 
+    15 NoUltimo[14]                1                           1 
+    16 NoUltimo[15]                1                           1 
+    17 NoUltimo[16]                1                           1 
+    18 NoUltimo[17]                1                           1 
+    19 NoUltimo[18]                1                           1 
+    20 NoUltimo[19]                1                           1 
+    21 NoUltimo[20]                1                           1 
+    22 PuntiMassimiSpendibili
+                                 849                         849 
+    23 z                         710                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 AppuntamentiScelti[1]
+                    *              0             0             1 
+     2 AppuntamentiScelti[2]
+                    *              0             0             1 
+     3 AppuntamentiScelti[3]
+                    *              0             0             1 
+     4 AppuntamentiScelti[4]
+                    *              1             0             1 
+     5 AppuntamentiScelti[5]
+                    *              1             0             1 
+     6 AppuntamentiScelti[6]
+                    *              1             0             1 
+     7 AppuntamentiScelti[7]
+                    *              0             0             1 
+     8 AppuntamentiScelti[8]
+                    *              1             0             1 
+     9 AppuntamentiScelti[9]
+                    *              0             0             1 
+    10 AppuntamentiScelti[10]
+                    *              0             0             1 
+    11 AppuntamentiScelti[11]
+                    *              0             0             1 
+    12 AppuntamentiScelti[12]
+                    *              1             0             1 
+    13 AppuntamentiScelti[13]
+                    *              1             0             1 
+    14 AppuntamentiScelti[14]
+                    *              1             0             1 
+    15 AppuntamentiScelti[15]
+                    *              1             0             1 
+    16 AppuntamentiScelti[16]
+                    *              1             0             1 
+    17 AppuntamentiScelti[17]
+                    *              1             0             1 
+    18 AppuntamentiScelti[18]
+                    *              1             0             1 
+    19 AppuntamentiScelti[19]
+                    *              1             0             1 
+    20 AppuntamentiScelti[20]
+                    *              0             0             1 
+    21 UltimoAppuntamento[1]
+                    *              0             0             1 
+    22 UltimoAppuntamento[2]
+                    *              0             0             1 
+    23 UltimoAppuntamento[3]
+                    *              0             0             1 
+    24 UltimoAppuntamento[4]
+                    *              0             0             1 
+    25 UltimoAppuntamento[5]
+                    *              0             0             1 
+    26 UltimoAppuntamento[6]
+                    *              0             0             1 
+    27 UltimoAppuntamento[7]
+                    *              0             0             1 
+    28 UltimoAppuntamento[8]
+                    *              0             0             1 
+    29 UltimoAppuntamento[9]
+                    *              0             0             1 
+    30 UltimoAppuntamento[10]
+                    *              0             0             1 
+    31 UltimoAppuntamento[11]
+                    *              0             0             1 
+    32 UltimoAppuntamento[12]
+                    *              0             0             1 
+    33 UltimoAppuntamento[13]
+                    *              0             0             1 
+    34 UltimoAppuntamento[14]
+                    *              0             0             1 
+    35 UltimoAppuntamento[15]
+                    *              0             0             1 
+    36 UltimoAppuntamento[16]
+                    *              0             0             1 
+    37 UltimoAppuntamento[17]
+                    *              0             0             1 
+    38 UltimoAppuntamento[18]
+                    *              0             0             1 
+    39 UltimoAppuntamento[19]
+                    *              0             0             1 
+    40 UltimoAppuntamento[20]
+                    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

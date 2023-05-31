@@ -1,0 +1,8 @@
+Gli appuntamenti sono 20.
+
+Appuntamento            1   2   3   4   5   6   7   8   9  10 11 12 13 14 15 16 17 18 19 20
+Punti consumati       200 180 165 141 138 130 122 115 109 104 90 79 61 50 42 34 27 20 12  9
+Valore dell'affare    112 105 104  99  97  90  81  78  66  58 55 52 50 43 41 37 35 33 30 25
+
+Il biglietto vale 850 punti.
+
