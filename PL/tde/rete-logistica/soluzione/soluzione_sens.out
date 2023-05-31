@@ -1,0 +1,74 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 9906000 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 RispettoDomanda[Londra]
+                    NS   90000.00000        .        90000.00000    70000.00000          -Inf    9.068e+006 Trasporto[Middlesborough,Birmingham]
+                                          41.90000   90000.00000   100000.00000          +Inf   1.0325e+007 Capienza1
+
+     2 RispettoDomanda[Birmingham]
+                    NS   80000.00000        .        80000.00000    60000.00000          -Inf     9.12e+006 Trasporto[Middlesborough,Birmingham]
+                                          39.30000   80000.00000    90000.00000          +Inf   1.0299e+007 Capienza1
+
+     3 RispettoDomanda[Leeds]
+                    NS   50000.00000        .        50000.00000         .               -Inf    8.356e+006 Trasporto[Middlesborough,Leeds]
+                                          31.00000   50000.00000    60000.00000          +Inf   1.0216e+007 Capienza1
+
+     4 RispettoDomanda[Edimburgo]
+                    NS   70000.00000        .        70000.00000         .               -Inf    7.295e+006 Trasporto[Middlesborough,Edimburgo]
+                                          37.30000   70000.00000    80000.00000          +Inf   1.0279e+007 Capienza1
+
+     5 Capienza1    BS  140000.00000   10000.00000          -Inf   200000.00000      -7.80000    8.814e+006 Capienza2
+                                            .       150000.00000   140000.00000          +Inf          +Inf
+
+     6 Capienza2    NU  150000.00000        .               -Inf   140000.00000          -Inf    9.984e+006 Capienza1
+                                          -7.80000  150000.00000   170000.00000       7.80000     9.75e+006 Trasporto[Middlesborough,Birmingham]
+
+     7 z            BS    9.906e+006   -9.906e+006          -Inf    1.0731e+007      -1.00000        .      Trasporto[Bristol,Leeds]
+                                            .               +Inf     9.906e+006          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 9906000 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Trasporto[Bristol,Londra]
+                    BS   90000.00000      34.10000        .         90000.00000          -Inf          -Inf
+                                            .               +Inf    70000.00000      37.70000    1.023e+007 Trasporto[Middlesborough,Londra]
+
+     2 Trasporto[Middlesborough,Londra]
+                    NL        .           45.50000        .        -60000.00000      41.90000     9.69e+006 Trasporto[Bristol,Birmingham]
+                                           3.60000          +Inf    20000.00000          +Inf    9.978e+006 Trasporto[Middlesborough,Birmingham]
+
+     3 Trasporto[Bristol,Birmingham]
+                    BS   60000.00000      31.50000        .         80000.00000      27.90000     9.69e+006 Trasporto[Middlesborough,Londra]
+                                            .               +Inf    50000.00000      39.30000   1.0374e+007 Capienza2
+
+     4 Trasporto[Middlesborough,Birmingham]
+                    BS   20000.00000      39.30000        .         30000.00000      31.50000     9.75e+006 Capienza2
+                                            .               +Inf   -70000.00000      42.90000    9.978e+006 Trasporto[Middlesborough,Londra]
+
+     5 Trasporto[Bristol,Leeds]
+                    NL        .           39.70000        .        -20000.00000      23.20000    9.576e+006 Trasporto[Middlesborough,Birmingham]
+                                          16.50000          +Inf    50000.00000          +Inf   1.0731e+007 Trasporto[Middlesborough,Leeds]
+
+     6 Trasporto[Middlesborough,Leeds]
+                    BS   50000.00000      31.00000        .         50000.00000          -Inf          -Inf
+                                            .               +Inf   -10000.00000      47.50000   1.0731e+007 Trasporto[Bristol,Leeds]
+
+     7 Trasporto[Bristol,Edimburgo]
+                    NL        .           53.00000        .        -20000.00000      29.50000    9.436e+006 Trasporto[Middlesborough,Birmingham]
+                                          23.50000          +Inf    60000.00000          +Inf   1.1316e+007 Trasporto[Bristol,Birmingham]
+
+     8 Trasporto[Middlesborough,Edimburgo]
+                    BS   70000.00000      37.30000        .         70000.00000          -Inf          -Inf
+                                            .               +Inf    10000.00000      60.80000   1.1551e+007 Trasporto[Bristol,Edimburgo]
+
+End of report

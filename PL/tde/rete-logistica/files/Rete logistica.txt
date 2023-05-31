@@ -1,0 +1,33 @@
+
+Tab. 1: Domanda nei punti-vendita (unità di prodotto/anno).
+
+Punto vendita	Domanda annua
+
+   Londra          90000
+   Birmingham      80000
+   Leeds           50000
+   Edimburgo       70000
+
+-------------------------------------
+
+Tab. 2: Costi di trasporto dalla produzione ai magazzini
+
+Costi di trasporto (€/unità)    Bristol   Middlesborough
+       Rotterdam                24.50     26.00
+
+-------------------------------------
+
+Tab. 3: Costi di trasporto dai magazzini ai punti-vendita
+
+Costi di trasporto (€/unità)    Londra     Birmingham Leeds       Edimburgo
+Bristol                          9.60       7.00       15.20       28.50
+Middlesborough                  19.50      13.30        5.00       11.30
+
+-------------------------------------
+
+I due magazzini hanno una capacità di 15000 unità e vengono riforniti 10 volte l’anno: perciò la domanda annua che ciascuno di essi può soddisfare è pari a 150000 unità.
+
+-------------------------------------
+
+Costo fisso dei lavori di ampliamento: 134000 €
+Costo variabile dell'ampliamento: 5.00 €/unità

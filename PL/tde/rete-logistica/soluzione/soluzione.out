@@ -1,0 +1,59 @@
+Problem:    soluzione
+Rows:       7
+Columns:    8
+Non-zeros:  24
+Status:     OPTIMAL
+Objective:  z = 9906000 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 RispettoDomanda[Londra]
+                    NS         90000         90000             =          41.9 
+     2 RispettoDomanda[Birmingham]
+                    NS         80000         80000             =          39.3 
+     3 RispettoDomanda[Leeds]
+                    NS         50000         50000             =            31 
+     4 RispettoDomanda[Edimburgo]
+                    NS         70000         70000             =          37.3 
+     5 Capienza1    B         140000                      150000 
+     6 Capienza2    NU        150000                      150000          -7.8 
+     7 z            B     9.906e+006                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Trasporto[Bristol,Londra]
+                    B          90000             0               
+     2 Trasporto[Middlesborough,Londra]
+                    NL             0             0                         3.6 
+     3 Trasporto[Bristol,Birmingham]
+                    B          60000             0               
+     4 Trasporto[Middlesborough,Birmingham]
+                    B          20000             0               
+     5 Trasporto[Bristol,Leeds]
+                    NL             0             0                        16.5 
+     6 Trasporto[Middlesborough,Leeds]
+                    B          50000             0               
+     7 Trasporto[Bristol,Edimburgo]
+                    NL             0             0                        23.5 
+     8 Trasporto[Middlesborough,Edimburgo]
+                    B          70000             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 3.55e-015 on column 6
+        max.rel.err = 5.64e-017 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

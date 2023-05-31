@@ -1,0 +1,71 @@
+
+ LP OPTIMUM FOUND AT STEP      0
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      9906000.
+
+  VARIABLE        VALUE          REDUCED COST
+  X_ROTBRI    150000.000000          0.000000
+  X_ROTMID    140000.000000          0.000000
+  X_BRILON     90000.000000          0.000000
+  X_BRIBIR     60000.000000          0.000000
+  X_BRILEE         0.000000         16.500000
+  X_BRIEDI         0.000000         23.500000
+  X_MIDLON         0.000000          3.600000
+  X_MIDBIR     20000.000000          0.000000
+  X_MIDLEE     50000.000000          0.000000
+  X_MIDEDI     70000.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+  BRISTOL)         0.000000         32.299999
+  MIDDLES)         0.000000         26.000000
+   LONDRA)         0.000000        -41.900002
+   BIRMIN)         0.000000        -39.299999
+    LEEDS)         0.000000        -31.000000
+    EDIMB)         0.000000        -37.299999
+  C_BRIST)         0.000000          7.800000      Conviene ampliare Bristol
+  C_MIDDL)     10000.000000          0.000000      Non conviene ampliare Middlesborough
+
+ NO. ITERATIONS=       0
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+ X_ROTBRI       24.500000         7.800000         INFINITY
+ X_ROTMID       26.000000         INFINITY         7.800000
+ X_BRILON        9.600000         3.599998         INFINITY
+ X_BRIBIR        7.000000         7.800000         3.599998
+ X_BRILEE       15.200000         INFINITY        16.500000
+ X_BRIEDI       28.500000         INFINITY        23.500000
+ X_MIDLON       19.500000         INFINITY         3.599998
+ X_MIDBIR       13.300000         3.599998         7.800000
+ X_MIDLEE        5.000000        16.500000         INFINITY
+ X_MIDEDI       11.300000        23.500000         INFINITY
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+  BRISTOL        0.000000     20000.000000     10000.000000
+  MIDDLES        0.000000    140000.000000     10000.000000
+   LONDRA    90000.000000     10000.000000     20000.000000
+   BIRMIN    80000.000000     10000.000000     20000.000000
+    LEEDS    50000.000000     10000.000000     50000.000000
+    EDIMB    70000.000000     10000.000000     70000.000000
+  C_BRIST   150000.000000     20000.000000     10000.000000
+  C_MIDDL   150000.000000         INFINITY     10000.000000
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: C_BRIST
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            150000.       7.80000      0.990600E+07
+ X_MIDBIR  SLK    8     4   170000.       7.80000      0.975000E+07
+                           0.150000E+07  0.000000E+00  0.975000E+07
+

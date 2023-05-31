@@ -1,0 +1,27 @@
+! Esercizio "Rete logistica", 17 Giugno 2009
+
+! Variabili: x(i,j) = flusso di unità da i a j [continue, non-negative]
+
+! Obiettivo: min. costi [Euro/anno]
+
+min 24.50 x_rotbri + 26.00 x_rotmid 
+  +  9.60 x_brilon +  7.00 x_bribir + 15.20 x_brilee + 28.50 x_briedi
+  + 19.50 x_midlon + 13.30 x_midbir +  5.00 x_midlee + 11.30 x_midedi
+
+st
+
+! Vincoli di conservazione del flusso nei magazzini [unità/anno]
+Bristol) x_brilon + x_bribir + x_brilee+ x_briedi - x_rotbri = 0
+Middles) x_midlon + x_midbir + x_midlee+ x_midedi - x_rotmid = 0
+
+! Vincoli di domanda [unità/anno]
+Londra) x_brilon + x_midlon = 90000
+Birmin) x_bribir + x_midbir = 80000
+Leeds)  x_brilee + x_midlee = 50000
+Edimb)  x_briedi + x_midedi = 70000
+
+! Capacità magazzini [unità/anno]
+C_Brist) x_rotbri <= 150000
+C_Middl) x_rotmid <= 150000
+
+end
