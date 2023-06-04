@@ -1,0 +1,6 @@
+La traiettoria viene osservata 4 volte ad intervalli regolari 
+e le coordinate Cartesiane rilevate sono le seguenti.
+
+    1  2  3  4
+x  10 20 30 40
+y  18 26 31 29
