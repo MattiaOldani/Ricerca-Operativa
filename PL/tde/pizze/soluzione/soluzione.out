@@ -1,0 +1,59 @@
+Problem:    soluzione
+Rows:       6
+Columns:    8
+Non-zeros:  15
+Status:     OPTIMAL
+Objective:  z = 1 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 FiniscoLePizze[Formaggi]
+                    NS             1             1             =           0.3 
+     2 FiniscoLePizze[Salumi]
+                    NS             1             1             =           0.5 
+     3 FiniscoLePizze[Verdure]
+                    NS             1             1             =           0.2 
+     4 DefinizioneContentezza[1]
+                    NS             0            -0             =             1 
+     5 DefinizioneContentezza[2]
+                    NS             0            -0             =         < eps
+     6 z            B              1                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 PizzaMangiata[1,Formaggi]
+                    B              1             0               
+     2 PizzaMangiata[2,Formaggi]
+                    NL             0             0                        -0.3 
+     3 PizzaMangiata[1,Salumi]
+                    B              1             0               
+     4 PizzaMangiata[2,Salumi]
+                    NL             0             0                        -0.5 
+     5 PizzaMangiata[1,Verdure]
+                    B              1             0               
+     6 PizzaMangiata[2,Verdure]
+                    NL             0             0                        -0.2 
+     7 Contentezza[1]
+                    B              1             0               
+     8 Contentezza[2]
+                    B              0             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

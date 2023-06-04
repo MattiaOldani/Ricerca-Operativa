@@ -1,0 +1,72 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 1 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 FiniscoLePizze[Formaggi]
+                    NS       1.00000        .            1.00000         .               -Inf        .70000 PizzaMangiata[1,Formaggi]
+                                            .30000       1.00000           +Inf          +Inf          +Inf
+
+     2 FiniscoLePizze[Salumi]
+                    NS       1.00000        .            1.00000         .               -Inf        .50000 PizzaMangiata[1,Salumi]
+                                            .50000       1.00000           +Inf          +Inf          +Inf
+
+     3 FiniscoLePizze[Verdure]
+                    NS       1.00000        .            1.00000         .               -Inf        .80000 PizzaMangiata[1,Verdure]
+                                            .20000       1.00000           +Inf          +Inf          +Inf
+
+     4 DefinizioneContentezza[1]
+                    NS        .             .             .            -1.00000          -Inf        .      Contentezza[1]
+                                           1.00000        .                +Inf          +Inf          +Inf
+
+     5 DefinizioneContentezza[2]
+                    NS        .             .             .              .               -Inf       1.00000 Contentezza[2]
+                                            .             .                +Inf          +Inf       1.00000
+
+     6 z            BS       1.00000      -1.00000          -Inf         .50000      -1.00000        .      PizzaMangiata[2,Salumi]
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 1 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 PizzaMangiata[1,Formaggi]
+                    BS       1.00000        .             .            -2.33333       -.30000        .70000 PizzaMangiata[2,Formaggi]
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+     2 PizzaMangiata[2,Formaggi]
+                    NL        .             .             .              .               -Inf       1.00000 Contentezza[2]
+                                           -.30000          +Inf        1.00000        .30000        .70000 PizzaMangiata[1,Formaggi]
+
+     3 PizzaMangiata[1,Salumi]
+                    BS       1.00000        .             .            -1.00000       -.50000        .50000 PizzaMangiata[2,Salumi]
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+     4 PizzaMangiata[2,Salumi]
+                    NL        .             .             .              .               -Inf       1.00000 Contentezza[2]
+                                           -.50000          +Inf        1.00000        .50000        .50000 PizzaMangiata[1,Salumi]
+
+     5 PizzaMangiata[1,Verdure]
+                    BS       1.00000        .             .            -4.00000       -.20000        .80000 PizzaMangiata[2,Verdure]
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+     6 PizzaMangiata[2,Verdure]
+                    NL        .             .             .              .               -Inf       1.00000 Contentezza[2]
+                                           -.20000          +Inf        1.00000        .20000        .80000 PizzaMangiata[1,Verdure]
+
+     7 Contentezza[1]
+                    BS       1.00000       1.00000        .              .50000        .             .      PizzaMangiata[2,Salumi]
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+     8 Contentezza[2]
+                    BS        .             .             .              .               -Inf       1.00000
+                                            .               +Inf         .70000        .42857       1.00000 PizzaMangiata[2,Formaggi]
+
+End of report

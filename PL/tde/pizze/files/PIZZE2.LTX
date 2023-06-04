@@ -1,0 +1,22 @@
+! Esercizio "Pizze", Tema d'esame n.49, 6 Febbraio 2007
+
+! Variabili: x(i) = frazione di pizza i per amico n.1.
+!            y(i) = frazione di pizza i per amico n.2.
+
+! Obiettivo: max gradimento di amico n.2
+max 0.7 y1 + 0.2 y2 + 0.1 y3
+
+st
+
+! Obiettivo trasformato in vincolo: gradimento amico n.1 
+vincolo) 0.3 x1 + 0.5 x2 + 0.2 x3 >= 0
+
+! Relazione tra x e y
+xy1) x1 + y1 = 1
+xy2) x2 + y2 = 1
+xy3) x3 + y3 = 1
+
+! Equità nella quantità di pizza
+equità) x1 + x2 + x3 = 1.5
+
+end

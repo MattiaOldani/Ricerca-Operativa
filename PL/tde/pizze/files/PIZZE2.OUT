@@ -1,0 +1,37 @@
+
+ LP OPTIMUM FOUND AT STEP      2
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)     0.8000000
+
+  VARIABLE        VALUE          REDUCED COST
+        Y1         1.000000          0.000000
+        Y2         0.500000          0.000000
+        Y3         0.000000          0.100000
+        X1         0.000000          0.500000
+        X2         0.500000          0.000000
+        X3         1.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+  VINCOLO)         0.450000          0.000000
+      XY1)         0.000000          0.700000
+      XY2)         0.000000          0.200000
+      XY3)         0.000000          0.200000
+   EQUITà)         0.000000         -0.200000
+
+ NO. ITERATIONS=       2
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: VINCOLO
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                           0.000000E+00  0.000000E+00  0.800000
+ SLK    2        Y3     2  0.450000      0.000000E+00  0.800000
+       Y2        X1     4  0.600000     -0.333333      0.750000
+       X3  ART          5  0.650000      -6.00000      0.450000
+                            1.00000       -INFINITY   INFEASIBLE
+

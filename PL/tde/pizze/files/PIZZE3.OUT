@@ -1,0 +1,26 @@
+
+ LP OPTIMUM FOUND AT STEP      5
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)     0.6214285
+
+  VARIABLE        VALUE          REDUCED COST
+        Y1         0.785714          0.000000
+        Y2         0.000000          0.242857
+        Y3         0.714286          0.000000
+        X1         0.214286          0.000000
+        X2         1.000000          0.000000
+        X3         0.285714          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+  VINCOLO)         0.621429          0.000000
+      XY1)         0.000000          0.100000
+      XY2)         0.000000          0.271429
+      XY3)         0.000000          0.014286
+   EQUITà)         0.000000          0.157143
+        7)         0.000000          0.857143
+
+ NO. ITERATIONS=       5
+
