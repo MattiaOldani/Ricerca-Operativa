@@ -1,0 +1,2826 @@
+Problem:    soluzione
+Rows:       290
+Columns:    1116 (1116 integer, 1116 binary)
+Non-zeros:  1624
+Status:     INTEGER OPTIMAL
+Objective:  z = 5200 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 DefinizioneGiorniOccupati[1,2]
+                                   0            -0             = 
+     2 DefinizioneGiorniOccupati[1,3]
+                                   0            -0             = 
+     3 DefinizioneGiorniOccupati[1,4]
+                                   0            -0             = 
+     4 DefinizioneGiorniOccupati[1,5]
+                                   0            -0             = 
+     5 DefinizioneGiorniOccupati[2,2]
+                                   0            -0             = 
+     6 DefinizioneGiorniOccupati[2,3]
+                                   0            -0             = 
+     7 DefinizioneGiorniOccupati[2,4]
+                                   0            -0             = 
+     8 DefinizioneGiorniOccupati[2,5]
+                                   0            -0             = 
+     9 DefinizioneGiorniOccupati[2,6]
+                                   0            -0             = 
+    10 DefinizioneGiorniOccupati[2,7]
+                                   0            -0             = 
+    11 DefinizioneGiorniOccupati[2,8]
+                                   0            -0             = 
+    12 DefinizioneGiorniOccupati[2,9]
+                                   0            -0             = 
+    13 DefinizioneGiorniOccupati[2,10]
+                                   0            -0             = 
+    14 DefinizioneGiorniOccupati[3,2]
+                                   0            -0             = 
+    15 DefinizioneGiorniOccupati[3,3]
+                                   0            -0             = 
+    16 DefinizioneGiorniOccupati[3,4]
+                                   0            -0             = 
+    17 DefinizioneGiorniOccupati[3,5]
+                                   0            -0             = 
+    18 DefinizioneGiorniOccupati[3,6]
+                                   0            -0             = 
+    19 DefinizioneGiorniOccupati[3,7]
+                                   0            -0             = 
+    20 DefinizioneGiorniOccupati[3,8]
+                                   0            -0             = 
+    21 DefinizioneGiorniOccupati[3,9]
+                                   0            -0             = 
+    22 DefinizioneGiorniOccupati[3,10]
+                                   0            -0             = 
+    23 DefinizioneGiorniOccupati[3,11]
+                                   0            -0             = 
+    24 DefinizioneGiorniOccupati[3,12]
+                                   0            -0             = 
+    25 DefinizioneGiorniOccupati[4,2]
+                                   0            -0             = 
+    26 DefinizioneGiorniOccupati[4,3]
+                                   0            -0             = 
+    27 DefinizioneGiorniOccupati[4,4]
+                                   0            -0             = 
+    28 DefinizioneGiorniOccupati[4,5]
+                                   0            -0             = 
+    29 DefinizioneGiorniOccupati[4,6]
+                                   0            -0             = 
+    30 DefinizioneGiorniOccupati[4,7]
+                                   0            -0             = 
+    31 DefinizioneGiorniOccupati[4,8]
+                                   0            -0             = 
+    32 DefinizioneGiorniOccupati[4,9]
+                                   0            -0             = 
+    33 DefinizioneGiorniOccupati[4,10]
+                                   0            -0             = 
+    34 DefinizioneGiorniOccupati[4,11]
+                                   0            -0             = 
+    35 DefinizioneGiorniOccupati[4,12]
+                                   0            -0             = 
+    36 DefinizioneGiorniOccupati[4,13]
+                                   0            -0             = 
+    37 DefinizioneGiorniOccupati[5,3]
+                                   0            -0             = 
+    38 DefinizioneGiorniOccupati[5,4]
+                                   0            -0             = 
+    39 DefinizioneGiorniOccupati[5,5]
+                                   0            -0             = 
+    40 DefinizioneGiorniOccupati[5,6]
+                                   0            -0             = 
+    41 DefinizioneGiorniOccupati[5,7]
+                                   0            -0             = 
+    42 DefinizioneGiorniOccupati[5,8]
+                                   0            -0             = 
+    43 DefinizioneGiorniOccupati[6,3]
+                                   0            -0             = 
+    44 DefinizioneGiorniOccupati[6,4]
+                                   0            -0             = 
+    45 DefinizioneGiorniOccupati[6,5]
+                                   0            -0             = 
+    46 DefinizioneGiorniOccupati[6,6]
+                                   0            -0             = 
+    47 DefinizioneGiorniOccupati[6,7]
+                                   0            -0             = 
+    48 DefinizioneGiorniOccupati[6,8]
+                                   0            -0             = 
+    49 DefinizioneGiorniOccupati[6,9]
+                                   0            -0             = 
+    50 DefinizioneGiorniOccupati[6,10]
+                                   0            -0             = 
+    51 DefinizioneGiorniOccupati[6,11]
+                                   0            -0             = 
+    52 DefinizioneGiorniOccupati[6,12]
+                                   0            -0             = 
+    53 DefinizioneGiorniOccupati[6,13]
+                                   0            -0             = 
+    54 DefinizioneGiorniOccupati[6,14]
+                                   0            -0             = 
+    55 DefinizioneGiorniOccupati[6,15]
+                                   0            -0             = 
+    56 DefinizioneGiorniOccupati[6,16]
+                                   0            -0             = 
+    57 DefinizioneGiorniOccupati[6,17]
+                                   0            -0             = 
+    58 DefinizioneGiorniOccupati[6,18]
+                                   0            -0             = 
+    59 DefinizioneGiorniOccupati[6,19]
+                                   0            -0             = 
+    60 DefinizioneGiorniOccupati[6,20]
+                                   0            -0             = 
+    61 DefinizioneGiorniOccupati[6,21]
+                                   0            -0             = 
+    62 DefinizioneGiorniOccupati[6,22]
+                                   0            -0             = 
+    63 DefinizioneGiorniOccupati[6,23]
+                                   0            -0             = 
+    64 DefinizioneGiorniOccupati[6,24]
+                                   0            -0             = 
+    65 DefinizioneGiorniOccupati[7,5]
+                                   0            -0             = 
+    66 DefinizioneGiorniOccupati[7,6]
+                                   0            -0             = 
+    67 DefinizioneGiorniOccupati[7,7]
+                                   0            -0             = 
+    68 DefinizioneGiorniOccupati[8,5]
+                                   0            -0             = 
+    69 DefinizioneGiorniOccupati[8,6]
+                                   0            -0             = 
+    70 DefinizioneGiorniOccupati[8,7]
+                                   0            -0             = 
+    71 DefinizioneGiorniOccupati[8,8]
+                                   0            -0             = 
+    72 DefinizioneGiorniOccupati[8,9]
+                                   0            -0             = 
+    73 DefinizioneGiorniOccupati[8,10]
+                                   0            -0             = 
+    74 DefinizioneGiorniOccupati[8,11]
+                                   0            -0             = 
+    75 DefinizioneGiorniOccupati[8,12]
+                                   0            -0             = 
+    76 DefinizioneGiorniOccupati[8,13]
+                                   0            -0             = 
+    77 DefinizioneGiorniOccupati[8,14]
+                                   0            -0             = 
+    78 DefinizioneGiorniOccupati[8,15]
+                                   0            -0             = 
+    79 DefinizioneGiorniOccupati[9,7]
+                                   0            -0             = 
+    80 DefinizioneGiorniOccupati[9,8]
+                                   0            -0             = 
+    81 DefinizioneGiorniOccupati[9,9]
+                                   0            -0             = 
+    82 DefinizioneGiorniOccupati[9,10]
+                                   0            -0             = 
+    83 DefinizioneGiorniOccupati[9,11]
+                                   0            -0             = 
+    84 DefinizioneGiorniOccupati[9,12]
+                                   0            -0             = 
+    85 DefinizioneGiorniOccupati[10,7]
+                                   0            -0             = 
+    86 DefinizioneGiorniOccupati[10,8]
+                                   0            -0             = 
+    87 DefinizioneGiorniOccupati[10,9]
+                                   0            -0             = 
+    88 DefinizioneGiorniOccupati[10,10]
+                                   0            -0             = 
+    89 DefinizioneGiorniOccupati[10,11]
+                                   0            -0             = 
+    90 DefinizioneGiorniOccupati[10,12]
+                                   0            -0             = 
+    91 DefinizioneGiorniOccupati[10,13]
+                                   0            -0             = 
+    92 DefinizioneGiorniOccupati[10,14]
+                                   0            -0             = 
+    93 DefinizioneGiorniOccupati[11,7]
+                                   0            -0             = 
+    94 DefinizioneGiorniOccupati[11,8]
+                                   0            -0             = 
+    95 DefinizioneGiorniOccupati[11,9]
+                                   0            -0             = 
+    96 DefinizioneGiorniOccupati[11,10]
+                                   0            -0             = 
+    97 DefinizioneGiorniOccupati[11,11]
+                                   0            -0             = 
+    98 DefinizioneGiorniOccupati[11,12]
+                                   0            -0             = 
+    99 DefinizioneGiorniOccupati[11,13]
+                                   0            -0             = 
+   100 DefinizioneGiorniOccupati[11,14]
+                                   0            -0             = 
+   101 DefinizioneGiorniOccupati[11,15]
+                                   0            -0             = 
+   102 DefinizioneGiorniOccupati[11,16]
+                                   0            -0             = 
+   103 DefinizioneGiorniOccupati[11,17]
+                                   0            -0             = 
+   104 DefinizioneGiorniOccupati[11,18]
+                                   0            -0             = 
+   105 DefinizioneGiorniOccupati[11,19]
+                                   0            -0             = 
+   106 DefinizioneGiorniOccupati[11,20]
+                                   0            -0             = 
+   107 DefinizioneGiorniOccupati[11,21]
+                                   0            -0             = 
+   108 DefinizioneGiorniOccupati[11,22]
+                                   0            -0             = 
+   109 DefinizioneGiorniOccupati[11,23]
+                                   0            -0             = 
+   110 DefinizioneGiorniOccupati[11,24]
+                                   0            -0             = 
+   111 DefinizioneGiorniOccupati[11,25]
+                                   0            -0             = 
+   112 DefinizioneGiorniOccupati[11,26]
+                                   0            -0             = 
+   113 DefinizioneGiorniOccupati[11,27]
+                                   0            -0             = 
+   114 DefinizioneGiorniOccupati[11,28]
+                                   0            -0             = 
+   115 DefinizioneGiorniOccupati[12,10]
+                                   0            -0             = 
+   116 DefinizioneGiorniOccupati[12,11]
+                                   0            -0             = 
+   117 DefinizioneGiorniOccupati[12,12]
+                                   0            -0             = 
+   118 DefinizioneGiorniOccupati[12,13]
+                                   0            -0             = 
+   119 DefinizioneGiorniOccupati[12,14]
+                                   0            -0             = 
+   120 DefinizioneGiorniOccupati[12,15]
+                                   0            -0             = 
+   121 DefinizioneGiorniOccupati[13,12]
+                                   0            -0             = 
+   122 DefinizioneGiorniOccupati[13,13]
+                                   0            -0             = 
+   123 DefinizioneGiorniOccupati[13,14]
+                                   0            -0             = 
+   124 DefinizioneGiorniOccupati[13,15]
+                                   0            -0             = 
+   125 DefinizioneGiorniOccupati[13,16]
+                                   0            -0             = 
+   126 DefinizioneGiorniOccupati[13,17]
+                                   0            -0             = 
+   127 DefinizioneGiorniOccupati[13,18]
+                                   0            -0             = 
+   128 DefinizioneGiorniOccupati[13,19]
+                                   0            -0             = 
+   129 DefinizioneGiorniOccupati[14,14]
+                                   0            -0             = 
+   130 DefinizioneGiorniOccupati[14,15]
+                                   0            -0             = 
+   131 DefinizioneGiorniOccupati[14,16]
+                                   0            -0             = 
+   132 DefinizioneGiorniOccupati[14,17]
+                                   0            -0             = 
+   133 DefinizioneGiorniOccupati[14,18]
+                                   0            -0             = 
+   134 DefinizioneGiorniOccupati[14,19]
+                                   0            -0             = 
+   135 DefinizioneGiorniOccupati[14,20]
+                                   0            -0             = 
+   136 DefinizioneGiorniOccupati[14,21]
+                                   0            -0             = 
+   137 DefinizioneGiorniOccupati[14,22]
+                                   0            -0             = 
+   138 DefinizioneGiorniOccupati[14,23]
+                                   0            -0             = 
+   139 DefinizioneGiorniOccupati[14,24]
+                                   0            -0             = 
+   140 DefinizioneGiorniOccupati[14,25]
+                                   0            -0             = 
+   141 DefinizioneGiorniOccupati[14,26]
+                                   0            -0             = 
+   142 DefinizioneGiorniOccupati[15,14]
+                                   0            -0             = 
+   143 DefinizioneGiorniOccupati[15,15]
+                                   0            -0             = 
+   144 DefinizioneGiorniOccupati[15,16]
+                                   0            -0             = 
+   145 DefinizioneGiorniOccupati[15,17]
+                                   0            -0             = 
+   146 DefinizioneGiorniOccupati[15,18]
+                                   0            -0             = 
+   147 DefinizioneGiorniOccupati[15,19]
+                                   0            -0             = 
+   148 DefinizioneGiorniOccupati[15,20]
+                                   0            -0             = 
+   149 DefinizioneGiorniOccupati[15,21]
+                                   0            -0             = 
+   150 DefinizioneGiorniOccupati[15,22]
+                                   0            -0             = 
+   151 DefinizioneGiorniOccupati[15,23]
+                                   0            -0             = 
+   152 DefinizioneGiorniOccupati[15,24]
+                                   0            -0             = 
+   153 DefinizioneGiorniOccupati[15,25]
+                                   0            -0             = 
+   154 DefinizioneGiorniOccupati[15,26]
+                                   0            -0             = 
+   155 DefinizioneGiorniOccupati[15,27]
+                                   0            -0             = 
+   156 DefinizioneGiorniOccupati[15,28]
+                                   0            -0             = 
+   157 DefinizioneGiorniOccupati[15,29]
+                                   0            -0             = 
+   158 DefinizioneGiorniOccupati[15,30]
+                                   0            -0             = 
+   159 DefinizioneGiorniOccupati[16,16]
+                                   0            -0             = 
+   160 DefinizioneGiorniOccupati[16,17]
+                                   0            -0             = 
+   161 DefinizioneGiorniOccupati[16,18]
+                                   0            -0             = 
+   162 DefinizioneGiorniOccupati[16,19]
+                                   0            -0             = 
+   163 DefinizioneGiorniOccupati[16,20]
+                                   0            -0             = 
+   164 DefinizioneGiorniOccupati[17,16]
+                                   0            -0             = 
+   165 DefinizioneGiorniOccupati[17,17]
+                                   0            -0             = 
+   166 DefinizioneGiorniOccupati[17,18]
+                                   0            -0             = 
+   167 DefinizioneGiorniOccupati[17,19]
+                                   0            -0             = 
+   168 DefinizioneGiorniOccupati[17,20]
+                                   0            -0             = 
+   169 DefinizioneGiorniOccupati[17,21]
+                                   0            -0             = 
+   170 DefinizioneGiorniOccupati[17,22]
+                                   0            -0             = 
+   171 DefinizioneGiorniOccupati[17,23]
+                                   0            -0             = 
+   172 DefinizioneGiorniOccupati[17,24]
+                                   0            -0             = 
+   173 DefinizioneGiorniOccupati[17,25]
+                                   0            -0             = 
+   174 DefinizioneGiorniOccupati[17,26]
+                                   0            -0             = 
+   175 DefinizioneGiorniOccupati[17,27]
+                                   0            -0             = 
+   176 DefinizioneGiorniOccupati[18,16]
+                                   0            -0             = 
+   177 DefinizioneGiorniOccupati[18,17]
+                                   0            -0             = 
+   178 DefinizioneGiorniOccupati[18,18]
+                                   0            -0             = 
+   179 DefinizioneGiorniOccupati[18,19]
+                                   0            -0             = 
+   180 DefinizioneGiorniOccupati[18,20]
+                                   0            -0             = 
+   181 DefinizioneGiorniOccupati[18,21]
+                                   0            -0             = 
+   182 DefinizioneGiorniOccupati[18,22]
+                                   0            -0             = 
+   183 DefinizioneGiorniOccupati[18,23]
+                                   0            -0             = 
+   184 DefinizioneGiorniOccupati[18,24]
+                                   0            -0             = 
+   185 DefinizioneGiorniOccupati[18,25]
+                                   0            -0             = 
+   186 DefinizioneGiorniOccupati[18,26]
+                                   0            -0             = 
+   187 DefinizioneGiorniOccupati[18,27]
+                                   0            -0             = 
+   188 DefinizioneGiorniOccupati[18,28]
+                                   0            -0             = 
+   189 DefinizioneGiorniOccupati[18,29]
+                                   0            -0             = 
+   190 DefinizioneGiorniOccupati[18,30]
+                                   0            -0             = 
+   191 DefinizioneGiorniOccupati[18,31]
+                                   0            -0             = 
+   192 DefinizioneGiorniOccupati[18,32]
+                                   0            -0             = 
+   193 DefinizioneGiorniOccupati[18,33]
+                                   0            -0             = 
+   194 DefinizioneGiorniOccupati[19,18]
+                                   0            -0             = 
+   195 DefinizioneGiorniOccupati[19,19]
+                                   0            -0             = 
+   196 DefinizioneGiorniOccupati[19,20]
+                                   0            -0             = 
+   197 DefinizioneGiorniOccupati[19,21]
+                                   0            -0             = 
+   198 DefinizioneGiorniOccupati[19,22]
+                                   0            -0             = 
+   199 DefinizioneGiorniOccupati[19,23]
+                                   0            -0             = 
+   200 DefinizioneGiorniOccupati[19,24]
+                                   0            -0             = 
+   201 DefinizioneGiorniOccupati[19,25]
+                                   0            -0             = 
+   202 DefinizioneGiorniOccupati[19,26]
+                                   0            -0             = 
+   203 DefinizioneGiorniOccupati[19,27]
+                                   0            -0             = 
+   204 DefinizioneGiorniOccupati[19,28]
+                                   0            -0             = 
+   205 DefinizioneGiorniOccupati[19,29]
+                                   0            -0             = 
+   206 DefinizioneGiorniOccupati[19,30]
+                                   0            -0             = 
+   207 DefinizioneGiorniOccupati[20,21]
+                                   0            -0             = 
+   208 DefinizioneGiorniOccupati[20,22]
+                                   0            -0             = 
+   209 DefinizioneGiorniOccupati[21,21]
+                                   0            -0             = 
+   210 DefinizioneGiorniOccupati[21,22]
+                                   0            -0             = 
+   211 DefinizioneGiorniOccupati[21,23]
+                                   0            -0             = 
+   212 DefinizioneGiorniOccupati[21,24]
+                                   0            -0             = 
+   213 DefinizioneGiorniOccupati[21,25]
+                                   0            -0             = 
+   214 DefinizioneGiorniOccupati[21,26]
+                                   0            -0             = 
+   215 DefinizioneGiorniOccupati[22,25]
+                                   0            -0             = 
+   216 DefinizioneGiorniOccupati[23,25]
+                                   0            -0             = 
+   217 DefinizioneGiorniOccupati[23,26]
+                                   0            -0             = 
+   218 DefinizioneGiorniOccupati[24,25]
+                                   0            -0             = 
+   219 DefinizioneGiorniOccupati[24,26]
+                                   0            -0             = 
+   220 DefinizioneGiorniOccupati[24,27]
+                                   0            -0             = 
+   221 DefinizioneGiorniOccupati[24,28]
+                                   0            -0             = 
+   222 DefinizioneGiorniOccupati[24,29]
+                                   0            -0             = 
+   223 DefinizioneGiorniOccupati[24,30]
+                                   0            -0             = 
+   224 DefinizioneGiorniOccupati[25,28]
+                                   0            -0             = 
+   225 DefinizioneGiorniOccupati[25,29]
+                                   0            -0             = 
+   226 DefinizioneGiorniOccupati[25,30]
+                                   0            -0             = 
+   227 DefinizioneGiorniOccupati[26,29]
+                                   0            -0             = 
+   228 DefinizioneGiorniOccupati[26,30]
+                                   0            -0             = 
+   229 DefinizioneGiorniOccupati[26,31]
+                                   0            -0             = 
+   230 DefinizioneGiorniOccupati[26,32]
+                                   0            -0             = 
+   231 DefinizioneGiorniOccupati[26,33]
+                                   0            -0             = 
+   232 DefinizioneGiorniOccupati[26,34]
+                                   0            -0             = 
+   233 DefinizioneGiorniOccupati[27,29]
+                                   0            -0             = 
+   234 DefinizioneGiorniOccupati[27,30]
+                                   0            -0             = 
+   235 DefinizioneGiorniOccupati[27,31]
+                                   0            -0             = 
+   236 DefinizioneGiorniOccupati[27,32]
+                                   0            -0             = 
+   237 DefinizioneGiorniOccupati[27,33]
+                                   0            -0             = 
+   238 DefinizioneGiorniOccupati[27,34]
+                                   0            -0             = 
+   239 DefinizioneGiorniOccupati[27,35]
+                                   0            -0             = 
+   240 DefinizioneGiorniOccupati[28,30]
+                                   0            -0             = 
+   241 DefinizioneGiorniOccupati[29,30]
+                                   0            -0             = 
+   242 DefinizioneGiorniOccupati[29,31]
+                                   0            -0             = 
+   243 DefinizioneGiorniOccupati[29,32]
+                                   0            -0             = 
+   244 DefinizioneGiorniOccupati[30,30]
+                                   0            -0             = 
+   245 DefinizioneGiorniOccupati[30,31]
+                                   0            -0             = 
+   246 DefinizioneGiorniOccupati[30,32]
+                                   0            -0             = 
+   247 DefinizioneGiorniOccupati[30,33]
+                                   0            -0             = 
+   248 DefinizioneGiorniOccupati[30,34]
+                                   0            -0             = 
+   249 DefinizioneGiorniOccupati[31,30]
+                                   0            -0             = 
+   250 DefinizioneGiorniOccupati[31,31]
+                                   0            -0             = 
+   251 DefinizioneGiorniOccupati[31,32]
+                                   0            -0             = 
+   252 DefinizioneGiorniOccupati[31,33]
+                                   0            -0             = 
+   253 DefinizioneGiorniOccupati[31,34]
+                                   0            -0             = 
+   254 DefinizioneGiorniOccupati[31,35]
+                                   0            -0             = 
+   255 DisponibilitaAutomobili[1]
+                                   0                           4 
+   256 DisponibilitaAutomobili[2]
+                                   2                           4 
+   257 DisponibilitaAutomobili[3]
+                                   4                           4 
+   258 DisponibilitaAutomobili[4]
+                                   4                           4 
+   259 DisponibilitaAutomobili[5]
+                                   4                           4 
+   260 DisponibilitaAutomobili[6]
+                                   4                           4 
+   261 DisponibilitaAutomobili[7]
+                                   4                           4 
+   262 DisponibilitaAutomobili[8]
+                                   4                           4 
+   263 DisponibilitaAutomobili[9]
+                                   4                           4 
+   264 DisponibilitaAutomobili[10]
+                                   4                           4 
+   265 DisponibilitaAutomobili[11]
+                                   4                           4 
+   266 DisponibilitaAutomobili[12]
+                                   4                           4 
+   267 DisponibilitaAutomobili[13]
+                                   4                           4 
+   268 DisponibilitaAutomobili[14]
+                                   4                           4 
+   269 DisponibilitaAutomobili[15]
+                                   4                           4 
+   270 DisponibilitaAutomobili[16]
+                                   4                           4 
+   271 DisponibilitaAutomobili[17]
+                                   4                           4 
+   272 DisponibilitaAutomobili[18]
+                                   4                           4 
+   273 DisponibilitaAutomobili[19]
+                                   4                           4 
+   274 DisponibilitaAutomobili[20]
+                                   4                           4 
+   275 DisponibilitaAutomobili[21]
+                                   4                           4 
+   276 DisponibilitaAutomobili[22]
+                                   4                           4 
+   277 DisponibilitaAutomobili[23]
+                                   4                           4 
+   278 DisponibilitaAutomobili[24]
+                                   4                           4 
+   279 DisponibilitaAutomobili[25]
+                                   4                           4 
+   280 DisponibilitaAutomobili[26]
+                                   4                           4 
+   281 DisponibilitaAutomobili[27]
+                                   2                           4 
+   282 DisponibilitaAutomobili[28]
+                                   2                           4 
+   283 DisponibilitaAutomobili[29]
+                                   4                           4 
+   284 DisponibilitaAutomobili[30]
+                                   4                           4 
+   285 DisponibilitaAutomobili[31]
+                                   4                           4 
+   286 DisponibilitaAutomobili[32]
+                                   4                           4 
+   287 DisponibilitaAutomobili[33]
+                                   4                           4 
+   288 DisponibilitaAutomobili[34]
+                                   4                           4 
+   289 DisponibilitaAutomobili[35]
+                                   2                           4 
+   290 z                        5200                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Selezione[1] *              1             0             1 
+     2 Selezione[2] *              0             0             1 
+     3 Selezione[3] *              0             0             1 
+     4 Selezione[4] *              1             0             1 
+     5 Selezione[5] *              1             0             1 
+     6 Selezione[6] *              1             0             1 
+     7 Selezione[7] *              0             0             1 
+     8 Selezione[8] *              0             0             1 
+     9 Selezione[9] *              0             0             1 
+    10 Selezione[10]
+                    *              0             0             1 
+    11 Selezione[11]
+                    *              1             0             1 
+    12 Selezione[12]
+                    *              1             0             1 
+    13 Selezione[13]
+                    *              0             0             1 
+    14 Selezione[14]
+                    *              1             0             1 
+    15 Selezione[15]
+                    *              0             0             1 
+    16 Selezione[16]
+                    *              0             0             1 
+    17 Selezione[17]
+                    *              0             0             1 
+    18 Selezione[18]
+                    *              1             0             1 
+    19 Selezione[19]
+                    *              0             0             1 
+    20 Selezione[20]
+                    *              0             0             1 
+    21 Selezione[21]
+                    *              0             0             1 
+    22 Selezione[22]
+                    *              0             0             1 
+    23 Selezione[23]
+                    *              1             0             1 
+    24 Selezione[24]
+                    *              0             0             1 
+    25 Selezione[25]
+                    *              0             0             1 
+    26 Selezione[26]
+                    *              1             0             1 
+    27 Selezione[27]
+                    *              1             0             1 
+    28 Selezione[28]
+                    *              0             0             1 
+    29 Selezione[29]
+                    *              0             0             1 
+    30 Selezione[30]
+                    *              0             0             1 
+    31 Selezione[31]
+                    *              1             0             1 
+    32 GiorniOccupati[1,2]
+                    *              1             0             1 
+    33 GiorniOccupati[1,3]
+                    *              1             0             1 
+    34 GiorniOccupati[1,4]
+                    *              1             0             1 
+    35 GiorniOccupati[1,5]
+                    *              1             0             1 
+    36 GiorniOccupati[2,2]
+                    *              0             0             1 
+    37 GiorniOccupati[2,3]
+                    *              0             0             1 
+    38 GiorniOccupati[2,4]
+                    *              0             0             1 
+    39 GiorniOccupati[2,5]
+                    *              0             0             1 
+    40 GiorniOccupati[2,6]
+                    *              0             0             1 
+    41 GiorniOccupati[2,7]
+                    *              0             0             1 
+    42 GiorniOccupati[2,8]
+                    *              0             0             1 
+    43 GiorniOccupati[2,9]
+                    *              0             0             1 
+    44 GiorniOccupati[2,10]
+                    *              0             0             1 
+    45 GiorniOccupati[3,2]
+                    *              0             0             1 
+    46 GiorniOccupati[3,3]
+                    *              0             0             1 
+    47 GiorniOccupati[3,4]
+                    *              0             0             1 
+    48 GiorniOccupati[3,5]
+                    *              0             0             1 
+    49 GiorniOccupati[3,6]
+                    *              0             0             1 
+    50 GiorniOccupati[3,7]
+                    *              0             0             1 
+    51 GiorniOccupati[3,8]
+                    *              0             0             1 
+    52 GiorniOccupati[3,9]
+                    *              0             0             1 
+    53 GiorniOccupati[3,10]
+                    *              0             0             1 
+    54 GiorniOccupati[3,11]
+                    *              0             0             1 
+    55 GiorniOccupati[3,12]
+                    *              0             0             1 
+    56 GiorniOccupati[4,2]
+                    *              1             0             1 
+    57 GiorniOccupati[4,3]
+                    *              1             0             1 
+    58 GiorniOccupati[4,4]
+                    *              1             0             1 
+    59 GiorniOccupati[4,5]
+                    *              1             0             1 
+    60 GiorniOccupati[4,6]
+                    *              1             0             1 
+    61 GiorniOccupati[4,7]
+                    *              1             0             1 
+    62 GiorniOccupati[4,8]
+                    *              1             0             1 
+    63 GiorniOccupati[4,9]
+                    *              1             0             1 
+    64 GiorniOccupati[4,10]
+                    *              1             0             1 
+    65 GiorniOccupati[4,11]
+                    *              1             0             1 
+    66 GiorniOccupati[4,12]
+                    *              1             0             1 
+    67 GiorniOccupati[4,13]
+                    *              1             0             1 
+    68 GiorniOccupati[5,3]
+                    *              1             0             1 
+    69 GiorniOccupati[5,4]
+                    *              1             0             1 
+    70 GiorniOccupati[5,5]
+                    *              1             0             1 
+    71 GiorniOccupati[5,6]
+                    *              1             0             1 
+    72 GiorniOccupati[5,7]
+                    *              1             0             1 
+    73 GiorniOccupati[5,8]
+                    *              1             0             1 
+    74 GiorniOccupati[6,3]
+                    *              1             0             1 
+    75 GiorniOccupati[6,4]
+                    *              1             0             1 
+    76 GiorniOccupati[6,5]
+                    *              1             0             1 
+    77 GiorniOccupati[6,6]
+                    *              1             0             1 
+    78 GiorniOccupati[6,7]
+                    *              1             0             1 
+    79 GiorniOccupati[6,8]
+                    *              1             0             1 
+    80 GiorniOccupati[6,9]
+                    *              1             0             1 
+    81 GiorniOccupati[6,10]
+                    *              1             0             1 
+    82 GiorniOccupati[6,11]
+                    *              1             0             1 
+    83 GiorniOccupati[6,12]
+                    *              1             0             1 
+    84 GiorniOccupati[6,13]
+                    *              1             0             1 
+    85 GiorniOccupati[6,14]
+                    *              1             0             1 
+    86 GiorniOccupati[6,15]
+                    *              1             0             1 
+    87 GiorniOccupati[6,16]
+                    *              1             0             1 
+    88 GiorniOccupati[6,17]
+                    *              1             0             1 
+    89 GiorniOccupati[6,18]
+                    *              1             0             1 
+    90 GiorniOccupati[6,19]
+                    *              1             0             1 
+    91 GiorniOccupati[6,20]
+                    *              1             0             1 
+    92 GiorniOccupati[6,21]
+                    *              1             0             1 
+    93 GiorniOccupati[6,22]
+                    *              1             0             1 
+    94 GiorniOccupati[6,23]
+                    *              1             0             1 
+    95 GiorniOccupati[6,24]
+                    *              1             0             1 
+    96 GiorniOccupati[7,5]
+                    *              0             0             1 
+    97 GiorniOccupati[7,6]
+                    *              0             0             1 
+    98 GiorniOccupati[7,7]
+                    *              0             0             1 
+    99 GiorniOccupati[8,5]
+                    *              0             0             1 
+   100 GiorniOccupati[8,6]
+                    *              0             0             1 
+   101 GiorniOccupati[8,7]
+                    *              0             0             1 
+   102 GiorniOccupati[8,8]
+                    *              0             0             1 
+   103 GiorniOccupati[8,9]
+                    *              0             0             1 
+   104 GiorniOccupati[8,10]
+                    *              0             0             1 
+   105 GiorniOccupati[8,11]
+                    *              0             0             1 
+   106 GiorniOccupati[8,12]
+                    *              0             0             1 
+   107 GiorniOccupati[8,13]
+                    *              0             0             1 
+   108 GiorniOccupati[8,14]
+                    *              0             0             1 
+   109 GiorniOccupati[8,15]
+                    *              0             0             1 
+   110 GiorniOccupati[9,7]
+                    *              0             0             1 
+   111 GiorniOccupati[9,8]
+                    *              0             0             1 
+   112 GiorniOccupati[9,9]
+                    *              0             0             1 
+   113 GiorniOccupati[9,10]
+                    *              0             0             1 
+   114 GiorniOccupati[9,11]
+                    *              0             0             1 
+   115 GiorniOccupati[9,12]
+                    *              0             0             1 
+   116 GiorniOccupati[10,7]
+                    *              0             0             1 
+   117 GiorniOccupati[10,8]
+                    *              0             0             1 
+   118 GiorniOccupati[10,9]
+                    *              0             0             1 
+   119 GiorniOccupati[10,10]
+                    *              0             0             1 
+   120 GiorniOccupati[10,11]
+                    *              0             0             1 
+   121 GiorniOccupati[10,12]
+                    *              0             0             1 
+   122 GiorniOccupati[10,13]
+                    *              0             0             1 
+   123 GiorniOccupati[10,14]
+                    *              0             0             1 
+   124 GiorniOccupati[11,7]
+                    *              1             0             1 
+   125 GiorniOccupati[11,8]
+                    *              1             0             1 
+   126 GiorniOccupati[11,9]
+                    *              1             0             1 
+   127 GiorniOccupati[11,10]
+                    *              1             0             1 
+   128 GiorniOccupati[11,11]
+                    *              1             0             1 
+   129 GiorniOccupati[11,12]
+                    *              1             0             1 
+   130 GiorniOccupati[11,13]
+                    *              1             0             1 
+   131 GiorniOccupati[11,14]
+                    *              1             0             1 
+   132 GiorniOccupati[11,15]
+                    *              1             0             1 
+   133 GiorniOccupati[11,16]
+                    *              1             0             1 
+   134 GiorniOccupati[11,17]
+                    *              1             0             1 
+   135 GiorniOccupati[11,18]
+                    *              1             0             1 
+   136 GiorniOccupati[11,19]
+                    *              1             0             1 
+   137 GiorniOccupati[11,20]
+                    *              1             0             1 
+   138 GiorniOccupati[11,21]
+                    *              1             0             1 
+   139 GiorniOccupati[11,22]
+                    *              1             0             1 
+   140 GiorniOccupati[11,23]
+                    *              1             0             1 
+   141 GiorniOccupati[11,24]
+                    *              1             0             1 
+   142 GiorniOccupati[11,25]
+                    *              1             0             1 
+   143 GiorniOccupati[11,26]
+                    *              1             0             1 
+   144 GiorniOccupati[11,27]
+                    *              1             0             1 
+   145 GiorniOccupati[11,28]
+                    *              1             0             1 
+   146 GiorniOccupati[12,10]
+                    *              1             0             1 
+   147 GiorniOccupati[12,11]
+                    *              1             0             1 
+   148 GiorniOccupati[12,12]
+                    *              1             0             1 
+   149 GiorniOccupati[12,13]
+                    *              1             0             1 
+   150 GiorniOccupati[12,14]
+                    *              1             0             1 
+   151 GiorniOccupati[12,15]
+                    *              1             0             1 
+   152 GiorniOccupati[13,12]
+                    *              0             0             1 
+   153 GiorniOccupati[13,13]
+                    *              0             0             1 
+   154 GiorniOccupati[13,14]
+                    *              0             0             1 
+   155 GiorniOccupati[13,15]
+                    *              0             0             1 
+   156 GiorniOccupati[13,16]
+                    *              0             0             1 
+   157 GiorniOccupati[13,17]
+                    *              0             0             1 
+   158 GiorniOccupati[13,18]
+                    *              0             0             1 
+   159 GiorniOccupati[13,19]
+                    *              0             0             1 
+   160 GiorniOccupati[14,14]
+                    *              1             0             1 
+   161 GiorniOccupati[14,15]
+                    *              1             0             1 
+   162 GiorniOccupati[14,16]
+                    *              1             0             1 
+   163 GiorniOccupati[14,17]
+                    *              1             0             1 
+   164 GiorniOccupati[14,18]
+                    *              1             0             1 
+   165 GiorniOccupati[14,19]
+                    *              1             0             1 
+   166 GiorniOccupati[14,20]
+                    *              1             0             1 
+   167 GiorniOccupati[14,21]
+                    *              1             0             1 
+   168 GiorniOccupati[14,22]
+                    *              1             0             1 
+   169 GiorniOccupati[14,23]
+                    *              1             0             1 
+   170 GiorniOccupati[14,24]
+                    *              1             0             1 
+   171 GiorniOccupati[14,25]
+                    *              1             0             1 
+   172 GiorniOccupati[14,26]
+                    *              1             0             1 
+   173 GiorniOccupati[15,14]
+                    *              0             0             1 
+   174 GiorniOccupati[15,15]
+                    *              0             0             1 
+   175 GiorniOccupati[15,16]
+                    *              0             0             1 
+   176 GiorniOccupati[15,17]
+                    *              0             0             1 
+   177 GiorniOccupati[15,18]
+                    *              0             0             1 
+   178 GiorniOccupati[15,19]
+                    *              0             0             1 
+   179 GiorniOccupati[15,20]
+                    *              0             0             1 
+   180 GiorniOccupati[15,21]
+                    *              0             0             1 
+   181 GiorniOccupati[15,22]
+                    *              0             0             1 
+   182 GiorniOccupati[15,23]
+                    *              0             0             1 
+   183 GiorniOccupati[15,24]
+                    *              0             0             1 
+   184 GiorniOccupati[15,25]
+                    *              0             0             1 
+   185 GiorniOccupati[15,26]
+                    *              0             0             1 
+   186 GiorniOccupati[15,27]
+                    *              0             0             1 
+   187 GiorniOccupati[15,28]
+                    *              0             0             1 
+   188 GiorniOccupati[15,29]
+                    *              0             0             1 
+   189 GiorniOccupati[15,30]
+                    *              0             0             1 
+   190 GiorniOccupati[16,16]
+                    *              0             0             1 
+   191 GiorniOccupati[16,17]
+                    *              0             0             1 
+   192 GiorniOccupati[16,18]
+                    *              0             0             1 
+   193 GiorniOccupati[16,19]
+                    *              0             0             1 
+   194 GiorniOccupati[16,20]
+                    *              0             0             1 
+   195 GiorniOccupati[17,16]
+                    *              0             0             1 
+   196 GiorniOccupati[17,17]
+                    *              0             0             1 
+   197 GiorniOccupati[17,18]
+                    *              0             0             1 
+   198 GiorniOccupati[17,19]
+                    *              0             0             1 
+   199 GiorniOccupati[17,20]
+                    *              0             0             1 
+   200 GiorniOccupati[17,21]
+                    *              0             0             1 
+   201 GiorniOccupati[17,22]
+                    *              0             0             1 
+   202 GiorniOccupati[17,23]
+                    *              0             0             1 
+   203 GiorniOccupati[17,24]
+                    *              0             0             1 
+   204 GiorniOccupati[17,25]
+                    *              0             0             1 
+   205 GiorniOccupati[17,26]
+                    *              0             0             1 
+   206 GiorniOccupati[17,27]
+                    *              0             0             1 
+   207 GiorniOccupati[18,16]
+                    *              1             0             1 
+   208 GiorniOccupati[18,17]
+                    *              1             0             1 
+   209 GiorniOccupati[18,18]
+                    *              1             0             1 
+   210 GiorniOccupati[18,19]
+                    *              1             0             1 
+   211 GiorniOccupati[18,20]
+                    *              1             0             1 
+   212 GiorniOccupati[18,21]
+                    *              1             0             1 
+   213 GiorniOccupati[18,22]
+                    *              1             0             1 
+   214 GiorniOccupati[18,23]
+                    *              1             0             1 
+   215 GiorniOccupati[18,24]
+                    *              1             0             1 
+   216 GiorniOccupati[18,25]
+                    *              1             0             1 
+   217 GiorniOccupati[18,26]
+                    *              1             0             1 
+   218 GiorniOccupati[18,27]
+                    *              1             0             1 
+   219 GiorniOccupati[18,28]
+                    *              1             0             1 
+   220 GiorniOccupati[18,29]
+                    *              1             0             1 
+   221 GiorniOccupati[18,30]
+                    *              1             0             1 
+   222 GiorniOccupati[18,31]
+                    *              1             0             1 
+   223 GiorniOccupati[18,32]
+                    *              1             0             1 
+   224 GiorniOccupati[18,33]
+                    *              1             0             1 
+   225 GiorniOccupati[19,18]
+                    *              0             0             1 
+   226 GiorniOccupati[19,19]
+                    *              0             0             1 
+   227 GiorniOccupati[19,20]
+                    *              0             0             1 
+   228 GiorniOccupati[19,21]
+                    *              0             0             1 
+   229 GiorniOccupati[19,22]
+                    *              0             0             1 
+   230 GiorniOccupati[19,23]
+                    *              0             0             1 
+   231 GiorniOccupati[19,24]
+                    *              0             0             1 
+   232 GiorniOccupati[19,25]
+                    *              0             0             1 
+   233 GiorniOccupati[19,26]
+                    *              0             0             1 
+   234 GiorniOccupati[19,27]
+                    *              0             0             1 
+   235 GiorniOccupati[19,28]
+                    *              0             0             1 
+   236 GiorniOccupati[19,29]
+                    *              0             0             1 
+   237 GiorniOccupati[19,30]
+                    *              0             0             1 
+   238 GiorniOccupati[20,21]
+                    *              0             0             1 
+   239 GiorniOccupati[20,22]
+                    *              0             0             1 
+   240 GiorniOccupati[21,21]
+                    *              0             0             1 
+   241 GiorniOccupati[21,22]
+                    *              0             0             1 
+   242 GiorniOccupati[21,23]
+                    *              0             0             1 
+   243 GiorniOccupati[21,24]
+                    *              0             0             1 
+   244 GiorniOccupati[21,25]
+                    *              0             0             1 
+   245 GiorniOccupati[21,26]
+                    *              0             0             1 
+   246 GiorniOccupati[22,25]
+                    *              0             0             1 
+   247 GiorniOccupati[23,25]
+                    *              1             0             1 
+   248 GiorniOccupati[23,26]
+                    *              1             0             1 
+   249 GiorniOccupati[24,25]
+                    *              0             0             1 
+   250 GiorniOccupati[24,26]
+                    *              0             0             1 
+   251 GiorniOccupati[24,27]
+                    *              0             0             1 
+   252 GiorniOccupati[24,28]
+                    *              0             0             1 
+   253 GiorniOccupati[24,29]
+                    *              0             0             1 
+   254 GiorniOccupati[24,30]
+                    *              0             0             1 
+   255 GiorniOccupati[25,28]
+                    *              0             0             1 
+   256 GiorniOccupati[25,29]
+                    *              0             0             1 
+   257 GiorniOccupati[25,30]
+                    *              0             0             1 
+   258 GiorniOccupati[26,29]
+                    *              1             0             1 
+   259 GiorniOccupati[26,30]
+                    *              1             0             1 
+   260 GiorniOccupati[26,31]
+                    *              1             0             1 
+   261 GiorniOccupati[26,32]
+                    *              1             0             1 
+   262 GiorniOccupati[26,33]
+                    *              1             0             1 
+   263 GiorniOccupati[26,34]
+                    *              1             0             1 
+   264 GiorniOccupati[27,29]
+                    *              1             0             1 
+   265 GiorniOccupati[27,30]
+                    *              1             0             1 
+   266 GiorniOccupati[27,31]
+                    *              1             0             1 
+   267 GiorniOccupati[27,32]
+                    *              1             0             1 
+   268 GiorniOccupati[27,33]
+                    *              1             0             1 
+   269 GiorniOccupati[27,34]
+                    *              1             0             1 
+   270 GiorniOccupati[27,35]
+                    *              1             0             1 
+   271 GiorniOccupati[28,30]
+                    *              0             0             1 
+   272 GiorniOccupati[29,30]
+                    *              0             0             1 
+   273 GiorniOccupati[29,31]
+                    *              0             0             1 
+   274 GiorniOccupati[29,32]
+                    *              0             0             1 
+   275 GiorniOccupati[30,30]
+                    *              0             0             1 
+   276 GiorniOccupati[30,31]
+                    *              0             0             1 
+   277 GiorniOccupati[30,32]
+                    *              0             0             1 
+   278 GiorniOccupati[30,33]
+                    *              0             0             1 
+   279 GiorniOccupati[30,34]
+                    *              0             0             1 
+   280 GiorniOccupati[31,30]
+                    *              1             0             1 
+   281 GiorniOccupati[31,31]
+                    *              1             0             1 
+   282 GiorniOccupati[31,32]
+                    *              1             0             1 
+   283 GiorniOccupati[31,33]
+                    *              1             0             1 
+   284 GiorniOccupati[31,34]
+                    *              1             0             1 
+   285 GiorniOccupati[31,35]
+                    *              1             0             1 
+   286 GiorniOccupati[1,1]
+                    *              0             0             1 
+   287 GiorniOccupati[2,1]
+                    *              0             0             1 
+   288 GiorniOccupati[3,1]
+                    *              0             0             1 
+   289 GiorniOccupati[4,1]
+                    *              0             0             1 
+   290 GiorniOccupati[5,1]
+                    *              0             0             1 
+   291 GiorniOccupati[6,1]
+                    *              0             0             1 
+   292 GiorniOccupati[7,1]
+                    *              0             0             1 
+   293 GiorniOccupati[8,1]
+                    *              0             0             1 
+   294 GiorniOccupati[9,1]
+                    *              0             0             1 
+   295 GiorniOccupati[10,1]
+                    *              0             0             1 
+   296 GiorniOccupati[11,1]
+                    *              0             0             1 
+   297 GiorniOccupati[12,1]
+                    *              0             0             1 
+   298 GiorniOccupati[13,1]
+                    *              0             0             1 
+   299 GiorniOccupati[14,1]
+                    *              0             0             1 
+   300 GiorniOccupati[15,1]
+                    *              0             0             1 
+   301 GiorniOccupati[16,1]
+                    *              0             0             1 
+   302 GiorniOccupati[17,1]
+                    *              0             0             1 
+   303 GiorniOccupati[18,1]
+                    *              0             0             1 
+   304 GiorniOccupati[19,1]
+                    *              0             0             1 
+   305 GiorniOccupati[20,1]
+                    *              0             0             1 
+   306 GiorniOccupati[21,1]
+                    *              0             0             1 
+   307 GiorniOccupati[22,1]
+                    *              0             0             1 
+   308 GiorniOccupati[23,1]
+                    *              0             0             1 
+   309 GiorniOccupati[24,1]
+                    *              0             0             1 
+   310 GiorniOccupati[25,1]
+                    *              0             0             1 
+   311 GiorniOccupati[26,1]
+                    *              0             0             1 
+   312 GiorniOccupati[27,1]
+                    *              0             0             1 
+   313 GiorniOccupati[28,1]
+                    *              0             0             1 
+   314 GiorniOccupati[29,1]
+                    *              0             0             1 
+   315 GiorniOccupati[30,1]
+                    *              0             0             1 
+   316 GiorniOccupati[31,1]
+                    *              0             0             1 
+   317 GiorniOccupati[5,2]
+                    *              0             0             1 
+   318 GiorniOccupati[6,2]
+                    *              0             0             1 
+   319 GiorniOccupati[7,2]
+                    *              0             0             1 
+   320 GiorniOccupati[8,2]
+                    *              0             0             1 
+   321 GiorniOccupati[9,2]
+                    *              0             0             1 
+   322 GiorniOccupati[10,2]
+                    *              0             0             1 
+   323 GiorniOccupati[11,2]
+                    *              0             0             1 
+   324 GiorniOccupati[12,2]
+                    *              0             0             1 
+   325 GiorniOccupati[13,2]
+                    *              0             0             1 
+   326 GiorniOccupati[14,2]
+                    *              0             0             1 
+   327 GiorniOccupati[15,2]
+                    *              0             0             1 
+   328 GiorniOccupati[16,2]
+                    *              0             0             1 
+   329 GiorniOccupati[17,2]
+                    *              0             0             1 
+   330 GiorniOccupati[18,2]
+                    *              0             0             1 
+   331 GiorniOccupati[19,2]
+                    *              0             0             1 
+   332 GiorniOccupati[20,2]
+                    *              0             0             1 
+   333 GiorniOccupati[21,2]
+                    *              0             0             1 
+   334 GiorniOccupati[22,2]
+                    *              0             0             1 
+   335 GiorniOccupati[23,2]
+                    *              0             0             1 
+   336 GiorniOccupati[24,2]
+                    *              0             0             1 
+   337 GiorniOccupati[25,2]
+                    *              0             0             1 
+   338 GiorniOccupati[26,2]
+                    *              0             0             1 
+   339 GiorniOccupati[27,2]
+                    *              0             0             1 
+   340 GiorniOccupati[28,2]
+                    *              0             0             1 
+   341 GiorniOccupati[29,2]
+                    *              0             0             1 
+   342 GiorniOccupati[30,2]
+                    *              0             0             1 
+   343 GiorniOccupati[31,2]
+                    *              0             0             1 
+   344 GiorniOccupati[7,3]
+                    *              0             0             1 
+   345 GiorniOccupati[8,3]
+                    *              0             0             1 
+   346 GiorniOccupati[9,3]
+                    *              0             0             1 
+   347 GiorniOccupati[10,3]
+                    *              0             0             1 
+   348 GiorniOccupati[11,3]
+                    *              0             0             1 
+   349 GiorniOccupati[12,3]
+                    *              0             0             1 
+   350 GiorniOccupati[13,3]
+                    *              0             0             1 
+   351 GiorniOccupati[14,3]
+                    *              0             0             1 
+   352 GiorniOccupati[15,3]
+                    *              0             0             1 
+   353 GiorniOccupati[16,3]
+                    *              0             0             1 
+   354 GiorniOccupati[17,3]
+                    *              0             0             1 
+   355 GiorniOccupati[18,3]
+                    *              0             0             1 
+   356 GiorniOccupati[19,3]
+                    *              0             0             1 
+   357 GiorniOccupati[20,3]
+                    *              0             0             1 
+   358 GiorniOccupati[21,3]
+                    *              0             0             1 
+   359 GiorniOccupati[22,3]
+                    *              0             0             1 
+   360 GiorniOccupati[23,3]
+                    *              0             0             1 
+   361 GiorniOccupati[24,3]
+                    *              0             0             1 
+   362 GiorniOccupati[25,3]
+                    *              0             0             1 
+   363 GiorniOccupati[26,3]
+                    *              0             0             1 
+   364 GiorniOccupati[27,3]
+                    *              0             0             1 
+   365 GiorniOccupati[28,3]
+                    *              0             0             1 
+   366 GiorniOccupati[29,3]
+                    *              0             0             1 
+   367 GiorniOccupati[30,3]
+                    *              0             0             1 
+   368 GiorniOccupati[31,3]
+                    *              0             0             1 
+   369 GiorniOccupati[7,4]
+                    *              0             0             1 
+   370 GiorniOccupati[8,4]
+                    *              0             0             1 
+   371 GiorniOccupati[9,4]
+                    *              0             0             1 
+   372 GiorniOccupati[10,4]
+                    *              0             0             1 
+   373 GiorniOccupati[11,4]
+                    *              0             0             1 
+   374 GiorniOccupati[12,4]
+                    *              0             0             1 
+   375 GiorniOccupati[13,4]
+                    *              0             0             1 
+   376 GiorniOccupati[14,4]
+                    *              0             0             1 
+   377 GiorniOccupati[15,4]
+                    *              0             0             1 
+   378 GiorniOccupati[16,4]
+                    *              0             0             1 
+   379 GiorniOccupati[17,4]
+                    *              0             0             1 
+   380 GiorniOccupati[18,4]
+                    *              0             0             1 
+   381 GiorniOccupati[19,4]
+                    *              0             0             1 
+   382 GiorniOccupati[20,4]
+                    *              0             0             1 
+   383 GiorniOccupati[21,4]
+                    *              0             0             1 
+   384 GiorniOccupati[22,4]
+                    *              0             0             1 
+   385 GiorniOccupati[23,4]
+                    *              0             0             1 
+   386 GiorniOccupati[24,4]
+                    *              0             0             1 
+   387 GiorniOccupati[25,4]
+                    *              0             0             1 
+   388 GiorniOccupati[26,4]
+                    *              0             0             1 
+   389 GiorniOccupati[27,4]
+                    *              0             0             1 
+   390 GiorniOccupati[28,4]
+                    *              0             0             1 
+   391 GiorniOccupati[29,4]
+                    *              0             0             1 
+   392 GiorniOccupati[30,4]
+                    *              0             0             1 
+   393 GiorniOccupati[31,4]
+                    *              0             0             1 
+   394 GiorniOccupati[9,5]
+                    *              0             0             1 
+   395 GiorniOccupati[10,5]
+                    *              0             0             1 
+   396 GiorniOccupati[11,5]
+                    *              0             0             1 
+   397 GiorniOccupati[12,5]
+                    *              0             0             1 
+   398 GiorniOccupati[13,5]
+                    *              0             0             1 
+   399 GiorniOccupati[14,5]
+                    *              0             0             1 
+   400 GiorniOccupati[15,5]
+                    *              0             0             1 
+   401 GiorniOccupati[16,5]
+                    *              0             0             1 
+   402 GiorniOccupati[17,5]
+                    *              0             0             1 
+   403 GiorniOccupati[18,5]
+                    *              0             0             1 
+   404 GiorniOccupati[19,5]
+                    *              0             0             1 
+   405 GiorniOccupati[20,5]
+                    *              0             0             1 
+   406 GiorniOccupati[21,5]
+                    *              0             0             1 
+   407 GiorniOccupati[22,5]
+                    *              0             0             1 
+   408 GiorniOccupati[23,5]
+                    *              0             0             1 
+   409 GiorniOccupati[24,5]
+                    *              0             0             1 
+   410 GiorniOccupati[25,5]
+                    *              0             0             1 
+   411 GiorniOccupati[26,5]
+                    *              0             0             1 
+   412 GiorniOccupati[27,5]
+                    *              0             0             1 
+   413 GiorniOccupati[28,5]
+                    *              0             0             1 
+   414 GiorniOccupati[29,5]
+                    *              0             0             1 
+   415 GiorniOccupati[30,5]
+                    *              0             0             1 
+   416 GiorniOccupati[31,5]
+                    *              0             0             1 
+   417 GiorniOccupati[1,6]
+                    *              0             0             1 
+   418 GiorniOccupati[9,6]
+                    *              0             0             1 
+   419 GiorniOccupati[10,6]
+                    *              0             0             1 
+   420 GiorniOccupati[11,6]
+                    *              0             0             1 
+   421 GiorniOccupati[12,6]
+                    *              0             0             1 
+   422 GiorniOccupati[13,6]
+                    *              0             0             1 
+   423 GiorniOccupati[14,6]
+                    *              0             0             1 
+   424 GiorniOccupati[15,6]
+                    *              0             0             1 
+   425 GiorniOccupati[16,6]
+                    *              0             0             1 
+   426 GiorniOccupati[17,6]
+                    *              0             0             1 
+   427 GiorniOccupati[18,6]
+                    *              0             0             1 
+   428 GiorniOccupati[19,6]
+                    *              0             0             1 
+   429 GiorniOccupati[20,6]
+                    *              0             0             1 
+   430 GiorniOccupati[21,6]
+                    *              0             0             1 
+   431 GiorniOccupati[22,6]
+                    *              0             0             1 
+   432 GiorniOccupati[23,6]
+                    *              0             0             1 
+   433 GiorniOccupati[24,6]
+                    *              0             0             1 
+   434 GiorniOccupati[25,6]
+                    *              0             0             1 
+   435 GiorniOccupati[26,6]
+                    *              0             0             1 
+   436 GiorniOccupati[27,6]
+                    *              0             0             1 
+   437 GiorniOccupati[28,6]
+                    *              0             0             1 
+   438 GiorniOccupati[29,6]
+                    *              0             0             1 
+   439 GiorniOccupati[30,6]
+                    *              0             0             1 
+   440 GiorniOccupati[31,6]
+                    *              1             0             1 
+   441 GiorniOccupati[1,7]
+                    *              0             0             1 
+   442 GiorniOccupati[12,7]
+                    *              0             0             1 
+   443 GiorniOccupati[13,7]
+                    *              0             0             1 
+   444 GiorniOccupati[14,7]
+                    *              0             0             1 
+   445 GiorniOccupati[15,7]
+                    *              0             0             1 
+   446 GiorniOccupati[16,7]
+                    *              0             0             1 
+   447 GiorniOccupati[17,7]
+                    *              0             0             1 
+   448 GiorniOccupati[18,7]
+                    *              0             0             1 
+   449 GiorniOccupati[19,7]
+                    *              0             0             1 
+   450 GiorniOccupati[20,7]
+                    *              0             0             1 
+   451 GiorniOccupati[21,7]
+                    *              0             0             1 
+   452 GiorniOccupati[22,7]
+                    *              0             0             1 
+   453 GiorniOccupati[23,7]
+                    *              0             0             1 
+   454 GiorniOccupati[24,7]
+                    *              0             0             1 
+   455 GiorniOccupati[25,7]
+                    *              0             0             1 
+   456 GiorniOccupati[26,7]
+                    *              0             0             1 
+   457 GiorniOccupati[27,7]
+                    *              0             0             1 
+   458 GiorniOccupati[28,7]
+                    *              0             0             1 
+   459 GiorniOccupati[29,7]
+                    *              0             0             1 
+   460 GiorniOccupati[30,7]
+                    *              0             0             1 
+   461 GiorniOccupati[31,7]
+                    *              0             0             1 
+   462 GiorniOccupati[1,8]
+                    *              0             0             1 
+   463 GiorniOccupati[7,8]
+                    *              0             0             1 
+   464 GiorniOccupati[12,8]
+                    *              0             0             1 
+   465 GiorniOccupati[13,8]
+                    *              0             0             1 
+   466 GiorniOccupati[14,8]
+                    *              0             0             1 
+   467 GiorniOccupati[15,8]
+                    *              0             0             1 
+   468 GiorniOccupati[16,8]
+                    *              0             0             1 
+   469 GiorniOccupati[17,8]
+                    *              0             0             1 
+   470 GiorniOccupati[18,8]
+                    *              0             0             1 
+   471 GiorniOccupati[19,8]
+                    *              0             0             1 
+   472 GiorniOccupati[20,8]
+                    *              0             0             1 
+   473 GiorniOccupati[21,8]
+                    *              0             0             1 
+   474 GiorniOccupati[22,8]
+                    *              0             0             1 
+   475 GiorniOccupati[23,8]
+                    *              0             0             1 
+   476 GiorniOccupati[24,8]
+                    *              0             0             1 
+   477 GiorniOccupati[25,8]
+                    *              0             0             1 
+   478 GiorniOccupati[26,8]
+                    *              0             0             1 
+   479 GiorniOccupati[27,8]
+                    *              0             0             1 
+   480 GiorniOccupati[28,8]
+                    *              0             0             1 
+   481 GiorniOccupati[29,8]
+                    *              0             0             1 
+   482 GiorniOccupati[30,8]
+                    *              0             0             1 
+   483 GiorniOccupati[31,8]
+                    *              0             0             1 
+   484 GiorniOccupati[1,9]
+                    *              0             0             1 
+   485 GiorniOccupati[5,9]
+                    *              0             0             1 
+   486 GiorniOccupati[7,9]
+                    *              0             0             1 
+   487 GiorniOccupati[12,9]
+                    *              0             0             1 
+   488 GiorniOccupati[13,9]
+                    *              0             0             1 
+   489 GiorniOccupati[14,9]
+                    *              0             0             1 
+   490 GiorniOccupati[15,9]
+                    *              0             0             1 
+   491 GiorniOccupati[16,9]
+                    *              0             0             1 
+   492 GiorniOccupati[17,9]
+                    *              0             0             1 
+   493 GiorniOccupati[18,9]
+                    *              0             0             1 
+   494 GiorniOccupati[19,9]
+                    *              0             0             1 
+   495 GiorniOccupati[20,9]
+                    *              0             0             1 
+   496 GiorniOccupati[21,9]
+                    *              0             0             1 
+   497 GiorniOccupati[22,9]
+                    *              0             0             1 
+   498 GiorniOccupati[23,9]
+                    *              0             0             1 
+   499 GiorniOccupati[24,9]
+                    *              0             0             1 
+   500 GiorniOccupati[25,9]
+                    *              0             0             1 
+   501 GiorniOccupati[26,9]
+                    *              0             0             1 
+   502 GiorniOccupati[27,9]
+                    *              0             0             1 
+   503 GiorniOccupati[28,9]
+                    *              0             0             1 
+   504 GiorniOccupati[29,9]
+                    *              0             0             1 
+   505 GiorniOccupati[30,9]
+                    *              0             0             1 
+   506 GiorniOccupati[31,9]
+                    *              1             0             1 
+   507 GiorniOccupati[1,10]
+                    *              0             0             1 
+   508 GiorniOccupati[5,10]
+                    *              0             0             1 
+   509 GiorniOccupati[7,10]
+                    *              0             0             1 
+   510 GiorniOccupati[13,10]
+                    *              0             0             1 
+   511 GiorniOccupati[14,10]
+                    *              0             0             1 
+   512 GiorniOccupati[15,10]
+                    *              0             0             1 
+   513 GiorniOccupati[16,10]
+                    *              0             0             1 
+   514 GiorniOccupati[17,10]
+                    *              0             0             1 
+   515 GiorniOccupati[18,10]
+                    *              0             0             1 
+   516 GiorniOccupati[19,10]
+                    *              0             0             1 
+   517 GiorniOccupati[20,10]
+                    *              0             0             1 
+   518 GiorniOccupati[21,10]
+                    *              0             0             1 
+   519 GiorniOccupati[22,10]
+                    *              0             0             1 
+   520 GiorniOccupati[23,10]
+                    *              0             0             1 
+   521 GiorniOccupati[24,10]
+                    *              0             0             1 
+   522 GiorniOccupati[25,10]
+                    *              0             0             1 
+   523 GiorniOccupati[26,10]
+                    *              0             0             1 
+   524 GiorniOccupati[27,10]
+                    *              0             0             1 
+   525 GiorniOccupati[28,10]
+                    *              0             0             1 
+   526 GiorniOccupati[29,10]
+                    *              0             0             1 
+   527 GiorniOccupati[30,10]
+                    *              0             0             1 
+   528 GiorniOccupati[31,10]
+                    *              0             0             1 
+   529 GiorniOccupati[1,11]
+                    *              0             0             1 
+   530 GiorniOccupati[2,11]
+                    *              0             0             1 
+   531 GiorniOccupati[5,11]
+                    *              0             0             1 
+   532 GiorniOccupati[7,11]
+                    *              0             0             1 
+   533 GiorniOccupati[13,11]
+                    *              0             0             1 
+   534 GiorniOccupati[14,11]
+                    *              0             0             1 
+   535 GiorniOccupati[15,11]
+                    *              0             0             1 
+   536 GiorniOccupati[16,11]
+                    *              0             0             1 
+   537 GiorniOccupati[17,11]
+                    *              0             0             1 
+   538 GiorniOccupati[18,11]
+                    *              0             0             1 
+   539 GiorniOccupati[19,11]
+                    *              0             0             1 
+   540 GiorniOccupati[20,11]
+                    *              0             0             1 
+   541 GiorniOccupati[21,11]
+                    *              0             0             1 
+   542 GiorniOccupati[22,11]
+                    *              0             0             1 
+   543 GiorniOccupati[23,11]
+                    *              0             0             1 
+   544 GiorniOccupati[24,11]
+                    *              0             0             1 
+   545 GiorniOccupati[25,11]
+                    *              0             0             1 
+   546 GiorniOccupati[26,11]
+                    *              0             0             1 
+   547 GiorniOccupati[27,11]
+                    *              0             0             1 
+   548 GiorniOccupati[28,11]
+                    *              0             0             1 
+   549 GiorniOccupati[29,11]
+                    *              0             0             1 
+   550 GiorniOccupati[30,11]
+                    *              0             0             1 
+   551 GiorniOccupati[31,11]
+                    *              0             0             1 
+   552 GiorniOccupati[1,12]
+                    *              0             0             1 
+   553 GiorniOccupati[2,12]
+                    *              0             0             1 
+   554 GiorniOccupati[5,12]
+                    *              0             0             1 
+   555 GiorniOccupati[7,12]
+                    *              0             0             1 
+   556 GiorniOccupati[14,12]
+                    *              0             0             1 
+   557 GiorniOccupati[15,12]
+                    *              0             0             1 
+   558 GiorniOccupati[16,12]
+                    *              0             0             1 
+   559 GiorniOccupati[17,12]
+                    *              0             0             1 
+   560 GiorniOccupati[18,12]
+                    *              0             0             1 
+   561 GiorniOccupati[19,12]
+                    *              0             0             1 
+   562 GiorniOccupati[20,12]
+                    *              0             0             1 
+   563 GiorniOccupati[21,12]
+                    *              0             0             1 
+   564 GiorniOccupati[22,12]
+                    *              0             0             1 
+   565 GiorniOccupati[23,12]
+                    *              0             0             1 
+   566 GiorniOccupati[24,12]
+                    *              0             0             1 
+   567 GiorniOccupati[25,12]
+                    *              0             0             1 
+   568 GiorniOccupati[26,12]
+                    *              0             0             1 
+   569 GiorniOccupati[27,12]
+                    *              0             0             1 
+   570 GiorniOccupati[28,12]
+                    *              0             0             1 
+   571 GiorniOccupati[29,12]
+                    *              0             0             1 
+   572 GiorniOccupati[30,12]
+                    *              0             0             1 
+   573 GiorniOccupati[31,12]
+                    *              0             0             1 
+   574 GiorniOccupati[1,13]
+                    *              0             0             1 
+   575 GiorniOccupati[2,13]
+                    *              0             0             1 
+   576 GiorniOccupati[3,13]
+                    *              0             0             1 
+   577 GiorniOccupati[5,13]
+                    *              0             0             1 
+   578 GiorniOccupati[7,13]
+                    *              0             0             1 
+   579 GiorniOccupati[9,13]
+                    *              0             0             1 
+   580 GiorniOccupati[14,13]
+                    *              0             0             1 
+   581 GiorniOccupati[15,13]
+                    *              0             0             1 
+   582 GiorniOccupati[16,13]
+                    *              0             0             1 
+   583 GiorniOccupati[17,13]
+                    *              0             0             1 
+   584 GiorniOccupati[18,13]
+                    *              0             0             1 
+   585 GiorniOccupati[19,13]
+                    *              0             0             1 
+   586 GiorniOccupati[20,13]
+                    *              0             0             1 
+   587 GiorniOccupati[21,13]
+                    *              0             0             1 
+   588 GiorniOccupati[22,13]
+                    *              0             0             1 
+   589 GiorniOccupati[23,13]
+                    *              0             0             1 
+   590 GiorniOccupati[24,13]
+                    *              0             0             1 
+   591 GiorniOccupati[25,13]
+                    *              0             0             1 
+   592 GiorniOccupati[26,13]
+                    *              0             0             1 
+   593 GiorniOccupati[27,13]
+                    *              0             0             1 
+   594 GiorniOccupati[28,13]
+                    *              0             0             1 
+   595 GiorniOccupati[29,13]
+                    *              0             0             1 
+   596 GiorniOccupati[30,13]
+                    *              0             0             1 
+   597 GiorniOccupati[31,13]
+                    *              0             0             1 
+   598 GiorniOccupati[1,14]
+                    *              0             0             1 
+   599 GiorniOccupati[2,14]
+                    *              0             0             1 
+   600 GiorniOccupati[3,14]
+                    *              0             0             1 
+   601 GiorniOccupati[4,14]
+                    *              0             0             1 
+   602 GiorniOccupati[5,14]
+                    *              0             0             1 
+   603 GiorniOccupati[7,14]
+                    *              0             0             1 
+   604 GiorniOccupati[9,14]
+                    *              0             0             1 
+   605 GiorniOccupati[16,14]
+                    *              0             0             1 
+   606 GiorniOccupati[17,14]
+                    *              0             0             1 
+   607 GiorniOccupati[18,14]
+                    *              0             0             1 
+   608 GiorniOccupati[19,14]
+                    *              0             0             1 
+   609 GiorniOccupati[20,14]
+                    *              0             0             1 
+   610 GiorniOccupati[21,14]
+                    *              0             0             1 
+   611 GiorniOccupati[22,14]
+                    *              0             0             1 
+   612 GiorniOccupati[23,14]
+                    *              0             0             1 
+   613 GiorniOccupati[24,14]
+                    *              0             0             1 
+   614 GiorniOccupati[25,14]
+                    *              0             0             1 
+   615 GiorniOccupati[26,14]
+                    *              0             0             1 
+   616 GiorniOccupati[27,14]
+                    *              0             0             1 
+   617 GiorniOccupati[28,14]
+                    *              0             0             1 
+   618 GiorniOccupati[29,14]
+                    *              0             0             1 
+   619 GiorniOccupati[30,14]
+                    *              0             0             1 
+   620 GiorniOccupati[31,14]
+                    *              0             0             1 
+   621 GiorniOccupati[1,15]
+                    *              0             0             1 
+   622 GiorniOccupati[2,15]
+                    *              0             0             1 
+   623 GiorniOccupati[3,15]
+                    *              0             0             1 
+   624 GiorniOccupati[4,15]
+                    *              0             0             1 
+   625 GiorniOccupati[5,15]
+                    *              0             0             1 
+   626 GiorniOccupati[7,15]
+                    *              0             0             1 
+   627 GiorniOccupati[9,15]
+                    *              0             0             1 
+   628 GiorniOccupati[10,15]
+                    *              0             0             1 
+   629 GiorniOccupati[16,15]
+                    *              0             0             1 
+   630 GiorniOccupati[17,15]
+                    *              0             0             1 
+   631 GiorniOccupati[18,15]
+                    *              0             0             1 
+   632 GiorniOccupati[19,15]
+                    *              0             0             1 
+   633 GiorniOccupati[20,15]
+                    *              0             0             1 
+   634 GiorniOccupati[21,15]
+                    *              0             0             1 
+   635 GiorniOccupati[22,15]
+                    *              0             0             1 
+   636 GiorniOccupati[23,15]
+                    *              0             0             1 
+   637 GiorniOccupati[24,15]
+                    *              0             0             1 
+   638 GiorniOccupati[25,15]
+                    *              0             0             1 
+   639 GiorniOccupati[26,15]
+                    *              0             0             1 
+   640 GiorniOccupati[27,15]
+                    *              0             0             1 
+   641 GiorniOccupati[28,15]
+                    *              0             0             1 
+   642 GiorniOccupati[29,15]
+                    *              0             0             1 
+   643 GiorniOccupati[30,15]
+                    *              0             0             1 
+   644 GiorniOccupati[31,15]
+                    *              0             0             1 
+   645 GiorniOccupati[1,16]
+                    *              0             0             1 
+   646 GiorniOccupati[2,16]
+                    *              0             0             1 
+   647 GiorniOccupati[3,16]
+                    *              0             0             1 
+   648 GiorniOccupati[4,16]
+                    *              0             0             1 
+   649 GiorniOccupati[5,16]
+                    *              0             0             1 
+   650 GiorniOccupati[7,16]
+                    *              0             0             1 
+   651 GiorniOccupati[8,16]
+                    *              0             0             1 
+   652 GiorniOccupati[9,16]
+                    *              0             0             1 
+   653 GiorniOccupati[10,16]
+                    *              0             0             1 
+   654 GiorniOccupati[12,16]
+                    *              0             0             1 
+   655 GiorniOccupati[19,16]
+                    *              0             0             1 
+   656 GiorniOccupati[20,16]
+                    *              0             0             1 
+   657 GiorniOccupati[21,16]
+                    *              0             0             1 
+   658 GiorniOccupati[22,16]
+                    *              0             0             1 
+   659 GiorniOccupati[23,16]
+                    *              0             0             1 
+   660 GiorniOccupati[24,16]
+                    *              0             0             1 
+   661 GiorniOccupati[25,16]
+                    *              0             0             1 
+   662 GiorniOccupati[26,16]
+                    *              0             0             1 
+   663 GiorniOccupati[27,16]
+                    *              0             0             1 
+   664 GiorniOccupati[28,16]
+                    *              0             0             1 
+   665 GiorniOccupati[29,16]
+                    *              0             0             1 
+   666 GiorniOccupati[30,16]
+                    *              0             0             1 
+   667 GiorniOccupati[31,16]
+                    *              0             0             1 
+   668 GiorniOccupati[1,17]
+                    *              0             0             1 
+   669 GiorniOccupati[2,17]
+                    *              0             0             1 
+   670 GiorniOccupati[3,17]
+                    *              0             0             1 
+   671 GiorniOccupati[4,17]
+                    *              0             0             1 
+   672 GiorniOccupati[5,17]
+                    *              0             0             1 
+   673 GiorniOccupati[7,17]
+                    *              0             0             1 
+   674 GiorniOccupati[8,17]
+                    *              0             0             1 
+   675 GiorniOccupati[9,17]
+                    *              0             0             1 
+   676 GiorniOccupati[10,17]
+                    *              0             0             1 
+   677 GiorniOccupati[12,17]
+                    *              0             0             1 
+   678 GiorniOccupati[19,17]
+                    *              0             0             1 
+   679 GiorniOccupati[20,17]
+                    *              0             0             1 
+   680 GiorniOccupati[21,17]
+                    *              0             0             1 
+   681 GiorniOccupati[22,17]
+                    *              0             0             1 
+   682 GiorniOccupati[23,17]
+                    *              0             0             1 
+   683 GiorniOccupati[24,17]
+                    *              0             0             1 
+   684 GiorniOccupati[25,17]
+                    *              0             0             1 
+   685 GiorniOccupati[26,17]
+                    *              0             0             1 
+   686 GiorniOccupati[27,17]
+                    *              0             0             1 
+   687 GiorniOccupati[28,17]
+                    *              0             0             1 
+   688 GiorniOccupati[29,17]
+                    *              0             0             1 
+   689 GiorniOccupati[30,17]
+                    *              0             0             1 
+   690 GiorniOccupati[31,17]
+                    *              0             0             1 
+   691 GiorniOccupati[1,18]
+                    *              0             0             1 
+   692 GiorniOccupati[2,18]
+                    *              0             0             1 
+   693 GiorniOccupati[3,18]
+                    *              0             0             1 
+   694 GiorniOccupati[4,18]
+                    *              0             0             1 
+   695 GiorniOccupati[5,18]
+                    *              0             0             1 
+   696 GiorniOccupati[7,18]
+                    *              0             0             1 
+   697 GiorniOccupati[8,18]
+                    *              0             0             1 
+   698 GiorniOccupati[9,18]
+                    *              0             0             1 
+   699 GiorniOccupati[10,18]
+                    *              0             0             1 
+   700 GiorniOccupati[12,18]
+                    *              0             0             1 
+   701 GiorniOccupati[20,18]
+                    *              0             0             1 
+   702 GiorniOccupati[21,18]
+                    *              0             0             1 
+   703 GiorniOccupati[22,18]
+                    *              0             0             1 
+   704 GiorniOccupati[23,18]
+                    *              0             0             1 
+   705 GiorniOccupati[24,18]
+                    *              0             0             1 
+   706 GiorniOccupati[25,18]
+                    *              0             0             1 
+   707 GiorniOccupati[26,18]
+                    *              0             0             1 
+   708 GiorniOccupati[27,18]
+                    *              0             0             1 
+   709 GiorniOccupati[28,18]
+                    *              0             0             1 
+   710 GiorniOccupati[29,18]
+                    *              0             0             1 
+   711 GiorniOccupati[30,18]
+                    *              0             0             1 
+   712 GiorniOccupati[31,18]
+                    *              0             0             1 
+   713 GiorniOccupati[1,19]
+                    *              0             0             1 
+   714 GiorniOccupati[2,19]
+                    *              0             0             1 
+   715 GiorniOccupati[3,19]
+                    *              0             0             1 
+   716 GiorniOccupati[4,19]
+                    *              0             0             1 
+   717 GiorniOccupati[5,19]
+                    *              0             0             1 
+   718 GiorniOccupati[7,19]
+                    *              0             0             1 
+   719 GiorniOccupati[8,19]
+                    *              0             0             1 
+   720 GiorniOccupati[9,19]
+                    *              0             0             1 
+   721 GiorniOccupati[10,19]
+                    *              0             0             1 
+   722 GiorniOccupati[12,19]
+                    *              0             0             1 
+   723 GiorniOccupati[20,19]
+                    *              0             0             1 
+   724 GiorniOccupati[21,19]
+                    *              0             0             1 
+   725 GiorniOccupati[22,19]
+                    *              0             0             1 
+   726 GiorniOccupati[23,19]
+                    *              0             0             1 
+   727 GiorniOccupati[24,19]
+                    *              0             0             1 
+   728 GiorniOccupati[25,19]
+                    *              0             0             1 
+   729 GiorniOccupati[26,19]
+                    *              0             0             1 
+   730 GiorniOccupati[27,19]
+                    *              0             0             1 
+   731 GiorniOccupati[28,19]
+                    *              0             0             1 
+   732 GiorniOccupati[29,19]
+                    *              0             0             1 
+   733 GiorniOccupati[30,19]
+                    *              0             0             1 
+   734 GiorniOccupati[31,19]
+                    *              0             0             1 
+   735 GiorniOccupati[1,20]
+                    *              0             0             1 
+   736 GiorniOccupati[2,20]
+                    *              0             0             1 
+   737 GiorniOccupati[3,20]
+                    *              0             0             1 
+   738 GiorniOccupati[4,20]
+                    *              0             0             1 
+   739 GiorniOccupati[5,20]
+                    *              0             0             1 
+   740 GiorniOccupati[7,20]
+                    *              0             0             1 
+   741 GiorniOccupati[8,20]
+                    *              0             0             1 
+   742 GiorniOccupati[9,20]
+                    *              0             0             1 
+   743 GiorniOccupati[10,20]
+                    *              0             0             1 
+   744 GiorniOccupati[12,20]
+                    *              0             0             1 
+   745 GiorniOccupati[13,20]
+                    *              0             0             1 
+   746 GiorniOccupati[20,20]
+                    *              0             0             1 
+   747 GiorniOccupati[21,20]
+                    *              0             0             1 
+   748 GiorniOccupati[22,20]
+                    *              0             0             1 
+   749 GiorniOccupati[23,20]
+                    *              0             0             1 
+   750 GiorniOccupati[24,20]
+                    *              0             0             1 
+   751 GiorniOccupati[25,20]
+                    *              0             0             1 
+   752 GiorniOccupati[26,20]
+                    *              0             0             1 
+   753 GiorniOccupati[27,20]
+                    *              0             0             1 
+   754 GiorniOccupati[28,20]
+                    *              0             0             1 
+   755 GiorniOccupati[29,20]
+                    *              0             0             1 
+   756 GiorniOccupati[30,20]
+                    *              0             0             1 
+   757 GiorniOccupati[31,20]
+                    *              0             0             1 
+   758 GiorniOccupati[1,21]
+                    *              0             0             1 
+   759 GiorniOccupati[2,21]
+                    *              0             0             1 
+   760 GiorniOccupati[3,21]
+                    *              0             0             1 
+   761 GiorniOccupati[4,21]
+                    *              0             0             1 
+   762 GiorniOccupati[5,21]
+                    *              0             0             1 
+   763 GiorniOccupati[7,21]
+                    *              0             0             1 
+   764 GiorniOccupati[8,21]
+                    *              0             0             1 
+   765 GiorniOccupati[9,21]
+                    *              0             0             1 
+   766 GiorniOccupati[10,21]
+                    *              0             0             1 
+   767 GiorniOccupati[12,21]
+                    *              0             0             1 
+   768 GiorniOccupati[13,21]
+                    *              0             0             1 
+   769 GiorniOccupati[16,21]
+                    *              0             0             1 
+   770 GiorniOccupati[22,21]
+                    *              0             0             1 
+   771 GiorniOccupati[23,21]
+                    *              0             0             1 
+   772 GiorniOccupati[24,21]
+                    *              0             0             1 
+   773 GiorniOccupati[25,21]
+                    *              0             0             1 
+   774 GiorniOccupati[26,21]
+                    *              0             0             1 
+   775 GiorniOccupati[27,21]
+                    *              0             0             1 
+   776 GiorniOccupati[28,21]
+                    *              0             0             1 
+   777 GiorniOccupati[29,21]
+                    *              0             0             1 
+   778 GiorniOccupati[30,21]
+                    *              0             0             1 
+   779 GiorniOccupati[31,21]
+                    *              0             0             1 
+   780 GiorniOccupati[1,22]
+                    *              0             0             1 
+   781 GiorniOccupati[2,22]
+                    *              0             0             1 
+   782 GiorniOccupati[3,22]
+                    *              0             0             1 
+   783 GiorniOccupati[4,22]
+                    *              0             0             1 
+   784 GiorniOccupati[5,22]
+                    *              0             0             1 
+   785 GiorniOccupati[7,22]
+                    *              0             0             1 
+   786 GiorniOccupati[8,22]
+                    *              0             0             1 
+   787 GiorniOccupati[9,22]
+                    *              0             0             1 
+   788 GiorniOccupati[10,22]
+                    *              0             0             1 
+   789 GiorniOccupati[12,22]
+                    *              0             0             1 
+   790 GiorniOccupati[13,22]
+                    *              0             0             1 
+   791 GiorniOccupati[16,22]
+                    *              0             0             1 
+   792 GiorniOccupati[22,22]
+                    *              0             0             1 
+   793 GiorniOccupati[23,22]
+                    *              0             0             1 
+   794 GiorniOccupati[24,22]
+                    *              0             0             1 
+   795 GiorniOccupati[25,22]
+                    *              0             0             1 
+   796 GiorniOccupati[26,22]
+                    *              0             0             1 
+   797 GiorniOccupati[27,22]
+                    *              0             0             1 
+   798 GiorniOccupati[28,22]
+                    *              0             0             1 
+   799 GiorniOccupati[29,22]
+                    *              0             0             1 
+   800 GiorniOccupati[30,22]
+                    *              0             0             1 
+   801 GiorniOccupati[31,22]
+                    *              0             0             1 
+   802 GiorniOccupati[1,23]
+                    *              0             0             1 
+   803 GiorniOccupati[2,23]
+                    *              0             0             1 
+   804 GiorniOccupati[3,23]
+                    *              0             0             1 
+   805 GiorniOccupati[4,23]
+                    *              0             0             1 
+   806 GiorniOccupati[5,23]
+                    *              0             0             1 
+   807 GiorniOccupati[7,23]
+                    *              0             0             1 
+   808 GiorniOccupati[8,23]
+                    *              0             0             1 
+   809 GiorniOccupati[9,23]
+                    *              0             0             1 
+   810 GiorniOccupati[10,23]
+                    *              0             0             1 
+   811 GiorniOccupati[12,23]
+                    *              0             0             1 
+   812 GiorniOccupati[13,23]
+                    *              0             0             1 
+   813 GiorniOccupati[16,23]
+                    *              0             0             1 
+   814 GiorniOccupati[20,23]
+                    *              0             0             1 
+   815 GiorniOccupati[22,23]
+                    *              0             0             1 
+   816 GiorniOccupati[23,23]
+                    *              0             0             1 
+   817 GiorniOccupati[24,23]
+                    *              0             0             1 
+   818 GiorniOccupati[25,23]
+                    *              0             0             1 
+   819 GiorniOccupati[26,23]
+                    *              0             0             1 
+   820 GiorniOccupati[27,23]
+                    *              0             0             1 
+   821 GiorniOccupati[28,23]
+                    *              0             0             1 
+   822 GiorniOccupati[29,23]
+                    *              0             0             1 
+   823 GiorniOccupati[30,23]
+                    *              0             0             1 
+   824 GiorniOccupati[31,23]
+                    *              0             0             1 
+   825 GiorniOccupati[1,24]
+                    *              0             0             1 
+   826 GiorniOccupati[2,24]
+                    *              0             0             1 
+   827 GiorniOccupati[3,24]
+                    *              0             0             1 
+   828 GiorniOccupati[4,24]
+                    *              0             0             1 
+   829 GiorniOccupati[5,24]
+                    *              0             0             1 
+   830 GiorniOccupati[7,24]
+                    *              0             0             1 
+   831 GiorniOccupati[8,24]
+                    *              0             0             1 
+   832 GiorniOccupati[9,24]
+                    *              0             0             1 
+   833 GiorniOccupati[10,24]
+                    *              0             0             1 
+   834 GiorniOccupati[12,24]
+                    *              0             0             1 
+   835 GiorniOccupati[13,24]
+                    *              0             0             1 
+   836 GiorniOccupati[16,24]
+                    *              0             0             1 
+   837 GiorniOccupati[20,24]
+                    *              0             0             1 
+   838 GiorniOccupati[22,24]
+                    *              0             0             1 
+   839 GiorniOccupati[23,24]
+                    *              0             0             1 
+   840 GiorniOccupati[24,24]
+                    *              0             0             1 
+   841 GiorniOccupati[25,24]
+                    *              0             0             1 
+   842 GiorniOccupati[26,24]
+                    *              0             0             1 
+   843 GiorniOccupati[27,24]
+                    *              0             0             1 
+   844 GiorniOccupati[28,24]
+                    *              0             0             1 
+   845 GiorniOccupati[29,24]
+                    *              0             0             1 
+   846 GiorniOccupati[30,24]
+                    *              0             0             1 
+   847 GiorniOccupati[31,24]
+                    *              0             0             1 
+   848 GiorniOccupati[1,25]
+                    *              0             0             1 
+   849 GiorniOccupati[2,25]
+                    *              0             0             1 
+   850 GiorniOccupati[3,25]
+                    *              0             0             1 
+   851 GiorniOccupati[4,25]
+                    *              0             0             1 
+   852 GiorniOccupati[5,25]
+                    *              0             0             1 
+   853 GiorniOccupati[6,25]
+                    *              0             0             1 
+   854 GiorniOccupati[7,25]
+                    *              0             0             1 
+   855 GiorniOccupati[8,25]
+                    *              0             0             1 
+   856 GiorniOccupati[9,25]
+                    *              0             0             1 
+   857 GiorniOccupati[10,25]
+                    *              0             0             1 
+   858 GiorniOccupati[12,25]
+                    *              0             0             1 
+   859 GiorniOccupati[13,25]
+                    *              0             0             1 
+   860 GiorniOccupati[16,25]
+                    *              0             0             1 
+   861 GiorniOccupati[20,25]
+                    *              0             0             1 
+   862 GiorniOccupati[25,25]
+                    *              0             0             1 
+   863 GiorniOccupati[26,25]
+                    *              0             0             1 
+   864 GiorniOccupati[27,25]
+                    *              0             0             1 
+   865 GiorniOccupati[28,25]
+                    *              0             0             1 
+   866 GiorniOccupati[29,25]
+                    *              0             0             1 
+   867 GiorniOccupati[30,25]
+                    *              0             0             1 
+   868 GiorniOccupati[31,25]
+                    *              0             0             1 
+   869 GiorniOccupati[1,26]
+                    *              0             0             1 
+   870 GiorniOccupati[2,26]
+                    *              0             0             1 
+   871 GiorniOccupati[3,26]
+                    *              0             0             1 
+   872 GiorniOccupati[4,26]
+                    *              0             0             1 
+   873 GiorniOccupati[5,26]
+                    *              0             0             1 
+   874 GiorniOccupati[6,26]
+                    *              0             0             1 
+   875 GiorniOccupati[7,26]
+                    *              0             0             1 
+   876 GiorniOccupati[8,26]
+                    *              0             0             1 
+   877 GiorniOccupati[9,26]
+                    *              0             0             1 
+   878 GiorniOccupati[10,26]
+                    *              0             0             1 
+   879 GiorniOccupati[12,26]
+                    *              0             0             1 
+   880 GiorniOccupati[13,26]
+                    *              0             0             1 
+   881 GiorniOccupati[16,26]
+                    *              0             0             1 
+   882 GiorniOccupati[20,26]
+                    *              0             0             1 
+   883 GiorniOccupati[22,26]
+                    *              0             0             1 
+   884 GiorniOccupati[25,26]
+                    *              0             0             1 
+   885 GiorniOccupati[26,26]
+                    *              0             0             1 
+   886 GiorniOccupati[27,26]
+                    *              0             0             1 
+   887 GiorniOccupati[28,26]
+                    *              0             0             1 
+   888 GiorniOccupati[29,26]
+                    *              0             0             1 
+   889 GiorniOccupati[30,26]
+                    *              0             0             1 
+   890 GiorniOccupati[31,26]
+                    *              0             0             1 
+   891 GiorniOccupati[1,27]
+                    *              0             0             1 
+   892 GiorniOccupati[2,27]
+                    *              0             0             1 
+   893 GiorniOccupati[3,27]
+                    *              0             0             1 
+   894 GiorniOccupati[4,27]
+                    *              0             0             1 
+   895 GiorniOccupati[5,27]
+                    *              0             0             1 
+   896 GiorniOccupati[6,27]
+                    *              0             0             1 
+   897 GiorniOccupati[7,27]
+                    *              0             0             1 
+   898 GiorniOccupati[8,27]
+                    *              0             0             1 
+   899 GiorniOccupati[9,27]
+                    *              0             0             1 
+   900 GiorniOccupati[10,27]
+                    *              0             0             1 
+   901 GiorniOccupati[12,27]
+                    *              0             0             1 
+   902 GiorniOccupati[13,27]
+                    *              0             0             1 
+   903 GiorniOccupati[14,27]
+                    *              0             0             1 
+   904 GiorniOccupati[16,27]
+                    *              0             0             1 
+   905 GiorniOccupati[20,27]
+                    *              0             0             1 
+   906 GiorniOccupati[21,27]
+                    *              0             0             1 
+   907 GiorniOccupati[22,27]
+                    *              0             0             1 
+   908 GiorniOccupati[23,27]
+                    *              0             0             1 
+   909 GiorniOccupati[25,27]
+                    *              0             0             1 
+   910 GiorniOccupati[26,27]
+                    *              0             0             1 
+   911 GiorniOccupati[27,27]
+                    *              0             0             1 
+   912 GiorniOccupati[28,27]
+                    *              0             0             1 
+   913 GiorniOccupati[29,27]
+                    *              0             0             1 
+   914 GiorniOccupati[30,27]
+                    *              0             0             1 
+   915 GiorniOccupati[31,27]
+                    *              0             0             1 
+   916 GiorniOccupati[1,28]
+                    *              0             0             1 
+   917 GiorniOccupati[2,28]
+                    *              0             0             1 
+   918 GiorniOccupati[3,28]
+                    *              0             0             1 
+   919 GiorniOccupati[4,28]
+                    *              0             0             1 
+   920 GiorniOccupati[5,28]
+                    *              0             0             1 
+   921 GiorniOccupati[6,28]
+                    *              0             0             1 
+   922 GiorniOccupati[7,28]
+                    *              0             0             1 
+   923 GiorniOccupati[8,28]
+                    *              0             0             1 
+   924 GiorniOccupati[9,28]
+                    *              0             0             1 
+   925 GiorniOccupati[10,28]
+                    *              0             0             1 
+   926 GiorniOccupati[12,28]
+                    *              0             0             1 
+   927 GiorniOccupati[13,28]
+                    *              0             0             1 
+   928 GiorniOccupati[14,28]
+                    *              0             0             1 
+   929 GiorniOccupati[16,28]
+                    *              0             0             1 
+   930 GiorniOccupati[17,28]
+                    *              0             0             1 
+   931 GiorniOccupati[20,28]
+                    *              0             0             1 
+   932 GiorniOccupati[21,28]
+                    *              0             0             1 
+   933 GiorniOccupati[22,28]
+                    *              0             0             1 
+   934 GiorniOccupati[23,28]
+                    *              0             0             1 
+   935 GiorniOccupati[26,28]
+                    *              0             0             1 
+   936 GiorniOccupati[27,28]
+                    *              0             0             1 
+   937 GiorniOccupati[28,28]
+                    *              0             0             1 
+   938 GiorniOccupati[29,28]
+                    *              0             0             1 
+   939 GiorniOccupati[30,28]
+                    *              0             0             1 
+   940 GiorniOccupati[31,28]
+                    *              0             0             1 
+   941 GiorniOccupati[1,29]
+                    *              0             0             1 
+   942 GiorniOccupati[2,29]
+                    *              0             0             1 
+   943 GiorniOccupati[3,29]
+                    *              0             0             1 
+   944 GiorniOccupati[4,29]
+                    *              0             0             1 
+   945 GiorniOccupati[5,29]
+                    *              0             0             1 
+   946 GiorniOccupati[6,29]
+                    *              0             0             1 
+   947 GiorniOccupati[7,29]
+                    *              0             0             1 
+   948 GiorniOccupati[8,29]
+                    *              0             0             1 
+   949 GiorniOccupati[9,29]
+                    *              0             0             1 
+   950 GiorniOccupati[10,29]
+                    *              0             0             1 
+   951 GiorniOccupati[11,29]
+                    *              0             0             1 
+   952 GiorniOccupati[12,29]
+                    *              0             0             1 
+   953 GiorniOccupati[13,29]
+                    *              0             0             1 
+   954 GiorniOccupati[14,29]
+                    *              0             0             1 
+   955 GiorniOccupati[16,29]
+                    *              0             0             1 
+   956 GiorniOccupati[17,29]
+                    *              0             0             1 
+   957 GiorniOccupati[20,29]
+                    *              0             0             1 
+   958 GiorniOccupati[21,29]
+                    *              0             0             1 
+   959 GiorniOccupati[22,29]
+                    *              0             0             1 
+   960 GiorniOccupati[23,29]
+                    *              0             0             1 
+   961 GiorniOccupati[28,29]
+                    *              0             0             1 
+   962 GiorniOccupati[29,29]
+                    *              0             0             1 
+   963 GiorniOccupati[30,29]
+                    *              0             0             1 
+   964 GiorniOccupati[31,29]
+                    *              1             0             1 
+   965 GiorniOccupati[1,30]
+                    *              0             0             1 
+   966 GiorniOccupati[2,30]
+                    *              0             0             1 
+   967 GiorniOccupati[3,30]
+                    *              0             0             1 
+   968 GiorniOccupati[4,30]
+                    *              0             0             1 
+   969 GiorniOccupati[5,30]
+                    *              0             0             1 
+   970 GiorniOccupati[6,30]
+                    *              0             0             1 
+   971 GiorniOccupati[7,30]
+                    *              0             0             1 
+   972 GiorniOccupati[8,30]
+                    *              0             0             1 
+   973 GiorniOccupati[9,30]
+                    *              0             0             1 
+   974 GiorniOccupati[10,30]
+                    *              0             0             1 
+   975 GiorniOccupati[11,30]
+                    *              0             0             1 
+   976 GiorniOccupati[12,30]
+                    *              0             0             1 
+   977 GiorniOccupati[13,30]
+                    *              0             0             1 
+   978 GiorniOccupati[14,30]
+                    *              0             0             1 
+   979 GiorniOccupati[16,30]
+                    *              0             0             1 
+   980 GiorniOccupati[17,30]
+                    *              0             0             1 
+   981 GiorniOccupati[20,30]
+                    *              0             0             1 
+   982 GiorniOccupati[21,30]
+                    *              0             0             1 
+   983 GiorniOccupati[22,30]
+                    *              0             0             1 
+   984 GiorniOccupati[23,30]
+                    *              0             0             1 
+   985 GiorniOccupati[1,31]
+                    *              0             0             1 
+   986 GiorniOccupati[2,31]
+                    *              0             0             1 
+   987 GiorniOccupati[3,31]
+                    *              0             0             1 
+   988 GiorniOccupati[4,31]
+                    *              0             0             1 
+   989 GiorniOccupati[5,31]
+                    *              0             0             1 
+   990 GiorniOccupati[6,31]
+                    *              0             0             1 
+   991 GiorniOccupati[7,31]
+                    *              0             0             1 
+   992 GiorniOccupati[8,31]
+                    *              0             0             1 
+   993 GiorniOccupati[9,31]
+                    *              0             0             1 
+   994 GiorniOccupati[10,31]
+                    *              0             0             1 
+   995 GiorniOccupati[11,31]
+                    *              0             0             1 
+   996 GiorniOccupati[12,31]
+                    *              0             0             1 
+   997 GiorniOccupati[13,31]
+                    *              0             0             1 
+   998 GiorniOccupati[14,31]
+                    *              0             0             1 
+   999 GiorniOccupati[15,31]
+                    *              0             0             1 
+  1000 GiorniOccupati[16,31]
+                    *              0             0             1 
+  1001 GiorniOccupati[17,31]
+                    *              0             0             1 
+  1002 GiorniOccupati[19,31]
+                    *              0             0             1 
+  1003 GiorniOccupati[20,31]
+                    *              0             0             1 
+  1004 GiorniOccupati[21,31]
+                    *              0             0             1 
+  1005 GiorniOccupati[22,31]
+                    *              0             0             1 
+  1006 GiorniOccupati[23,31]
+                    *              0             0             1 
+  1007 GiorniOccupati[24,31]
+                    *              0             0             1 
+  1008 GiorniOccupati[25,31]
+                    *              0             0             1 
+  1009 GiorniOccupati[28,31]
+                    *              0             0             1 
+  1010 GiorniOccupati[1,32]
+                    *              0             0             1 
+  1011 GiorniOccupati[2,32]
+                    *              0             0             1 
+  1012 GiorniOccupati[3,32]
+                    *              0             0             1 
+  1013 GiorniOccupati[4,32]
+                    *              0             0             1 
+  1014 GiorniOccupati[5,32]
+                    *              0             0             1 
+  1015 GiorniOccupati[6,32]
+                    *              0             0             1 
+  1016 GiorniOccupati[7,32]
+                    *              0             0             1 
+  1017 GiorniOccupati[8,32]
+                    *              0             0             1 
+  1018 GiorniOccupati[9,32]
+                    *              0             0             1 
+  1019 GiorniOccupati[10,32]
+                    *              0             0             1 
+  1020 GiorniOccupati[11,32]
+                    *              0             0             1 
+  1021 GiorniOccupati[12,32]
+                    *              0             0             1 
+  1022 GiorniOccupati[13,32]
+                    *              0             0             1 
+  1023 GiorniOccupati[14,32]
+                    *              0             0             1 
+  1024 GiorniOccupati[15,32]
+                    *              0             0             1 
+  1025 GiorniOccupati[16,32]
+                    *              0             0             1 
+  1026 GiorniOccupati[17,32]
+                    *              0             0             1 
+  1027 GiorniOccupati[19,32]
+                    *              0             0             1 
+  1028 GiorniOccupati[20,32]
+                    *              0             0             1 
+  1029 GiorniOccupati[21,32]
+                    *              0             0             1 
+  1030 GiorniOccupati[22,32]
+                    *              0             0             1 
+  1031 GiorniOccupati[23,32]
+                    *              0             0             1 
+  1032 GiorniOccupati[24,32]
+                    *              0             0             1 
+  1033 GiorniOccupati[25,32]
+                    *              0             0             1 
+  1034 GiorniOccupati[28,32]
+                    *              0             0             1 
+  1035 GiorniOccupati[1,33]
+                    *              0             0             1 
+  1036 GiorniOccupati[2,33]
+                    *              0             0             1 
+  1037 GiorniOccupati[3,33]
+                    *              0             0             1 
+  1038 GiorniOccupati[4,33]
+                    *              0             0             1 
+  1039 GiorniOccupati[5,33]
+                    *              0             0             1 
+  1040 GiorniOccupati[6,33]
+                    *              0             0             1 
+  1041 GiorniOccupati[7,33]
+                    *              0             0             1 
+  1042 GiorniOccupati[8,33]
+                    *              0             0             1 
+  1043 GiorniOccupati[9,33]
+                    *              0             0             1 
+  1044 GiorniOccupati[10,33]
+                    *              0             0             1 
+  1045 GiorniOccupati[11,33]
+                    *              0             0             1 
+  1046 GiorniOccupati[12,33]
+                    *              0             0             1 
+  1047 GiorniOccupati[13,33]
+                    *              0             0             1 
+  1048 GiorniOccupati[14,33]
+                    *              0             0             1 
+  1049 GiorniOccupati[15,33]
+                    *              0             0             1 
+  1050 GiorniOccupati[16,33]
+                    *              0             0             1 
+  1051 GiorniOccupati[17,33]
+                    *              0             0             1 
+  1052 GiorniOccupati[19,33]
+                    *              0             0             1 
+  1053 GiorniOccupati[20,33]
+                    *              0             0             1 
+  1054 GiorniOccupati[21,33]
+                    *              0             0             1 
+  1055 GiorniOccupati[22,33]
+                    *              0             0             1 
+  1056 GiorniOccupati[23,33]
+                    *              0             0             1 
+  1057 GiorniOccupati[24,33]
+                    *              0             0             1 
+  1058 GiorniOccupati[25,33]
+                    *              0             0             1 
+  1059 GiorniOccupati[28,33]
+                    *              0             0             1 
+  1060 GiorniOccupati[29,33]
+                    *              0             0             1 
+  1061 GiorniOccupati[1,34]
+                    *              0             0             1 
+  1062 GiorniOccupati[2,34]
+                    *              0             0             1 
+  1063 GiorniOccupati[3,34]
+                    *              0             0             1 
+  1064 GiorniOccupati[4,34]
+                    *              0             0             1 
+  1065 GiorniOccupati[5,34]
+                    *              0             0             1 
+  1066 GiorniOccupati[6,34]
+                    *              0             0             1 
+  1067 GiorniOccupati[7,34]
+                    *              0             0             1 
+  1068 GiorniOccupati[8,34]
+                    *              0             0             1 
+  1069 GiorniOccupati[9,34]
+                    *              0             0             1 
+  1070 GiorniOccupati[10,34]
+                    *              0             0             1 
+  1071 GiorniOccupati[11,34]
+                    *              0             0             1 
+  1072 GiorniOccupati[12,34]
+                    *              0             0             1 
+  1073 GiorniOccupati[13,34]
+                    *              0             0             1 
+  1074 GiorniOccupati[14,34]
+                    *              0             0             1 
+  1075 GiorniOccupati[15,34]
+                    *              0             0             1 
+  1076 GiorniOccupati[16,34]
+                    *              0             0             1 
+  1077 GiorniOccupati[17,34]
+                    *              0             0             1 
+  1078 GiorniOccupati[18,34]
+                    *              0             0             1 
+  1079 GiorniOccupati[19,34]
+                    *              0             0             1 
+  1080 GiorniOccupati[20,34]
+                    *              0             0             1 
+  1081 GiorniOccupati[21,34]
+                    *              0             0             1 
+  1082 GiorniOccupati[22,34]
+                    *              0             0             1 
+  1083 GiorniOccupati[23,34]
+                    *              0             0             1 
+  1084 GiorniOccupati[24,34]
+                    *              0             0             1 
+  1085 GiorniOccupati[25,34]
+                    *              0             0             1 
+  1086 GiorniOccupati[28,34]
+                    *              0             0             1 
+  1087 GiorniOccupati[29,34]
+                    *              1             0             1 
+  1088 GiorniOccupati[1,35]
+                    *              0             0             1 
+  1089 GiorniOccupati[2,35]
+                    *              0             0             1 
+  1090 GiorniOccupati[3,35]
+                    *              0             0             1 
+  1091 GiorniOccupati[4,35]
+                    *              0             0             1 
+  1092 GiorniOccupati[5,35]
+                    *              0             0             1 
+  1093 GiorniOccupati[6,35]
+                    *              0             0             1 
+  1094 GiorniOccupati[7,35]
+                    *              0             0             1 
+  1095 GiorniOccupati[8,35]
+                    *              0             0             1 
+  1096 GiorniOccupati[9,35]
+                    *              0             0             1 
+  1097 GiorniOccupati[10,35]
+                    *              0             0             1 
+  1098 GiorniOccupati[11,35]
+                    *              0             0             1 
+  1099 GiorniOccupati[12,35]
+                    *              0             0             1 
+  1100 GiorniOccupati[13,35]
+                    *              0             0             1 
+  1101 GiorniOccupati[14,35]
+                    *              0             0             1 
+  1102 GiorniOccupati[15,35]
+                    *              0             0             1 
+  1103 GiorniOccupati[16,35]
+                    *              0             0             1 
+  1104 GiorniOccupati[17,35]
+                    *              0             0             1 
+  1105 GiorniOccupati[18,35]
+                    *              0             0             1 
+  1106 GiorniOccupati[19,35]
+                    *              0             0             1 
+  1107 GiorniOccupati[20,35]
+                    *              0             0             1 
+  1108 GiorniOccupati[21,35]
+                    *              0             0             1 
+  1109 GiorniOccupati[22,35]
+                    *              0             0             1 
+  1110 GiorniOccupati[23,35]
+                    *              0             0             1 
+  1111 GiorniOccupati[24,35]
+                    *              0             0             1 
+  1112 GiorniOccupati[25,35]
+                    *              0             0             1 
+  1113 GiorniOccupati[26,35]
+                    *              0             0             1 
+  1114 GiorniOccupati[28,35]
+                    *              0             0             1 
+  1115 GiorniOccupati[29,35]
+                    *              0             0             1 
+  1116 GiorniOccupati[30,35]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
