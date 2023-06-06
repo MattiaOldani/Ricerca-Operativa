@@ -1,0 +1,82 @@
+Problem:    soluzione
+Rows:       6
+Columns:    24 (24 integer, 24 binary)
+Non-zeros:  72
+Status:     INTEGER OPTIMAL
+Objective:  z = 134 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Massimo                   100                         100 
+     2 AlmenoUnOggetto[1]
+                                   2             1               
+     3 AlmenoUnOggetto[2]
+                                   2             1               
+     4 AlmenoUnOggetto[3]
+                                   2             1               
+     5 AlmenoUnOggetto[4]
+                                   1             1               
+     6 z                         134                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Selezione[1,1]
+                    *              0             0             1 
+     2 Selezione[1,2]
+                    *              0             0             1 
+     3 Selezione[1,3]
+                    *              1             0             1 
+     4 Selezione[1,4]
+                    *              0             0             1 
+     5 Selezione[1,5]
+                    *              1             0             1 
+     6 Selezione[1,6]
+                    *              0             0             1 
+     7 Selezione[2,1]
+                    *              0             0             1 
+     8 Selezione[2,2]
+                    *              1             0             1 
+     9 Selezione[2,3]
+                    *              0             0             1 
+    10 Selezione[2,4]
+                    *              0             0             1 
+    11 Selezione[2,5]
+                    *              0             0             1 
+    12 Selezione[2,6]
+                    *              1             0             1 
+    13 Selezione[3,1]
+                    *              0             0             1 
+    14 Selezione[3,2]
+                    *              0             0             1 
+    15 Selezione[3,3]
+                    *              0             0             1 
+    16 Selezione[3,4]
+                    *              1             0             1 
+    17 Selezione[3,5]
+                    *              1             0             1 
+    18 Selezione[3,6]
+                    *              0             0             1 
+    19 Selezione[4,1]
+                    *              0             0             1 
+    20 Selezione[4,2]
+                    *              0             0             1 
+    21 Selezione[4,3]
+                    *              0             0             1 
+    22 Selezione[4,4]
+                    *              0             0             1 
+    23 Selezione[4,5]
+                    *              1             0             1 
+    24 Selezione[4,6]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,23 @@
+Tabella 1: Spazio occupato dagli oggetti
+
+        Oggetto
+Persona    1  2  3  4  5  6
+   1      35 48 12 26 29 40
+   2      18 17 41 36 28 15
+   3      33 20 14 12  8 27
+   4      20 28 31 35  7 15
+
+===========================================
+
+Tabella 2: Valore degli oggetti
+
+        Oggetto
+Persona    1  2  3  4  5  6
+   1      31 40 19 25 33 41
+   2      17 25 36 32 30 19
+   3      25 28 12 18 10 29
+   4      15 18 30 27 10 12
+
+===========================================
+
+La massima capacità disponibile è pari a 100.
