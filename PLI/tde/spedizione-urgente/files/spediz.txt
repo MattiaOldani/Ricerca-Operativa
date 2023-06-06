@@ -1,0 +1,23 @@
+Gli imballi da spedire hanno i seguenti valori di peso (Kg) e volume (metri cubi):
+
+Imballo  Peso   Volume
+   1      400      9
+   2      250     12
+   3       70      8
+   4     1000     20
+   5      550     15
+   6      810     25
+   7      320     15
+   8      125     26
+   9      480     18
+  10      225      4
+  11      250      3
+  12      400     23
+
+I valori massimi di peso e volume ammessi sui due voli sono indicati nella tabella seguente,
+insieme ai relativi costi fissi e variabili.
+
+Volo   Peso max  Volume max  Costo fisso (Keuro)  Costo var. (euro/Kg) Costo var. (euro/mc)
+  1      2900        90            2.0                    8                    2
+  2      1950       100            1.5                    5                    3
+
