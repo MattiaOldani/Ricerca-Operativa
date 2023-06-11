@@ -1,0 +1,345 @@
+Problem:    soluzione
+Rows:       61
+Columns:    96
+Non-zeros:  294
+Status:     OPTIMAL
+Objective:  z = 38749.93355 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 DefinizioneUtilizzo1[1,A]
+                    NS             0            -0             =            18 
+     2 DefinizioneUtilizzo1[1,B]
+                    NS             0            -0             =            40 
+     3 DefinizioneUtilizzo1[1,C]
+                    NS             0            -0             =            23 
+     4 DefinizioneUtilizzo1[1,D]
+                    NS             0            -0             =            12 
+     5 DefinizioneUtilizzo1[2,A]
+                    NS             0            -0             =            24 
+     6 DefinizioneUtilizzo1[2,B]
+                    NS             0            -0             =       48.3422 
+     7 DefinizioneUtilizzo1[2,C]
+                    NS             0            -0             =            27 
+     8 DefinizioneUtilizzo1[2,D]
+                    NS             0            -0             =            19 
+     9 DefinizioneUtilizzo1[3,A]
+                    NS             0            -0             =            30 
+    10 DefinizioneUtilizzo1[3,B]
+                    NS             0            -0             =       57.5574 
+    11 DefinizioneUtilizzo1[3,C]
+                    NS             0            -0             =            34 
+    12 DefinizioneUtilizzo1[3,D]
+                    NS             0            -0             =            28 
+    13 DefinizioneUtilizzo1[4,A]
+                    NS             0            -0             =            30 
+    14 DefinizioneUtilizzo1[4,B]
+                    NS             0            -0             =       57.5574 
+    15 DefinizioneUtilizzo1[4,C]
+                    NS             0            -0             =            34 
+    16 DefinizioneUtilizzo1[4,D]
+                    NS             0            -0             =            28 
+    17 ConservazioneFlussoProdotti1[2,X]
+                    NS            77            77             =       29.4337 
+    18 ConservazioneFlussoProdotti1[2,Y]
+                    NS            28            28             =       32.1254 
+    19 ConservazioneFlussoProdotti1[2,Z]
+                    NS           126           126             =       28.4684 
+    20 ConservazioneFlussoProdotti1[2,W]
+                    NS            49            49             =       29.5856 
+    21 ConservazioneFlussoProdotti1[2,K]
+                    NS            21            21             =       37.1211 
+    22 ConservazioneFlussoProdotti1[2,Q]
+                    NS            84            84             =       23.3671 
+    23 ConservazioneFlussoProdotti1[3,X]
+                    NS            77            77             =       35.1046 
+    24 ConservazioneFlussoProdotti1[3,Y]
+                    NS            28            28             =       38.5051 
+    25 ConservazioneFlussoProdotti1[3,Z]
+                    NS           126           126             =       35.9115 
+    26 ConservazioneFlussoProdotti1[3,W]
+                    NS            49            49             =       37.3894 
+    27 ConservazioneFlussoProdotti1[3,K]
+                    NS            21            21             =       45.2787 
+    28 ConservazioneFlussoProdotti1[3,Q]
+                    NS            84            84             =       30.4557 
+    29 ConservazioneFlussoProdotti1[4,X]
+                    NS            77            77             =       35.1046 
+    30 ConservazioneFlussoProdotti1[4,Y]
+                    NS            28            28             =       38.5051 
+    31 ConservazioneFlussoProdotti1[4,Z]
+                    NS           126           126             =       35.9115 
+    32 ConservazioneFlussoProdotti1[4,W]
+                    NS            49            49             =       37.3894 
+    33 ConservazioneFlussoProdotti1[4,K]
+                    NS            21            21             =       45.2787 
+    34 ConservazioneFlussoProdotti1[4,Q]
+                    NS            84            84             =       30.4557 
+    35 ConservazioneFlussoProdotti2[X]
+                    NS            77            77             =          24.3 
+    36 ConservazioneFlussoProdotti2[Y]
+                    NS            28            28             =         26.35 
+    37 ConservazioneFlussoProdotti2[Z]
+                    NS           126           126             =          22.2 
+    38 ConservazioneFlussoProdotti2[W]
+                    NS            49            49             =         23.25 
+    39 ConservazioneFlussoProdotti2[K]
+                    NS            21            21             =          30.7 
+    40 ConservazioneFlussoProdotti2[Q]
+                    NS            84            84             =         16.95 
+    41 ConservazioneFlussoMateriePrime1[2,A]
+                    NS             0            -0             =            24 
+    42 ConservazioneFlussoMateriePrime1[2,B]
+                    NS             0            -0             =       48.3422 
+    43 ConservazioneFlussoMateriePrime1[2,C]
+                    NS             0            -0             =            27 
+    44 ConservazioneFlussoMateriePrime1[2,D]
+                    NS             0            -0             =            19 
+    45 ConservazioneFlussoMateriePrime1[3,A]
+                    NS             0            -0             =            30 
+    46 ConservazioneFlussoMateriePrime1[3,B]
+                    NS             0            -0             =       57.5574 
+    47 ConservazioneFlussoMateriePrime1[3,C]
+                    NS             0            -0             =            34 
+    48 ConservazioneFlussoMateriePrime1[3,D]
+                    NS             0            -0             =            28 
+    49 ConservazioneFlussoMateriePrime1[4,A]
+                    NS             0            -0             =            30 
+    50 ConservazioneFlussoMateriePrime1[4,B]
+                    NS             0            -0             =       57.5574 
+    51 ConservazioneFlussoMateriePrime1[4,C]
+                    NS             0            -0             =            34 
+    52 ConservazioneFlussoMateriePrime1[4,D]
+                    NS             0            -0             =            28 
+    53 ConservazioneFlussoMateriePrime2[A]
+                    NS             0            -0             =            18 
+    54 ConservazioneFlussoMateriePrime2[B]
+                    NS             0            -0             =            40 
+    55 ConservazioneFlussoMateriePrime2[C]
+                    NS             0            -0             =            23 
+    56 ConservazioneFlussoMateriePrime2[D]
+                    NS             0            -0             =            12 
+    57 CapacitaTotaleMagazzino[1]
+                    NU         60000                       60000    -0.0641711 
+    58 CapacitaTotaleMagazzino[2]
+                    NU         60000                       60000    -0.0708861 
+    59 CapacitaTotaleMagazzino[3]
+                    B        40652.5                       60000 
+    60 CapacitaTotaleMagazzino[4]
+                    B              0                       60000 
+    61 z            B        38749.9                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 MagazzinoProdotti[1,X]
+                    B            231             0               
+     2 MagazzinoProdotti[2,X]
+                    B            154             0               
+     3 MagazzinoProdotti[1,Y]
+                    B             84             0               
+     4 MagazzinoProdotti[2,Y]
+                    B             56             0               
+     5 MagazzinoProdotti[1,Z]
+                    NL             0             0                    0.469519 
+     6 MagazzinoProdotti[2,Z]
+                    B        169.278             0               
+     7 MagazzinoProdotti[1,W]
+                    NL             0             0                     1.36497 
+     8 MagazzinoProdotti[2,W]
+                    NL             0             0                    0.702532 
+     9 MagazzinoProdotti[1,K]
+                    NL             0             0                     1.60027 
+    10 MagazzinoProdotti[2,K]
+                    NL             0             0                    0.703165 
+    11 MagazzinoProdotti[1,Q]
+                    B        145.684             0               
+    12 MagazzinoProdotti[2,Q]
+                    B            168             0               
+    13 MagazzinoProdotti[3,X]
+                    B             77             0               
+    14 MagazzinoProdotti[3,Y]
+                    B             28             0               
+    15 MagazzinoProdotti[3,Z]
+                    B            126             0               
+    16 MagazzinoProdotti[3,W]
+                    NL             0             0                       < eps
+    17 MagazzinoProdotti[3,K]
+                    B             21             0               
+    18 MagazzinoProdotti[3,Q]
+                    B             84             0               
+    19 MagazzinoProdotti[4,X]
+                    NL             0             0                     35.1046 
+    20 MagazzinoProdotti[4,Y]
+                    NL             0             0                     38.5051 
+    21 MagazzinoProdotti[4,Z]
+                    NL             0             0                     35.9115 
+    22 MagazzinoProdotti[4,W]
+                    NL             0             0                     37.3894 
+    23 MagazzinoProdotti[4,K]
+                    NL             0             0                     45.2787 
+    24 MagazzinoProdotti[4,Q]
+                    NL             0             0                     30.4557 
+    25 Produzione[1,X]
+                    B            308             0               
+    26 Produzione[1,Y]
+                    B            112             0               
+    27 Produzione[1,Z]
+                    B            126             0               
+    28 Produzione[1,W]
+                    B             49             0               
+    29 Produzione[1,K]
+                    B             21             0               
+    30 Produzione[1,Q]
+                    B        229.684             0               
+    31 Produzione[2,X]
+                    NL             0             0                    0.851872 
+    32 Produzione[2,Y]
+                    NL             0             0                      1.0615 
+    33 Produzione[2,Z]
+                    B        295.278             0               
+    34 Produzione[2,W]
+                    B             49             0               
+    35 Produzione[2,K]
+                    B             21             0               
+    36 Produzione[2,Q]
+                    B        106.316             0               
+    37 Produzione[3,X]
+                    NL             0             0                     2.98478 
+    38 Produzione[3,Y]
+                    NL             0             0                     2.71783 
+    39 Produzione[3,Z]
+                    B        82.7215             0               
+    40 Produzione[3,W]
+                    B             49             0               
+    41 Produzione[3,K]
+                    B             42             0               
+    42 Produzione[3,Q]
+                    NL             0             0                    0.322152 
+    43 Produzione[4,X]
+                    NL             0             0                     2.98478 
+    44 Produzione[4,Y]
+                    NL             0             0                     2.71783 
+    45 Produzione[4,Z]
+                    NL             0             0                       < eps
+    46 Produzione[4,W]
+                    B             49             0               
+    47 Produzione[4,K]
+                    NL             0             0                       < eps
+    48 Produzione[4,Q]
+                    NL             0             0                    0.322152 
+    49 MagazzinoMateriePrime[1,A]
+                    NL             0             0                     1.70053 
+    50 MagazzinoMateriePrime[2,A]
+                    NL             0             0                     2.50633 
+    51 MagazzinoMateriePrime[1,B]
+                    B        149.166             0               
+    52 MagazzinoMateriePrime[2,B]
+                    B        62.0443             0               
+    53 MagazzinoMateriePrime[1,C]
+                    NL             0             0                     8.83422 
+    54 MagazzinoMateriePrime[2,C]
+                    NL             0             0                     7.17722 
+    55 MagazzinoMateriePrime[1,D]
+                    NL             0             0                      4.5508 
+    56 MagazzinoMateriePrime[2,D]
+                    NL             0             0                     3.75949 
+    57 MagazzinoMateriePrime[3,A]
+                    B          12.25             0               
+    58 MagazzinoMateriePrime[3,B]
+                    B          12.25             0               
+    59 MagazzinoMateriePrime[3,C]
+                    B          12.25             0               
+    60 MagazzinoMateriePrime[3,D]
+                    B          12.25             0               
+    61 MagazzinoMateriePrime[4,A]
+                    NL             0             0                          30 
+    62 MagazzinoMateriePrime[4,B]
+                    NL             0             0                     57.5574 
+    63 MagazzinoMateriePrime[4,C]
+                    NL             0             0                          34 
+    64 MagazzinoMateriePrime[4,D]
+                    NL             0             0                          28 
+    65 Acquisti[2,A]
+                    B        184.569             0               
+    66 Acquisti[2,B]
+                    NL             0             0                     1.65775 
+    67 Acquisti[2,C]
+                    B        85.0215             0               
+    68 Acquisti[2,D]
+                    B        114.882             0               
+    69 Acquisti[3,A]
+                    B        59.6886             0               
+    70 Acquisti[3,B]
+                    NL             0             0                     7.44256 
+    71 Acquisti[3,C]
+                    B        57.8443             0               
+    72 Acquisti[3,D]
+                    B        43.1443             0               
+    73 Acquisti[4,A]
+                    NL             0             0                          11 
+    74 Acquisti[4,B]
+                    NL             0             0                     22.4426 
+    75 Acquisti[4,C]
+                    NL             0             0                          10 
+    76 Acquisti[4,D]
+                    NL             0             0                          11 
+    77 Acquisti[1,A]
+                    B        252.742             0               
+    78 Acquisti[1,B]
+                    B          330.4             0               
+    79 Acquisti[1,C]
+                    B        197.334             0               
+    80 Acquisti[1,D]
+                    B        214.374             0               
+    81 Utilizzo[1,A]
+                    B        252.742             0               
+    82 Utilizzo[1,B]
+                    B        181.234             0               
+    83 Utilizzo[1,C]
+                    B        197.334             0               
+    84 Utilizzo[1,D]
+                    B        214.374             0               
+    85 Utilizzo[2,A]
+                    B        184.569             0               
+    86 Utilizzo[2,B]
+                    B        87.1215             0               
+    87 Utilizzo[2,C]
+                    B        85.0215             0               
+    88 Utilizzo[2,D]
+                    B        114.882             0               
+    89 Utilizzo[3,A]
+                    B        47.4386             0               
+    90 Utilizzo[3,B]
+                    B        49.7943             0               
+    91 Utilizzo[3,C]
+                    B        45.5943             0               
+    92 Utilizzo[3,D]
+                    B        30.8943             0               
+    93 Utilizzo[4,A]
+                    B          12.25             0               
+    94 Utilizzo[4,B]
+                    B          12.25             0               
+    95 Utilizzo[4,C]
+                    B          12.25             0               
+    96 Utilizzo[4,D]
+                    B          12.25             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.46e-011 on row 58
+        max.rel.err = 1.92e-016 on row 19
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.07e-014 on column 33
+        max.rel.err = 1.84e-016 on column 33
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

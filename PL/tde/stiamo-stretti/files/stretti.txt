@@ -1,0 +1,54 @@
+********************** RIFORNIMENTI *************************
+
+Materia       Prezzo di acquisto per unità di materia prima
+ prima     Giorni 1-7  Giorni 8-14  Giorni 15-21  Giorni 22-28
+   A          18          24           30            41
+   B          40          50           65            80
+   C          23          27           34            44
+   D          12          19           28            39
+
+*********************** VENDITE ***************************
+
+Prodotto      Minima quantità vendibile al giorno
+   X                         11
+   Y                          4
+   Z                         18
+   W                          7
+   K                          3
+   Q                         12
+
+************************ PRODUZIONE ******************************
+
+Tabella delle percentuali di ogni materia prima in ogni prodotto
+
+      Materia prima  A   B   C   D
+Prodotto
+   X                15  25  40  20
+   Y                25  40  15  20
+   Z                40  20  20  20
+   W                25  25  25  25
+   K                 5  50  40   5
+   Q                50   5   5  40 
+
+*************************** MAGAZZINO ******************************
+
+Tabella del volume occupato per unità di materia prima
+
+Materia prima   Volume
+   A             120
+   B             130
+   C             200
+   D             180
+
+Tabella del volume occupato per unità di prodotto
+
+Prodotto    Volume
+   X          80
+   Y          90
+   Z         105
+   W         120
+   K         125
+   Q         100
+
+Capacità del magazzino = 60000 unità di volume
+Tutti i prezzi e i costi sono espressi in migliaia di lire.
