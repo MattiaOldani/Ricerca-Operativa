@@ -1,0 +1,15 @@
+ Local optimal solution found at step:              3
+ Objective value:                           0.1806726
+
+                       Variable           Value        Reduced Cost
+                        PIGRECO        3.140000           0.0000000
+                         VOLUME        1.000000           0.0000000
+                           AREA        5.534875           0.0000000
+                              R       0.5420176          -0.9724204E-07
+                              H        1.084036           0.0000000
+
+                            Row    Slack or Surplus      Dual Price
+                              1       0.1806726            1.000000
+                              2       0.0000000           0.1204484
+                              3       0.0000000          -0.3264257E-01
+
