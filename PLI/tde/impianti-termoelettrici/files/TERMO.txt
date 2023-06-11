@@ -1,0 +1,29 @@
+Gli impianti termoelettrici sono 5, con le seguenti caratteristiche.
+
+Impianto  Prod. min.  Prod. max. Costo fisso Costo var.
+            [MW]        [MW]       [Euro]    [Euro/Mwh]
+   1        100          650        1900        25
+   2        150          600        1500        32
+   3        200          500        2400        22
+   4        150          400        2000        24
+   5        220          500        2800        15
+
+
+I giorni sono 10 ed il fabbisogno è il seguente.
+
+Giorno  Fabbisogno
+          [MWh]
+   1      45000   
+   2      47000  
+   3      56000 
+   4      52000
+   5      48000    
+   6      46000    
+   7      51000    
+   8      55000    
+   9      45000    
+  10      35000    
+
+Studiare la necessità di manutenzione dell'impianto n.4.
+
+

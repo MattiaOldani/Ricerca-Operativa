@@ -1,0 +1,394 @@
+Problem:    soluzione
+Rows:       123
+Columns:    110 (60 integer, 60 binary)
+Non-zeros:  383
+Status:     INTEGER OPTIMAL
+Objective:  z = 10764600 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Minimo[1,1]              9000            -0               
+     2 Minimo[1,2]                 0            -0               
+     3 Minimo[1,3]              7200            -0               
+     4 Minimo[1,4]              6000            -0               
+     5 Minimo[1,5]              6720            -0               
+     6 Minimo[2,1]             11000            -0               
+     7 Minimo[2,2]                 0            -0               
+     8 Minimo[2,3]              7200            -0               
+     9 Minimo[2,4]              6000            -0               
+    10 Minimo[2,5]              6720            -0               
+    11 Minimo[3,1]             13200            -0               
+    12 Minimo[3,2]              3200            -0               
+    13 Minimo[3,3]              7200            -0               
+    14 Minimo[3,4]              6000            -0               
+    15 Minimo[3,5]              6720            -0               
+    16 Minimo[4,1]             12400            -0               
+    17 Minimo[4,2]                 0            -0               
+    18 Minimo[4,3]              7200            -0               
+    19 Minimo[4,4]              6000            -0               
+    20 Minimo[4,5]              6720            -0               
+    21 Minimo[5,1]             13200            -0               
+    22 Minimo[5,2]              4800            -0               
+    23 Minimo[5,3]              7200            -0               
+    24 Minimo[5,4]                 0            -0               
+    25 Minimo[5,5]              6720            -0               
+    26 Minimo[6,1]             13200            -0               
+    27 Minimo[6,2]              2800            -0               
+    28 Minimo[6,3]              7200            -0               
+    29 Minimo[6,4]                 0            -0               
+    30 Minimo[6,5]              6720            -0               
+    31 Minimo[7,1]             13200            -0               
+    32 Minimo[7,2]              7800            -0               
+    33 Minimo[7,3]              7200            -0               
+    34 Minimo[7,4]                 0            -0               
+    35 Minimo[7,5]              6720            -0               
+    36 Minimo[8,1]             13200            -0               
+    37 Minimo[8,2]              2200            -0               
+    38 Minimo[8,3]              7200            -0               
+    39 Minimo[8,4]              6000            -0               
+    40 Minimo[8,5]              6720            -0               
+    41 Minimo[9,1]              9000            -0               
+    42 Minimo[9,2]                 0            -0               
+    43 Minimo[9,3]              7200            -0               
+    44 Minimo[9,4]              6000            -0               
+    45 Minimo[9,5]              6720            -0               
+    46 Minimo[10,1]                0            -0               
+    47 Minimo[10,2]                0            -0               
+    48 Minimo[10,3]             7200            -0               
+    49 Minimo[10,4]             5000            -0               
+    50 Minimo[10,5]             6720            -0               
+    51 Massimo[1,1]            -4200                          -0 
+    52 Massimo[1,2]                0                          -0 
+    53 Massimo[1,3]                0                          -0 
+    54 Massimo[1,4]                0                          -0 
+    55 Massimo[1,5]                0                          -0 
+    56 Massimo[2,1]            -2200                          -0 
+    57 Massimo[2,2]                0                          -0 
+    58 Massimo[2,3]                0                          -0 
+    59 Massimo[2,4]                0                          -0 
+    60 Massimo[2,5]                0                          -0 
+    61 Massimo[3,1]                0                          -0 
+    62 Massimo[3,2]            -7600                          -0 
+    63 Massimo[3,3]                0                          -0 
+    64 Massimo[3,4]                0                          -0 
+    65 Massimo[3,5]                0                          -0 
+    66 Massimo[4,1]             -800                          -0 
+    67 Massimo[4,2]           -10800                          -0 
+    68 Massimo[4,3]                0                          -0 
+    69 Massimo[4,4]                0                          -0 
+    70 Massimo[4,5]                0                          -0 
+    71 Massimo[5,1]                0                          -0 
+    72 Massimo[5,2]            -6000                          -0 
+    73 Massimo[5,3]                0                          -0 
+    74 Massimo[5,4]                0                          -0 
+    75 Massimo[5,5]                0                          -0 
+    76 Massimo[6,1]                0                          -0 
+    77 Massimo[6,2]            -8000                          -0 
+    78 Massimo[6,3]                0                          -0 
+    79 Massimo[6,4]                0                          -0 
+    80 Massimo[6,5]                0                          -0 
+    81 Massimo[7,1]                0                          -0 
+    82 Massimo[7,2]            -3000                          -0 
+    83 Massimo[7,3]                0                          -0 
+    84 Massimo[7,4]                0                          -0 
+    85 Massimo[7,5]                0                          -0 
+    86 Massimo[8,1]                0                          -0 
+    87 Massimo[8,2]            -8600                          -0 
+    88 Massimo[8,3]                0                          -0 
+    89 Massimo[8,4]                0                          -0 
+    90 Massimo[8,5]                0                          -0 
+    91 Massimo[9,1]            -4200                          -0 
+    92 Massimo[9,2]                0                          -0 
+    93 Massimo[9,3]                0                          -0 
+    94 Massimo[9,4]                0                          -0 
+    95 Massimo[9,5]                0                          -0 
+    96 Massimo[10,1]
+                              -13200                          -0 
+    97 Massimo[10,2]
+                                   0                          -0 
+    98 Massimo[10,3]
+                                   0                          -0 
+    99 Massimo[10,4]
+                               -1000                          -0 
+   100 Massimo[10,5]
+                                   0                          -0 
+   101 FabbisognoGiornaliero[1]
+                               45000         45000               
+   102 FabbisognoGiornaliero[2]
+                               47000         47000               
+   103 FabbisognoGiornaliero[3]
+                               56000         56000               
+   104 FabbisognoGiornaliero[4]
+                               52000         52000               
+   105 FabbisognoGiornaliero[5]
+                               48000         48000               
+   106 FabbisognoGiornaliero[6]
+                               46000         46000               
+   107 FabbisognoGiornaliero[7]
+                               51000         51000               
+   108 FabbisognoGiornaliero[8]
+                               55000         55000               
+   109 FabbisognoGiornaliero[9]
+                               45000         45000               
+   110 FabbisognoGiornaliero[10]
+                               35000         35000               
+   111 GiornoManutenzione1
+                                   3             3             = 
+   112 GiornoManutenzione2
+                                   3             3             = 
+   113 ObbligoSpegnimento[1]
+                                   1                           1 
+   114 ObbligoSpegnimento[2]
+                                   1                           1 
+   115 ObbligoSpegnimento[3]
+                                   1                           1 
+   116 ObbligoSpegnimento[4]
+                                   1                           1 
+   117 ObbligoSpegnimento[5]
+                                   1                           1 
+   118 ObbligoSpegnimento[6]
+                                   1                           1 
+   119 ObbligoSpegnimento[7]
+                                   1                           1 
+   120 ObbligoSpegnimento[8]
+                                   1                           1 
+   121 ObbligoSpegnimento[9]
+                                   1                           1 
+   122 ObbligoSpegnimento[10]
+                                   1                           1 
+   123 z                1.07646e+007                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Accensione[1,1]
+                    *              1             0             1 
+     2 Accensione[1,2]
+                    *              0             0             1 
+     3 Accensione[1,3]
+                    *              1             0             1 
+     4 Accensione[1,4]
+                    *              1             0             1 
+     5 Accensione[1,5]
+                    *              1             0             1 
+     6 Accensione[2,1]
+                    *              1             0             1 
+     7 Accensione[2,2]
+                    *              0             0             1 
+     8 Accensione[2,3]
+                    *              1             0             1 
+     9 Accensione[2,4]
+                    *              1             0             1 
+    10 Accensione[2,5]
+                    *              1             0             1 
+    11 Accensione[3,1]
+                    *              1             0             1 
+    12 Accensione[3,2]
+                    *              1             0             1 
+    13 Accensione[3,3]
+                    *              1             0             1 
+    14 Accensione[3,4]
+                    *              1             0             1 
+    15 Accensione[3,5]
+                    *              1             0             1 
+    16 Accensione[4,1]
+                    *              1             0             1 
+    17 Accensione[4,2]
+                    *              1             0             1 
+    18 Accensione[4,3]
+                    *              1             0             1 
+    19 Accensione[4,4]
+                    *              1             0             1 
+    20 Accensione[4,5]
+                    *              1             0             1 
+    21 Accensione[5,1]
+                    *              1             0             1 
+    22 Accensione[5,2]
+                    *              1             0             1 
+    23 Accensione[5,3]
+                    *              1             0             1 
+    24 Accensione[5,4]
+                    *              0             0             1 
+    25 Accensione[5,5]
+                    *              1             0             1 
+    26 Accensione[6,1]
+                    *              1             0             1 
+    27 Accensione[6,2]
+                    *              1             0             1 
+    28 Accensione[6,3]
+                    *              1             0             1 
+    29 Accensione[6,4]
+                    *              0             0             1 
+    30 Accensione[6,5]
+                    *              1             0             1 
+    31 Accensione[7,1]
+                    *              1             0             1 
+    32 Accensione[7,2]
+                    *              1             0             1 
+    33 Accensione[7,3]
+                    *              1             0             1 
+    34 Accensione[7,4]
+                    *              0             0             1 
+    35 Accensione[7,5]
+                    *              1             0             1 
+    36 Accensione[8,1]
+                    *              1             0             1 
+    37 Accensione[8,2]
+                    *              1             0             1 
+    38 Accensione[8,3]
+                    *              1             0             1 
+    39 Accensione[8,4]
+                    *              1             0             1 
+    40 Accensione[8,5]
+                    *              1             0             1 
+    41 Accensione[9,1]
+                    *              1             0             1 
+    42 Accensione[9,2]
+                    *              0             0             1 
+    43 Accensione[9,3]
+                    *              1             0             1 
+    44 Accensione[9,4]
+                    *              1             0             1 
+    45 Accensione[9,5]
+                    *              1             0             1 
+    46 Accensione[10,1]
+                    *              1             0             1 
+    47 Accensione[10,2]
+                    *              0             0             1 
+    48 Accensione[10,3]
+                    *              1             0             1 
+    49 Accensione[10,4]
+                    *              1             0             1 
+    50 Accensione[10,5]
+                    *              1             0             1 
+    51 Produzione[1,1]
+                               11400                             
+    52 Produzione[1,2]
+                                   0                             
+    53 Produzione[1,3]
+                               12000                             
+    54 Produzione[1,4]
+                                9600                             
+    55 Produzione[1,5]
+                               12000                             
+    56 Produzione[2,1]
+                               13400                             
+    57 Produzione[2,2]
+                                   0                             
+    58 Produzione[2,3]
+                               12000                             
+    59 Produzione[2,4]
+                                9600                             
+    60 Produzione[2,5]
+                               12000                             
+    61 Produzione[3,1]
+                               15600                             
+    62 Produzione[3,2]
+                                6800                             
+    63 Produzione[3,3]
+                               12000                             
+    64 Produzione[3,4]
+                                9600                             
+    65 Produzione[3,5]
+                               12000                             
+    66 Produzione[4,1]
+                               14800                             
+    67 Produzione[4,2]
+                                3600                             
+    68 Produzione[4,3]
+                               12000                             
+    69 Produzione[4,4]
+                                9600                             
+    70 Produzione[4,5]
+                               12000                             
+    71 Produzione[5,1]
+                               15600                             
+    72 Produzione[5,2]
+                                8400                             
+    73 Produzione[5,3]
+                               12000                             
+    74 Produzione[5,4]
+                                   0                             
+    75 Produzione[5,5]
+                               12000                             
+    76 Produzione[6,1]
+                               15600                             
+    77 Produzione[6,2]
+                                6400                             
+    78 Produzione[6,3]
+                               12000                             
+    79 Produzione[6,4]
+                                   0                             
+    80 Produzione[6,5]
+                               12000                             
+    81 Produzione[7,1]
+                               15600                             
+    82 Produzione[7,2]
+                               11400                             
+    83 Produzione[7,3]
+                               12000                             
+    84 Produzione[7,4]
+                                   0                             
+    85 Produzione[7,5]
+                               12000                             
+    86 Produzione[8,1]
+                               15600                             
+    87 Produzione[8,2]
+                                5800                             
+    88 Produzione[8,3]
+                               12000                             
+    89 Produzione[8,4]
+                                9600                             
+    90 Produzione[8,5]
+                               12000                             
+    91 Produzione[9,1]
+                               11400                             
+    92 Produzione[9,2]
+                                   0                             
+    93 Produzione[9,3]
+                               12000                             
+    94 Produzione[9,4]
+                                9600                             
+    95 Produzione[9,5]
+                               12000                             
+    96 Produzione[10,1]
+                                2400                             
+    97 Produzione[10,2]
+                                   0                             
+    98 Produzione[10,3]
+                               12000                             
+    99 Produzione[10,4]
+                                8600                             
+   100 Produzione[10,5]
+                               12000                             
+   101 Manutenzione[5]
+                    *              1             0             1 
+   102 Manutenzione[6]
+                    *              1             0             1 
+   103 Manutenzione[7]
+                    *              1             0             1 
+   104 Manutenzione[1]
+                    *              0             0             1 
+   105 Manutenzione[2]
+                    *              0             0             1 
+   106 Manutenzione[3]
+                    *              0             0             1 
+   107 Manutenzione[4]
+                    *              0             0             1 
+   108 Manutenzione[8]
+                    *              0             0             1 
+   109 Manutenzione[9]
+                    *              0             0             1 
+   110 Manutenzione[10]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
