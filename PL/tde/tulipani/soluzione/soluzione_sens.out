@@ -1,0 +1,163 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    soluzione
+Objective:  z = 565251.846 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Lunghezza    BS      86.11814      13.88186          -Inf       85.58511   -1146.05263  466555.92105 Strisce[D]
+                                            .          100.00000       86.25000   42200.00000  4.19944e+006 Strisce[A]
+
+     2 MinimaEsportazione[A]
+                    BS    7500.00000   -7500.00000        .         -2500.00000       -.30000  563001.84599 MassimaEsportazione[A]
+                                            .               +Inf    12708.33333       1.06835  573264.50422 Strisce[A]
+
+     3 MinimaEsportazione[B]
+                    BS   17183.54430  -17183.54430        .         11250.00000       -.10296  563482.71277 Strisce[D]
+                                            .               +Inf    43500.00000      14.07222  807062.50000 Acqua
+
+     4 MinimaEsportazione[C]
+                    BS  222183.54430 -222183.54430        .        -15870.25316       -.35000  487487.60549 MassimaEsportazione[C]
+                                            .               +Inf   224893.61702        .22541  615335.14493 Strisce[D]
+
+     5 MinimaEsportazione[D]
+                    BS   12500.00000  -12500.00000        .        -12500.00000       -.25000  562126.84599 AreaNazionale[D]
+                                            .               +Inf    15824.46809        .18376  567548.78692 Strisce[D]
+
+     6 MinimaEsportazione[E]
+                    BS   12500.00000  -12500.00000        .              .            -.05000  564626.84599 MassimaEsportazione[E]
+                                            .               +Inf    17573.05195        .41584  570449.89451 Strisce[E]
+
+     7 MassimaEsportazione[A]
+                    NU        .             .               -Inf    -7500.00000       -.30000  563001.84599 MinimaEsportazione[A]
+                                            .30000        .         15000.00000          +Inf  569751.84599 AreaNazionale[A]
+
+     8 MassimaEsportazione[B]
+                    NU        .             .               -Inf   -17183.54430       -.30000  560096.78270 MinimaEsportazione[B]
+                                            .30000        .         15274.26160          +Inf  569834.12447 AreaNazionale[B]
+
+     9 MassimaEsportazione[C]
+                    NU        .             .               -Inf  -222183.54430       -.35000  487487.60549 MinimaEsportazione[C]
+                                            .35000        .         79351.26582          +Inf  593024.78903 AreaNazionale[C]
+
+    10 MassimaEsportazione[D]
+                    BS        .             .               -Inf   -12500.00000       -.25000  565251.84599 AreaNazionale[D]
+                                            .             .              .               +Inf  565251.84599
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    soluzione
+Objective:  z = 565251.846 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 MassimaEsportazione[E]
+                    NU        .             .               -Inf   -12500.00000       -.05000  564626.84599 MinimaEsportazione[E]
+                                            .05000        .         12500.00000          +Inf  565876.84599 AreaNazionale[E]
+
+    12 Acqua        NU   30000.00000        .               -Inf     6900.00000     -16.03165  194920.83333 Strisce[C]
+                                          16.03165   30000.00000    30945.35519          +Inf  580407.44536 Concime[B]
+
+    13 Concime[A]   NU    3000.00000        .               -Inf     2816.17647     -33.27004  559136.02941 Strisce[B]
+                                          33.27004    3000.00000     4495.45455          +Inf  615005.68182 Lunghezza
+
+    14 Concime[B]   BS    4854.00844     145.99156          -Inf     1286.66667    -103.81148   61350.06831 Acqua
+                                            .         5000.00000     4918.08511       9.53371  611528.56830 Strisce[D]
+
+    15 DefinizioneAreaNazionale[A]
+                    NS        .             .             .          -150.00000          -Inf  556251.84599 AreaNazionale[A]
+                                          60.00000        .                +Inf          +Inf          +Inf
+
+    16 DefinizioneAreaNazionale[B]
+                    NS        .             .             .          -152.74262          -Inf  553032.43671 AreaNazionale[B]
+                                          80.00000        .                +Inf          +Inf          +Inf
+
+    17 DefinizioneAreaNazionale[C]
+                    NS        .             .             .          -793.51266          -Inf  470030.32700 AreaNazionale[C]
+                                         120.00000        .                +Inf          +Inf          +Inf
+
+    18 DefinizioneAreaNazionale[D]
+                    NS        .             .             .          -125.00000          -Inf  552751.84599 MinimaEsportazione[D]
+                                         100.00000        .              .               +Inf  565251.84599 MassimaEsportazione[D]
+
+    19 DefinizioneAreaNazionale[E]
+                    NS        .             .             .          -125.00000          -Inf  555251.84599 AreaNazionale[E]
+                                          80.00000        .                +Inf          +Inf          +Inf
+
+    20 z            BS  565251.84599 -565251.84599          -Inf   487487.60549      -1.00000        .      MassimaEsportazione[C]
+                                            .               +Inf   565251.84599          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    soluzione
+Objective:  z = 565251.846 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Strisce[A]   NL       5.00000        .            5.00000         .               -Inf  573264.50422 MinimaEsportazione[A]
+                                       -1602.53165          +Inf        8.47222    1602.53165  559687.50000 Strisce[B]
+
+     2 Strisce[B]   BS       7.63713        .            5.00000        1.62872    -231.64894  563482.71277 Strisce[D]
+                                            .               +Inf       19.33333   31662.50000  807062.50000 Acqua
+
+     3 Strisce[C]   BS      63.48101        .            5.00000         .        -6332.50000  163258.33333 Acqua
+                                            .               +Inf       64.25532     788.94928  615335.14493 Strisce[D]
+
+     4 Strisce[D]   NL       5.00000        .            5.00000         .               -Inf  567548.78692 AreaEsportato[D]
+                                        -459.38819          +Inf        6.32979     459.38819  564640.95745 Strisce[B]
+
+     5 Strisce[E]   NL       5.00000        .            5.00000         .               -Inf  570449.89451 MinimaEsportazione[E]
+                                       -1039.60970          +Inf        7.02922    1039.60970  563142.24838 Strisce[B]
+
+     6 AreaEsportato[A]
+                    BS     100.00000      90.00000        .            25.00000      60.00000  562251.84599 MassimaEsportazione[A]
+                                            .               +Inf      169.44444     170.12658  573264.50422 Strisce[A]
+
+     7 AreaEsportato[B]
+                    BS     229.11392     110.00000        .           150.00000     102.27837  563482.71277 Strisce[D]
+                                            .               +Inf      580.00000    1165.41667  807062.50000 Acqua
+
+     8 AreaEsportato[C]
+                    BS    2380.53797     155.00000        .           158.70253     120.00000  481933.01688 MassimaEsportazione[C]
+                                            .               +Inf     2409.57447     176.03865  615335.14493 Strisce[D]
+
+     9 AreaEsportato[D]
+                    BS     250.00000     100.00000        .           125.00000      75.00000  559001.84599 AreaNazionale[D]
+                                            .               +Inf      316.48936     109.18776  567548.78692 Strisce[D]
+
+    10 AreaEsportato[E]
+                    BS     125.00000      85.00000        .              .           80.00000  564626.84599 MassimaEsportazione[E]
+                                            .               +Inf      175.73052     126.58439  570449.89451 Strisce[E]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    soluzione
+Objective:  z = 565251.846 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 AreaNazionale[A]
+                    BS     150.00000      60.00000        .           150.00000          -Inf          -Inf
+                                            .               +Inf      225.00000      90.00000  569751.84599 MassimaEsportazione[A]
+
+    12 AreaNazionale[B]
+                    BS     152.74262      80.00000        .           100.00000      68.41755  563482.71277 Strisce[D]
+                                            .               +Inf      324.57806     110.00000  569834.12447 MassimaEsportazione[B]
+
+    13 AreaNazionale[C]
+                    BS     793.51266     120.00000        .            62.50000    -386.60000  163258.33333 Acqua
+                                            .               +Inf     3015.34810     155.00000  593024.78903 MassimaEsportazione[C]
+
+    14 AreaNazionale[D]
+                    NL        .           75.00000        .              .               -Inf  565251.84599 MassimaEsportazione[D]
+                                         -25.00000          +Inf      125.00000     100.00000  562126.84599 MinimaEsportazione[D]
+
+    15 AreaNazionale[E]
+                    BS     125.00000      80.00000        .           125.00000          -Inf          -Inf
+                                            .               +Inf      250.00000      85.00000  565876.84599 MassimaEsportazione[E]
+
+End of report

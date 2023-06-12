@@ -1,0 +1,50 @@
+! Le variabili x_ij, dove i = tipo di tulipano 
+!                       e j = nazionale/esportazione
+! Indicano le quantità (mq) di tulipani per ogni tipo e per ogni destinazione 
+! Le variabili x_i indicano i metri quadri di tulipano per ogni tipo i
+
+max  60 xan +  90 xae + 80 xbn + 110 xbe + 120 xcn + 155 xce +  75 xdn + 100 xde +  80 xen +  85 xee
+
+s.t.
+
+! Divisione tra nazionale ed esportazione (mq)
+xan + xae - xa = 0
+xbn + xbe - xb = 0
+xcn + xce - xc = 0
+xdn + xde - xd = 0
+xen + xee - xe = 0
+
+! Limiti minimi di esportazione (mq)
+MinEspA) xae - 0.10 xa >= 0
+MinEspB) xbe - 0.15 xb >= 0
+MinEspC) xce - 0.05 xc >= 0
+MinEspD) xde - 0.50 xd >= 0
+MinEspE) xee - 0.00 xe >= 0
+
+! Limiti massimi di esportazione (mq)
+MaxEspA) xae - 0.40 xa <= 0
+MaxEspB) xbe - 0.60 xb <= 0
+MaxEspC) xce - 0.75 xc <= 0
+MaxEspD) xde - 1.00 xd <= 0
+MaxEspE) xee - 0.50 xe <= 0
+
+! Vincolo sull'acqua (metri cubi)
+Acqua) 4.0 xa + 3.0 xb + 8.5 xc + 1.0 xd + 2.5 xe <= 30000
+
+! Vincolo sul concime A (Kg)
+Conc1) 1.2 xa + 1.5 xb + 0.3 xc + 2.8 xd + 1.9 xe <=  3000
+
+! Vincolo sul concime B (Kg)
+Conc2) 0.5 xa + 0.4 xb + 1.3 xc + 1.0 xd + 0.8 xe <=  5000
+
+! Vincolo sull'area totale del terreno (mq)
+Area) xa + xb + xc + xd + xe <= 5000
+
+! Vincolo sulla larghezza minima delle strisce (mq), dato da 50m (altezza strisce) x 5m (larghezza minima) = 250 mq
+larghA) xa >= 250
+larghB) xb >= 250
+larghC) xc >= 250
+larghD) xd >= 250
+larghE) xe >= 250
+
+end

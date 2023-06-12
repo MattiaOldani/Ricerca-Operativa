@@ -1,0 +1,115 @@
+ LP OPTIMUM FOUND AT STEP     12
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      565251.9
+
+  VARIABLE        VALUE          REDUCED COST
+       XAN       150.000000          0.000000
+       XAE       100.000000          0.000000
+       XBN       152.742615          0.000000
+       XBE       229.113922          0.000000
+       XCN       793.512634          0.000000
+       XCE      2380.538086          0.000000
+       XDN         0.000000          0.000000
+       XDE       250.000000          0.000000
+       XEN       125.000000          0.000000
+       XEE       125.000000          0.000000
+        XA       250.000000          0.000000
+        XB       381.856537          0.000000
+        XC      3174.050537          0.000000
+        XD       250.000000          0.000000
+        XE       250.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        2)         0.000000         60.000000
+        3)         0.000000         80.000000
+        4)         0.000000        120.000000
+        5)         0.000000         75.000000
+        6)         0.000000         80.000000
+  MINESPA)        75.000000          0.000000
+  MINESPB)       171.835449          0.000000
+  MINESPC)      2221.835449          0.000000
+  MINESPD)       125.000000          0.000000
+  MINESPE)       125.000000          0.000000
+  MAXESPA)         0.000000         30.000000
+  MAXESPB)         0.000000         30.000000
+  MAXESPC)         0.000000         35.000000
+  MAXESPD)         0.000000         25.000000
+  MAXESPE)         0.000000          5.000000
+    ACQUA)         0.000000         16.031645
+    CONC1)         0.000000         33.270042
+    CONC2)       145.991562          0.000000
+     AREA)       694.092834          0.000000
+   LARGHA)         0.000000        -32.050632
+   LARGHB)       131.856537          0.000000
+   LARGHC)      2924.050537          0.000000
+   LARGHD)         0.000000         -9.187764
+   LARGHE)         0.000000        -20.792194
+
+ NO. ITERATIONS=      12
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+      XAN       60.000000        30.000000         INFINITY
+      XAE       90.000000        80.126579        30.000000
+      XBN       80.000000        30.000000        11.582447
+      XBE      110.000000      1055.416626         7.721632
+      XCN      120.000000        35.000000       506.599976
+      XCE      155.000000        21.038649        35.000000
+      XDN       75.000000        25.000000         INFINITY
+      XDE      100.000000         9.187764        25.000000
+      XEN       80.000000         5.000000         INFINITY
+      XEE       85.000000        41.584389         5.000000
+       XA        0.000000        32.050632         INFINITY
+       XB        0.000000       633.249939         4.632979
+       XC        0.000000        15.778986       126.649994
+       XD        0.000000         9.187764         INFINITY
+       XE        0.000000        20.792194         INFINITY
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        2        0.000000         INFINITY       150.000000
+        3        0.000000         INFINITY       152.742615
+        4        0.000000         INFINITY       793.512634
+        5        0.000000         INFINITY         0.000000
+        6        0.000000         INFINITY       125.000000
+  MINESPA        0.000000        75.000000         INFINITY
+  MINESPB        0.000000       171.835449         INFINITY
+  MINESPC        0.000000      2221.835449         INFINITY
+  MINESPD        0.000000       125.000000         INFINITY
+  MINESPE        0.000000       125.000000         INFINITY
+  MAXESPA        0.000000       150.000000        75.000000
+  MAXESPB        0.000000       152.742615       171.835449
+  MAXESPC        0.000000       793.512634      2221.835449
+  MAXESPD        0.000000         0.000000       125.000000
+  MAXESPE        0.000000       125.000000       125.000000
+    ACQUA    30000.000000       945.355225     23099.998047
+    CONC1     3000.000000      1495.454590       183.823517
+    CONC2     5000.000000         INFINITY       145.991562
+     AREA     5000.000000         INFINITY       694.092834
+   LARGHA      250.000000       173.611115       249.999985
+   LARGHB      250.000000       131.856537         INFINITY
+   LARGHC      250.000000      2924.050537         INFINITY
+   LARGHD      250.000000        66.489357       250.000000
+   LARGHE      250.000000       101.461037       250.000000
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: AREA
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            5000.00      0.000000E+00   565252.
+ SLK   20  SLK   24    20   4305.91      0.000000E+00   565252.
+ SLK   22  SLK   18    25   4279.26       22.9211       564641.
+ SLK   24  SLK   17    20   4220.59       93.8333       559136.
+ SLK   23  ART         17   1250.00       146.250       124688.
+                           0.000000E+00   +INFINITY   INFEASIBLE
+

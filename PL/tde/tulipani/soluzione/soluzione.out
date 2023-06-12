@@ -1,0 +1,92 @@
+Problem:    soluzione
+Rows:       20
+Columns:    15
+Non-zeros:  64
+Status:     OPTIMAL
+Objective:  z = 565251.846 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Lunghezza    B        86.1181                         100 
+     2 MinimaEsportazione[A]
+                    B           7500            -0               
+     3 MinimaEsportazione[B]
+                    B        17183.5            -0               
+     4 MinimaEsportazione[C]
+                    B         222184            -0               
+     5 MinimaEsportazione[D]
+                    B          12500            -0               
+     6 MinimaEsportazione[E]
+                    B          12500            -0               
+     7 MassimaEsportazione[A]
+                    NU             0                          -0           0.3 
+     8 MassimaEsportazione[B]
+                    NU             0                          -0           0.3 
+     9 MassimaEsportazione[C]
+                    NU             0                          -0          0.35 
+    10 MassimaEsportazione[D]
+                    B              0                          -0 
+    11 MassimaEsportazione[E]
+                    NU             0                          -0          0.05 
+    12 Acqua        NU         30000                       30000       16.0316 
+    13 Concime[A]   NU          3000                        3000         33.27 
+    14 Concime[B]   B        4854.01                        5000 
+    15 DefinizioneAreaNazionale[A]
+                    NS             0            -0             =            60 
+    16 DefinizioneAreaNazionale[B]
+                    NS             0            -0             =            80 
+    17 DefinizioneAreaNazionale[C]
+                    NS             0            -0             =           120 
+    18 DefinizioneAreaNazionale[D]
+                    NS             0            -0             =           100 
+    19 DefinizioneAreaNazionale[E]
+                    NS             0            -0             =            80 
+    20 z            B         565252                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Strisce[A]   NL             5             5                    -1602.53 
+     2 Strisce[B]   B        7.63713             5               
+     3 Strisce[C]   B         63.481             5               
+     4 Strisce[D]   NL             5             5                    -459.388 
+     5 Strisce[E]   NL             5             5                    -1039.61 
+     6 AreaEsportato[A]
+                    B            100             0               
+     7 AreaEsportato[B]
+                    B        229.114             0               
+     8 AreaEsportato[C]
+                    B        2380.54             0               
+     9 AreaEsportato[D]
+                    B            250             0               
+    10 AreaEsportato[E]
+                    B            125             0               
+    11 AreaNazionale[A]
+                    B            150             0               
+    12 AreaNazionale[B]
+                    B        152.743             0               
+    13 AreaNazionale[C]
+                    B        793.513             0               
+    14 AreaNazionale[D]
+                    NL             0             0                         -25 
+    15 AreaNazionale[E]
+                    B            125             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.91e-011 on row 9
+        max.rel.err = 7.94e-017 on row 8
+        High quality
+
+KKT.PB: max.abs.err = 3.64e-012 on row 10
+        max.rel.err = 3.64e-012 on row 10
+        High quality
+
+KKT.DE: max.abs.err = 9.09e-013 on column 2
+        max.rel.err = 9.28e-017 on column 2
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
