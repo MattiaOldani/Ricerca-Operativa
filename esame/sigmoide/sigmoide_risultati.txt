@@ -1,0 +1,29 @@
+SIGMOIDE
+
+La sigmoide può essere scalata o traslata, quindi è una funzione del tipo
+y = K * ( e^x / ( 1 + e^x ) ) + T,
+dove K è la costante di scalatura e T è la costante di traslazione
+
+Il problema proposto è un problema che ha come obiettivo quello di trovare K e T per ogni possibile criterio proposto
+Tutti i criteri sono di programmazione non lineare, visto come è definita la funzione sigmoide, ovvero una funzione non lineare
+
+OBIETTIVO 1
+Per il primo obiettivo risultano:
+- K = 24.1193
+- T = 9.15388
+- obiettivo = 6.786482787
+La soluzione risulta essere unica
+
+OBIETTIVO 2
+Per il secondo obiettivo risultano:
+- K = 21.1443
+- T = 14.9972
+- obiettivo = 43.5288
+La soluzione risulta essere unica
+
+OBIETTIVO 3
+Per il terzo obiettivo risultano:
+- K = 21.8161
+- T = 13.169
+- obiettivo = 22.1628
+La soluzione risulta essere unica
