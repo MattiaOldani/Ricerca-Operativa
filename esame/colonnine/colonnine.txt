@@ -1,0 +1,30 @@
+La città è rappresentata da una griglia di 16 righe e 9 colonne.
+La domanda per ogni zona della città (cella della griglia) è la seguente.
+
+Domanda		1	2	3	4	5	6	7	8	9
+
+1		0	0	2	0	0	0	1	0	1
+2		1	0	0	0	0	1	0	0	0
+3		0	1	0	2	0	0	0	0	0
+4		1	0	0	0	0	1	0	0	0
+5		0	0	1	0	0	0	0	0	2
+6		1	0	0	0	0	1	0	0	0
+7		0	0	0	1	0	0	0	0	0
+8		0	1	0	0	0	0	0	0	1
+9		0	0	0	1	0	2	0	0	0
+10		0	0	0	0	0	0	0	0	1
+11		1	1	0	0	0	0	0	0	0
+12		0	0	0	1	0	2	0	0	1
+13		1	0	0	0	0	0	0	0	0
+14		0	0	0	1	0	1	0	1	0
+15		1	0	0	0	0	0	0	0	1
+16		1	0	2	0	0	0	2	0	0
+
+I tipi di colonnina di ricarica sono 2 con le seguenti capacità e costi.
+
+Tipo	Capacità	Costo
+ 1	   1		 50 K€
+ 2	   3		100 K€
+
+Il budget disponibile è pari a 1200 K€.
+
